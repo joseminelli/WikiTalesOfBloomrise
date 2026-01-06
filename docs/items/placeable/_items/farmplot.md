@@ -1,0 +1,14 @@
+---
+title: Pacote de Terra
+---
+
+<div class="item-page">
+<div class="item-header">
+  <img src="/assets/items/farmplot.png" class="item-icon" alt="Pacote de Terra">
+  <div class="item-info">
+    <h1>Pacote de Terra</h1>
+    <span class="item-category">Itens Posicionáveis</span>
+  </div>
+</div>
+<div class="item-section"><h2>📝 Descrição</h2><p>Um pequeno pedaço de terra fértil, pronto para receber sementes e crescer plantas. Ideal para iniciar sua horta.</p></div>
+<div class="item-section crafting"><h2>🔨 Como Criar</h2><div class="recipe-box"><p>Rende: <strong>1x</strong></p><ul><li><img src="/assets/items/leaf.png" class="mini-icon"> 3x <a href="/items/plants/_items/leaf/">Folha</a></li></ul></div></div></div>

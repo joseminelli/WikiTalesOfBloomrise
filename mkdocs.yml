@@ -1,5 +1,7 @@
 site_name: Tales of Bloomrise Wiki
 site_url: https://wiki.talesofbloomrise.com
+use_directory_urls: true
+strict: false
 
 theme:
   name: material
@@ -12,6 +14,10 @@ theme:
 extra_css:
   - assets/stylesheets/extra.css
 
+plugins:
+  - search
+  - glightbox # Se quiser que as imagens abram em um "pop-up" ao clicar
+
 nav:
   - Início: index.md
   - Itens:
@@ -20,8 +26,18 @@ nav:
       - Consumíveis (Vida): items/consumables_hp.md
       - Consumíveis (Energia): items/consumables_energy.md
       - Equipamentos: items/equipment.md
+      - Livros e Guias: items/books.md
+      - Plantas e Flores: items/plants.md
+      - Itens Posicionáveis: items/placeable.md
 
-      
+
 markdown_extensions:
   - attr_list
   - md_in_html
+  - def_list
+  - pymdownx.superfences # Melhora blocos de código
+  - pymdownx.magiclink   # Transforma URLs em links automaticamente
+  - pymdownx.tilde       # Permite sublinhado/riscado ~~texto~~
+  - pymdownx.emoji:      # Permite usar emojis como :heart:
+      emoji_index: !!python/name:pymdownx.emoji.twemoji
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg

@@ -10,8 +10,5 @@ title: Abajur Alto Azul
     <span class="item-category">Materiais e Itens Gerais</span>
   </div>
 </div>
-<div class="item-section">
-  <h2>📝 Descrição</h2>
-  <p>Um abajur alto com tom azul suave, perfeito para iluminar cantinhos da casa. (mecânica em desenvolvimento)</p>
-</div>
+<div class="item-section"><h2>📝 Descrição</h2><p>Um abajur alto com tom azul suave, perfeito para iluminar cantinhos da casa. (mecânica em desenvolvimento)</p></div>
 </div>

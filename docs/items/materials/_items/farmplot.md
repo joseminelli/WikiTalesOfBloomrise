@@ -10,8 +10,5 @@ title: Pacote de Terra
     <span class="item-category">Materiais e Itens Gerais</span>
   </div>
 </div>
-<div class="item-section">
-  <h2>📝 Descrição</h2>
-  <p>Um pequeno pedaço de terra fértil, pronto para receber sementes e crescer plantas. Ideal para iniciar sua horta.</p>
-</div>
-<div class="item-section crafting"><h2>🔨 Como Criar</h2><div class="recipe-box"><p>Rende: <strong>1x</strong></p><ul><li><img src="/assets/items/placeholder.png" class="mini-icon"> 3x <a href="/items/materials/_items/leaf/">Folha</a></li></ul></div></div></div>
+<div class="item-section"><h2>📝 Descrição</h2><p>Um pequeno pedaço de terra fértil, pronto para receber sementes e crescer plantas. Ideal para iniciar sua horta.</p></div>
+<div class="item-section crafting"><h2>🔨 Como Criar</h2><div class="recipe-box"><p>Rende: <strong>1x</strong></p><ul><li><img src="/assets/items/leaf.png" class="mini-icon"> 3x <a href="/items/plants/_items/leaf/">Folha</a></li></ul></div></div></div>

@@ -10,8 +10,5 @@ title: Geladeira Branca
     <span class="item-category">Materiais e Itens Gerais</span>
   </div>
 </div>
-<div class="item-section">
-  <h2>📝 Descrição</h2>
-  <p>Uma geladeira simples e branca, perfeita para manter comidas e bebidas frescas. (mecânica em desenvolvimento)</p>
-</div>
+<div class="item-section"><h2>📝 Descrição</h2><p>Uma geladeira simples e branca, perfeita para manter comidas e bebidas frescas. (mecânica em desenvolvimento)</p></div>
 </div>

@@ -10,8 +10,5 @@ title: Baú
     <span class="item-category">Materiais e Itens Gerais</span>
   </div>
 </div>
-<div class="item-section">
-  <h2>📝 Descrição</h2>
-  <p>Um baú simples para guardar itens importantes e manter tudo organizado. (mecânica em desenvolvimento)</p>
-</div>
+<div class="item-section"><h2>📝 Descrição</h2><p>Um baú simples para guardar itens importantes e manter tudo organizado. (mecânica em desenvolvimento)</p></div>
 </div>

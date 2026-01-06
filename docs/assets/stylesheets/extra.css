@@ -122,6 +122,9 @@
     border-radius: 999px;
     width: fit-content;
 }
+/* Exemplo de cor diferente para cada categoria no card */
+.item-category[data-category="books"] { background: #8e44ad22; color: #9b59b6; }
+.item-category[data-category="plants"] { background: #27ae6022; color: #2ecc71; }
 
 .items-grid {
     display: grid;

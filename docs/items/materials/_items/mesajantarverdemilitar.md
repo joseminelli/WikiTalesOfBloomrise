@@ -10,8 +10,5 @@ title: Mesa de Jantar Verde Militar
     <span class="item-category">Materiais e Itens Gerais</span>
   </div>
 </div>
-<div class="item-section">
-  <h2>📝 Descrição</h2>
-  <p>Uma mesa de jantar verde militar, resistente e prática para reunir todos. (mecânica em desenvolvimento)</p>
-</div>
+<div class="item-section"><h2>📝 Descrição</h2><p>Uma mesa de jantar verde militar, resistente e prática para reunir todos. (mecânica em desenvolvimento)</p></div>
 </div>

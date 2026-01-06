@@ -10,8 +10,5 @@ title: Sofá Verde Militar
     <span class="item-category">Materiais e Itens Gerais</span>
   </div>
 </div>
-<div class="item-section">
-  <h2>📝 Descrição</h2>
-  <p>Um sofá robusto de cor verde militar, ideal para dar um ar rústico ao ambiente. (mecânica em desenvolvimento)</p>
-</div>
+<div class="item-section"><h2>📝 Descrição</h2><p>Um sofá robusto de cor verde militar, ideal para dar um ar rústico ao ambiente. (mecânica em desenvolvimento)</p></div>
 </div>

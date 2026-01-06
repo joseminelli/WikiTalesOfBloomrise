@@ -45,6 +45,22 @@ crafting, combate, interação com NPCs e progressão do personagem.
   </p>
 </a>
 
+<a class="grid-item item-card" href="books">
+  <h3>📘 Livros e Guias</h3>
+  <p>
+    Coletáveis de Lore, diários e guias de sobrevivência que expandem 
+    o conhecimento sobre o mundo de Bloomrise.
+  </p>
+</a>
+
+<a class="grid-item item-card" href="plants">
+  <h3>🌿 Plantas e Flores</h3>
+  <p>
+    Flora local usada em alquimia, decoração e como ingredientes 
+    especiais em receitas.
+  </p>
+</a>
+
 </div>
 
 ---

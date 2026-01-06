@@ -10,8 +10,5 @@ title: Cadeira de Madeira
     <span class="item-category">Materiais e Itens Gerais</span>
   </div>
 </div>
-<div class="item-section">
-  <h2>📝 Descrição</h2>
-  <p>Uma cadeira simples de madeira, perfeita para qualquer ambiente. (mecânica em desenvolvimento)</p>
-</div>
+<div class="item-section"><h2>📝 Descrição</h2><p>Uma cadeira simples de madeira, perfeita para qualquer ambiente. (mecânica em desenvolvimento)</p></div>
 </div>

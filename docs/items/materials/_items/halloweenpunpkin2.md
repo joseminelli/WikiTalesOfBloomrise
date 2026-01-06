@@ -10,8 +10,5 @@ title: Abóbora de Halloween
     <span class="item-category">Materiais e Itens Gerais</span>
   </div>
 </div>
-<div class="item-section">
-  <h2>📝 Descrição</h2>
-  <p>Uma abóbora esculpida com um rosto assustador, perfeita para decorar na época de Halloween. <color=#FFee00>  (Item colecionável)</color> (mecânica em desenvolvimento)</p>
-</div>
+<div class="item-section"><h2>📝 Descrição</h2><p>Uma abóbora esculpida com um rosto assustador, perfeita para decorar na época de Halloween. <color=#FFee00>  (Item colecionável)</color> (mecânica em desenvolvimento)</p></div>
 </div>

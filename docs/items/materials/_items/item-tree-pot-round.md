@@ -10,8 +10,5 @@ title: Árvore Decorativa no Pote Redondo
     <span class="item-category">Materiais e Itens Gerais</span>
   </div>
 </div>
-<div class="item-section">
-  <h2>📝 Descrição</h2>
-  <p>Uma árvore plantada em um vaso arredondado, simples e charmosa. Apenas decorativa. (mecânica em desenvolvimento)</p>
-</div>
+<div class="item-section"><h2>📝 Descrição</h2><p>Uma árvore plantada em um vaso arredondado, simples e charmosa. Apenas decorativa. (mecânica em desenvolvimento)</p></div>
 </div>
