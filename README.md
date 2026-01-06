@@ -29,6 +29,13 @@ python scripts/build_wiki.py
 Use o comando do MkDocs para compilar o site e enviar para o subdomínio `wiki.talesofbloomrise.com`:
 
 ```bash
+
+.venv\Scripts\activate
+
+```
+
+```bash
+
 mkdocs gh-deploy --force
 
 ```
