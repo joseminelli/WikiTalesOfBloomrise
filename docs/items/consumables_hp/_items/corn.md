@@ -7,7 +7,7 @@ title: Milho
   <img src="/assets/items/corn.png" class="item-icon" alt="Milho">
   <div class="item-info">
     <h1>Milho</h1>
-    <span class="item-category">Consumíveis — Vida</span>
+    <span class="item-category" data-category="consumables_hp">Consumíveis — Vida</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Espiga robusta, repleta de grãos dourados e suculentos. Tem um sabor adocicado, quase amanteigado. Perfeita para assar ou moer para fazer fubá.</p></div>

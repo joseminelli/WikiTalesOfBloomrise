@@ -7,7 +7,7 @@ title: Vinho
   <img src="/assets/items/vinho.png" class="item-icon" alt="Vinho">
   <div class="item-info">
     <h1>Vinho</h1>
-    <span class="item-category">Consumíveis — Energia</span>
+    <span class="item-category" data-category="consumables_energy">Consumíveis — Energia</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Um vinho artesanal de sabor complexo, envelhecido com cuidado. Fica melhor a cada ano.</p></div>

@@ -7,7 +7,7 @@ title: Machado de Ferro
   <img src="/assets/items/iron-axe.png" class="item-icon" alt="Machado de Ferro">
   <div class="item-info">
     <h1>Machado de Ferro</h1>
-    <span class="item-category">Equipamentos</span>
+    <span class="item-category" data-category="equipment">Equipamentos</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Um machado de ferro pesado e mas confiável. Perfeito para cortar madeira ou cabeças de goblins.</p></div>

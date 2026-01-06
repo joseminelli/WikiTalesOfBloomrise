@@ -7,7 +7,7 @@ title: Tomate
   <img src="/assets/items/tomato.png" class="item-icon" alt="Tomate">
   <div class="item-info">
     <h1>Tomate</h1>
-    <span class="item-category">Consumíveis — Vida</span>
+    <span class="item-category" data-category="consumables_hp">Consumíveis — Vida</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Tomate vermelho e brilhante, colhido no ponto certo. Tão suculento que é uma pena cozinhá-lo... mas os molhos ficam incríveis.</p></div>

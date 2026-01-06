@@ -7,7 +7,7 @@ title: Morango
   <img src="/assets/items/strawberry.png" class="item-icon" alt="Morango">
   <div class="item-info">
     <h1>Morango</h1>
-    <span class="item-category">Consumíveis — Vida</span>
+    <span class="item-category" data-category="consumables_hp">Consumíveis — Vida</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Vermelho-rubi e perfumado, colhido no auge da doçura. É a guloseima favorita da natureza. Quase impossível guardar sem comer um... ou dois.</p></div>

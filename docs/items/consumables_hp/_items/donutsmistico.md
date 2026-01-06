@@ -7,7 +7,7 @@ title: Donut Místico
   <img src="/assets/items/donutsmistico.png" class="item-icon" alt="Donut Místico">
   <div class="item-info">
     <h1>Donut Místico</h1>
-    <span class="item-category">Consumíveis — Vida</span>
+    <span class="item-category" data-category="consumables_hp">Consumíveis — Vida</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Um donut incomum feito com cogumelos luminescentes da caverna. Tem um sabor... inesperado e energizante.</p></div>

@@ -7,7 +7,7 @@ title: Cookie
   <img src="/assets/items/cookie.png" class="item-icon" alt="Cookie">
   <div class="item-info">
     <h1>Cookie</h1>
-    <span class="item-category">Consumíveis — Vida</span>
+    <span class="item-category" data-category="consumables_hp">Consumíveis — Vida</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Um petisco crocante. Restaura um pouco de esperança e algumas memórias boas.</p></div>

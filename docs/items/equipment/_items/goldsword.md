@@ -7,7 +7,7 @@ title: Espada de Ouro
   <img src="/assets/items/goldsword.png" class="item-icon" alt="Espada de Ouro">
   <div class="item-info">
     <h1>Espada de Ouro</h1>
-    <span class="item-category">Equipamentos</span>
+    <span class="item-category" data-category="equipment">Equipamentos</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Brilhante e elegante. Seu fio dourado não é só beleza, oferecendo um poder de corte superior a espada original.</p></div>

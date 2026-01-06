@@ -7,7 +7,7 @@ title: Uva
   <img src="/assets/items/grape.png" class="item-icon" alt="Uva">
   <div class="item-info">
     <h1>Uva</h1>
-    <span class="item-category">Consumíveis — Vida</span>
+    <span class="item-category" data-category="consumables_hp">Consumíveis — Vida</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Cacho de uvas escuras, cobertas por uma fina névoa. Cada uva explode com um sabor doce e refrescante. O primeiro passo para um suco fino ou um vinho renomado.</p></div>

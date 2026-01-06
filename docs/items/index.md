@@ -1,4 +1,4 @@
-# 🎒 Itens de Bloomrise
+<h2 class="bold">🎒 Itens de Bloomrise</h2>
 
 Os itens de **Tales of Bloomrise** são essenciais para a vida na vila,
 exploração de dungeons, criação de equipamentos e sobrevivência nas
@@ -9,7 +9,7 @@ crafting, combate, interação com NPCs e progressão do personagem.
 
 ---
 
-## 📦 Categorias de Itens
+<h3 class="bold">🎒 Itens de Bloomrise</h3>
 
 <div class="grid items-grid">
 
@@ -65,7 +65,7 @@ crafting, combate, interação com NPCs e progressão do personagem.
 
 ---
 
-## 📘 Páginas de Itens
+<h3 class="bold">📘 Páginas de Itens</h3>
 
 Cada item possui uma página dedicada contendo:
 

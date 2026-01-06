@@ -7,7 +7,7 @@ title: Soda
   <img src="/assets/items/soda.png" class="item-icon" alt="Soda">
   <div class="item-info">
     <h1>Soda</h1>
-    <span class="item-category">Consumíveis — Energia</span>
+    <span class="item-category" data-category="consumables_energy">Consumíveis — Energia</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Bolhas doces e elétricas engarrafadas. Estraga seus dentes mas vale a pena, eu acho.</p></div>

@@ -1,67 +1,65 @@
-
 <div class="logo">
-
-<img src="assets/logo.png" alt="Tales of Bloomrise" width="500" />
-
+  <img src="assets/logo.png" alt="Tales of Bloomrise" width="500" />
 </div>
+
 <div class="hero">
-<p class="hero-title">
-🌸 A wiki oficial de <strong>Tales of Bloomrise</strong>
-</p>
-
-<p class="hero-subtitle">
-RPG brasileiro em pixel art que mistura exploração de dungeons,
-vida na vila e personagens memoráveis.
-</p>
-
+  <h1 class="hero-title">A wiki oficial de Tales of Bloomrise</h1>
+  <p class="hero-subtitle">
+    Explore o mundo de <strong>Rayy</strong>. Um RPG brasileiro em pixel art que mistura o aconchego da vida na vila com o perigo das dungeons ancestrais.
+  </p>
 </div>
 
 <div class="info-card">
-<h2>🌿 Sobre o jogo</h2>
-
-<p>
-<em>Tales of Bloomrise</em> é um RPG em pixel art inspirado em
-<strong>Stardew Valley</strong> e <strong>Zelda clássico</strong>.
-</p>
-
-<p>
-Você joga como <strong>Rayy</strong>, uma aventureira que protege
-a vila de Bloomrise enquanto explora ruínas, enfrenta criaturas
-e cria laços com os moradores locais.
-</p>
+  <h2 class="bold">🌿 A Jornada em Bloomrise</h2>
+  <p>
+    Inspirado em clássicos como <em>Stardew Valley</em> e <em>Zelda</em>, aqui você encontrará tudo o que precisa para sobreviver e prosperar. 
+    Desde o cultivo de sementes mágicas até o forjamento de espadas lendárias.
+  </p>
 </div>
 
-<h2>📦 Conteúdo da Wiki</h2>
+<h2 class="bold" style="text-align: center; margin-bottom: 2rem;">📦 Explore o Banco de Dados</h2>
 
 <div class="grid">
+  <a href="items/materials/" class="grid-item item-card">
+    <div style="font-size: 2rem; margin-bottom: 0.5rem;">🧱</div>
+    <h3>Materiais</h3>
+    <p>Ingredientes e recursos básicos para crafting.</p>
+  </a>
 
-<div class="grid-item">
-<h3>🧱 Itens & Materiais</h3>
-<p>Ingredientes e recursos gerais.</p>
-<a href="items/materials/">Ver itens →</a>
+  <a href="items/consumables_hp/" class="grid-item item-card">
+    <div style="font-size: 2rem; margin-bottom: 0.5rem;">🍎</div>
+    <h3>Consumíveis</h3>
+    <p>Comidas e poções para recuperar Vida e Energia.</p>
+  </a>
+
+  <a href="items/equipment/" class="grid-item item-card">
+    <div style="font-size: 2rem; margin-bottom: 0.5rem;">⚔️</div>
+    <h3>Equipamentos</h3>
+    <p>Armas e ferramentas para exploração de dungeons.</p>
+  </a>
+
+  <a href="items/plants/" class="grid-item item-card">
+    <div style="font-size: 2rem; margin-bottom: 0.5rem;">🌿</div>
+    <h3>Botânica</h3>
+    <p>Flores, plantas e sementes de Bloomrise.</p>
+  </a>
+
+  <a href="items/books/" class="grid-item item-card">
+    <div style="font-size: 2rem; margin-bottom: 0.5rem;">📘</div>
+    <h3>Biblioteca</h3>
+    <p>Documentos de Lore, guias e segredos da vila.</p>
+  </a>
+
+  <div class="grid-item item-card" style="opacity: 0.6; cursor: not-allowed;">
+    <div style="font-size: 2rem; margin-bottom: 0.5rem;">🧑</div>
+    <h3>Personagens</h3>
+    <p>Conheça os moradores. <em>(Em breve)</em></p>
+  </div>
 </div>
 
-<div class="grid-item">
-<h3>❤️ Consumíveis</h3>
-<p>Cura, energia e efeitos.</p>
-<a href="items/consumables_hp/">Ver consumíveis →</a>
-</div>
-
-<div class="grid-item">
-<h3>⚔️ Equipamentos</h3>
-<p>Armas, armaduras e acessórios.</p>
-<a href="items/equipment/">Ver equipamentos →</a>
-</div>
-
-<div class="grid-item">
-<h3>🧑 Personagens</h3>
-<p>NPCs, histórias e eventos.</p>
-<em>Em breve</em>
-</div>
-
-</div>
+<hr />
 
 <p class="footer-note">
- A wiki é atualizada junto com o desenvolvimento de  
-<strong>Tales of Bloomrise</strong>.
+  Desenvolvido com ❤️ por Bloomrise Studios. <br>
+  A wiki é atualizada em tempo real com os arquivos do jogo.
 </p>

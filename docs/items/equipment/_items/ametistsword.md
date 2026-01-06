@@ -7,7 +7,7 @@ title: Espada de Ametista
   <img src="/assets/items/ametistsword.png" class="item-icon" alt="Espada de Ametista">
   <div class="item-info">
     <h1>Espada de Ametista</h1>
-    <span class="item-category">Equipamentos</span>
+    <span class="item-category" data-category="equipment">Equipamentos</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Encantada com ametista, brilha suavemente. Sua aura mística confere um corte mais potente que o ouro e estende seu alcance ligeiramente.</p></div>

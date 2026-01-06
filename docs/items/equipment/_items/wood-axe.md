@@ -7,7 +7,7 @@ title: Machado de Madeira
   <img src="/assets/items/wood-axe.png" class="item-icon" alt="Machado de Madeira">
   <div class="item-info">
     <h1>Machado de Madeira</h1>
-    <span class="item-category">Equipamentos</span>
+    <span class="item-category" data-category="equipment">Equipamentos</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Um machado básico de madeira. Ideal para cortar árvores pequenas e fazer lenha.</p></div>

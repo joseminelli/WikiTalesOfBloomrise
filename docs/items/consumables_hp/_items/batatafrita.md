@@ -7,7 +7,7 @@ title: Batata Frita
   <img src="/assets/items/batatafrita.png" class="item-icon" alt="Batata Frita">
   <div class="item-info">
     <h1>Batata Frita</h1>
-    <span class="item-category">Consumíveis — Vida</span>
+    <span class="item-category" data-category="consumables_hp">Consumíveis — Vida</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Batatas crocantes por fora e macias por dentro. Um lanche clássico e irresistível.</p></div>

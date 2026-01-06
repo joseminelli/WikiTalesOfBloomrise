@@ -7,7 +7,7 @@ title: Carvão
   <img src="/assets/items/carvao.png" class="item-icon" alt="Carvão">
   <div class="item-info">
     <h1>Carvão</h1>
-    <span class="item-category">Materiais e Itens Gerais</span>
+    <span class="item-category" data-category="materials">Materiais e Itens Gerais</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Escuro, quente e cheio de potencial (e fuligem).</p></div>

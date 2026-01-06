@@ -7,7 +7,7 @@ title: Folha
   <img src="/assets/items/leaf.png" class="item-icon" alt="Folha">
   <div class="item-info">
     <h1>Folha</h1>
-    <span class="item-category">Plantas e Flores</span>
+    <span class="item-category" data-category="plants">Plantas e Flores</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Uma folha verde simples obtida ao coletar árvores ou cortar grama. Artesãos e alquimistas juram que ela tem usos especiais.</p></div>

@@ -7,7 +7,7 @@ title: Abóbora
   <img src="/assets/items/abobora.png" class="item-icon" alt="Abóbora">
   <div class="item-info">
     <h1>Abóbora</h1>
-    <span class="item-category">Materiais e Itens Gerais</span>
+    <span class="item-category" data-category="materials">Materiais e Itens Gerais</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Grande, pesada e perfeitamente laranja. O cheiro adocicado da polpa é um clássico de Bloomrise. Essencial para tortas, sopas e festivais.</p></div>

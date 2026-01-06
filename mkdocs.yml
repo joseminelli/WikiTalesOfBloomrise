@@ -10,6 +10,9 @@ theme:
   favicon: assets/logo-small.png
   palette:
     scheme: bloomrise
+  features:
+    - toc.integrate  # Move o índice para dentro da barra da esquerda
+    - navigation.sections # Ajuda a organizar melhor a lateral que sobrou
 
 extra_css:
   - assets/stylesheets/extra.css
@@ -29,6 +32,20 @@ nav:
       - Livros e Guias: items/books.md
       - Plantas e Flores: items/plants.md
       - Itens Posicionáveis: items/placeable.md
+  - Personagens:
+      - Todos os Moradores: characters/index.md
+      - Rayy: characters/rayy.md
+      - J. Minelli: characters/minelli.md
+      - Darius Forge: characters/darius.md
+      - Marcus Hawke: characters/marcus.md
+      - Selene Hawke: characters/selene.md
+      - Lupi Nuki: characters/lupi.md
+      - Victor Bloom: characters/victor.md
+      - Lyla Quinn: characters/lyla.md
+      - Jaden Carter: characters/jaden.md
+      - Max Rook: characters/max.md
+      - Milo Plume: characters/milo.md
+      - Wade Woodson: characters/wade.md
 
 
 markdown_extensions:

@@ -7,7 +7,7 @@ title: Filé de Truta Arco-Íris
   <img src="/assets/items/filetrutaarcoiris.png" class="item-icon" alt="Filé de Truta Arco-Íris">
   <div class="item-info">
     <h1>Filé de Truta Arco-Íris</h1>
-    <span class="item-category">Consumíveis — Vida</span>
+    <span class="item-category" data-category="consumables_hp">Consumíveis — Vida</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Um filé suculento de truta arco-íris. Restaura muita vida e energia.</p></div>

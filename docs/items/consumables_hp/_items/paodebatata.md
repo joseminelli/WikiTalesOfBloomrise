@@ -7,7 +7,7 @@ title: Pão de Batata
   <img src="/assets/items/paodebatata.png" class="item-icon" alt="Pão de Batata">
   <div class="item-info">
     <h1>Pão de Batata</h1>
-    <span class="item-category">Consumíveis — Vida</span>
+    <span class="item-category" data-category="consumables_hp">Consumíveis — Vida</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Um pãozinho incrivelmente macio e leve, feito com batatas. Derrete na boca.</p></div>

@@ -7,7 +7,7 @@ title: Detector de Metais
   <img src="/assets/items/detectormetal.png" class="item-icon" alt="Detector de Metais">
   <div class="item-info">
     <h1>Detector de Metais</h1>
-    <span class="item-category">Equipamentos</span>
+    <span class="item-category" data-category="equipment">Equipamentos</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Um dispositivo usado para localizar metais enterrados no solo, escute o bipe para encontrar alguns itens na praia.</p></div>

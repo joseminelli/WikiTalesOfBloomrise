@@ -7,7 +7,7 @@ title: Semente de Cenoura
   <img src="/assets/items/seed-cenoura.png" class="item-icon" alt="Semente de Cenoura">
   <div class="item-info">
     <h1>Semente de Cenoura</h1>
-    <span class="item-category">Plantas e Flores</span>
+    <span class="item-category" data-category="plants">Plantas e Flores</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Um pequeno saquinho com sementes de cenoura. Prontas para serem plantadas e cultivadas.</p></div>

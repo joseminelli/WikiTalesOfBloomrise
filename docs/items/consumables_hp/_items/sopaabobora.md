@@ -7,7 +7,7 @@ title: Sopa de Abóbora
   <img src="/assets/items/sopaabobora.png" class="item-icon" alt="Sopa de Abóbora">
   <div class="item-info">
     <h1>Sopa de Abóbora</h1>
-    <span class="item-category">Consumíveis — Vida</span>
+    <span class="item-category" data-category="consumables_hp">Consumíveis — Vida</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Uma sopa aveludada e reconfortante, com um sabor adocicado de abóbora. Aquece até a alma em dias frios.</p></div>

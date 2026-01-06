@@ -7,7 +7,7 @@ title: Bateria
   <img src="/assets/items/bateria.png" class="item-icon" alt="Bateria">
   <div class="item-info">
     <h1>Bateria</h1>
-    <span class="item-category">Materiais e Itens Gerais</span>
+    <span class="item-category" data-category="materials">Materiais e Itens Gerais</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Uma bateria compacta, capaz de armazenar energia elétrica. Pode ser usada para alimentar dispositivos eletrônicos.</p></div>

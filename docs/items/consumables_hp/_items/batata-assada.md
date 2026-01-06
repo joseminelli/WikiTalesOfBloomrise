@@ -7,7 +7,7 @@ title: Batata Assada
   <img src="/assets/items/batata-assada.png" class="item-icon" alt="Batata Assada">
   <div class="item-info">
     <h1>Batata Assada</h1>
-    <span class="item-category">Consumíveis — Vida</span>
+    <span class="item-category" data-category="consumables_hp">Consumíveis — Vida</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Uma batata simples assada inteira, quente e reconfortante. Fica ainda melhor com um pouco de manteiga.</p></div>

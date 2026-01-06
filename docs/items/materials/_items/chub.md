@@ -7,7 +7,7 @@ title: Chub
   <img src="/assets/items/chub.png" class="item-icon" alt="Chub">
   <div class="item-info">
     <h1>Chub</h1>
-    <span class="item-category">Materiais e Itens Gerais</span>
+    <span class="item-category" data-category="materials">Materiais e Itens Gerais</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Um peixe de rio comum e surpreendentemente resistente. Não é muito saboroso, mas dá uma boa briga.</p></div>

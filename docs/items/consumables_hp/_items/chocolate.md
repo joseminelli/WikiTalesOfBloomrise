@@ -7,7 +7,7 @@ title: Chocolate
   <img src="/assets/items/chocolate.png" class="item-icon" alt="Chocolate">
   <div class="item-info">
     <h1>Chocolate</h1>
-    <span class="item-category">Consumíveis — Vida</span>
+    <span class="item-category" data-category="consumables_hp">Consumíveis — Vida</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Doce felicidade derretida. Restaura sua alma e um pouco de vida.</p></div>

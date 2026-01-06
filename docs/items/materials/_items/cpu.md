@@ -7,7 +7,7 @@ title: CPU
   <img src="/assets/items/cpu.png" class="item-icon" alt="CPU">
   <div class="item-info">
     <h1>CPU</h1>
-    <span class="item-category">Materiais e Itens Gerais</span>
+    <span class="item-category" data-category="materials">Materiais e Itens Gerais</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Um pequeno chip eletrônico, com circuitos complexos. Provavelmente faz parte de algum dispositivo tecnológico desconhecido.</p></div>

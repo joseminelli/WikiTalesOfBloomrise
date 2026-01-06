@@ -7,7 +7,7 @@ title: Picareta de Chromita
   <img src="/assets/items/chromite-pickaxe.png" class="item-icon" alt="Picareta de Chromita">
   <div class="item-info">
     <h1>Picareta de Chromita</h1>
-    <span class="item-category">Equipamentos</span>
+    <span class="item-category" data-category="equipment">Equipamentos</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Uma picareta feita de chromita, resistente e eficaz. Ideal para minerar minérios duros e enfrentar desafios subterrâneos.</p></div>

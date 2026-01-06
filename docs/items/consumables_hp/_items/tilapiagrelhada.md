@@ -7,7 +7,7 @@ title: Tilápia Grelhada
   <img src="/assets/items/tilapiagrelhada.png" class="item-icon" alt="Tilápia Grelhada">
   <div class="item-info">
     <h1>Tilápia Grelhada</h1>
-    <span class="item-category">Consumíveis — Vida</span>
+    <span class="item-category" data-category="consumables_hp">Consumíveis — Vida</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Tilápia temperada e grelhada na perfeição. Restaura uma grande quantidade de vida.</p></div>

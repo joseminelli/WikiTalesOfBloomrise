@@ -7,7 +7,7 @@ title: Pacote de Terra
   <img src="/assets/items/farmplot.png" class="item-icon" alt="Pacote de Terra">
   <div class="item-info">
     <h1>Pacote de Terra</h1>
-    <span class="item-category">Itens Posicionáveis</span>
+    <span class="item-category" data-category="placeable">Itens Posicionáveis</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Um pequeno pedaço de terra fértil, pronto para receber sementes e crescer plantas. Ideal para iniciar sua horta.</p></div>

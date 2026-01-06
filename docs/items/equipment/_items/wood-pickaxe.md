@@ -7,7 +7,7 @@ title: Picareta de Madeira
   <img src="/assets/items/wood-pickaxe.png" class="item-icon" alt="Picareta de Madeira">
   <div class="item-info">
     <h1>Picareta de Madeira</h1>
-    <span class="item-category">Equipamentos</span>
+    <span class="item-category" data-category="equipment">Equipamentos</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Uma picareta simples de madeira. Não é muito eficiente, mas quebra o galho.</p></div>

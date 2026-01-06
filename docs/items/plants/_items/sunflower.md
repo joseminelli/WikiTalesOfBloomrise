@@ -7,7 +7,7 @@ title: Girassol
   <img src="/assets/items/sunflower.png" class="item-icon" alt="Girassol">
   <div class="item-info">
     <h1>Girassol</h1>
-    <span class="item-category">Plantas e Flores</span>
+    <span class="item-category" data-category="plants">Plantas e Flores</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Flor vibrante que parece sorrir para o sol. Embora seja linda como decoração, suas sementes torradas são um lanche popular na vila.</p></div>

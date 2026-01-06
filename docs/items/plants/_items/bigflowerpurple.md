@@ -7,7 +7,7 @@ title: Flor Roxa Grande
   <img src="/assets/items/bigflowerpurple.png" class="item-icon" alt="Flor Roxa Grande">
   <div class="item-info">
     <h1>Flor Roxa Grande</h1>
-    <span class="item-category">Plantas e Flores</span>
+    <span class="item-category" data-category="plants">Plantas e Flores</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Uma flor roxa grande com pétalas brilhantes, usada em poções especiais.</p></div>

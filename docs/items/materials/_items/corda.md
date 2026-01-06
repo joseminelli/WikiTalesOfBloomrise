@@ -7,7 +7,7 @@ title: Corda
   <img src="/assets/items/corda.png" class="item-icon" alt="Corda">
   <div class="item-info">
     <h1>Corda</h1>
-    <span class="item-category">Materiais e Itens Gerais</span>
+    <span class="item-category" data-category="materials">Materiais e Itens Gerais</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Uma corda resistente, feita para aguentar peso e tensão. Útil para criar alguns itens.</p></div>

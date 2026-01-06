@@ -7,7 +7,7 @@ title: Bestiário de Bloomrise
   <img src="/assets/items/monsterbook.png" class="item-icon" alt="Bestiário de Bloomrise">
   <div class="item-info">
     <h1>Bestiário de Bloomrise</h1>
-    <span class="item-category">Livros e Guias</span>
+    <span class="item-category" data-category="books">Livros e Guias</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Um compêndio ilustrado que documenta as criaturas encontradas em Bloomrise e arredores. Cada entrada inclui descrições, habitats e alguns detalhes sobre os mosntros</p></div>

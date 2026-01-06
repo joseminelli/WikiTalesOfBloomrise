@@ -7,7 +7,7 @@ title: Sushi
   <img src="/assets/items/sushi.png" class="item-icon" alt="Sushi">
   <div class="item-info">
     <h1>Sushi</h1>
-    <span class="item-category">Consumíveis — Vida</span>
+    <span class="item-category" data-category="consumables_hp">Consumíveis — Vida</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Cru, sofisticado e questionavelmente fresco. Todo mundo devia experimentar pelo menos uma vez.</p></div>

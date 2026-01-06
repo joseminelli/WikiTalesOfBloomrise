@@ -7,7 +7,7 @@ title: Amuleto de Viagem: Lar
   <img src="/assets/items/amuletocasa.png" class="item-icon" alt="Amuleto de Viagem: Lar">
   <div class="item-info">
     <h1>Amuleto de Viagem: Lar</h1>
-    <span class="item-category">Materiais e Itens Gerais</span>
+    <span class="item-category" data-category="materials">Materiais e Itens Gerais</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Uma medalha antiga que canaliza energia para levar Rayy de volta à frente de sua casa. O teleporte consome toda a energia de Rayy.</p></div>

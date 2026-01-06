@@ -7,7 +7,7 @@ title: Barra de Ferro
   <img src="/assets/items/ferro.png" class="item-icon" alt="Barra de Ferro">
   <div class="item-info">
     <h1>Barra de Ferro</h1>
-    <span class="item-category">Materiais e Itens Gerais</span>
+    <span class="item-category" data-category="materials">Materiais e Itens Gerais</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Sólido e confiável. Essencial para qualquer forja de respeito.</p></div>

@@ -7,7 +7,7 @@ title: Mesa de Criação
   <img src="/assets/items/interacticle-crafttable.png" class="item-icon" alt="Mesa de Criação">
   <div class="item-info">
     <h1>Mesa de Criação</h1>
-    <span class="item-category">Itens Posicionáveis</span>
+    <span class="item-category" data-category="placeable">Itens Posicionáveis</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Uma mesa robusta para criar e experimentar novos itens. (mecânica em desenvolvimento)</p></div>

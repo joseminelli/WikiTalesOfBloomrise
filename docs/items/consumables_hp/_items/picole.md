@@ -7,7 +7,7 @@ title: Picolé
   <img src="/assets/items/picole.png" class="item-icon" alt="Picolé">
   <div class="item-info">
     <h1>Picolé</h1>
-    <span class="item-category">Consumíveis — Vida</span>
+    <span class="item-category" data-category="consumables_hp">Consumíveis — Vida</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Gelado, doce e refrescante. Perfeito para dias quentes e corações partidos.</p></div>

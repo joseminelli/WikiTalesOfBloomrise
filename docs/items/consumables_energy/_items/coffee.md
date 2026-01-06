@@ -7,7 +7,7 @@ title: Café
   <img src="/assets/items/coffee.png" class="item-icon" alt="Café">
   <div class="item-info">
     <h1>Café</h1>
-    <span class="item-category">Consumíveis — Energia</span>
+    <span class="item-category" data-category="consumables_energy">Consumíveis — Energia</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Amargo, quente e perigosamente eficaz. Restaura 4 de Energia e aumenta a atenção (ou a ansiedade).</p></div>

@@ -7,7 +7,7 @@ title: Minério de Ferro
   <img src="/assets/items/ironore.png" class="item-icon" alt="Minério de Ferro">
   <div class="item-info">
     <h1>Minério de Ferro</h1>
-    <span class="item-category">Materiais e Itens Gerais</span>
+    <span class="item-category" data-category="materials">Materiais e Itens Gerais</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Um minério comum e resistente, Pode ser processado na forja para criar uma barra de ferro.</p></div>

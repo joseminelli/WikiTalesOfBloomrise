@@ -7,7 +7,7 @@ title: Tilápia
   <img src="/assets/items/tilapia.png" class="item-icon" alt="Tilápia">
   <div class="item-info">
     <h1>Tilápia</h1>
-    <span class="item-category">Materiais e Itens Gerais</span>
+    <span class="item-category" data-category="materials">Materiais e Itens Gerais</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Um peixe de rio muito popular. Sua carne é leve e saborosa, o que o torna um ingrediente valioso para cozinhar.</p></div>

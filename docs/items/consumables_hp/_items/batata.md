@@ -7,7 +7,7 @@ title: Batata
   <img src="/assets/items/batata.png" class="item-icon" alt="Batata">
   <div class="item-info">
     <h1>Batata</h1>
-    <span class="item-category">Consumíveis — Vida</span>
+    <span class="item-category" data-category="consumables_hp">Consumíveis — Vida</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Batata robusta e terrosa. A base de qualquer refeição de fazendeiro que se preze. Versátil, nutritiva e muito reconfortante.</p></div>

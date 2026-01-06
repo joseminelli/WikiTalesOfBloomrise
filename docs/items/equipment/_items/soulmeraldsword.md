@@ -7,7 +7,7 @@ title: Espada de Esmeralma
   <img src="/assets/items/soulmeraldsword.png" class="item-icon" alt="Espada de Esmeralma">
   <div class="item-info">
     <h1>Espada de Esmeralma</h1>
-    <span class="item-category">Equipamentos</span>
+    <span class="item-category" data-category="equipment">Equipamentos</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Feita de esmeralma, brilha intensamente. Sua energia canalizada resulta em golpes notavelmente mais fortes que a ametista e aumenta seu alcance consideravelmente.</p></div>

@@ -7,7 +7,7 @@ title: Onigiri
   <img src="/assets/items/oniguiri.png" class="item-icon" alt="Onigiri">
   <div class="item-info">
     <h1>Onigiri</h1>
-    <span class="item-category">Consumíveis — Vida</span>
+    <span class="item-category" data-category="consumables_hp">Consumíveis — Vida</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Um bolinho de arroz com gostinho de lar.</p></div>

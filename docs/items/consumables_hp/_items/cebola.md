@@ -7,7 +7,7 @@ title: Cebola
   <img src="/assets/items/cebola.png" class="item-icon" alt="Cebola">
   <div class="item-info">
     <h1>Cebola</h1>
-    <span class="item-category">Consumíveis — Vida</span>
+    <span class="item-category" data-category="consumables_hp">Consumíveis — Vida</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Cebola de casca fina e aroma pungente. Cortá-la pode fazer os olhos lacrimejarem, mas seu sabor é o segredo de quase todas as boas receitas.</p></div>

@@ -7,7 +7,7 @@ title: Ensopado de Peixe
   <img src="/assets/items/ensopadopeixe.png" class="item-icon" alt="Ensopado de Peixe">
   <div class="item-info">
     <h1>Ensopado de Peixe</h1>
-    <span class="item-category">Consumíveis — Vida</span>
+    <span class="item-category" data-category="consumables_hp">Consumíveis — Vida</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Um ensopado rico com peixe e vegetais da horta. Muito nutritivo e enche bastante.</p></div>

@@ -7,7 +7,7 @@ title: Esmeralma
   <img src="/assets/items/esmeralma.png" class="item-icon" alt="Esmeralma">
   <div class="item-info">
     <h1>Esmeralma</h1>
-    <span class="item-category">Materiais e Itens Gerais</span>
+    <span class="item-category" data-category="materials">Materiais e Itens Gerais</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Brilho suave, energia tranquila. Dizem que atrai sorte... espero que sem fantasmas.</p></div>

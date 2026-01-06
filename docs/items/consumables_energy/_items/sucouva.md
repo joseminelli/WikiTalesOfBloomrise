@@ -7,7 +7,7 @@ title: Suco de Uva
   <img src="/assets/items/sucouva.png" class="item-icon" alt="Suco de Uva">
   <div class="item-info">
     <h1>Suco de Uva</h1>
-    <span class="item-category">Consumíveis — Energia</span>
+    <span class="item-category" data-category="consumables_energy">Consumíveis — Energia</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Um suco doce e revigorante, feito com as uvas mais frescas para restaurar suas energias.</p></div>

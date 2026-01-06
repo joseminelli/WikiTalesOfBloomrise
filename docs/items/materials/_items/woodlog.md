@@ -7,7 +7,7 @@ title: Tronco de Madeira
   <img src="/assets/items/woodlog.png" class="item-icon" alt="Tronco de Madeira">
   <div class="item-info">
     <h1>Tronco de Madeira</h1>
-    <span class="item-category">Materiais e Itens Gerais</span>
+    <span class="item-category" data-category="materials">Materiais e Itens Gerais</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Um bom pedaço de madeira. Pode servir pra construir uma casa. Ou só pra queimar na fogueira.</p></div>

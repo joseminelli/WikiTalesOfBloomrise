@@ -7,7 +7,7 @@ title: Barra de Ouro
   <img src="/assets/items/ouro.png" class="item-icon" alt="Barra de Ouro">
   <div class="item-info">
     <h1>Barra de Ouro</h1>
-    <span class="item-category">Materiais e Itens Gerais</span>
+    <span class="item-category" data-category="materials">Materiais e Itens Gerais</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Brilhante e valioso. Perfeito para criar itens especiais. As moedas de Bloomrise não são feitas disso, mas deveriam ser.</p></div>

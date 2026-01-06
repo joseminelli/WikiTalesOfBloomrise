@@ -7,7 +7,7 @@ title: Ensopado de Raízes
   <img src="/assets/items/ensopadoraizes.png" class="item-icon" alt="Ensopado de Raízes">
   <div class="item-info">
     <h1>Ensopado de Raízes</h1>
-    <span class="item-category">Consumíveis — Vida</span>
+    <span class="item-category" data-category="consumables_hp">Consumíveis — Vida</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Um prato quente e nutritivo, cheio de batatas, cenouras e outros vegetais. Comida que conforta.</p></div>

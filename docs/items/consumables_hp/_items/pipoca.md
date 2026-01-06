@@ -7,7 +7,7 @@ title: Pipoca
   <img src="/assets/items/pipoca.png" class="item-icon" alt="Pipoca">
   <div class="item-info">
     <h1>Pipoca</h1>
-    <span class="item-category">Consumíveis — Vida</span>
+    <span class="item-category" data-category="consumables_hp">Consumíveis — Vida</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Grãos de milho estourados, leves e salgadinhos. Perfeitos para relaxar depois de um dia de trabalho.</p></div>

@@ -7,7 +7,7 @@ title: Óleo vegetal
   <img src="/assets/items/oleo-vegetal.png" class="item-icon" alt="Óleo vegetal">
   <div class="item-info">
     <h1>Óleo vegetal</h1>
-    <span class="item-category">Materiais e Itens Gerais</span>
+    <span class="item-category" data-category="materials">Materiais e Itens Gerais</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Óleo extraído de plantas, usado em várias receitas culinárias.</p></div>

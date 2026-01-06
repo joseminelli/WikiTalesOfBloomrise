@@ -7,7 +7,7 @@ title: Sanduíche
   <img src="/assets/items/sanduiche.png" class="item-icon" alt="Sanduíche">
   <div class="item-info">
     <h1>Sanduíche</h1>
-    <span class="item-category">Consumíveis — Vida</span>
+    <span class="item-category" data-category="consumables_hp">Consumíveis — Vida</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Uma refeição prática e deliciosa, recheada com ingredientes frescos da fazenda.</p></div>

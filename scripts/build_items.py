@@ -163,7 +163,7 @@ def write_item_page(item, locale, category, recipes, used_in, item_map):
     with open(page, "w", encoding="utf-8") as md:
         md.write(f"---\ntitle: {name}\n---\n\n<div class=\"item-page\">\n")
         md.write(f"<div class=\"item-header\">\n  <img src=\"{ICON_PATH}/{icon}\" class=\"item-icon\" alt=\"{name}\">\n")
-        md.write(f"  <div class=\"item-info\">\n    <h1>{name}</h1>\n    <span class=\"item-category\">{getCategoryTitle(category)}</span>\n  </div>\n</div>\n")
+        md.write(f"  <div class=\"item-info\">\n    <h1>{name}</h1>\n    <span class=\"item-category\" data-category=\"{category}\">{getCategoryTitle(category)}</span>\n  </div>\n</div>\n")
         md.write(f"<div class=\"item-section\"><h2>📝 Descrição</h2><p>{description or 'Sem descrição disponível.'}</p></div>\n")
         
         # Efeitos

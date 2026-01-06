@@ -7,7 +7,7 @@ title: Madeira Refinada
   <img src="/assets/items/madeirarefinada.png" class="item-icon" alt="Madeira Refinada">
   <div class="item-info">
     <h1>Madeira Refinada</h1>
-    <span class="item-category">Materiais e Itens Gerais</span>
+    <span class="item-category" data-category="materials">Materiais e Itens Gerais</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Madeira trabalhada com cuidado e precisão, livre de farpas e cheia de potencial.</p></div>

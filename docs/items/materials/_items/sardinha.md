@@ -7,7 +7,7 @@ title: Sardinha
   <img src="/assets/items/sardinha.png" class="item-icon" alt="Sardinha">
   <div class="item-info">
     <h1>Sardinha</h1>
-    <span class="item-category">Materiais e Itens Gerais</span>
+    <span class="item-category" data-category="materials">Materiais e Itens Gerais</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Um peixe marinho pequeno e prateado. Brilha sob o sol quando é puxado da água. É bastante comum no oceano.</p></div>

@@ -7,7 +7,7 @@ title: Espada da Rayy
   <img src="/assets/items/ironsword.png" class="item-icon" alt="Espada da Rayy">
   <div class="item-info">
     <h1>Espada da Rayy</h1>
-    <span class="item-category">Equipamentos</span>
+    <span class="item-category" data-category="equipment">Equipamentos</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Afiada e satisfatória de balançar. A fiel espada forjada por alguém especial que não sabia exatamente o que estava fazendo, mas fez um ótimo trabalho!</p></div>

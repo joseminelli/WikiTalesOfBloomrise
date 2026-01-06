@@ -7,7 +7,7 @@ title: Cogumelo Fungi
   <img src="/assets/items/fungdrop.png" class="item-icon" alt="Cogumelo Fungi">
   <div class="item-info">
     <h1>Cogumelo Fungi</h1>
-    <span class="item-category">Consumíveis — Vida</span>
+    <span class="item-category" data-category="consumables_hp">Consumíveis — Vida</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Um cogumelo estranho que o fungi produz na caverna. Dizem que tem propriedades medicinais, mas ninguém testou ainda.</p></div>

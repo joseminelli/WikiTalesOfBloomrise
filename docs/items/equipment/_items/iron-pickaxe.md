@@ -7,7 +7,7 @@ title: Picareta de Ferro
   <img src="/assets/items/iron-pickaxe.png" class="item-icon" alt="Picareta de Ferro">
   <div class="item-info">
     <h1>Picareta de Ferro</h1>
-    <span class="item-category">Equipamentos</span>
+    <span class="item-category" data-category="equipment">Equipamentos</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Feita para quebrar pedras. Pode até quebrar suas costas. Use com responsabilidade.</p></div>

@@ -7,7 +7,7 @@ title: Cerveja
   <img src="/assets/items/cerveja.png" class="item-icon" alt="Cerveja">
   <div class="item-info">
     <h1>Cerveja</h1>
-    <span class="item-category">Consumíveis — Vida</span>
+    <span class="item-category" data-category="consumables_hp">Consumíveis — Vida</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Espumosa e relaxante. Talvez não cure tudo, mas acalma a mente e o corpo.</p></div>

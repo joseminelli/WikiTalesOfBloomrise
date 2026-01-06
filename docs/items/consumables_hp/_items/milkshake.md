@@ -7,7 +7,7 @@ title: Milkshake
   <img src="/assets/items/milkshake.png" class="item-icon" alt="Milkshake">
   <div class="item-info">
     <h1>Milkshake</h1>
-    <span class="item-category">Consumíveis — Vida</span>
+    <span class="item-category" data-category="consumables_hp">Consumíveis — Vida</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Gelado, doce e tão bom que cura até coração partido</p></div>

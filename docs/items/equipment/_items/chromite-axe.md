@@ -7,7 +7,7 @@ title: Machado de Chromita
   <img src="/assets/items/chromite-axe.png" class="item-icon" alt="Machado de Chromita">
   <div class="item-info">
     <h1>Machado de Chromita</h1>
-    <span class="item-category">Equipamentos</span>
+    <span class="item-category" data-category="equipment">Equipamentos</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Um machado feito de chromita, raro e resistente. Perfeito para cortar árvores robustas e enfrentar criaturas perigosas.</p></div>

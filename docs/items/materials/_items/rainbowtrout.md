@@ -7,7 +7,7 @@ title: Truta Arco-Íris
   <img src="/assets/items/rainbowtrout.png" class="item-icon" alt="Truta Arco-Íris">
   <div class="item-info">
     <h1>Truta Arco-Íris</h1>
-    <span class="item-category">Materiais e Itens Gerais</span>
+    <span class="item-category" data-category="materials">Materiais e Itens Gerais</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Uma linda truta de rio, famosa por suas escamas coloridas que brilham em tons de arco-íris. É um peixe muito procurado.</p></div>

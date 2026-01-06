@@ -7,7 +7,7 @@ title: Pão
   <img src="/assets/items/pao.png" class="item-icon" alt="Pão">
   <div class="item-info">
     <h1>Pão</h1>
-    <span class="item-category">Consumíveis — Vida</span>
+    <span class="item-category" data-category="consumables_hp">Consumíveis — Vida</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Um pão rústico e quentinho, com uma crosta crocante. Perfeito para começar o dia.</p></div>

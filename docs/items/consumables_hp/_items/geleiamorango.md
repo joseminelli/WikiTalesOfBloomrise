@@ -7,7 +7,7 @@ title: Geleia de Morango
   <img src="/assets/items/geleiamorango.png" class="item-icon" alt="Geleia de Morango">
   <div class="item-info">
     <h1>Geleia de Morango</h1>
-    <span class="item-category">Consumíveis — Vida</span>
+    <span class="item-category" data-category="consumables_hp">Consumíveis — Vida</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Uma geleia caseira e brilhante, com o sabor concentrado do verão. Perfeita para passar no pão.</p></div>

@@ -7,7 +7,7 @@ title: Minério de Ouro
   <img src="/assets/items/goldore.png" class="item-icon" alt="Minério de Ouro">
   <div class="item-info">
     <h1>Minério de Ouro</h1>
-    <span class="item-category">Materiais e Itens Gerais</span>
+    <span class="item-category" data-category="materials">Materiais e Itens Gerais</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Um minério brilhante e valioso, Pode ser processado na forja para criar uma barra de ouro.</p></div>

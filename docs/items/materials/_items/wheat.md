@@ -7,7 +7,7 @@ title: Trigo
   <img src="/assets/items/wheat.png" class="item-icon" alt="Trigo">
   <div class="item-info">
     <h1>Trigo</h1>
-    <span class="item-category">Materiais e Itens Gerais</span>
+    <span class="item-category" data-category="materials">Materiais e Itens Gerais</span>
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Feixe de trigo dourado, seco ao sol. O pilar da panificação. Moído, transforma-se na farinha essencial para pães, bolos e tortas.</p></div>
