@@ -25,6 +25,7 @@ FILES = {
     "placeable": ("placeable.md", "Itens Posicionáveis"),
     "books": ("books.md", "Livros e Guias"),  # Nova categoria
     "plants": ("plants.md", "Plantas e Flores"), # Nova categoria
+    "all_recipes": ("recipes.md", "Livro de Receitas Completo"),
 }
 
 # ========================
@@ -186,6 +187,101 @@ def get_how_to_obtain(item, item_id, recipes, used_in):
 # ========================
 # Page builders
 # ========================
+
+def build_recipes_page(items, locale, recipes, item_map):
+    path = DOCS_DIR / "recipes.md"
+    
+    recipes_by_cat = {}
+    for res_id, recipe in recipes.items():
+        res_item = item_map.get(res_id.lower())
+        if not res_item: continue
+        cat = detect_category(res_item)
+        if cat not in recipes_by_cat: recipes_by_cat[cat] = []
+        recipes_by_cat[cat].append((res_id, recipe))
+
+    with open(path, "w", encoding="utf-8") as md:
+        # Front matter para garantir que o título não duplique
+        md.write("---\ntitle: Livro de Receitas\n---\n\n")
+        
+        md.write("# 📖 Livro de Receitas\n\n")
+        
+        # --- NOVO: Botões de Filtro ---
+        md.write('<div class="recipe-filters">\n')
+        md.write('  <button class="filter-btn active" onclick="filterRecipes(\'all\')">Tudo</button>\n')
+        md.write('  <button class="filter-btn" onclick="filterRecipes(\'consumables_hp\')">Culinária (HP)</button>\n')
+        md.write('  <button class="filter-btn" onclick="filterRecipes(\'consumables_energy\')">Culinária (Energia)</button>\n')
+        md.write('  <button class="filter-btn" onclick="filterRecipes(\'equipment\')">Equipamentos</button>\n')
+        md.write('  <button class="filter-btn" onclick="filterRecipes(\'materials\')">Materiais</button>\n')
+        md.write('</div>\n\n')
+
+        # Container principal das receitas
+        md.write('<div id="recipes-master-list">\n')
+
+        priority = ["consumables_hp", "consumables_energy", "materials", "equipment", "placeable"]
+        sorted_cats = sorted(recipes_by_cat.keys(), key=lambda x: priority.index(x) if x in priority else 99)
+
+        for cat in sorted_cats:
+            # Envolvemos cada categoria em uma div com classe para o filtro
+            md.write(f'<div class="recipe-category-section" data-cat="{cat}">\n')
+            md.write(f"<h2> {getCategoryTitle(cat)}\n</h2>\n")
+            md.write('<div class="recipes-container">\n')
+            
+            current_recipes = sorted(recipes_by_cat[cat], key=lambda x: t(locale, item_map.get(x[0].lower(), {}).get("nameKey"), x[0]))
+
+            for res_id, recipe in current_recipes:
+                res_item = item_map.get(res_id.lower())
+                res_name = t(locale, res_item.get("nameKey"), res_id)
+                res_link = f"./{cat}/_items/{slug(res_id)}/"
+                icon_res = resolve_item_icon(res_id)
+
+                md.write(f'''
+<div class="recipe-card-full" data-category="{cat}">
+    <div class="recipe-header">
+        <img src="{ICON_PATH}/{icon_res}" class="mini-icon">
+        <strong><a href="../{res_link}">{res_name}</a></strong>
+        <span class="yield-badge">x{recipe["yield"]}</span>
+    </div>
+    <div class="recipe-ingredients-list">''')
+                
+                for ing in recipe["ingredients"]:
+                    ing_id = ing["id"]
+                    ing_item = item_map.get(ing_id.lower())
+                    ing_name = t(locale, ing_item.get("nameKey"), ing_id) if ing_item else ing_id
+                    icon_ing = resolve_item_icon(ing_id)
+                    
+                    md.write(f'''
+        <div class="ing-item" title="{ing_name}">
+            <img src="{ICON_PATH}/{icon_ing}">
+            <span>{ing["qty"]}</span>
+        </div>''')
+
+                md.write('\n    </div>\n</div>')
+            
+            md.write('\n</div>\n</div>\n') # Fecha recipes-container e recipe-category-section
+            
+        md.write('\n</div>\n') # Fecha recipes-master-list
+
+        # --- NOVO: Script de Filtro ---
+        md.write('''
+<script>
+function filterRecipes(cat) {
+    const sections = document.querySelectorAll('.recipe-category-section');
+    const buttons = document.querySelectorAll('.filter-btn');
+    
+    buttons.forEach(btn => btn.classList.remove('active'));
+    event.currentTarget.classList.add('active');
+
+    sections.forEach(section => {
+        if (cat === 'all' || section.getAttribute('data-cat') === cat) {
+            section.style.display = 'block';
+        } else {
+            section.style.display = 'none';
+        }
+    });
+}
+</script>
+''')
+
 def write_item_page(item, locale, category, recipes, used_in, item_map):
     item_id = item["id"]
     category_dir = DOCS_DIR / category / "_items"
@@ -307,3 +403,5 @@ if __name__ == "__main__":
     locale = load_locale()
     recipes, used_in = load_recipes()
     build_tables(items, locale, recipes, used_in)
+    build_recipes_page(items, locale, recipes, {item["id"].lower(): item for item in items})
+    print("✅ Todas as páginas de itens foram geradas com sucesso!")

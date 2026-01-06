@@ -23,6 +23,7 @@ plugins:
 
 nav:
   - Início: index.md
+  - Livro de Receitas: items/recipes.md
   - Itens:
       - Visão geral: items/index.md
       - Materiais: items/materials.md

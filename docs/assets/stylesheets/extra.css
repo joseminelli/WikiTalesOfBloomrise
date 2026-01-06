@@ -254,7 +254,9 @@
     flex-wrap: wrap;
     gap: 10px;
 }
-
+.recipe-card a{
+    color: #127c7c !important;
+}
 .mini-card {
     display: flex;
     align-items: center;
@@ -263,7 +265,7 @@
     padding: 5px 10px;
     border-radius: 6px;
     text-decoration: none !important;
-    color: #253e42 !important;
+    color: #05442e !important;
     font-size: 0.85rem;
     border: 1px solid transparent;
 }
@@ -555,4 +557,127 @@
     padding: 1.2rem;
     border-radius: 12px;
     line-height: 1.6;
+}
+
+/* Recipe Cards */
+
+.recipes-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 12px;
+    margin-bottom: 3rem;
+}
+
+.recipe-card-full {
+    background: var(--bloom-card);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-left: 4px solid var(--bloom-border); /* Cor padrão */
+    border-radius: 6px;
+    padding: 10px;
+    transition: all transform 0.2s;
+}
+
+.recipe-card-full:hover {
+    transform: translateY(-2px);
+    background: #2fa7871b;
+}
+
+.recipe-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid rgba(64, 203, 159, 0.2);
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+}
+
+.yield-badge {
+    margin-left: auto;
+    background: var(--bloom-border);
+    color: var(--bloom-bg);
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.recipe-card-full[data-category="consumables_hp"]{
+    border-left-color: #df2e2e7c;
+}
+.recipe-card-full[data-category="consumables_energy"] {
+    border-left-color: #229ee685;
+}
+
+.recipe-card-full[data-category="materials"] {
+    border-left-color: rgba(241, 196, 15, 0.504)
+}
+
+.recipe-card-full[data-category="equipment"] {
+    border-left-color: #dbac346e; /* Azul/Equipamento */
+}
+.recipe-filters {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+    padding: 10px;
+    background: rgb(195 225 217 / 74%);
+    border-radius: 8px;
+}
+
+.filter-btn {
+    background: var(--bloom-card);
+    border: 1px solid var(--bloom-border);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 0.85rem;
+    transition: all 0.2s ease;
+}
+
+.filter-btn:hover {
+    background: rgba(64, 203, 159, 0.2);
+    transform: translateY(-2px);
+}
+
+.filter-btn.active {
+    background: var(--bloom-border);
+    color: var(--bloom-bg);
+    font-weight: bold;
+    box-shadow: 0 0 10px var(--bloom-border);
+}
+
+/* Garante que o título da categoria suma junto com a seção */
+.recipe-category-section {
+    animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+/* Estilo dos ingredientes dentro do card */
+.recipe-ingredients-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 8px;
+}
+
+.ing-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 400;
+    background: rgb(97 159 143 / 32%);
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+.ing-item img {
+    width: 20px;
+    height: 20px;
 }
