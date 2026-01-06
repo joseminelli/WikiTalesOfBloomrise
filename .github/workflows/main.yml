@@ -1,0 +1,33 @@
+name: Deploy Wiki
+on:
+  push:
+    branches:
+      - main  # Ou o nome da sua branch principal
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Build Script
+        run: python build_wiki.py  # Nome do seu script que gera os .md
+
+      - name: Deploy to GitHub Pages
+        run: |
+          pip install mkdocs-material
+          mkdocs gh-deploy --force
