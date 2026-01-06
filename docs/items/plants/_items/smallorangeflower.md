@@ -11,4 +11,8 @@ title: Flor Laranja Pequena
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Uma flor laranja pequena e vibrante, muito usada em pigmentos.</p></div>
+<div class="item-section">
+<h2>📍 Como Obter</h2>
+  <p>🌸 **Coleta:** Cresce naturalmente pelo mundo. Pode ser colhida durante as estações corretas.</p>
+</div>
 </div>

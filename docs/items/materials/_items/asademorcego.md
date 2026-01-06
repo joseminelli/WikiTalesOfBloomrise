@@ -11,4 +11,8 @@ title: Asa de Morcego
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Frágil, leve e... um pouco estranha. Ainda bate sozinha às vezes.</p></div>
+<div class="item-section">
+<h2>📍 Como Obter</h2>
+  <p>⚔️ **Combate:** Dropado por criaturas ao derrotá-las em combate nas dungeons ou arredores da vila.</p>
+</div>
 </div>

@@ -11,4 +11,8 @@ title: Árvore Decorativa no Pote Redondo
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Uma árvore plantada em um vaso arredondado, simples e charmosa. Apenas decorativa. (mecânica em desenvolvimento)</p></div>
+<div class="item-section">
+<h2>📍 Como Obter</h2>
+  <p>🌍 **Exploração:** Pode ser encontrado em baús, quebrando barris, como recompensa de moradores ou comprando em lojas.</p>
+</div>
 </div>

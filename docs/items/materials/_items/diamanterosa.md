@@ -11,4 +11,8 @@ title: Diamante Rosa
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Brilho encantador, poder discreto. E uma tentação perigosa.</p></div>
+<div class="item-section">
+<h2>📍 Como Obter</h2>
+  <p>⛏️ **Mineração:** Extraído de rochas e veios de minério dentro das cavernas ou ruínas.</p>
+</div>
 </div>

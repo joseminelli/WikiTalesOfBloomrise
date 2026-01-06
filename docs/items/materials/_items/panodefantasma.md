@@ -11,4 +11,8 @@ title: Pano de Fantasma
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Tecido etéreo, meio transparente e 100% arrepiante.</p></div>
+<div class="item-section">
+<h2>📍 Como Obter</h2>
+  <p>⚔️ **Combate:** Dropado por criaturas ao derrotá-las em combate nas dungeons ou arredores da vila.</p>
+</div>
 </div>

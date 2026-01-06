@@ -11,4 +11,8 @@ title: Amuleto de Viagem: Lar
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Uma medalha antiga que canaliza energia para levar Rayy de volta à frente de sua casa. O teleporte consome toda a energia de Rayy.</p></div>
+<div class="item-section">
+<h2>📍 Como Obter</h2>
+  <p>🔨 **Crafting:** Este item pode ser fabricado em uma bancada ou forja utilizando os materiais necessários.</p>
+</div>
 <div class="item-section crafting"><h2>🔨 Como Criar</h2><div class="recipe-box"><p>Rende: <strong>1x</strong></p><ul><li><img src="/assets/items/corda.png" class="mini-icon"> 2x <a href="/items/materials/_items/corda/">Corda</a></li><li><img src="/assets/items/ferro.png" class="mini-icon"> 1x <a href="/items/materials/_items/ferro/">Barra de Ferro</a></li></ul></div></div></div>

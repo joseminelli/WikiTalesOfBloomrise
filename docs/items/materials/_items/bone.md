@@ -11,4 +11,8 @@ title: Osso
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Um osso branco e resistente, provavelmente de um esqueleto. Sinceramente não sei por que alguém guardaria isso.</p></div>
+<div class="item-section">
+<h2>📍 Como Obter</h2>
+  <p>⚔️ **Combate:** Dropado por criaturas ao derrotá-las em combate nas dungeons ou arredores da vila.</p>
+</div>
 </div>

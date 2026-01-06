@@ -147,6 +147,42 @@ def slug(text: str):
     text = re.sub(r"[^a-z0-9]+", "-", text)
     return text.strip("-")
 
+def get_how_to_obtain(item, item_id, recipes, used_in):
+    # 1. Crafting (Prioridade alta: se tem receita, é fabricável)
+    if item_id in recipes:
+        return "🔨 **Crafting:** Este item pode ser fabricado em uma bancada ou forja utilizando os materiais necessários."
+
+    # 2. Drops de Monstros (Baseado em palavras-chave comuns de loot)
+    monster_keywords = ["fang", "fantasma", "veneno", "slime", "morcego", "bone", "rat", "zombie"]
+    if any(key in item_id.lower() for key in monster_keywords):
+        return "⚔️ **Combate:** Dropado por criaturas ao derrotá-las em combate nas dungeons ou arredores da vila."
+
+    # 3. Flores e Plantas Silvestres (Coleta vs Cultivo)
+    i_type = item.get("itemType", "")
+    if i_type == "Flower":
+        return "🌸 **Coleta:** Cresce naturalmente pelo mundo. Pode ser colhida durante as estações corretas."
+    
+    if "seed" in item_id.lower():
+        return "📦 **Comércio:** Geralmente comprada na Loja de flores perto da casa do Lupi ou encontrada explorando."
+    
+    if i_type == "Plant":
+        return "🌱 **Cultivo:** Deve ser plantado a partir de sementes e colhido na fazenda após o tempo de crescimento."
+    
+    plant_keywords = ["abobora", "wheat", "batata", "cebola", "cenoura", "corn", "grape", "strawberry", "turnip", "tomato"]
+    if any(key in item_id.lower() for key in plant_keywords):
+        return "🌱 **Cultivo:** Deve ser plantado a partir de sementes e colhido na fazenda após o tempo de crescimento."
+    # 4. Mineração
+    mining_keywords = ["ore", "pedra", "carvao", "iron", "gold", "crystal", "copper", "diamante", "chromita", "Diamante", "esmeralma", "ametista"]
+    if any(key in item_id.lower() for key in mining_keywords):
+        return "⛏️ **Mineração:** Extraído de rochas e veios de minério dentro das cavernas ou ruínas."
+
+    fishing_keywords = ["herring", "chub", "rainbowtr", "sardinha", "tilapia"]
+    if any(key in item_id.lower() for key in fishing_keywords):
+        return "🎣 **Pesca:** Pode ser pescado em rios, lagos e mares com uma vara de pesca."
+
+    # Fallback
+    return "🌍 **Exploração:** Pode ser encontrado em baús, quebrando barris, como recompensa de moradores ou comprando em lojas."
+
 # ========================
 # Page builders
 # ========================
@@ -159,13 +195,18 @@ def write_item_page(item, locale, category, recipes, used_in, item_map):
     name = t(locale, item.get("nameKey"), item_id.replace("_", " "))
     description = t(locale, item.get("descriptionKey"), "")
     icon = resolve_item_icon(item_id)
+    obtain_method = get_how_to_obtain(item, item_id, recipes, used_in)
 
     with open(page, "w", encoding="utf-8") as md:
         md.write(f"---\ntitle: {name}\n---\n\n<div class=\"item-page\">\n")
         md.write(f"<div class=\"item-header\">\n  <img src=\"{ICON_PATH}/{icon}\" class=\"item-icon\" alt=\"{name}\">\n")
         md.write(f"  <div class=\"item-info\">\n    <h1>{name}</h1>\n    <span class=\"item-category\" data-category=\"{category}\">{getCategoryTitle(category)}</span>\n  </div>\n</div>\n")
         md.write(f"<div class=\"item-section\"><h2>📝 Descrição</h2><p>{description or 'Sem descrição disponível.'}</p></div>\n")
-        
+        md.write(f"""<div class="item-section">
+<h2>📍 Como Obter</h2>
+  <p>{obtain_method}</p>
+</div>
+""")
         # Efeitos
         effects = []
         if item.get("healthValue", 0) > 0: effects.append(f"❤️ Vida +{item['healthValue']}")

@@ -11,4 +11,8 @@ title: Esmeralma
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Brilho suave, energia tranquila. Dizem que atrai sorte... espero que sem fantasmas.</p></div>
+<div class="item-section">
+<h2>📍 Como Obter</h2>
+  <p>⛏️ **Mineração:** Extraído de rochas e veios de minério dentro das cavernas ou ruínas.</p>
+</div>
 <div class="item-section used-in"><h2>🛠️ Usado para criar</h2><div class="used-grid"><a href="/items/equipment/_items/soulmeraldsword/" class="mini-card"><img src="/assets/items/soulmeraldsword.png"><span>Espada de Esmeralma</span></a></div></div></div>

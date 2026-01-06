@@ -11,4 +11,8 @@ title: Flor Azul Grande
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Uma flor azul grande e rara da floresta, muito apreciada em receitas mágicas.</p></div>
+<div class="item-section">
+<h2>📍 Como Obter</h2>
+  <p>🌸 **Coleta:** Cresce naturalmente pelo mundo. Pode ser colhida durante as estações corretas.</p>
+</div>
 </div>

@@ -11,4 +11,8 @@ title: Herring
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Um peixe pequeno e oleoso do oceano, que vive em grandes cardumes. Dizem que seu sabor é mais forte.</p></div>
+<div class="item-section">
+<h2>📍 Como Obter</h2>
+  <p>🎣 **Pesca:** Pode ser pescado em rios, lagos e mares com uma vara de pesca.</p>
+</div>
 </div>

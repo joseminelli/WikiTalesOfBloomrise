@@ -11,4 +11,8 @@ title: Chub
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Um peixe de rio comum e surpreendentemente resistente. Não é muito saboroso, mas dá uma boa briga.</p></div>
+<div class="item-section">
+<h2>📍 Como Obter</h2>
+  <p>🎣 **Pesca:** Pode ser pescado em rios, lagos e mares com uma vara de pesca.</p>
+</div>
 <div class="item-section used-in"><h2>🛠️ Usado para criar</h2><div class="used-grid"><a href="/items/consumables_hp/_items/ensopadopeixe/" class="mini-card"><img src="/assets/items/ensopadopeixe.png"><span>Ensopado de Peixe</span></a></div></div></div>

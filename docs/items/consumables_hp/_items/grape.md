@@ -11,4 +11,8 @@ title: Uva
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Cacho de uvas escuras, cobertas por uma fina névoa. Cada uva explode com um sabor doce e refrescante. O primeiro passo para um suco fino ou um vinho renomado.</p></div>
+<div class="item-section">
+<h2>📍 Como Obter</h2>
+  <p>🌱 **Cultivo:** Deve ser plantado a partir de sementes e colhido na fazenda após o tempo de crescimento.</p>
+</div>
 <div class="item-section"><h2>✨ Efeitos</h2><ul><li>❤️ Vida +3.0</li></ul></div><div class="item-section used-in"><h2>🛠️ Usado para criar</h2><div class="used-grid"><a href="/items/consumables_energy/_items/sucouva/" class="mini-card"><img src="/assets/items/sucouva.png"><span>Suco de Uva</span></a><a href="/items/consumables_energy/_items/vinho/" class="mini-card"><img src="/assets/items/vinho.png"><span>Vinho</span></a></div></div></div>

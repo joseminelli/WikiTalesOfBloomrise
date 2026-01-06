@@ -11,4 +11,8 @@ title: Semente de Batata
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Um saquinho de sementes de batata, prontas para crescer em tubérculos robustos e nutritivos.</p></div>
+<div class="item-section">
+<h2>📍 Como Obter</h2>
+  <p>📦 **Comércio:** Geralmente comprada na Loja de flores perto da casa do Lupi ou encontrada explorando.</p>
+</div>
 </div>

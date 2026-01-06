@@ -11,4 +11,8 @@ title: Cama de Casal Verde Militar
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Uma cama de casal robusta, com tecido verde militar, perfeita para descansar depois de um longo dia. (mecânica em desenvolvimento)</p></div>
+<div class="item-section">
+<h2>📍 Como Obter</h2>
+  <p>🌍 **Exploração:** Pode ser encontrado em baús, quebrando barris, como recompensa de moradores ou comprando em lojas.</p>
+</div>
 </div>

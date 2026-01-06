@@ -11,4 +11,8 @@ title: Cérebro de Zumbi
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Ainda meio molenga. Cientificamente inútil. Socialmente desconfortável.</p></div>
+<div class="item-section">
+<h2>📍 Como Obter</h2>
+  <p>⚔️ **Combate:** Dropado por criaturas ao derrotá-las em combate nas dungeons ou arredores da vila.</p>
+</div>
 </div>

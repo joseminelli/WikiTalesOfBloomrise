@@ -11,4 +11,8 @@ title: Parafuso
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Um parafuso de metal, usado para fixar coisas. Pode ser útil em reparos ou construções no futuro.</p></div>
+<div class="item-section">
+<h2>📍 Como Obter</h2>
+  <p>🌍 **Exploração:** Pode ser encontrado em baús, quebrando barris, como recompensa de moradores ou comprando em lojas.</p>
+</div>
 </div>

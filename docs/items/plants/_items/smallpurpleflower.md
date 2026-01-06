@@ -11,4 +11,8 @@ title: Flor Roxa Pequena
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Uma flor roxa pequena e delicada, comum nas bordas da floresta.</p></div>
+<div class="item-section">
+<h2>📍 Como Obter</h2>
+  <p>🌸 **Coleta:** Cresce naturalmente pelo mundo. Pode ser colhida durante as estações corretas.</p>
+</div>
 </div>

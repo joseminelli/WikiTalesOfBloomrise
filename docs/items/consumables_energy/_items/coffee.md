@@ -11,4 +11,8 @@ title: Café
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Amargo, quente e perigosamente eficaz. Restaura 4 de Energia e aumenta a atenção (ou a ansiedade).</p></div>
+<div class="item-section">
+<h2>📍 Como Obter</h2>
+  <p>🌍 **Exploração:** Pode ser encontrado em baús, quebrando barris, como recompensa de moradores ou comprando em lojas.</p>
+</div>
 <div class="item-section"><h2>✨ Efeitos</h2><ul><li>⚡ Energia +10.0</li></ul></div></div>

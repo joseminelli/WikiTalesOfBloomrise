@@ -11,4 +11,8 @@ title: Girassol
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Flor vibrante que parece sorrir para o sol. Embora seja linda como decoração, suas sementes torradas são um lanche popular na vila.</p></div>
+<div class="item-section">
+<h2>📍 Como Obter</h2>
+  <p>🌸 **Coleta:** Cresce naturalmente pelo mundo. Pode ser colhida durante as estações corretas.</p>
+</div>
 <div class="item-section used-in"><h2>🛠️ Usado para criar</h2><div class="used-grid"><a href="/items/materials/_items/oleo-vegetal/" class="mini-card"><img src="/assets/items/oleo-vegetal.png"><span>Óleo vegetal</span></a></div></div></div>

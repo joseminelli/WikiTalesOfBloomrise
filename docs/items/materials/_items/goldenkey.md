@@ -11,4 +11,8 @@ title: Chave Dourada
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Brilhante, misteriosa e claramente importante. Não perca.</p></div>
+<div class="item-section">
+<h2>📍 Como Obter</h2>
+  <p>⛏️ **Mineração:** Extraído de rochas e veios de minério dentro das cavernas ou ruínas.</p>
+</div>
 </div>

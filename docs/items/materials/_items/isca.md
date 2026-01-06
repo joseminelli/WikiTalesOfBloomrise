@@ -11,4 +11,8 @@ title: Isca de Peixe
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Uma mistura especial que atrai peixes para a sua linha. Anexe à vara de pesca para aumentar a chance de fisgadas.</p></div>
+<div class="item-section">
+<h2>📍 Como Obter</h2>
+  <p>🌍 **Exploração:** Pode ser encontrado em baús, quebrando barris, como recompensa de moradores ou comprando em lojas.</p>
+</div>
 </div>

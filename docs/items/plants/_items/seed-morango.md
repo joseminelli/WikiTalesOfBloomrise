@@ -11,4 +11,8 @@ title: Semente de Morango
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Um saquinho de sementes de morango, prontas para render frutas doces e suculentas.</p></div>
+<div class="item-section">
+<h2>📍 Como Obter</h2>
+  <p>📦 **Comércio:** Geralmente comprada na Loja de flores perto da casa do Lupi ou encontrada explorando.</p>
+</div>
 </div>

@@ -11,4 +11,8 @@ title: Baú
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Um baú simples para guardar itens importantes e manter tudo organizado. (mecânica em desenvolvimento)</p></div>
+<div class="item-section">
+<h2>📍 Como Obter</h2>
+  <p>🌍 **Exploração:** Pode ser encontrado em baús, quebrando barris, como recompensa de moradores ou comprando em lojas.</p>
+</div>
 </div>

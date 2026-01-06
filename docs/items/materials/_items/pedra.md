@@ -11,4 +11,8 @@ title: Pedra
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Um pedaço de rocha comum, mas com mil e uma utilidades. Serve para construir, arremessar… ou apenas guardar no bolso, por precaução.</p></div>
+<div class="item-section">
+<h2>📍 Como Obter</h2>
+  <p>⛏️ **Mineração:** Extraído de rochas e veios de minério dentro das cavernas ou ruínas.</p>
+</div>
 </div>

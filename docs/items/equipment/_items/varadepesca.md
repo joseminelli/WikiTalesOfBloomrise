@@ -11,4 +11,8 @@ title: Vara de Pesca
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Uma vara de pesca simples, mas confiável. O primeiro passo para se tornar um mestre pescador. Pode ser usada em área de pesca.</p></div>
+<div class="item-section">
+<h2>📍 Como Obter</h2>
+  <p>🌍 **Exploração:** Pode ser encontrado em baús, quebrando barris, como recompensa de moradores ou comprando em lojas.</p>
+</div>
 </div>

@@ -11,4 +11,8 @@ title: Flor Roxa Grande
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Uma flor roxa grande com pétalas brilhantes, usada em poções especiais.</p></div>
+<div class="item-section">
+<h2>📍 Como Obter</h2>
+  <p>🌸 **Coleta:** Cresce naturalmente pelo mundo. Pode ser colhida durante as estações corretas.</p>
+</div>
 </div>

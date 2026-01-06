@@ -11,4 +11,8 @@ title: Guia de Criação
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Um guia detalhado que ensina como criar diversos itens úteis e ferramentas essenciais para a aventura em Bloomrise. Inclui receitas para armas, utensílios e outros equipamentos necessários para sobreviver e prosperar na vila.</p></div>
+<div class="item-section">
+<h2>📍 Como Obter</h2>
+  <p>🌍 **Exploração:** Pode ser encontrado em baús, quebrando barris, como recompensa de moradores ou comprando em lojas.</p>
+</div>
 </div>

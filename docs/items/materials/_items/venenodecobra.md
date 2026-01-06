@@ -11,4 +11,8 @@ title: Veneno de Cobra
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Um líquido esverdeado retirado das presas de serpente. Enfraquece lentamente quem entra em contato.</p></div>
+<div class="item-section">
+<h2>📍 Como Obter</h2>
+  <p>⚔️ **Combate:** Dropado por criaturas ao derrotá-las em combate nas dungeons ou arredores da vila.</p>
+</div>
 </div>

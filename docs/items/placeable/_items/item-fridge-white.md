@@ -11,4 +11,8 @@ title: Geladeira Branca
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Uma geladeira simples e branca, perfeita para manter comidas e bebidas frescas. (mecânica em desenvolvimento)</p></div>
+<div class="item-section">
+<h2>📍 Como Obter</h2>
+  <p>🌍 **Exploração:** Pode ser encontrado em baús, quebrando barris, como recompensa de moradores ou comprando em lojas.</p>
+</div>
 </div>

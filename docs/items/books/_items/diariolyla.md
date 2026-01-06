@@ -11,4 +11,8 @@ title: Diário da Lyla
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>O diário pessoal de Lyla Quinn, uma jovem aventureira que recentemente se mudou para Bloomrise. Suas páginas estão cheias de pensamentos, experiências e descobertas sobre a vida na vila e suas interações com os moradores locais.</p></div>
+<div class="item-section">
+<h2>📍 Como Obter</h2>
+  <p>🌍 **Exploração:** Pode ser encontrado em baús, quebrando barris, como recompensa de moradores ou comprando em lojas.</p>
+</div>
 </div>

@@ -11,4 +11,8 @@ title: Semente de Milho
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Sementes douradas de milho, símbolo de fartura e colheitas generosas.</p></div>
+<div class="item-section">
+<h2>📍 Como Obter</h2>
+  <p>📦 **Comércio:** Geralmente comprada na Loja de flores perto da casa do Lupi ou encontrada explorando.</p>
+</div>
 </div>

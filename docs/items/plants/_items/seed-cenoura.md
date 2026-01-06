@@ -11,4 +11,8 @@ title: Semente de Cenoura
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Um pequeno saquinho com sementes de cenoura. Prontas para serem plantadas e cultivadas.</p></div>
+<div class="item-section">
+<h2>📍 Como Obter</h2>
+  <p>📦 **Comércio:** Geralmente comprada na Loja de flores perto da casa do Lupi ou encontrada explorando.</p>
+</div>
 </div>

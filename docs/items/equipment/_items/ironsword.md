@@ -11,4 +11,8 @@ title: Espada da Rayy
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Afiada e satisfatória de balançar. A fiel espada forjada por alguém especial que não sabia exatamente o que estava fazendo, mas fez um ótimo trabalho!</p></div>
+<div class="item-section">
+<h2>📍 Como Obter</h2>
+  <p>⛏️ **Mineração:** Extraído de rochas e veios de minério dentro das cavernas ou ruínas.</p>
+</div>
 <div class="item-section used-in"><h2>🛠️ Usado para criar</h2><div class="used-grid"><a href="/items/equipment/_items/goldsword/" class="mini-card"><img src="/assets/items/goldsword.png"><span>Espada de Ouro</span></a></div></div></div>

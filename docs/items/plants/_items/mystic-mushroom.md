@@ -11,4 +11,8 @@ title: Cogumelo Místico
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Um raro cogumelo que brilha suavemente na escuridão da Caverna Mística. Dizem que ele reage à presença de energia antiga.</p></div>
+<div class="item-section">
+<h2>📍 Como Obter</h2>
+  <p>🌸 **Coleta:** Cresce naturalmente pelo mundo. Pode ser colhida durante as estações corretas.</p>
+</div>
 <div class="item-section used-in"><h2>🛠️ Usado para criar</h2><div class="used-grid"><a href="/items/consumables_hp/_items/donutsmistico/" class="mini-card"><img src="/assets/items/donutsmistico.png"><span>Donut Místico</span></a></div></div></div>

@@ -11,4 +11,8 @@ title: Abajur Alto Azul
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Um abajur alto com tom azul suave, perfeito para iluminar cantinhos da casa. (mecânica em desenvolvimento)</p></div>
+<div class="item-section">
+<h2>📍 Como Obter</h2>
+  <p>🌍 **Exploração:** Pode ser encontrado em baús, quebrando barris, como recompensa de moradores ou comprando em lojas.</p>
+</div>
 </div>

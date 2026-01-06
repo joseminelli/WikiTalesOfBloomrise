@@ -11,4 +11,8 @@ title: Cookie
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Um petisco crocante. Restaura um pouco de esperança e algumas memórias boas.</p></div>
+<div class="item-section">
+<h2>📍 Como Obter</h2>
+  <p>🌍 **Exploração:** Pode ser encontrado em baús, quebrando barris, como recompensa de moradores ou comprando em lojas.</p>
+</div>
 <div class="item-section"><h2>✨ Efeitos</h2><ul><li>❤️ Vida +3.0</li></ul></div></div>

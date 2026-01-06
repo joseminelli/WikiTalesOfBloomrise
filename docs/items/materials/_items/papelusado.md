@@ -11,4 +11,8 @@ title: Papel Usado
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Um pedaço de papel amassado, com algumas anotações rabiscadas. Parece que alguém estava tentando lembrar de algo importante, mas parece meio inútil agora.</p></div>
+<div class="item-section">
+<h2>📍 Como Obter</h2>
+  <p>🌍 **Exploração:** Pode ser encontrado em baús, quebrando barris, como recompensa de moradores ou comprando em lojas.</p>
+</div>
 </div>

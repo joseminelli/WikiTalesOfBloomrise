@@ -11,4 +11,8 @@ title: Barra de Ouro
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Brilhante e valioso. Perfeito para criar itens especiais. As moedas de Bloomrise não são feitas disso, mas deveriam ser.</p></div>
+<div class="item-section">
+<h2>📍 Como Obter</h2>
+  <p>🔨 **Crafting:** Este item pode ser fabricado em uma bancada ou forja utilizando os materiais necessários.</p>
+</div>
 <div class="item-section crafting"><h2>🔨 Como Criar</h2><div class="recipe-box"><p>Rende: <strong>1x</strong></p><ul><li><img src="/assets/items/goldore.png" class="mini-icon"> 2x <a href="/items/materials/_items/goldore/">Minério de Ouro</a></li><li><img src="/assets/items/carvao.png" class="mini-icon"> 1x <a href="/items/materials/_items/carvao/">Carvão</a></li></ul></div></div><div class="item-section used-in"><h2>🛠️ Usado para criar</h2><div class="used-grid"><a href="/items/equipment/_items/goldsword/" class="mini-card"><img src="/assets/items/goldsword.png"><span>Espada de Ouro</span></a><a href="/items/materials/_items/cpu/" class="mini-card"><img src="/assets/items/cpu.png"><span>CPU</span></a></div></div></div>

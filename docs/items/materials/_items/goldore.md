@@ -11,4 +11,8 @@ title: Minério de Ouro
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Um minério brilhante e valioso, Pode ser processado na forja para criar uma barra de ouro.</p></div>
+<div class="item-section">
+<h2>📍 Como Obter</h2>
+  <p>⛏️ **Mineração:** Extraído de rochas e veios de minério dentro das cavernas ou ruínas.</p>
+</div>
 <div class="item-section used-in"><h2>🛠️ Usado para criar</h2><div class="used-grid"><a href="/items/materials/_items/ouro/" class="mini-card"><img src="/assets/items/ouro.png"><span>Barra de Ouro</span></a></div></div></div>

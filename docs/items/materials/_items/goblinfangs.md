@@ -11,4 +11,8 @@ title: Presa de Goblin
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Troféus pontiagudos arrancados da boca de um goblin. Não são mágicas, só meio assustadoras.</p></div>
+<div class="item-section">
+<h2>📍 Como Obter</h2>
+  <p>⚔️ **Combate:** Dropado por criaturas ao derrotá-las em combate nas dungeons ou arredores da vila.</p>
+</div>
 </div>

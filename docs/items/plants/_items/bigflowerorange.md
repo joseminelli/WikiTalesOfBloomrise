@@ -11,4 +11,8 @@ title: Flor Laranja Grande
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Uma flor laranja grande e difícil de encontrar, ingrediente chave em elixires energéticos.</p></div>
+<div class="item-section">
+<h2>📍 Como Obter</h2>
+  <p>🌸 **Coleta:** Cresce naturalmente pelo mundo. Pode ser colhida durante as estações corretas.</p>
+</div>
 </div>

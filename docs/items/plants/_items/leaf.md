@@ -11,4 +11,8 @@ title: Folha
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Uma folha verde simples obtida ao coletar árvores ou cortar grama. Artesãos e alquimistas juram que ela tem usos especiais.</p></div>
+<div class="item-section">
+<h2>📍 Como Obter</h2>
+  <p>🌱 **Cultivo:** Deve ser plantado a partir de sementes e colhido na fazenda após o tempo de crescimento.</p>
+</div>
 <div class="item-section used-in"><h2>🛠️ Usado para criar</h2><div class="used-grid"><a href="/items/placeable/_items/farmplot/" class="mini-card"><img src="/assets/items/farmplot.png"><span>Pacote de Terra</span></a><a href="/items/materials/_items/corda/" class="mini-card"><img src="/assets/items/corda.png"><span>Corda</span></a></div></div></div>

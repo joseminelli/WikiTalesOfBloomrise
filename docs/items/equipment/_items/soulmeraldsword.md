@@ -11,4 +11,8 @@ title: Espada de Esmeralma
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Feita de esmeralma, brilha intensamente. Sua energia canalizada resulta em golpes notavelmente mais fortes que a ametista e aumenta seu alcance consideravelmente.</p></div>
+<div class="item-section">
+<h2>📍 Como Obter</h2>
+  <p>🔨 **Crafting:** Este item pode ser fabricado em uma bancada ou forja utilizando os materiais necessários.</p>
+</div>
 <div class="item-section crafting"><h2>🔨 Como Criar</h2><div class="recipe-box"><p>Rende: <strong>1x</strong></p><ul><li><img src="/assets/items/ametistsword.png" class="mini-icon"> 1x <a href="/items/equipment/_items/ametistsword/">Espada de Ametista</a></li><li><img src="/assets/items/esmeralma.png" class="mini-icon"> 4x <a href="/items/materials/_items/esmeralma/">Esmeralma</a></li></ul></div></div></div>

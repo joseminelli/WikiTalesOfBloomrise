@@ -11,4 +11,8 @@ title: Guia do Aventureiro
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Um caderno azul com retalhos costurados à mão. Dentro, há missões importantes para toda a vila, e no fim... algumas dicas estranhamente precisas. A letra é caprichada, mas você não sabe ao certo de quem é.</p></div>
+<div class="item-section">
+<h2>📍 Como Obter</h2>
+  <p>🌍 **Exploração:** Pode ser encontrado em baús, quebrando barris, como recompensa de moradores ou comprando em lojas.</p>
+</div>
 </div>

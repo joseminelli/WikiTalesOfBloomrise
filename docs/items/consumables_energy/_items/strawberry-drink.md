@@ -11,4 +11,8 @@ title: Suco de Morango
   </div>
 </div>
 <div class="item-section"><h2>📝 Descrição</h2><p>Doce, rosa e cheia de energia. Sempre uma boa pedida para recarregar as baterias.</p></div>
+<div class="item-section">
+<h2>📍 Como Obter</h2>
+  <p>🌱 **Cultivo:** Deve ser plantado a partir de sementes e colhido na fazenda após o tempo de crescimento.</p>
+</div>
 <div class="item-section"><h2>✨ Efeitos</h2><ul><li>⚡ Energia +4.0</li></ul></div></div>
