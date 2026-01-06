@@ -30,4 +30,9 @@ jobs:
       - name: Deploy to GitHub Pages
         run: |
           pip install mkdocs-material
+          mkdocs gh-deploy --force --remote-name origin --message "Deploying with CNAME"
+        env:
+          # Se o comando acima não preservar o CNAME, você pode forçar via MkDocs:
+        run: |
+          pip install mkdocs-material
           mkdocs gh-deploy --force
