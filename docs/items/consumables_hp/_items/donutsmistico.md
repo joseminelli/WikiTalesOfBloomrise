@@ -1,18 +1,41 @@
 ---
-title: Donut Místico
+title: "Donut Místico"
 ---
 
 <div class="item-page">
 <div class="item-header">
-  <img src="/assets/items/donutsmistico.png" class="item-icon" alt="Donut Místico">
-  <div class="item-info">
-    <h1>Donut Místico</h1>
-    <span class="item-category" data-category="consumables_hp">Consumíveis — Vida</span>
+   <img src="/assets/items/donutsmistico.png" class="item-icon" alt="Donut Místico">
+   <div class="item-info">
+     <h1 class="item-title">Donut Místico</h1>
+     <span class="item-category" data-category="consumables_hp">Consumíveis — Vida</span>
+   </div>
+</div>
+
+<div class="item-section">
+  <div class="flavor-text">
+    <span class="icon-label">📝 Descrição</span>
+    <p>Um donut incomum feito com cogumelos luminescentes da caverna. Tem um sabor... inesperado e energizante.</p>
+  </div>
+</div><br>
+
+<div class="item-section">
+  <div class="obtain-box">
+    <span class="icon-label">📍 Como Obter</span>
+    <div class="obtain-content">🔨 <strong>Crafting:</strong> Este item pode ser fabricado em uma bancada ou forja utilizando os materiais necessários.</div>
   </div>
 </div>
-<div class="item-section"><h2>📝 Descrição</h2><p>Um donut incomum feito com cogumelos luminescentes da caverna. Tem um sabor... inesperado e energizante.</p></div>
-<div class="item-section">
-<h2>📍 Como Obter</h2>
-  <p>🔨 **Crafting:** Este item pode ser fabricado em uma bancada ou forja utilizando os materiais necessários.</p>
-</div>
-<div class="item-section"><h2>✨ Efeitos</h2><ul><li>❤️ Vida +15.0</li></ul></div><div class="item-section crafting"><h2>🔨 Como Criar</h2><div class="recipe-box"><p>Rende: <strong>1x</strong></p><ul><li><img src="/assets/items/wheat.png" class="mini-icon"> 3x <a href="/items/materials/_items/wheat/">Trigo</a></li><li><img src="/assets/items/mystic-mushroom.png" class="mini-icon"> 3x <a href="/items/plants/_items/mystic-mushroom/">Cogumelo Místico</a></li><li><img src="/assets/items/fungdrop.png" class="mini-icon"> 2x <a href="/items/consumables_hp/_items/fungdrop/">Cogumelo Fungi</a></li></ul></div></div></div>
+
+<div class="item-section"><h3>✨ Atributos</h3><div class="effects-grid"><div class='effect-tag'>❤️ **Vida:** +15.0</div></div></div>
+<div class="item-section"><h2>🔨 Como Criar</h2><p class="yield-text" style="margin-bottom: 0.5rem; font-size: 0.9rem; opacity: 0.8;">Rende: <strong>1x</strong></p><div class="used-grid">
+    <a href="/items/materials/_items/wheat/" class="mini-card">
+        <img src="/assets/items/wheat.png" alt="Trigo">
+        <span>3x Trigo</span>
+    </a>
+    <a href="/items/plants/_items/mystic-mushroom/" class="mini-card">
+        <img src="/assets/items/mystic-mushroom.png" alt="Cogumelo Místico">
+        <span>3x Cogumelo Místico</span>
+    </a>
+    <a href="/items/consumables_hp/_items/fungdrop/" class="mini-card">
+        <img src="/assets/items/fungdrop.png" alt="Cogumelo Fungi">
+        <span>2x Cogumelo Fungi</span>
+    </a></div></div></div>

@@ -1,18 +1,28 @@
 ---
-title: Sofá Grande Verde Militar
+title: "Sofá Grande Verde Militar"
 ---
 
 <div class="item-page">
 <div class="item-header">
-  <img src="/assets/items/sofaduploverdemilitar.png" class="item-icon" alt="Sofá Grande Verde Militar">
-  <div class="item-info">
-    <h1>Sofá Grande Verde Militar</h1>
-    <span class="item-category" data-category="placeable">Itens Posicionáveis</span>
+   <img src="/assets/items/sofaduploverdemilitar.png" class="item-icon" alt="Sofá Grande Verde Militar">
+   <div class="item-info">
+     <h1 class="item-title">Sofá Grande Verde Militar</h1>
+     <span class="item-category" data-category="placeable">Itens Posicionáveis</span>
+   </div>
+</div>
+
+<div class="item-section">
+  <div class="flavor-text">
+    <span class="icon-label">📝 Descrição</span>
+    <p>Um sofá grande e robusto de cor verde militar, ideal para dar um ar rústico ao ambiente. (mecânica em desenvolvimento)</p>
+  </div>
+</div><br>
+
+<div class="item-section">
+  <div class="obtain-box">
+    <span class="icon-label">📍 Como Obter</span>
+    <div class="obtain-content">🌍 <strong>Exploração:</strong> Pode ser encontrado em baús, quebrando barris, como recompensa de moradores ou comprando em lojas.</div>
   </div>
 </div>
-<div class="item-section"><h2>📝 Descrição</h2><p>Um sofá grande e robusto de cor verde militar, ideal para dar um ar rústico ao ambiente. (mecânica em desenvolvimento)</p></div>
-<div class="item-section">
-<h2>📍 Como Obter</h2>
-  <p>🌍 **Exploração:** Pode ser encontrado em baús, quebrando barris, como recompensa de moradores ou comprando em lojas.</p>
-</div>
+
 </div>

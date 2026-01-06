@@ -150,38 +150,38 @@ def slug(text: str):
 def get_how_to_obtain(item, item_id, recipes, used_in):
     # 1. Crafting (Prioridade alta: se tem receita, é fabricável)
     if item_id in recipes:
-        return "🔨 **Crafting:** Este item pode ser fabricado em uma bancada ou forja utilizando os materiais necessários."
+        return "🔨 <strong>Crafting:</strong> Este item pode ser fabricado em uma bancada ou forja utilizando os materiais necessários."
 
     # 2. Drops de Monstros (Baseado em palavras-chave comuns de loot)
     monster_keywords = ["fang", "fantasma", "veneno", "slime", "morcego", "bone", "rat", "zombie"]
     if any(key in item_id.lower() for key in monster_keywords):
-        return "⚔️ **Combate:** Dropado por criaturas ao derrotá-las em combate nas dungeons ou arredores da vila."
+        return "⚔️ <strong>Combate:</strong> Dropado por criaturas ao derrotá-las em combate nas dungeons ou arredores da vila."
 
     # 3. Flores e Plantas Silvestres (Coleta vs Cultivo)
     i_type = item.get("itemType", "")
     if i_type == "Flower":
-        return "🌸 **Coleta:** Cresce naturalmente pelo mundo. Pode ser colhida durante as estações corretas."
+        return "🌸 <strong>Coleta:</strong> Cresce naturalmente pelo mundo. Pode ser colhida durante as estações corretas."
     
     if "seed" in item_id.lower():
-        return "📦 **Comércio:** Geralmente comprada na Loja de flores perto da casa do Lupi ou encontrada explorando."
+        return "📦 <strong>Comércio:</strong> Geralmente comprada na Loja de flores perto da casa do Lupi ou encontrada explorando."
     
     if i_type == "Plant":
-        return "🌱 **Cultivo:** Deve ser plantado a partir de sementes e colhido na fazenda após o tempo de crescimento."
-    
+        return "🌱 <strong>Cultivo:</strong> Deve ser plantado a partir de sementes e colhido na fazenda após o tempo de crescimento."
+
     plant_keywords = ["abobora", "wheat", "batata", "cebola", "cenoura", "corn", "grape", "strawberry", "turnip", "tomato"]
     if any(key in item_id.lower() for key in plant_keywords):
-        return "🌱 **Cultivo:** Deve ser plantado a partir de sementes e colhido na fazenda após o tempo de crescimento."
+        return "🌱 <strong>Cultivo:</strong> Deve ser plantado a partir de sementes e colhido na fazenda após o tempo de crescimento."
     # 4. Mineração
     mining_keywords = ["ore", "pedra", "carvao", "iron", "gold", "crystal", "copper", "diamante", "chromita", "Diamante", "esmeralma", "ametista"]
     if any(key in item_id.lower() for key in mining_keywords):
-        return "⛏️ **Mineração:** Extraído de rochas e veios de minério dentro das cavernas ou ruínas."
+        return "⛏️ <strong>Mineração:</strong> Extraído de rochas e veios de minério dentro das cavernas ou ruínas."
 
     fishing_keywords = ["herring", "chub", "rainbowtr", "sardinha", "tilapia"]
     if any(key in item_id.lower() for key in fishing_keywords):
-        return "🎣 **Pesca:** Pode ser pescado em rios, lagos e mares com uma vara de pesca."
+        return "🎣 <strong>Pesca:</strong> Pode ser pescado em rios, lagos e mares com uma vara de pesca."
 
     # Fallback
-    return "🌍 **Exploração:** Pode ser encontrado em baús, quebrando barris, como recompensa de moradores ou comprando em lojas."
+    return "🌍 <strong>Exploração:</strong> Pode ser encontrado em baús, quebrando barris, como recompensa de moradores ou comprando em lojas."
 
 # ========================
 # Page builders
@@ -198,42 +198,65 @@ def write_item_page(item, locale, category, recipes, used_in, item_map):
     obtain_method = get_how_to_obtain(item, item_id, recipes, used_in)
 
     with open(page, "w", encoding="utf-8") as md:
-        md.write(f"---\ntitle: {name}\n---\n\n<div class=\"item-page\">\n")
-        md.write(f"<div class=\"item-header\">\n  <img src=\"{ICON_PATH}/{icon}\" class=\"item-icon\" alt=\"{name}\">\n")
-        md.write(f"  <div class=\"item-info\">\n    <h1>{name}</h1>\n    <span class=\"item-category\" data-category=\"{category}\">{getCategoryTitle(category)}</span>\n  </div>\n</div>\n")
-        md.write(f"<div class=\"item-section\"><h2>📝 Descrição</h2><p>{description or 'Sem descrição disponível.'}</p></div>\n")
-        md.write(f"""<div class="item-section">
-<h2>📍 Como Obter</h2>
-  <p>{obtain_method}</p>
-</div>
-""")
-        # Efeitos
+        md.write(f"---\ntitle: \"{name}\"\n---\n\n")
+        md.write(f"<div class=\"item-page\">\n")
+        
+        # Header com visual de Badge
+        md.write(f"<div class=\"item-header\">\n   <img src=\"{ICON_PATH}/{icon}\" class=\"item-icon\" alt=\"{name}\">\n")
+        md.write(f"   <div class=\"item-info\">\n     <h1 class=\"item-title\">{name}</h1>\n     <span class=\"item-category\" data-category=\"{category}\">{getCategoryTitle(category)}</span>\n   </div>\n</div>\n\n")
+        
+        # Seção de Descrição e Obtenção lado a lado (estilo RPG)
+        md.write(f"<div class=\"item-section\">\n  <div class=\"flavor-text\">\n    <span class=\"icon-label\">📝 Descrição</span>\n    <p>{description or 'Um item misterioso encontrado em Bloomrise.'}</p>\n  </div>\n</div><br>\n\n")
+        
+        md.write(f"<div class=\"item-section\">\n  <div class=\"obtain-box\">\n    <span class=\"icon-label\">📍 Como Obter</span>\n    <div class=\"obtain-content\">{obtain_method}</div>\n  </div>\n</div>\n\n")
+
+        # Efeitos com visual de Atributos
         effects = []
-        if item.get("healthValue", 0) > 0: effects.append(f"❤️ Vida +{item['healthValue']}")
-        if item.get("staminaValue", 0) > 0: effects.append(f"⚡ Energia +{item['staminaValue']}")
+        if item.get("healthValue", 0) > 0: effects.append(f"❤️ **Vida:** +{item['healthValue']}")
+        if item.get("staminaValue", 0) > 0: effects.append(f"⚡ **Energia:** +{item['staminaValue']}")
         if effects:
-            md.write('<div class="item-section"><h2>✨ Efeitos</h2><ul>')
-            for e in effects: md.write(f"<li>{e}</li>")
-            md.write("</ul></div>")
+            md.write('<div class="item-section"><h3>✨ Atributos</h3><div class="effects-grid">')
+            for e in effects: md.write(f"<div class='effect-tag'>{e}</div>")
+            md.write("</div></div>\n")
 
         # Crafting (Como Criar)
         # Verificação case-insensitive da receita
+        # Crafting (Como Criar) - Versão Mini-Cards
         recipe = recipes.get(item_id)
         if recipe:
-            md.write('<div class="item-section crafting"><h2>🔨 Como Criar</h2><div class="recipe-box">')
-            md.write(f'<p>Rende: <strong>{recipe["yield"]}x</strong></p><ul>')
+            md.write('<div class="item-section">')
+            md.write('<h2>🔨 Como Criar</h2>')
+            md.write(f'<p class="yield-text" style="margin-bottom: 0.5rem; font-size: 0.9rem; opacity: 0.8;">Rende: <strong>{recipe["yield"]}x</strong></p>')
+            md.write('<div class="used-grid">') # Reutiliza sua classe de grid flexível
+            
             for ing in recipe["ingredients"]:
                 ing_id_raw = ing["id"]
                 ing_item = item_map.get(ing_id_raw.lower())
                 ing_name = t(locale, ing_item.get("nameKey"), ing_id_raw) if ing_item else ing_id_raw.replace("_", " ").title()
+                icon_ing = resolve_item_icon(ing_id_raw)
+                
+                # Texto formatado: "2x Presa de Goblin"
+                display_text = f"{ing['qty']}x {ing_name}"
                 
                 if ing_item:
                     ing_cat = detect_category(ing_item)
+                    # Caminho relativo para o link do ingrediente
                     ing_link = f"/items/{ing_cat}/_items/{slug(ing_id_raw)}/"
-                    md.write(f'<li><img src="{ICON_PATH}/{resolve_item_icon(ing_id_raw)}" class="mini-icon"> {ing["qty"]}x <a href="{ing_link}">{ing_name}</a></li>')
+                    
+                    md.write(f'''
+    <a href="{ing_link}" class="mini-card">
+        <img src="{ICON_PATH}/{icon_ing}" alt="{ing_name}">
+        <span>{display_text}</span>
+    </a>''')
                 else:
-                    md.write(f'<li><img src="{ICON_PATH}/{resolve_item_icon(ing_id_raw)}" class="mini-icon"> {ing["qty"]}x {ing_name}</li>')
-            md.write("</ul></div></div>")
+                    # Caso o ingrediente não seja um item catalogado (apenas texto)
+                    md.write(f'''
+    <div class="mini-card">
+        <img src="{ICON_PATH}/{icon_ing}" alt="{ing_name}">
+        <span>{display_text}</span>
+    </div>''')
+            
+            md.write('</div></div>')
 
         # Usado em
         used_list = used_in.get(item_id.lower())

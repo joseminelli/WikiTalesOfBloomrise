@@ -1,18 +1,28 @@
 ---
-title: Semente de Morango
+title: "Semente de Morango"
 ---
 
 <div class="item-page">
 <div class="item-header">
-  <img src="/assets/items/seed-morango.png" class="item-icon" alt="Semente de Morango">
-  <div class="item-info">
-    <h1>Semente de Morango</h1>
-    <span class="item-category" data-category="plants">Plantas e Flores</span>
+   <img src="/assets/items/seed-morango.png" class="item-icon" alt="Semente de Morango">
+   <div class="item-info">
+     <h1 class="item-title">Semente de Morango</h1>
+     <span class="item-category" data-category="plants">Plantas e Flores</span>
+   </div>
+</div>
+
+<div class="item-section">
+  <div class="flavor-text">
+    <span class="icon-label">📝 Descrição</span>
+    <p>Um saquinho de sementes de morango, prontas para render frutas doces e suculentas.</p>
+  </div>
+</div><br>
+
+<div class="item-section">
+  <div class="obtain-box">
+    <span class="icon-label">📍 Como Obter</span>
+    <div class="obtain-content">📦 <strong>Comércio:</strong> Geralmente comprada na Loja de flores perto da casa do Lupi ou encontrada explorando.</div>
   </div>
 </div>
-<div class="item-section"><h2>📝 Descrição</h2><p>Um saquinho de sementes de morango, prontas para render frutas doces e suculentas.</p></div>
-<div class="item-section">
-<h2>📍 Como Obter</h2>
-  <p>📦 **Comércio:** Geralmente comprada na Loja de flores perto da casa do Lupi ou encontrada explorando.</p>
-</div>
+
 </div>

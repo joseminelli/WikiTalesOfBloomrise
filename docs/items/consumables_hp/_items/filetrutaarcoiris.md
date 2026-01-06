@@ -1,18 +1,41 @@
 ---
-title: Filé de Truta Arco-Íris
+title: "Filé de Truta Arco-Íris"
 ---
 
 <div class="item-page">
 <div class="item-header">
-  <img src="/assets/items/filetrutaarcoiris.png" class="item-icon" alt="Filé de Truta Arco-Íris">
-  <div class="item-info">
-    <h1>Filé de Truta Arco-Íris</h1>
-    <span class="item-category" data-category="consumables_hp">Consumíveis — Vida</span>
+   <img src="/assets/items/filetrutaarcoiris.png" class="item-icon" alt="Filé de Truta Arco-Íris">
+   <div class="item-info">
+     <h1 class="item-title">Filé de Truta Arco-Íris</h1>
+     <span class="item-category" data-category="consumables_hp">Consumíveis — Vida</span>
+   </div>
+</div>
+
+<div class="item-section">
+  <div class="flavor-text">
+    <span class="icon-label">📝 Descrição</span>
+    <p>Um filé suculento de truta arco-íris. Restaura muita vida e energia.</p>
+  </div>
+</div><br>
+
+<div class="item-section">
+  <div class="obtain-box">
+    <span class="icon-label">📍 Como Obter</span>
+    <div class="obtain-content">🔨 <strong>Crafting:</strong> Este item pode ser fabricado em uma bancada ou forja utilizando os materiais necessários.</div>
   </div>
 </div>
-<div class="item-section"><h2>📝 Descrição</h2><p>Um filé suculento de truta arco-íris. Restaura muita vida e energia.</p></div>
-<div class="item-section">
-<h2>📍 Como Obter</h2>
-  <p>🔨 **Crafting:** Este item pode ser fabricado em uma bancada ou forja utilizando os materiais necessários.</p>
-</div>
-<div class="item-section"><h2>✨ Efeitos</h2><ul><li>❤️ Vida +10.0</li></ul></div><div class="item-section crafting"><h2>🔨 Como Criar</h2><div class="recipe-box"><p>Rende: <strong>1x</strong></p><ul><li><img src="/assets/items/rainbowtrout.png" class="mini-icon"> 1x <a href="/items/materials/_items/rainbowtrout/">Truta Arco-Íris</a></li><li><img src="/assets/items/turnip.png" class="mini-icon"> 1x <a href="/items/consumables_hp/_items/turnip/">Nabo</a></li><li><img src="/assets/items/cenoura.png" class="mini-icon"> 1x <a href="/items/consumables_hp/_items/cenoura/">Cenoura</a></li></ul></div></div></div>
+
+<div class="item-section"><h3>✨ Atributos</h3><div class="effects-grid"><div class='effect-tag'>❤️ **Vida:** +10.0</div></div></div>
+<div class="item-section"><h2>🔨 Como Criar</h2><p class="yield-text" style="margin-bottom: 0.5rem; font-size: 0.9rem; opacity: 0.8;">Rende: <strong>1x</strong></p><div class="used-grid">
+    <a href="/items/materials/_items/rainbowtrout/" class="mini-card">
+        <img src="/assets/items/rainbowtrout.png" alt="Truta Arco-Íris">
+        <span>1x Truta Arco-Íris</span>
+    </a>
+    <a href="/items/consumables_hp/_items/turnip/" class="mini-card">
+        <img src="/assets/items/turnip.png" alt="Nabo">
+        <span>1x Nabo</span>
+    </a>
+    <a href="/items/consumables_hp/_items/cenoura/" class="mini-card">
+        <img src="/assets/items/cenoura.png" alt="Cenoura">
+        <span>1x Cenoura</span>
+    </a></div></div></div>

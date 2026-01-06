@@ -468,3 +468,91 @@
         text-align: center !important;
     }
 }
+
+.item-page {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.item-title {
+    margin: 0 !important;
+    font-size: 2rem !important;
+    color: var(--bloom-accent);
+}
+
+/* Labels com Ícones */
+.icon-label {
+    display: block;
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: var(--bloom-border);
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Flavor Text (Descrição) */
+.flavor-text {
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    border-left: 4px solid var(--bloom-border);
+}
+
+.flavor-text p {
+    font-style: italic;
+    margin: 0;
+    opacity: 0.9;
+}
+
+/* Box de Obtenção */
+.obtain-box {
+    padding: 1rem;
+    background: var(--bloom-card);
+    border: 1px solid var(--bloom-border);
+    border-radius: 8px;
+}
+
+.obtain-content {
+    font-size: 0.95rem;
+}
+
+/* Grid de Efeitos/Atributos */
+.effects-grid {
+    display: flex;
+    gap: 0.8rem;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+}
+
+.effect-tag {
+    background: rgba(64, 203, 159, 0.1);
+    border: 1px solid var(--bloom-border);
+    padding: 0.4rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+/* Ajustes de Títulos de Seção */
+.item-section h3 {
+    margin-top: 1.5rem !important;
+    font-size: 1.1rem !important;
+    border-bottom: 1px dashed var(--bloom-border);
+    padding-bottom: 5px;
+}
+
+/* Melhora o espaçamento dos blocos de Descrição e Obtenção */
+.item-section h2 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: var(--bloom-border);
+}
+
+.item-page .recipe-box {
+    padding: 1.2rem;
+    border-radius: 12px;
+    line-height: 1.6;
+}
