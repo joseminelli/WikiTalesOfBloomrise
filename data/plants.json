@@ -1,0 +1,136 @@
+{
+    "list": [
+        {
+            "id": "DadosAbobora",
+            "initialGrowthTimeSeconds": 600.0,
+            "regrowthTimeSeconds": 300.0,
+            "hasWitheredStage": true,
+            "harvestItemId": "abobora",
+            "maxHarvests": 5,
+            "growthStageCount": 5,
+            "hasHarvestedSprite": true,
+            "hasWitheredSprite": true,
+            "plantPrefab": "Abobora"
+        },
+        {
+            "id": "DadosBatata",
+            "initialGrowthTimeSeconds": 300.0,
+            "regrowthTimeSeconds": 150.0,
+            "hasWitheredStage": false,
+            "harvestItemId": "batata",
+            "maxHarvests": 1,
+            "growthStageCount": 5,
+            "hasHarvestedSprite": true,
+            "hasWitheredSprite": true,
+            "plantPrefab": "Batata"
+        },
+        {
+            "id": "Dadoscebola",
+            "initialGrowthTimeSeconds": 300.0,
+            "regrowthTimeSeconds": 150.0,
+            "hasWitheredStage": false,
+            "harvestItemId": "cebola",
+            "maxHarvests": 1,
+            "growthStageCount": 5,
+            "hasHarvestedSprite": true,
+            "hasWitheredSprite": true,
+            "plantPrefab": "cebola"
+        },
+        {
+            "id": "DadosCenoura",
+            "initialGrowthTimeSeconds": 300.0,
+            "regrowthTimeSeconds": 150.0,
+            "hasWitheredStage": false,
+            "harvestItemId": "cenoura",
+            "maxHarvests": 1,
+            "growthStageCount": 5,
+            "hasHarvestedSprite": true,
+            "hasWitheredSprite": true,
+            "plantPrefab": "Cenoura"
+        },
+        {
+            "id": "DadosGirasol",
+            "initialGrowthTimeSeconds": 300.0,
+            "regrowthTimeSeconds": 150.0,
+            "hasWitheredStage": false,
+            "harvestItemId": "sunflower",
+            "maxHarvests": 1,
+            "growthStageCount": 5,
+            "hasHarvestedSprite": true,
+            "hasWitheredSprite": true,
+            "plantPrefab": "Girasol"
+        },
+        {
+            "id": "DadosDoMilho",
+            "initialGrowthTimeSeconds": 300.0,
+            "regrowthTimeSeconds": 150.0,
+            "hasWitheredStage": true,
+            "harvestItemId": "corn",
+            "maxHarvests": 3,
+            "growthStageCount": 5,
+            "hasHarvestedSprite": true,
+            "hasWitheredSprite": true,
+            "plantPrefab": "Milho"
+        },
+        {
+            "id": "DadosDoMorango",
+            "initialGrowthTimeSeconds": 300.0,
+            "regrowthTimeSeconds": 150.0,
+            "hasWitheredStage": true,
+            "harvestItemId": "Strawberry",
+            "maxHarvests": 3,
+            "growthStageCount": 5,
+            "hasHarvestedSprite": true,
+            "hasWitheredSprite": true,
+            "plantPrefab": "Morango"
+        },
+        {
+            "id": "DadosNabo",
+            "initialGrowthTimeSeconds": 300.0,
+            "regrowthTimeSeconds": 150.0,
+            "hasWitheredStage": false,
+            "harvestItemId": "Turnip",
+            "maxHarvests": 1,
+            "growthStageCount": 5,
+            "hasHarvestedSprite": true,
+            "hasWitheredSprite": true,
+            "plantPrefab": "Nabo"
+        },
+        {
+            "id": "DadosDoTomate",
+            "initialGrowthTimeSeconds": 600.0,
+            "regrowthTimeSeconds": 300.0,
+            "hasWitheredStage": true,
+            "harvestItemId": "tomato",
+            "maxHarvests": 3,
+            "growthStageCount": 5,
+            "hasHarvestedSprite": true,
+            "hasWitheredSprite": true,
+            "plantPrefab": "Tomate"
+        },
+        {
+            "id": "DadosTrigo",
+            "initialGrowthTimeSeconds": 300.0,
+            "regrowthTimeSeconds": 150.0,
+            "hasWitheredStage": false,
+            "harvestItemId": "Wheat",
+            "maxHarvests": 1,
+            "growthStageCount": 5,
+            "hasHarvestedSprite": true,
+            "hasWitheredSprite": true,
+            "plantPrefab": "Trigo"
+        },
+        {
+            "id": "DadosDauva",
+            "initialGrowthTimeSeconds": 300.0,
+            "regrowthTimeSeconds": 150.0,
+            "hasWitheredStage": true,
+            "harvestItemId": "grape",
+            "maxHarvests": 3,
+            "growthStageCount": 5,
+            "hasHarvestedSprite": true,
+            "hasWitheredSprite": true,
+            "plantPrefab": "uva"
+        }
+    ]
+}

@@ -1,0 +1,85 @@
+{
+    "list": [
+        {
+            "id": "BatData",
+            "name": "MONSTER_BAT_NAME",
+            "description": "MONSTER_BAT_LORE",
+            "maxHp": "6 HP",
+            "attack": "1 HP",
+            "biome": "LOCATION_DUNGEON",
+            "lootTable": ""
+        },
+        {
+            "id": "fungidata",
+            "name": "MONSTER_FUNGI_NAME",
+            "description": "MONSTER_FUNGI_LORE",
+            "maxHp": "6 HP",
+            "attack": "2 HP",
+            "biome": "LOCATION_MINES",
+            "lootTable": ""
+        },
+        {
+            "id": "GhostData",
+            "name": "MONSTER_GHOST_NAME",
+            "description": "MONSTER_GHOST_LORE",
+            "maxHp": "6 HP",
+            "attack": "1 HP",
+            "biome": "LOCATION_MYSTERIOUS_FOREST",
+            "lootTable": ""
+        },
+        {
+            "id": "GoblinData",
+            "name": "MONSTER_GOBLIN_NAME",
+            "description": "MONSTER_GOBLIN_LORE",
+            "maxHp": "11 HP",
+            "attack": "2 HP",
+            "biome": "LOCATION_DUNGEON",
+            "lootTable": ""
+        },
+        {
+            "id": "RatData",
+            "name": "MONSTER_RAT_NAME",
+            "description": "MONSTER_RAT_LORE",
+            "maxHp": "6 HP",
+            "attack": "2 HP",
+            "biome": "LOCATION_DUNGEON",
+            "lootTable": ""
+        },
+        {
+            "id": "SkeletonData",
+            "name": "MONSTER_SKELETON_NAME",
+            "description": "MONSTER_SKELETON_LORE",
+            "maxHp": "8 HP",
+            "attack": "2 HP",
+            "biome": "LOCATION_DUNGEON",
+            "lootTable": ""
+        },
+        {
+            "id": "Slimedata",
+            "name": "MONSTER_SLIME_NAME",
+            "description": "MONSTER_SLIME_LORE",
+            "maxHp": "2 HP",
+            "attack": "7 HP",
+            "biome": "LOCATION_DUNGEON",
+            "lootTable": ""
+        },
+        {
+            "id": "SnakeData",
+            "name": "MONSTER_COBRA_NAME",
+            "description": "MONSTER_COBRA_LORE",
+            "maxHp": "8 HP",
+            "attack": "2 HP",
+            "biome": "LOCATION_DUNGEON",
+            "lootTable": ""
+        },
+        {
+            "id": "ZombieData",
+            "name": "MONSTER_ZOMBIE_NAME",
+            "description": "MONSTER_ZOMBIE_LORE",
+            "maxHp": "10 HP",
+            "attack": "3 HP",
+            "biome": "LOCATION_DUNGEON",
+            "lootTable": ""
+        }
+    ]
+}

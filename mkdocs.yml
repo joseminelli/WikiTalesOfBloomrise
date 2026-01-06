@@ -1,0 +1,15 @@
+site_name: Tales of Bloomrise Wiki
+site_url: https://wiki.talesofbloomrise.com
+
+theme:
+  name: material
+  language: pt
+
+nav:
+  - Início: index.md
+  - Itens:
+      - Visão geral: itens/index.md
+      - Materiais: items/materials.md
+      - Consumíveis (Vida): items/consumables_hp.md
+      - Consumíveis (Energia): items/consumables_energy.md
+      - Equipamentos: items/equipment.md
