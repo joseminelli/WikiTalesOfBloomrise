@@ -1,0 +1,17 @@
+---
+title: Girassol
+---
+
+<div class="item-page">
+<div class="item-header">
+  <img src="/assets/items/placeholder.png" class="item-icon" alt="Girassol">
+  <div class="item-info">
+    <h1>Girassol</h1>
+    <span class="item-category">Materiais e Itens Gerais</span>
+  </div>
+</div>
+<div class="item-section">
+  <h2>📝 Descrição</h2>
+  <p>Flor vibrante que parece sorrir para o sol. Embora seja linda como decoração, suas sementes torradas são um lanche popular na vila.</p>
+</div>
+<div class="item-section used-in"><h2>🛠️ Usado para criar</h2><div class="used-grid"><a href="../oleo-vegetal" class="mini-card"><img src="/assets/items/placeholder.png"><span>Óleo vegetal</span></a></div></div></div>

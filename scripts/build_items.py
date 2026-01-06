@@ -1,5 +1,7 @@
 import json
 import csv
+import re
+import unicodedata
 from pathlib import Path
 
 # ========================
@@ -7,18 +9,17 @@ from pathlib import Path
 # ========================
 DATA_FILE = Path("data/items.json")
 LOCALE_FILE = Path("data/pt_BR.csv")
+RECIPES_FILE = Path("data/Export_Recipes.csv")
 
 DOCS_DIR = Path("docs/items")
-ITEM_PAGES_DIR = DOCS_DIR / "_items"
-
 ASSETS_DIR = Path("docs/assets/items")
-ICON_PATH = "../../assets/items"
+ICON_PATH = "/assets/items"
 PLACEHOLDER_IMAGE = "placeholder.png"
 
 FILES = {
     "materials": ("materials.md", "Materiais e Itens Gerais"),
-    "consumable_hp": ("consumables_hp.md", "Consumíveis — Vida"),
-    "consumable_energy": ("consumables_energy.md", "Consumíveis — Energia"),
+    "consumables_hp": ("consumables_hp.md", "Consumíveis — Vida"),
+    "consumables_energy": ("consumables_energy.md", "Consumíveis — Energia"),
     "equipment": ("equipment.md", "Equipamentos"),
 }
 
@@ -33,27 +34,60 @@ def load_locale():
     locale = {}
     with open(LOCALE_FILE, encoding="utf-8") as f:
         reader = csv.reader(f, delimiter=";")
-        next(reader)  # pula header
-
+        next(reader)
         for row in reader:
-            if not row:
-                continue
-
+            if not row: continue
             key = row[0].strip()
             text = ";".join(row[1:]).strip()
-
-            if key:
-                locale[key] = text
-
+            if key: locale[key] = text
     return locale
 
+def load_recipes():
+    recipes = {}
+    used_in = {}
+    
+    if not RECIPES_FILE.exists():
+        print(f"⚠ Aviso: Arquivo de receitas não encontrado em {RECIPES_FILE}")
+        return {}, {}
+
+    with open(RECIPES_FILE, encoding="utf-8") as f:
+        # Usando delimitador vírgula conforme seu Export_Recipes.csv
+        reader = csv.DictReader(f, delimiter=',') 
+        
+        for row in reader:
+            row = {k.strip(): v for k, v in row.items() if k}
+            res_id = row.get('Item Criado (ID)')
+            if not res_id: continue
+            
+            res_id = res_id.strip()
+            ingredients = []
+            
+            for i in range(1, 6):
+                ing_id = row.get(f'Ingrediente {i} (ID)')
+                qty = row.get(f'Qtd {i}')
+                
+                if ing_id and str(ing_id).lower() != "none" and qty:
+                    try:
+                        ing_id = ing_id.strip()
+                        q_val = int(float(qty))
+                        ingredients.append({"id": ing_id, "qty": q_val})
+                        
+                        if ing_id not in used_in: used_in[ing_id] = []
+                        if res_id not in used_in[ing_id]: used_in[ing_id].append(res_id)
+                    except: continue
+            
+            try: yield_qty = int(float(row.get('Quantidade', 1)))
+            except: yield_qty = 1
+
+            recipes[res_id] = {"yield": yield_qty, "ingredients": ingredients}
+            
+    return recipes, used_in
 
 # ========================
 # Helpers
 # ========================
 def t(locale, key, fallback=""):
-    if not key:
-        return fallback
+    if not key: return fallback
     return locale.get(key, fallback or key)
 
 def resolve_item_icon(item_id):
@@ -65,79 +99,124 @@ def resolve_item_icon(item_id):
 def detect_category(item):
     if item.get("toolType") != "None" or item.get("weaponId"):
         return "equipment"
-
     if item.get("isConsumable"):
-        if item.get("healthValue", 0) > 0:
-            return "consumable_hp"
-        if item.get("staminaValue", 0) > 0:
-            return "consumable_energy"
-
+        if item.get("healthValue", 0) > 0: return "consumables_hp"
+        if item.get("staminaValue", 0) > 0: return "consumables_energy"
     return "materials"
 
-def slug(item_id):
-    return item_id.lower().replace("_", "")
+def getCategoryTitle(category):
+    return FILES.get(category, ("", "Categoria Desconhecida"))[1]
+
+def slug(text: str):
+    text = unicodedata.normalize("NFKD", text)
+    text = text.encode("ascii", "ignore").decode("ascii")
+    text = text.lower()
+    text = re.sub(r"[^a-z0-9]+", "-", text)
+    return text.strip("-")
 
 # ========================
 # Page builders
 # ========================
-def write_item_page(item, locale):
+def write_item_page(item, locale, category, recipes, used_in, item_map):
     item_id = item["id"]
-    page = ITEM_PAGES_DIR / f"{slug(item_id)}.md"
+    category_dir = DOCS_DIR / category / "_items"
+    category_dir.mkdir(parents=True, exist_ok=True)
 
+    page = category_dir / f"{slug(item_id)}.md"
     name = t(locale, item.get("nameKey"), item_id.replace("_", " "))
     description = t(locale, item.get("descriptionKey"), "")
-
-    effects = []
-    if item.get("healthValue", 0) > 0:
-        effects.append(f"- ❤️ Vida: +{item['healthValue']}")
-    if item.get("staminaValue", 0) > 0:
-        effects.append(f"- ⚡ Energia: +{item['staminaValue']}")
-
     icon = resolve_item_icon(item_id)
 
     with open(page, "w", encoding="utf-8") as md:
-        md.write(f"# {name}\n\n")
-        md.write(f"![{name}]({ICON_PATH}/{icon})\n\n")
+        md.write(f"---\ntitle: {name}\n---\n\n")
+        
+        md.write(f"""<div class="item-page">
+<div class="item-header">
+  <img src="{ICON_PATH}/{icon}" class="item-icon" alt="{name}">
+  <div class="item-info">
+    <h1>{name}</h1>
+    <span class="item-category">{getCategoryTitle(category)}</span>
+  </div>
+</div>
+<div class="item-section">
+  <h2>📝 Descrição</h2>
+  <p>{description or "Sem descrição disponível."}</p>
+</div>
+""")
 
-        md.write("## Descrição\n")
-        md.write(f"{description}\n\n")
-
+        # Efeitos
+        effects = []
+        if item.get("healthValue", 0) > 0: effects.append(f"❤️ Vida +{item['healthValue']}")
+        if item.get("staminaValue", 0) > 0: effects.append(f"⚡ Energia +{item['staminaValue']}")
         if effects:
-            md.write("## Efeitos\n")
-            md.write("\n".join(effects) + "\n")
+            md.write('<div class="item-section"><h2>✨ Efeitos</h2><ul>')
+            for e in effects: md.write(f"<li>{e}</li>")
+            md.write("</ul></div>")
 
-def build_tables(items, locale):
+        # Crafting (Como Criar)
+        # Usamos item_id.lower() para bater com o CSV se necessário
+        if item_id in recipes:
+            recipe = recipes[item_id]
+            md.write('<div class="item-section crafting"><h2>🔨 Como Criar</h2><div class="recipe-box">')
+            md.write(f'<p>Rende: <strong>{recipe["yield"]}x</strong></p><ul>')
+            for ing in recipe["ingredients"]:
+                ing_id_raw = ing["id"]
+                ing_item = item_map.get(ing_id_raw.lower())
+                
+                # Tradução
+                ing_name = t(locale, ing_item.get("nameKey"), ing_id_raw) if ing_item else ing_id_raw.replace("_", " ").title()
+                
+                # Link: Como estamos em docs/items/CATEGORIA/_items/item.md
+                # Precisamos subir dois níveis (../../) para chegar na raiz de items
+                # e depois entrar na categoria certa.
+                if ing_item:
+                    ing_category = detect_category(ing_item)
+                    ing_slug = slug(ing_id_raw)
+                    ing_link = f"/items/{ing_category}/_items/{ing_slug}/"
+                    md.write(f'<li><img src="{ICON_PATH}/{resolve_item_icon(ing_id_raw)}" class="mini-icon"> {ing["qty"]}x <a href="{ing_link}">{ing_name}</a></li>')
+                else:
+                    md.write(f'<li><img src="{ICON_PATH}/{resolve_item_icon(ing_id_raw)}" class="mini-icon"> {ing["qty"]}x {ing_name}</li>')
+            
+            md.write("</ul></div></div>")
+
+        # Usado em
+        if item_id in used_in:
+            md.write('<div class="item-section used-in"><h2>🛠️ Usado para criar</h2><div class="used-grid">')
+            for res_id in used_in[item_id]:
+                res_item = item_map.get(res_id.lower())
+                res_name = t(locale, res_item.get("nameKey"), res_id) if res_item else res_id.replace("_", " ").title()
+                md.write(f'<a href="../{slug(res_id)}" class="mini-card"><img src="{ICON_PATH}/{resolve_item_icon(res_id)}"><span>{res_name}</span></a>')
+            md.write("</div></div>")
+
+        md.write("</div>")
+
+def build_tables(items, locale, recipes, used_in):
+    # CRIA O MAPA AQUI PARA PASSAR PARA AS PÁGINAS
+    item_map = {item["id"].lower(): item for item in items}
+    
     grouped = {key: [] for key in FILES.keys()}
-
     for item in items:
         category = detect_category(item)
         grouped[category].append(item)
-        write_item_page(item, locale)
+        # PASSANDO O ITEM_MAP AGORA
+        write_item_page(item, locale, category, recipes, used_in, item_map)
 
     for category, (filename, title) in FILES.items():
         path = DOCS_DIR / filename
         with open(path, "w", encoding="utf-8") as md:
-            md.write(f"# {title}\n\n")
-            md.write("| Item | Descrição |\n")
-            md.write("|------|-----------|\n")
-
+            md.write(f"# {title}\n\n<div class=\"items-grid\">\n")
             for item in grouped[category]:
                 name = t(locale, item.get("nameKey"), item["id"].replace("_", " "))
-                desc = t(locale, item.get("descriptionKey"), "")
-                link = f"./_items/{slug(item['id'])}.md"
-
-                md.write(f"| **[{name}]({link})** | {desc} |\n")
-
+                desc = (t(locale, item.get("descriptionKey"), "")[:77] + "...") if len(t(locale, item.get("descriptionKey"), "")) > 80 else t(locale, item.get("descriptionKey"), "")
+                icon = resolve_item_icon(item["id"])
+                link = f"./_items/{slug(item['id'])}"
+                md.write(f'<a class="item-card" href="{link}"><img src="{ICON_PATH}/{icon}"><div><strong>{name}</strong><p>{desc}</p></div></a>\n')
+            md.write('</div>\n')
         print(f"✔ Gerado: {path}")
 
-# ========================
-# Main
-# ========================
 if __name__ == "__main__":
     DOCS_DIR.mkdir(parents=True, exist_ok=True)
-    ITEM_PAGES_DIR.mkdir(parents=True, exist_ok=True)
-
     items = load_items()
     locale = load_locale()
-
-    build_tables(items, locale)
+    recipes, used_in = load_recipes()
+    build_tables(items, locale, recipes, used_in)

@@ -1,0 +1,17 @@
+---
+title: Semente de Abóbora
+---
+
+<div class="item-page">
+<div class="item-header">
+  <img src="/assets/items/placeholder.png" class="item-icon" alt="Semente de Abóbora">
+  <div class="item-info">
+    <h1>Semente de Abóbora</h1>
+    <span class="item-category">Equipamentos</span>
+  </div>
+</div>
+<div class="item-section">
+  <h2>📝 Descrição</h2>
+  <p>Um saquinho de sementes que pode dar origem a grandes abóboras. Ideal para o outono.</p>
+</div>
+</div>

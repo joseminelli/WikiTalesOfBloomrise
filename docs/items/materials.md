@@ -1,74 +1,74 @@
 # Materiais e Itens Gerais
 
-| Item | Descrição |
-|------|-----------|
-| **[Ametista](./_items/ametista.md)** | Roxa e serena, como um fim de tarde depois da chuva. |
-| **[Amuleto de Viagem: Caverna](./_items/amuletocaverna.md)** | Uma medalha antiga que canaliza energia para levar Rayy para a frente da entrada da caverna mística. O teleporte consome toda a energia de Rayy. |
-| **[Amuleto de Viagem: Dungeon](./_items/amuletodungeon.md)** | Uma medalha antiga que canaliza energia para levar Rayy para a frente da entrada da dungeon. O teleporte consome toda a energia de Rayy. |
-| **[Amuleto de Viagem: Lar](./_items/amuletocasa.md)** | Uma medalha antiga que canaliza energia para levar Rayy de volta à frente de sua casa. O teleporte consome toda a energia de Rayy. |
-| **[Amuleto de Viagem: Praia](./_items/amuletopraia.md)** | Uma medalha antiga que canaliza energia para levar Rayy para a frente da praia. O teleporte consome toda a energia de Rayy. |
-| **[Asa de Morcego](./_items/asademorcego.md)** | Frágil, leve e... um pouco estranha. Ainda bate sozinha às vezes. |
-| **[Bateria](./_items/bateria.md)** | Uma bateria compacta, capaz de armazenar energia elétrica. Pode ser usada para alimentar dispositivos eletrônicos. |
-| **[Flor Azul Grande](./_items/bigflowerblue.md)** | Uma flor azul grande e rara da floresta, muito apreciada em receitas mágicas. |
-| **[Flor Azul Pequena](./_items/smallblueflower.md)** | Uma flor azul pequena encontrada nas clareiras da floresta. Pode ser usada em poções ou para presentear NPCs. |
-| **[Osso](./_items/bone.md)** | Um osso branco e resistente, provavelmente de um esqueleto. Sinceramente não sei por que alguém guardaria isso. |
-| **[Carvão](./_items/carvao.md)** | Escuro, quente e cheio de potencial (e fuligem). |
-| **[Chromita](./_items/chromita.md)** | Um cristal raro que pulsa com tons de rosa, azul, verde e roxo. Dizem que guarda a essência das quatro primeiras cores que surgiram no mundo. |
-| **[Corda](./_items/corda.md)** | Uma corda resistente, feita para aguentar peso e tensão. Útil para criar alguns itens. |
-| **[CPU](./_items/cpu.md)** | Um pequeno chip eletrônico, com circuitos complexos. Provavelmente faz parte de algum dispositivo tecnológico desconhecido. |
-| **[Diamante Rosa](./_items/diamanterosa.md)** | Brilho encantador, poder discreto. E uma tentação perigosa. |
-| **[Esmeralma](./_items/esmeralma.md)** | Brilho suave, energia tranquila. Dizem que atrai sorte... espero que sem fantasmas. |
-| **[Barra de Ferro](./_items/ferro.md)** | Sólido e confiável. Essencial para qualquer forja de respeito. |
-| **[Presa de Goblin](./_items/goblinfangs.md)** | Troféus pontiagudos arrancados da boca de um goblin. Não são mágicas, só meio assustadoras. |
-| **[Chave Dourada](./_items/goldenkey.md)** | Brilhante, misteriosa e claramente importante. Não perca. |
-| **[Minério de Ouro](./_items/goldore.md)** | Um minério brilhante e valioso, Pode ser processado na forja para criar uma barra de ouro. |
-| **[Minério de Ferro](./_items/ironore.md)** | Um minério comum e resistente, Pode ser processado na forja para criar uma barra de ferro. |
-| **[Folha](./_items/leaf.md)** | Uma folha verde simples obtida ao coletar árvores ou cortar grama. Artesãos e alquimistas juram que ela tem usos especiais. |
-| **[Madeira Refinada](./_items/madeirarefinada.md)** | Madeira trabalhada com cuidado e precisão, livre de farpas e cheia de potencial. |
-| **[Cogumelo Místico](./_items/mysticmushroom.md)** | Um raro cogumelo que brilha suavemente na escuridão da Caverna Mística. Dizem que ele reage à presença de energia antiga. |
-| **[Óleo vegetal](./_items/oleo vegetal.md)** | Óleo extraído de plantas, usado em várias receitas culinárias. |
-| **[Flor Laranja Grande](./_items/bigflowerorange.md)** | Uma flor laranja grande e difícil de encontrar, ingrediente chave em elixires energéticos. |
-| **[Flor Laranja Pequena](./_items/smallorangeflower.md)** | Uma flor laranja pequena e vibrante, muito usada em pigmentos. |
-| **[Barra de Ouro](./_items/ouro.md)** | Brilhante e valioso. Perfeito para criar itens especiais. As moedas de Bloomrise não são feitas disso, mas deveriam ser. |
-| **[Pano de Fantasma](./_items/panodefantasma.md)** | Tecido etéreo, meio transparente e 100% arrepiante. |
-| **[Papel Usado](./_items/papelusado.md)** | Um pedaço de papel amassado, com algumas anotações rabiscadas. Parece que alguém estava tentando lembrar de algo importante, mas parece meio inútil agora. |
-| **[Parafuso](./_items/parafuso.md)** | Um parafuso de metal, usado para fixar coisas. Pode ser útil em reparos ou construções no futuro. |
-| **[Pedra](./_items/pedra.md)** | Um pedaço de rocha comum, mas com mil e uma utilidades. Serve para construir, arremessar… ou apenas guardar no bolso, por precaução. |
-| **[Flor Rosa Pequena](./_items/smallpinkflower.md)** | Uma flor rosa pequena que exala um perfume suave, perfeita para artesanato. |
-| **[Flor Roxa Grande](./_items/bigflowerpurple.md)** | Uma flor roxa grande com pétalas brilhantes, usada em poções especiais. |
-| **[Flor Roxa Pequena](./_items/smallpurpleflower.md)** | Uma flor roxa pequena e delicada, comum nas bordas da floresta. |
-| **[Rabo de Rato](./_items/rat tail.md)** | Um rabo de rato peludo e um tanto nojento. Não parece ter muita utilidade, mas quem sabe? |
-| **[Bola de Slime](./_items/slimeball.md)** | Uma esfera pegajosa que um slime largou. Cheira estranho. E a textura? Mais estranha ainda. |
-| **[Girassol](./_items/sunflower.md)** | Flor vibrante que parece sorrir para o sol. Embora seja linda como decoração, suas sementes torradas são um lanche popular na vila. |
-| **[Veneno de Cobra](./_items/venenodecobra.md)** | Um líquido esverdeado retirado das presas de serpente. Enfraquece lentamente quem entra em contato. |
-| **[Trigo](./_items/wheat.md)** | Feixe de trigo dourado, seco ao sol. O pilar da panificação. Moído, transforma-se na farinha essencial para pães, bolos e tortas. |
-| **[Tronco de Madeira](./_items/woodlog.md)** | Um bom pedaço de madeira. Pode servir pra construir uma casa. Ou só pra queimar na fogueira. |
-| **[Cérebro de Zumbi](./_items/zombiebrain.md)** | Ainda meio molenga. Cientificamente inútil. Socialmente desconfortável. |
-| **[Abóbora](./_items/abobora.md)** | Grande, pesada e perfeitamente laranja. O cheiro adocicado da polpa é um clássico de Bloomrise. Essencial para tortas, sopas e festivais. |
-| **[Abajur Alto Azul](./_items/itemabajurazul.md)** | Um abajur alto com tom azul suave, perfeito para iluminar cantinhos da casa. (mecânica em desenvolvimento) |
-| **[Cadeira de Madeira](./_items/cadeiramadeira.md)** | Uma cadeira simples de madeira, perfeita para qualquer ambiente. (mecânica em desenvolvimento) |
-| **[Cama de Casal Verde Militar](./_items/camaverdemilitar.md)** | Uma cama de casal robusta, com tecido verde militar, perfeita para descansar depois de um longo dia. (mecânica em desenvolvimento) |
-| **[Baú](./_items/itemchest.md)** | Um baú simples para guardar itens importantes e manter tudo organizado. (mecânica em desenvolvimento) |
-| **[Mesa de Criação](./_items/interacticlecrafttable.md)** | Uma mesa robusta para criar e experimentar novos itens. (mecânica em desenvolvimento) |
-| **[Pacote de Terra](./_items/farmplot.md)** | Um pequeno pedaço de terra fértil, pronto para receber sementes e crescer plantas. Ideal para iniciar sua horta. |
-| **[Geladeira Branca](./_items/itemfridgewhite.md)** | Uma geladeira simples e branca, perfeita para manter comidas e bebidas frescas. (mecânica em desenvolvimento) |
-| **[Abóbora de Halloween](./_items/halloweenpunpkin2.md)** | Uma abóbora esculpida com um rosto assustador, perfeita para decorar na época de Halloween. <color=#FFee00>  (Item colecionável)</color> (mecânica em desenvolvimento) |
-| **[Abóbora de Halloween](./_items/halloweenpunpkin1.md)** | Uma abóbora esculpida com um rosto assustador, perfeita para decorar na época de Halloween. <color=#FFee00>  (Item colecionável)</color> (mecânica em desenvolvimento) |
-| **[Mesa de Jantar Verde Militar](./_items/mesajantarverdemilitar.md)** | Uma mesa de jantar verde militar, resistente e prática para reunir todos. (mecânica em desenvolvimento) |
-| **[Sofá Verde Militar](./_items/sofaverdemilitar.md)** | Um sofá robusto de cor verde militar, ideal para dar um ar rústico ao ambiente. (mecânica em desenvolvimento) |
-| **[Sofá Grande Verde Militar](./_items/sofaduploverdemilitar.md)** | Um sofá grande e robusto de cor verde militar, ideal para dar um ar rústico ao ambiente. (mecânica em desenvolvimento) |
-| **[Árvore Decorativa no Pote](./_items/itemtreepot.md)** | Uma pequena árvore cultivada em um vaso elegante. Apenas decorativa, mas traz vida ao ambiente. (mecânica em desenvolvimento) |
-| **[Árvore Decorativa no Pote Redondo](./_items/itemtreepotround.md)** | Uma árvore plantada em um vaso arredondado, simples e charmosa. Apenas decorativa. (mecânica em desenvolvimento) |
-| **[Isca de Peixe](./_items/isca.md)** | Uma mistura especial que atrai peixes para a sua linha. Anexe à vara de pesca para aumentar a chance de fisgadas. |
-| **[Peixário de Bloomrise](./_items/itemfishbook.md)** | Um guia ilustrado que documenta as várias espécies de peixes encontradas em Bloomrise e arredores. Cada entrada inclui descrições, habitats e dicas sobre onde e como pescá-los. |
-| **[Chub](./_items/chub.md)** | Um peixe de rio comum e surpreendentemente resistente. Não é muito saboroso, mas dá uma boa briga. |
-| **[Herring](./_items/herring.md)** | Um peixe pequeno e oleoso do oceano, que vive em grandes cardumes. Dizem que seu sabor é mais forte. |
-| **[Truta Arco-Íris](./_items/rainbowtrout.md)** | Uma linda truta de rio, famosa por suas escamas coloridas que brilham em tons de arco-íris. É um peixe muito procurado. |
-| **[Sardinha](./_items/sardinha.md)** | Um peixe marinho pequeno e prateado. Brilha sob o sol quando é puxado da água. É bastante comum no oceano. |
-| **[Tilápia](./_items/tilapia.md)** | Um peixe de rio muito popular. Sua carne é leve e saborosa, o que o torna um ingrediente valioso para cozinhar. |
-| **[Guia do Aventureiro](./_items/guide.md)** | Um caderno azul com retalhos costurados à mão. Dentro, há missões importantes para toda a vila, e no fim... algumas dicas estranhamente precisas. A letra é caprichada, mas você não sabe ao certo de quem é. |
-| **[Crônicas de Rook](./_items/cronicasderook.md)** | As lendárias aventuras de Max Rook, o aventureiro mais famoso que já viveu. Desde suas batalhas épicas contra monstros temíveis, este livro narra a vida de um homem que se tornou uma lenda viva. |
-| **[Diário da Lyla](./_items/diariolyla.md)** | O diário pessoal de Lyla Quinn, uma jovem aventureira que recentemente se mudou para Bloomrise. Suas páginas estão cheias de pensamentos, experiências e descobertas sobre a vida na vila e suas interações com os moradores locais. |
-| **[Guia de Jardinagem](./_items/guiadejardinagem2.md)** | Um guia completo com dicas e segredos sobre o cultivo das plantas locais. Detalha como preparar a terra, os tempos de crescimento e as propriedades de cada espécie. |
-| **[Bestiário de Bloomrise](./_items/monsterbook.md)** | Um compêndio ilustrado que documenta as criaturas encontradas em Bloomrise e arredores. Cada entrada inclui descrições, habitats e alguns detalhes sobre os mosntros |
-| **[Guia de Criação](./_items/recipebook.md)** | Um guia detalhado que ensina como criar diversos itens úteis e ferramentas essenciais para a aventura em Bloomrise. Inclui receitas para armas, utensílios e outros equipamentos necessários para sobreviver e prosperar na vila. |
+<div class="items-grid">
+<a class="item-card" href="./_items/ametista"><img src="/assets/items/placeholder.png"><div><strong>Ametista</strong><p>Roxa e serena, como um fim de tarde depois da chuva.</p></div></a>
+<a class="item-card" href="./_items/amuletocaverna"><img src="/assets/items/placeholder.png"><div><strong>Amuleto de Viagem: Caverna</strong><p>Uma medalha antiga que canaliza energia para levar Rayy para a frente da entr...</p></div></a>
+<a class="item-card" href="./_items/amuletodungeon"><img src="/assets/items/placeholder.png"><div><strong>Amuleto de Viagem: Dungeon</strong><p>Uma medalha antiga que canaliza energia para levar Rayy para a frente da entr...</p></div></a>
+<a class="item-card" href="./_items/amuletocasa"><img src="/assets/items/placeholder.png"><div><strong>Amuleto de Viagem: Lar</strong><p>Uma medalha antiga que canaliza energia para levar Rayy de volta à frente de ...</p></div></a>
+<a class="item-card" href="./_items/amuletopraia"><img src="/assets/items/placeholder.png"><div><strong>Amuleto de Viagem: Praia</strong><p>Uma medalha antiga que canaliza energia para levar Rayy para a frente da prai...</p></div></a>
+<a class="item-card" href="./_items/asademorcego"><img src="/assets/items/placeholder.png"><div><strong>Asa de Morcego</strong><p>Frágil, leve e... um pouco estranha. Ainda bate sozinha às vezes.</p></div></a>
+<a class="item-card" href="./_items/bateria"><img src="/assets/items/placeholder.png"><div><strong>Bateria</strong><p>Uma bateria compacta, capaz de armazenar energia elétrica. Pode ser usada par...</p></div></a>
+<a class="item-card" href="./_items/bigflowerblue"><img src="/assets/items/placeholder.png"><div><strong>Flor Azul Grande</strong><p>Uma flor azul grande e rara da floresta, muito apreciada em receitas mágicas.</p></div></a>
+<a class="item-card" href="./_items/smallblueflower"><img src="/assets/items/placeholder.png"><div><strong>Flor Azul Pequena</strong><p>Uma flor azul pequena encontrada nas clareiras da floresta. Pode ser usada em...</p></div></a>
+<a class="item-card" href="./_items/bone"><img src="/assets/items/placeholder.png"><div><strong>Osso</strong><p>Um osso branco e resistente, provavelmente de um esqueleto. Sinceramente não ...</p></div></a>
+<a class="item-card" href="./_items/carvao"><img src="/assets/items/placeholder.png"><div><strong>Carvão</strong><p>Escuro, quente e cheio de potencial (e fuligem).</p></div></a>
+<a class="item-card" href="./_items/chromita"><img src="/assets/items/placeholder.png"><div><strong>Chromita</strong><p>Um cristal raro que pulsa com tons de rosa, azul, verde e roxo. Dizem que gua...</p></div></a>
+<a class="item-card" href="./_items/corda"><img src="/assets/items/placeholder.png"><div><strong>Corda</strong><p>Uma corda resistente, feita para aguentar peso e tensão. Útil para criar algu...</p></div></a>
+<a class="item-card" href="./_items/cpu"><img src="/assets/items/placeholder.png"><div><strong>CPU</strong><p>Um pequeno chip eletrônico, com circuitos complexos. Provavelmente faz parte ...</p></div></a>
+<a class="item-card" href="./_items/diamanterosa"><img src="/assets/items/placeholder.png"><div><strong>Diamante Rosa</strong><p>Brilho encantador, poder discreto. E uma tentação perigosa.</p></div></a>
+<a class="item-card" href="./_items/esmeralma"><img src="/assets/items/placeholder.png"><div><strong>Esmeralma</strong><p>Brilho suave, energia tranquila. Dizem que atrai sorte... espero que sem fant...</p></div></a>
+<a class="item-card" href="./_items/ferro"><img src="/assets/items/placeholder.png"><div><strong>Barra de Ferro</strong><p>Sólido e confiável. Essencial para qualquer forja de respeito.</p></div></a>
+<a class="item-card" href="./_items/goblinfangs"><img src="/assets/items/placeholder.png"><div><strong>Presa de Goblin</strong><p>Troféus pontiagudos arrancados da boca de um goblin. Não são mágicas, só meio...</p></div></a>
+<a class="item-card" href="./_items/goldenkey"><img src="/assets/items/placeholder.png"><div><strong>Chave Dourada</strong><p>Brilhante, misteriosa e claramente importante. Não perca.</p></div></a>
+<a class="item-card" href="./_items/goldore"><img src="/assets/items/placeholder.png"><div><strong>Minério de Ouro</strong><p>Um minério brilhante e valioso, Pode ser processado na forja para criar uma b...</p></div></a>
+<a class="item-card" href="./_items/ironore"><img src="/assets/items/placeholder.png"><div><strong>Minério de Ferro</strong><p>Um minério comum e resistente, Pode ser processado na forja para criar uma ba...</p></div></a>
+<a class="item-card" href="./_items/leaf"><img src="/assets/items/placeholder.png"><div><strong>Folha</strong><p>Uma folha verde simples obtida ao coletar árvores ou cortar grama. Artesãos e...</p></div></a>
+<a class="item-card" href="./_items/madeirarefinada"><img src="/assets/items/placeholder.png"><div><strong>Madeira Refinada</strong><p>Madeira trabalhada com cuidado e precisão, livre de farpas e cheia de potencial.</p></div></a>
+<a class="item-card" href="./_items/mystic-mushroom"><img src="/assets/items/placeholder.png"><div><strong>Cogumelo Místico</strong><p>Um raro cogumelo que brilha suavemente na escuridão da Caverna Mística. Dizem...</p></div></a>
+<a class="item-card" href="./_items/oleo-vegetal"><img src="/assets/items/placeholder.png"><div><strong>Óleo vegetal</strong><p>Óleo extraído de plantas, usado em várias receitas culinárias.</p></div></a>
+<a class="item-card" href="./_items/bigflowerorange"><img src="/assets/items/placeholder.png"><div><strong>Flor Laranja Grande</strong><p>Uma flor laranja grande e difícil de encontrar, ingrediente chave em elixires...</p></div></a>
+<a class="item-card" href="./_items/smallorangeflower"><img src="/assets/items/placeholder.png"><div><strong>Flor Laranja Pequena</strong><p>Uma flor laranja pequena e vibrante, muito usada em pigmentos.</p></div></a>
+<a class="item-card" href="./_items/ouro"><img src="/assets/items/placeholder.png"><div><strong>Barra de Ouro</strong><p>Brilhante e valioso. Perfeito para criar itens especiais. As moedas de Bloomr...</p></div></a>
+<a class="item-card" href="./_items/panodefantasma"><img src="/assets/items/placeholder.png"><div><strong>Pano de Fantasma</strong><p>Tecido etéreo, meio transparente e 100% arrepiante.</p></div></a>
+<a class="item-card" href="./_items/papelusado"><img src="/assets/items/placeholder.png"><div><strong>Papel Usado</strong><p>Um pedaço de papel amassado, com algumas anotações rabiscadas. Parece que alg...</p></div></a>
+<a class="item-card" href="./_items/parafuso"><img src="/assets/items/placeholder.png"><div><strong>Parafuso</strong><p>Um parafuso de metal, usado para fixar coisas. Pode ser útil em reparos ou co...</p></div></a>
+<a class="item-card" href="./_items/pedra"><img src="/assets/items/placeholder.png"><div><strong>Pedra</strong><p>Um pedaço de rocha comum, mas com mil e uma utilidades. Serve para construir,...</p></div></a>
+<a class="item-card" href="./_items/smallpinkflower"><img src="/assets/items/placeholder.png"><div><strong>Flor Rosa Pequena</strong><p>Uma flor rosa pequena que exala um perfume suave, perfeita para artesanato.</p></div></a>
+<a class="item-card" href="./_items/bigflowerpurple"><img src="/assets/items/placeholder.png"><div><strong>Flor Roxa Grande</strong><p>Uma flor roxa grande com pétalas brilhantes, usada em poções especiais.</p></div></a>
+<a class="item-card" href="./_items/smallpurpleflower"><img src="/assets/items/placeholder.png"><div><strong>Flor Roxa Pequena</strong><p>Uma flor roxa pequena e delicada, comum nas bordas da floresta.</p></div></a>
+<a class="item-card" href="./_items/rat-tail"><img src="/assets/items/placeholder.png"><div><strong>Rabo de Rato</strong><p>Um rabo de rato peludo e um tanto nojento. Não parece ter muita utilidade, ma...</p></div></a>
+<a class="item-card" href="./_items/slimeball"><img src="/assets/items/placeholder.png"><div><strong>Bola de Slime</strong><p>Uma esfera pegajosa que um slime largou. Cheira estranho. E a textura? Mais e...</p></div></a>
+<a class="item-card" href="./_items/sunflower"><img src="/assets/items/placeholder.png"><div><strong>Girassol</strong><p>Flor vibrante que parece sorrir para o sol. Embora seja linda como decoração,...</p></div></a>
+<a class="item-card" href="./_items/venenodecobra"><img src="/assets/items/placeholder.png"><div><strong>Veneno de Cobra</strong><p>Um líquido esverdeado retirado das presas de serpente. Enfraquece lentamente ...</p></div></a>
+<a class="item-card" href="./_items/wheat"><img src="/assets/items/placeholder.png"><div><strong>Trigo</strong><p>Feixe de trigo dourado, seco ao sol. O pilar da panificação. Moído, transform...</p></div></a>
+<a class="item-card" href="./_items/woodlog"><img src="/assets/items/placeholder.png"><div><strong>Tronco de Madeira</strong><p>Um bom pedaço de madeira. Pode servir pra construir uma casa. Ou só pra queim...</p></div></a>
+<a class="item-card" href="./_items/zombiebrain"><img src="/assets/items/placeholder.png"><div><strong>Cérebro de Zumbi</strong><p>Ainda meio molenga. Cientificamente inútil. Socialmente desconfortável.</p></div></a>
+<a class="item-card" href="./_items/abobora"><img src="/assets/items/placeholder.png"><div><strong>Abóbora</strong><p>Grande, pesada e perfeitamente laranja. O cheiro adocicado da polpa é um clás...</p></div></a>
+<a class="item-card" href="./_items/item-abajur-azul"><img src="/assets/items/placeholder.png"><div><strong>Abajur Alto Azul</strong><p>Um abajur alto com tom azul suave, perfeito para iluminar cantinhos da casa. ...</p></div></a>
+<a class="item-card" href="./_items/cadeiramadeira"><img src="/assets/items/placeholder.png"><div><strong>Cadeira de Madeira</strong><p>Uma cadeira simples de madeira, perfeita para qualquer ambiente. (mecânica em...</p></div></a>
+<a class="item-card" href="./_items/camaverdemilitar"><img src="/assets/items/placeholder.png"><div><strong>Cama de Casal Verde Militar</strong><p>Uma cama de casal robusta, com tecido verde militar, perfeita para descansar ...</p></div></a>
+<a class="item-card" href="./_items/item-chest"><img src="/assets/items/placeholder.png"><div><strong>Baú</strong><p>Um baú simples para guardar itens importantes e manter tudo organizado. (mecâ...</p></div></a>
+<a class="item-card" href="./_items/interacticle-crafttable"><img src="/assets/items/placeholder.png"><div><strong>Mesa de Criação</strong><p>Uma mesa robusta para criar e experimentar novos itens. (mecânica em desenvol...</p></div></a>
+<a class="item-card" href="./_items/farmplot"><img src="/assets/items/placeholder.png"><div><strong>Pacote de Terra</strong><p>Um pequeno pedaço de terra fértil, pronto para receber sementes e crescer pla...</p></div></a>
+<a class="item-card" href="./_items/item-fridge-white"><img src="/assets/items/placeholder.png"><div><strong>Geladeira Branca</strong><p>Uma geladeira simples e branca, perfeita para manter comidas e bebidas fresca...</p></div></a>
+<a class="item-card" href="./_items/halloweenpunpkin2"><img src="/assets/items/placeholder.png"><div><strong>Abóbora de Halloween</strong><p>Uma abóbora esculpida com um rosto assustador, perfeita para decorar na época...</p></div></a>
+<a class="item-card" href="./_items/halloweenpunpkin1"><img src="/assets/items/placeholder.png"><div><strong>Abóbora de Halloween</strong><p>Uma abóbora esculpida com um rosto assustador, perfeita para decorar na época...</p></div></a>
+<a class="item-card" href="./_items/mesajantarverdemilitar"><img src="/assets/items/placeholder.png"><div><strong>Mesa de Jantar Verde Militar</strong><p>Uma mesa de jantar verde militar, resistente e prática para reunir todos. (me...</p></div></a>
+<a class="item-card" href="./_items/sofaverdemilitar"><img src="/assets/items/placeholder.png"><div><strong>Sofá Verde Militar</strong><p>Um sofá robusto de cor verde militar, ideal para dar um ar rústico ao ambient...</p></div></a>
+<a class="item-card" href="./_items/sofaduploverdemilitar"><img src="/assets/items/placeholder.png"><div><strong>Sofá Grande Verde Militar</strong><p>Um sofá grande e robusto de cor verde militar, ideal para dar um ar rústico a...</p></div></a>
+<a class="item-card" href="./_items/item-tree-pot"><img src="/assets/items/placeholder.png"><div><strong>Árvore Decorativa no Pote</strong><p>Uma pequena árvore cultivada em um vaso elegante. Apenas decorativa, mas traz...</p></div></a>
+<a class="item-card" href="./_items/item-tree-pot-round"><img src="/assets/items/placeholder.png"><div><strong>Árvore Decorativa no Pote Redondo</strong><p>Uma árvore plantada em um vaso arredondado, simples e charmosa. Apenas decora...</p></div></a>
+<a class="item-card" href="./_items/isca"><img src="/assets/items/placeholder.png"><div><strong>Isca de Peixe</strong><p>Uma mistura especial que atrai peixes para a sua linha. Anexe à vara de pesca...</p></div></a>
+<a class="item-card" href="./_items/itemfishbook"><img src="/assets/items/placeholder.png"><div><strong>Peixário de Bloomrise</strong><p>Um guia ilustrado que documenta as várias espécies de peixes encontradas em B...</p></div></a>
+<a class="item-card" href="./_items/chub"><img src="/assets/items/placeholder.png"><div><strong>Chub</strong><p>Um peixe de rio comum e surpreendentemente resistente. Não é muito saboroso, ...</p></div></a>
+<a class="item-card" href="./_items/herring"><img src="/assets/items/placeholder.png"><div><strong>Herring</strong><p>Um peixe pequeno e oleoso do oceano, que vive em grandes cardumes. Dizem que ...</p></div></a>
+<a class="item-card" href="./_items/rainbowtrout"><img src="/assets/items/placeholder.png"><div><strong>Truta Arco-Íris</strong><p>Uma linda truta de rio, famosa por suas escamas coloridas que brilham em tons...</p></div></a>
+<a class="item-card" href="./_items/sardinha"><img src="/assets/items/placeholder.png"><div><strong>Sardinha</strong><p>Um peixe marinho pequeno e prateado. Brilha sob o sol quando é puxado da água...</p></div></a>
+<a class="item-card" href="./_items/tilapia"><img src="/assets/items/placeholder.png"><div><strong>Tilápia</strong><p>Um peixe de rio muito popular. Sua carne é leve e saborosa, o que o torna um ...</p></div></a>
+<a class="item-card" href="./_items/guide"><img src="/assets/items/placeholder.png"><div><strong>Guia do Aventureiro</strong><p>Um caderno azul com retalhos costurados à mão. Dentro, há missões importantes...</p></div></a>
+<a class="item-card" href="./_items/cronicasderook"><img src="/assets/items/placeholder.png"><div><strong>Crônicas de Rook</strong><p>As lendárias aventuras de Max Rook, o aventureiro mais famoso que já viveu. D...</p></div></a>
+<a class="item-card" href="./_items/diariolyla"><img src="/assets/items/placeholder.png"><div><strong>Diário da Lyla</strong><p>O diário pessoal de Lyla Quinn, uma jovem aventureira que recentemente se mud...</p></div></a>
+<a class="item-card" href="./_items/guiadejardinagem2"><img src="/assets/items/placeholder.png"><div><strong>Guia de Jardinagem</strong><p>Um guia completo com dicas e segredos sobre o cultivo das plantas locais. Det...</p></div></a>
+<a class="item-card" href="./_items/monsterbook"><img src="/assets/items/placeholder.png"><div><strong>Bestiário de Bloomrise</strong><p>Um compêndio ilustrado que documenta as criaturas encontradas em Bloomrise e ...</p></div></a>
+<a class="item-card" href="./_items/recipebook"><img src="/assets/items/placeholder.png"><div><strong>Guia de Criação</strong><p>Um guia detalhado que ensina como criar diversos itens úteis e ferramentas es...</p></div></a>
+</div>

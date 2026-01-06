@@ -9,7 +9,6 @@ theme:
   palette:
     scheme: bloomrise
 
-
 extra_css:
   - assets/stylesheets/extra.css
 
@@ -21,3 +20,8 @@ nav:
       - Consumíveis (Vida): items/consumables_hp.md
       - Consumíveis (Energia): items/consumables_energy.md
       - Equipamentos: items/equipment.md
+
+      
+markdown_extensions:
+  - attr_list
+  - md_in_html

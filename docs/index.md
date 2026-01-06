@@ -62,6 +62,6 @@ e cria laços com os moradores locais.
 </div>
 
 <p class="footer-note">
-📘 Esta wiki é atualizada junto com o desenvolvimento de
+ A wiki é atualizada junto com o desenvolvimento de  
 <strong>Tales of Bloomrise</strong>.
 </p>

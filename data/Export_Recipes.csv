@@ -1,0 +1,40 @@
+Item Criado (ID),Quantidade,Ingrediente 1 (ID),Qtd 1,Ingrediente 2 (ID),Qtd 2,Ingrediente 3 (ID),Qtd 3,Ingrediente 4 (ID),Qtd 4,Ingrediente 5 (ID),Qtd 5
+sucouva,1,grape,2
+vinho,1,grape,4
+AmetistSword,1,GoldSword,1,Ametista,4
+Chromite Axe,1,Chromita,5,Ferro,2,Iron Axe,1
+Chromite Pickaxe,1,Chromita,5,Ferro,2,Iron Pickaxe,1
+GoldSword,1,IronSword,1,Ouro,4
+Iron Axe,1,madeirarefinada,2,Ferro,4
+Iron Pickaxe,1,madeirarefinada,2,Ferro,4
+SoulmeraldSword,1,AmetistSword,1,Esmeralma,4
+farmPlot,1,Leaf,3
+batata Assada,1,batata,2
+batatafrita,1,batata,3
+CARROTCAKE,1,Wheat,2,Strawberry,2
+donutsmistico,1,Wheat,3,MYSTIC_MUSHROOM,3,FungDrop,2
+ensopadoRaizes,1,cenoura,1,Turnip,1,batata,1
+EnsopadoPeixe,1,cenoura,1,chub,1,batata,1
+FileTrutaArcoIris,1,RainbowTrout,1,Turnip,1,cenoura,1
+geleiamorango,1,Strawberry,2
+sanduiche,1,pao,1,Turnip,1,tomato,2,cebola,1
+pao,1,Wheat,2
+paodebatata,1,Wheat,2,batata,1
+PeixeFrito,1,Tilapia,1,Oleo vegetal,1
+pipoca,1,corn,2
+SardinhaGrelhada,1,Sardinha,1
+sopaAbobora,1,cebola,1,abobora,2
+TilapiaGrelhada,1,Tilapia,1
+tortaabobora,1,Wheat,2,abobora,2
+Carvao,1,WoodLog,3
+Ouro,1,goldOre,2,Carvao,1
+Ferro,1,IronOre,2,Carvao,1
+AmuletoCasa,1,corda,2,Ferro,1
+AmuletoCaverna,1,corda,2,Ferro,1
+CPU,1,Ferro,1,Ouro,1
+DetectorMetal,1,CPU,2,Ferro,2,Bateria,2
+Oleo vegetal,1,sunflower,2
+corda,1,Leaf,5
+Wood Axe,1,madeirarefinada,4,WoodLog,2
+madeirarefinada,1,WoodLog,2
+Wood Pickaxe,1,madeirarefinada,5,WoodLog,2
