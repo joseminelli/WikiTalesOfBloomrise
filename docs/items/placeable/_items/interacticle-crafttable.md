@@ -4,7 +4,7 @@ title: "Mesa de Criação"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/interacticle-crafttable.png" class="item-icon" alt="Mesa de Criação">
+   <img src="/assets/items/INTERACTICLE-CRAFTTABLE.png" class="item-icon" alt="Mesa de Criação">
    <div class="item-info">
      <h1 class="item-title">Mesa de Criação</h1>
      <span class="item-category" data-category="placeable">Itens Posicionáveis</span>

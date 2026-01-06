@@ -4,7 +4,7 @@ title: "Morango"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/strawberry.png" class="item-icon" alt="Morango">
+   <img src="/assets/items/Strawberry.png" class="item-icon" alt="Morango">
    <div class="item-info">
      <h1 class="item-title">Morango</h1>
      <span class="item-category" data-category="consumables_hp">Consumíveis — Vida</span>

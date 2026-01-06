@@ -4,7 +4,7 @@ title: "Semente de Tomate"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/seed-tomato.png" class="item-icon" alt="Semente de Tomate">
+   <img src="/assets/items/Seed-tomato.png" class="item-icon" alt="Semente de Tomate">
    <div class="item-info">
      <h1 class="item-title">Semente de Tomate</h1>
      <span class="item-category" data-category="plants">Plantas e Flores</span>

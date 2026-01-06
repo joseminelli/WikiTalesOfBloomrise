@@ -4,7 +4,7 @@ title: "Abajur Alto Azul"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/item-abajur-azul.png" class="item-icon" alt="Abajur Alto Azul">
+   <img src="/assets/items/ITEM-ABAJUR-AZUL.png" class="item-icon" alt="Abajur Alto Azul">
    <div class="item-info">
      <h1 class="item-title">Abajur Alto Azul</h1>
      <span class="item-category" data-category="placeable">Itens Posicionáveis</span>

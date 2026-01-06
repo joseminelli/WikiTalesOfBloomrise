@@ -4,7 +4,7 @@ title: "Ensopado de Raízes"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/ensopadoraizes.png" class="item-icon" alt="Ensopado de Raízes">
+   <img src="/assets/items/ensopadoRaizes.png" class="item-icon" alt="Ensopado de Raízes">
    <div class="item-info">
      <h1 class="item-title">Ensopado de Raízes</h1>
      <span class="item-category" data-category="consumables_hp">Consumíveis — Vida</span>
@@ -32,7 +32,7 @@ title: "Ensopado de Raízes"
         <span>1x Cenoura</span>
     </a>
     <a href="/items/consumables_hp/_items/turnip/" class="mini-card">
-        <img src="/assets/items/turnip.png" alt="Nabo">
+        <img src="/assets/items/Turnip.png" alt="Nabo">
         <span>1x Nabo</span>
     </a>
     <a href="/items/consumables_hp/_items/batata/" class="mini-card">

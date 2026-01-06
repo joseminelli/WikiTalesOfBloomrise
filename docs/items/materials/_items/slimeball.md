@@ -4,7 +4,7 @@ title: "Bola de Slime"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/slimeball.png" class="item-icon" alt="Bola de Slime">
+   <img src="/assets/items/SlimeBall.png" class="item-icon" alt="Bola de Slime">
    <div class="item-info">
      <h1 class="item-title">Bola de Slime</h1>
      <span class="item-category" data-category="materials">Materiais e Itens Gerais</span>

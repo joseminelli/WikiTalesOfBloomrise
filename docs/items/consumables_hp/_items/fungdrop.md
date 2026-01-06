@@ -4,7 +4,7 @@ title: "Cogumelo Fungi"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/fungdrop.png" class="item-icon" alt="Cogumelo Fungi">
+   <img src="/assets/items/FungDrop.png" class="item-icon" alt="Cogumelo Fungi">
    <div class="item-info">
      <h1 class="item-title">Cogumelo Fungi</h1>
      <span class="item-category" data-category="consumables_hp">Consumíveis — Vida</span>

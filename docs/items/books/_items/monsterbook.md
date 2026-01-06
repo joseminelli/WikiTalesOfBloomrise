@@ -4,7 +4,7 @@ title: "Bestiário de Bloomrise"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/monsterbook.png" class="item-icon" alt="Bestiário de Bloomrise">
+   <img src="/assets/items/MonsterBook.png" class="item-icon" alt="Bestiário de Bloomrise">
    <div class="item-info">
      <h1 class="item-title">Bestiário de Bloomrise</h1>
      <span class="item-category" data-category="books">Livros e Guias</span>

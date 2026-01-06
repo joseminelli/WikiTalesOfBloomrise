@@ -25,4 +25,4 @@ title: "Girassol"
   </div>
 </div>
 
-<div class="item-section used-in"><h2>🛠️ Usado para criar</h2><div class="used-grid"><a href="/items/materials/_items/oleo-vegetal/" class="mini-card"><img src="/assets/items/oleo-vegetal.png"><span>Óleo vegetal</span></a></div></div></div>
+<div class="item-section used-in"><h2>🛠️ Usado para criar</h2><div class="used-grid"><a href="/items/materials/_items/oleo-vegetal/" class="mini-card"><img src="/assets/items/Oleo-vegetal.png"><span>Óleo vegetal</span></a></div></div></div>

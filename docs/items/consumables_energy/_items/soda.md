@@ -4,7 +4,7 @@ title: "Soda"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/soda.png" class="item-icon" alt="Soda">
+   <img src="/assets/items/Soda.png" class="item-icon" alt="Soda">
    <div class="item-info">
      <h1 class="item-title">Soda</h1>
      <span class="item-category" data-category="consumables_energy">Consumíveis — Energia</span>

@@ -4,7 +4,7 @@ title: "FizzCola"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/fizzcola.png" class="item-icon" alt="FizzCola">
+   <img src="/assets/items/Fizzcola.png" class="item-icon" alt="FizzCola">
    <div class="item-info">
      <h1 class="item-title">FizzCola</h1>
      <span class="item-category" data-category="consumables_energy">Consumíveis — Energia</span>

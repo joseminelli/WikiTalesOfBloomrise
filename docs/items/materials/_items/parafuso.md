@@ -4,7 +4,7 @@ title: "Parafuso"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/parafuso.png" class="item-icon" alt="Parafuso">
+   <img src="/assets/items/Parafuso.png" class="item-icon" alt="Parafuso">
    <div class="item-info">
      <h1 class="item-title">Parafuso</h1>
      <span class="item-category" data-category="materials">Materiais e Itens Gerais</span>

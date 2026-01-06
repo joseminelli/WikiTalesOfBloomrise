@@ -4,7 +4,7 @@ title: "Vara de Pesca"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/varadepesca.png" class="item-icon" alt="Vara de Pesca">
+   <img src="/assets/items/VaraDePesca.png" class="item-icon" alt="Vara de Pesca">
    <div class="item-info">
      <h1 class="item-title">Vara de Pesca</h1>
      <span class="item-category" data-category="equipment">Equipamentos</span>

@@ -32,7 +32,7 @@ title: "Sanduíche"
         <span>1x Pão</span>
     </a>
     <a href="/items/consumables_hp/_items/turnip/" class="mini-card">
-        <img src="/assets/items/turnip.png" alt="Nabo">
+        <img src="/assets/items/Turnip.png" alt="Nabo">
         <span>1x Nabo</span>
     </a>
     <a href="/items/consumables_hp/_items/tomato/" class="mini-card">

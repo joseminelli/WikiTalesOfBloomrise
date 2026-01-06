@@ -4,7 +4,7 @@ title: "Turbix"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/turbix.png" class="item-icon" alt="Turbix">
+   <img src="/assets/items/Turbix.png" class="item-icon" alt="Turbix">
    <div class="item-info">
      <h1 class="item-title">Turbix</h1>
      <span class="item-category" data-category="consumables_energy">Consumíveis — Energia</span>

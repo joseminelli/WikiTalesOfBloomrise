@@ -4,7 +4,7 @@ title: "Flor Roxa Grande"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/bigflowerpurple.png" class="item-icon" alt="Flor Roxa Grande">
+   <img src="/assets/items/bigflowerPurple.png" class="item-icon" alt="Flor Roxa Grande">
    <div class="item-info">
      <h1 class="item-title">Flor Roxa Grande</h1>
      <span class="item-category" data-category="plants">Plantas e Flores</span>

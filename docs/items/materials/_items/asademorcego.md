@@ -4,7 +4,7 @@ title: "Asa de Morcego"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/asademorcego.png" class="item-icon" alt="Asa de Morcego">
+   <img src="/assets/items/AsaDeMorcego.png" class="item-icon" alt="Asa de Morcego">
    <div class="item-info">
      <h1 class="item-title">Asa de Morcego</h1>
      <span class="item-category" data-category="materials">Materiais e Itens Gerais</span>

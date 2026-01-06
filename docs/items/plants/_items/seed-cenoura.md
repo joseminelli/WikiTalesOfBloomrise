@@ -4,7 +4,7 @@ title: "Semente de Cenoura"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/seed-cenoura.png" class="item-icon" alt="Semente de Cenoura">
+   <img src="/assets/items/Seed-cenoura.png" class="item-icon" alt="Semente de Cenoura">
    <div class="item-info">
      <h1 class="item-title">Semente de Cenoura</h1>
      <span class="item-category" data-category="plants">Plantas e Flores</span>

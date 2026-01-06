@@ -4,7 +4,7 @@ title: "Peixário de Bloomrise"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/itemfishbook.png" class="item-icon" alt="Peixário de Bloomrise">
+   <img src="/assets/items/ItemFishBook.png" class="item-icon" alt="Peixário de Bloomrise">
    <div class="item-info">
      <h1 class="item-title">Peixário de Bloomrise</h1>
      <span class="item-category" data-category="books">Livros e Guias</span>

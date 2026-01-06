@@ -4,7 +4,7 @@ title: "Sorvete"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/sorvete.png" class="item-icon" alt="Sorvete">
+   <img src="/assets/items/Sorvete.png" class="item-icon" alt="Sorvete">
    <div class="item-info">
      <h1 class="item-title">Sorvete</h1>
      <span class="item-category" data-category="consumables_hp">Consumíveis — Vida</span>

@@ -4,7 +4,7 @@ title: "Batata Assada"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/batata-assada.png" class="item-icon" alt="Batata Assada">
+   <img src="/assets/items/batata-Assada.png" class="item-icon" alt="Batata Assada">
    <div class="item-info">
      <h1 class="item-title">Batata Assada</h1>
      <span class="item-category" data-category="consumables_hp">Consumíveis — Vida</span>

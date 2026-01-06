@@ -4,7 +4,7 @@ title: "Diário da Lyla"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/diariolyla.png" class="item-icon" alt="Diário da Lyla">
+   <img src="/assets/items/DiarioLyla.png" class="item-icon" alt="Diário da Lyla">
    <div class="item-info">
      <h1 class="item-title">Diário da Lyla</h1>
      <span class="item-category" data-category="books">Livros e Guias</span>

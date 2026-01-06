@@ -4,7 +4,7 @@ title: "Cogumelo Místico"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/mystic-mushroom.png" class="item-icon" alt="Cogumelo Místico">
+   <img src="/assets/items/MYSTIC-MUSHROOM.png" class="item-icon" alt="Cogumelo Místico">
    <div class="item-info">
      <h1 class="item-title">Cogumelo Místico</h1>
      <span class="item-category" data-category="plants">Plantas e Flores</span>

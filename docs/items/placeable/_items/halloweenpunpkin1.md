@@ -4,7 +4,7 @@ title: "Abóbora de Halloween"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/halloweenpunpkin1.png" class="item-icon" alt="Abóbora de Halloween">
+   <img src="/assets/items/HalloweenPunpkin1.png" class="item-icon" alt="Abóbora de Halloween">
    <div class="item-info">
      <h1 class="item-title">Abóbora de Halloween</h1>
      <span class="item-category" data-category="placeable">Itens Posicionáveis</span>

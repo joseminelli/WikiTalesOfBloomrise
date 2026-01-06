@@ -4,7 +4,7 @@ title: "Picareta de Ferro"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/iron-pickaxe.png" class="item-icon" alt="Picareta de Ferro">
+   <img src="/assets/items/Iron-Pickaxe.png" class="item-icon" alt="Picareta de Ferro">
    <div class="item-info">
      <h1 class="item-title">Picareta de Ferro</h1>
      <span class="item-category" data-category="equipment">Equipamentos</span>
@@ -31,6 +31,6 @@ title: "Picareta de Ferro"
         <span>2x Madeira Refinada</span>
     </a>
     <a href="/items/materials/_items/ferro/" class="mini-card">
-        <img src="/assets/items/ferro.png" alt="Barra de Ferro">
+        <img src="/assets/items/Ferro.png" alt="Barra de Ferro">
         <span>4x Barra de Ferro</span>
-    </a></div></div><div class="item-section used-in"><h2>🛠️ Usado para criar</h2><div class="used-grid"><a href="/items/equipment/_items/chromite-pickaxe/" class="mini-card"><img src="/assets/items/chromite-pickaxe.png"><span>Picareta de Chromita</span></a></div></div></div>
+    </a></div></div><div class="item-section used-in"><h2>🛠️ Usado para criar</h2><div class="used-grid"><a href="/items/equipment/_items/chromite-pickaxe/" class="mini-card"><img src="/assets/items/Chromite-Pickaxe.png"><span>Picareta de Chromita</span></a></div></div></div>

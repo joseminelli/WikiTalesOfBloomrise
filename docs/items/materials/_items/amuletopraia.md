@@ -4,7 +4,7 @@ title: "Amuleto de Viagem: Praia"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/amuletopraia.png" class="item-icon" alt="Amuleto de Viagem: Praia">
+   <img src="/assets/items/AmuletoPraia.png" class="item-icon" alt="Amuleto de Viagem: Praia">
    <div class="item-info">
      <h1 class="item-title">Amuleto de Viagem: Praia</h1>
      <span class="item-category" data-category="materials">Materiais e Itens Gerais</span>

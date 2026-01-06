@@ -27,6 +27,6 @@ title: "Corda"
 
 <div class="item-section"><h2>🔨 Como Criar</h2><p class="yield-text" style="margin-bottom: 0.5rem; font-size: 0.9rem; opacity: 0.8;">Rende: <strong>1x</strong></p><div class="used-grid">
     <a href="/items/plants/_items/leaf/" class="mini-card">
-        <img src="/assets/items/leaf.png" alt="Folha">
+        <img src="/assets/items/Leaf.png" alt="Folha">
         <span>5x Folha</span>
-    </a></div></div><div class="item-section used-in"><h2>🛠️ Usado para criar</h2><div class="used-grid"><a href="/items/materials/_items/amuletocasa/" class="mini-card"><img src="/assets/items/amuletocasa.png"><span>Amuleto de Viagem: Lar</span></a><a href="/items/materials/_items/amuletocaverna/" class="mini-card"><img src="/assets/items/amuletocaverna.png"><span>Amuleto de Viagem: Caverna</span></a></div></div></div>
+    </a></div></div><div class="item-section used-in"><h2>🛠️ Usado para criar</h2><div class="used-grid"><a href="/items/materials/_items/amuletocasa/" class="mini-card"><img src="/assets/items/AmuletoCasa.png"><span>Amuleto de Viagem: Lar</span></a><a href="/items/materials/_items/amuletocaverna/" class="mini-card"><img src="/assets/items/AmuletoCaverna.png"><span>Amuleto de Viagem: Caverna</span></a></div></div></div>

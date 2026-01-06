@@ -4,7 +4,7 @@ title: "Crônicas de Rook"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/cronicasderook.png" class="item-icon" alt="Crônicas de Rook">
+   <img src="/assets/items/CronicasDeRook.png" class="item-icon" alt="Crônicas de Rook">
    <div class="item-info">
      <h1 class="item-title">Crônicas de Rook</h1>
      <span class="item-category" data-category="books">Livros e Guias</span>

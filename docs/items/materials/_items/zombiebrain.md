@@ -4,7 +4,7 @@ title: "Cérebro de Zumbi"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/zombiebrain.png" class="item-icon" alt="Cérebro de Zumbi">
+   <img src="/assets/items/zombieBrain.png" class="item-icon" alt="Cérebro de Zumbi">
    <div class="item-info">
      <h1 class="item-title">Cérebro de Zumbi</h1>
      <span class="item-category" data-category="materials">Materiais e Itens Gerais</span>

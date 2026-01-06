@@ -4,7 +4,7 @@ title: "Semente de Uva"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/seed-uva.png" class="item-icon" alt="Semente de Uva">
+   <img src="/assets/items/Seed-uva.png" class="item-icon" alt="Semente de Uva">
    <div class="item-info">
      <h1 class="item-title">Semente de Uva</h1>
      <span class="item-category" data-category="plants">Plantas e Flores</span>

@@ -4,7 +4,7 @@ title: "Herring"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/herring.png" class="item-icon" alt="Herring">
+   <img src="/assets/items/Herring.png" class="item-icon" alt="Herring">
    <div class="item-info">
      <h1 class="item-title">Herring</h1>
      <span class="item-category" data-category="materials">Materiais e Itens Gerais</span>

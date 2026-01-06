@@ -4,7 +4,7 @@ title: "Papel Usado"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/papelusado.png" class="item-icon" alt="Papel Usado">
+   <img src="/assets/items/papelUsado.png" class="item-icon" alt="Papel Usado">
    <div class="item-info">
      <h1 class="item-title">Papel Usado</h1>
      <span class="item-category" data-category="materials">Materiais e Itens Gerais</span>

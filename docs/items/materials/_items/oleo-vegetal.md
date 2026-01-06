@@ -4,7 +4,7 @@ title: "Óleo vegetal"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/oleo-vegetal.png" class="item-icon" alt="Óleo vegetal">
+   <img src="/assets/items/Oleo-vegetal.png" class="item-icon" alt="Óleo vegetal">
    <div class="item-info">
      <h1 class="item-title">Óleo vegetal</h1>
      <span class="item-category" data-category="materials">Materiais e Itens Gerais</span>
@@ -29,4 +29,4 @@ title: "Óleo vegetal"
     <a href="/items/plants/_items/sunflower/" class="mini-card">
         <img src="/assets/items/sunflower.png" alt="Girassol">
         <span>2x Girassol</span>
-    </a></div></div><div class="item-section used-in"><h2>🛠️ Usado para criar</h2><div class="used-grid"><a href="/items/consumables_hp/_items/peixefrito/" class="mini-card"><img src="/assets/items/peixefrito.png"><span>Peixe Frito</span></a></div></div></div>
+    </a></div></div><div class="item-section used-in"><h2>🛠️ Usado para criar</h2><div class="used-grid"><a href="/items/consumables_hp/_items/peixefrito/" class="mini-card"><img src="/assets/items/PeixeFrito.png"><span>Peixe Frito</span></a></div></div></div>

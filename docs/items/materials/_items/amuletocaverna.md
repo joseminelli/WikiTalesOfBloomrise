@@ -4,7 +4,7 @@ title: "Amuleto de Viagem: Caverna"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/amuletocaverna.png" class="item-icon" alt="Amuleto de Viagem: Caverna">
+   <img src="/assets/items/AmuletoCaverna.png" class="item-icon" alt="Amuleto de Viagem: Caverna">
    <div class="item-info">
      <h1 class="item-title">Amuleto de Viagem: Caverna</h1>
      <span class="item-category" data-category="materials">Materiais e Itens Gerais</span>
@@ -31,6 +31,6 @@ title: "Amuleto de Viagem: Caverna"
         <span>2x Corda</span>
     </a>
     <a href="/items/materials/_items/ferro/" class="mini-card">
-        <img src="/assets/items/ferro.png" alt="Barra de Ferro">
+        <img src="/assets/items/Ferro.png" alt="Barra de Ferro">
         <span>1x Barra de Ferro</span>
     </a></div></div></div>

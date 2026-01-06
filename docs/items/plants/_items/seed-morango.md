@@ -4,7 +4,7 @@ title: "Semente de Morango"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/seed-morango.png" class="item-icon" alt="Semente de Morango">
+   <img src="/assets/items/Seed-morango.png" class="item-icon" alt="Semente de Morango">
    <div class="item-info">
      <h1 class="item-title">Semente de Morango</h1>
      <span class="item-category" data-category="plants">Plantas e Flores</span>

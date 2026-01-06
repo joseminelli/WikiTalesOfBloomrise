@@ -4,7 +4,7 @@ title: "Arco"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/bow.png" class="item-icon" alt="Arco">
+   <img src="/assets/items/Bow.png" class="item-icon" alt="Arco">
    <div class="item-info">
      <h1 class="item-title">Arco</h1>
      <span class="item-category" data-category="equipment">Equipamentos</span>

@@ -4,7 +4,7 @@ title: "Sardinha"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/sardinha.png" class="item-icon" alt="Sardinha">
+   <img src="/assets/items/Sardinha.png" class="item-icon" alt="Sardinha">
    <div class="item-info">
      <h1 class="item-title">Sardinha</h1>
      <span class="item-category" data-category="materials">Materiais e Itens Gerais</span>
@@ -25,4 +25,4 @@ title: "Sardinha"
   </div>
 </div>
 
-<div class="item-section used-in"><h2>🛠️ Usado para criar</h2><div class="used-grid"><a href="/items/consumables_hp/_items/sardinhagrelhada/" class="mini-card"><img src="/assets/items/sardinhagrelhada.png"><span>Sardinha Grelhada</span></a></div></div></div>
+<div class="item-section used-in"><h2>🛠️ Usado para criar</h2><div class="used-grid"><a href="/items/consumables_hp/_items/sardinhagrelhada/" class="mini-card"><img src="/assets/items/SardinhaGrelhada.png"><span>Sardinha Grelhada</span></a></div></div></div>

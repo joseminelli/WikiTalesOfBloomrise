@@ -4,7 +4,7 @@ title: "Rabo de Rato"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/rat-tail.png" class="item-icon" alt="Rabo de Rato">
+   <img src="/assets/items/Rat-Tail.png" class="item-icon" alt="Rabo de Rato">
    <div class="item-info">
      <h1 class="item-title">Rabo de Rato</h1>
      <span class="item-category" data-category="materials">Materiais e Itens Gerais</span>

@@ -4,7 +4,7 @@ title: "Milkshake"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/milkshake.png" class="item-icon" alt="Milkshake">
+   <img src="/assets/items/Milkshake.png" class="item-icon" alt="Milkshake">
    <div class="item-info">
      <h1 class="item-title">Milkshake</h1>
      <span class="item-category" data-category="consumables_hp">Consumíveis — Vida</span>

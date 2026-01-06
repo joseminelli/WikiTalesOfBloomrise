@@ -26,4 +26,4 @@ title: "Abóbora"
 </div>
 
 <div class="item-section"><h3>✨ Atributos</h3><div class="effects-grid"><div class='effect-tag'>❤️ **Vida:** +1.0</div></div></div>
-<div class="item-section used-in"><h2>🛠️ Usado para criar</h2><div class="used-grid"><a href="/items/consumables_hp/_items/sopaabobora/" class="mini-card"><img src="/assets/items/sopaabobora.png"><span>Sopa de Abóbora</span></a><a href="/items/consumables_hp/_items/tortaabobora/" class="mini-card"><img src="/assets/items/tortaabobora.png"><span>Torta de Abóbora</span></a></div></div></div>
+<div class="item-section used-in"><h2>🛠️ Usado para criar</h2><div class="used-grid"><a href="/items/consumables_hp/_items/sopaabobora/" class="mini-card"><img src="/assets/items/sopaAbobora.png"><span>Sopa de Abóbora</span></a><a href="/items/consumables_hp/_items/tortaabobora/" class="mini-card"><img src="/assets/items/tortaabobora.png"><span>Torta de Abóbora</span></a></div></div></div>

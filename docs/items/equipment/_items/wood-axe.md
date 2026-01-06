@@ -31,6 +31,6 @@ title: "Machado de Madeira"
         <span>4x Madeira Refinada</span>
     </a>
     <a href="/items/materials/_items/woodlog/" class="mini-card">
-        <img src="/assets/items/woodlog.png" alt="Tronco de Madeira">
+        <img src="/assets/items/WoodLog.png" alt="Tronco de Madeira">
         <span>2x Tronco de Madeira</span>
     </a></div></div></div>

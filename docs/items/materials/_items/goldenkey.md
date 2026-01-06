@@ -4,7 +4,7 @@ title: "Chave Dourada"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/goldenkey.png" class="item-icon" alt="Chave Dourada">
+   <img src="/assets/items/GoldenKey.png" class="item-icon" alt="Chave Dourada">
    <div class="item-info">
      <h1 class="item-title">Chave Dourada</h1>
      <span class="item-category" data-category="materials">Materiais e Itens Gerais</span>

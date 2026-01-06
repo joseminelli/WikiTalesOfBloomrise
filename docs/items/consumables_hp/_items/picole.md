@@ -4,7 +4,7 @@ title: "Picolé"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/picole.png" class="item-icon" alt="Picolé">
+   <img src="/assets/items/Picole.png" class="item-icon" alt="Picolé">
    <div class="item-info">
      <h1 class="item-title">Picolé</h1>
      <span class="item-category" data-category="consumables_hp">Consumíveis — Vida</span>

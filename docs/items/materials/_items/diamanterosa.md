@@ -4,7 +4,7 @@ title: "Diamante Rosa"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/diamanterosa.png" class="item-icon" alt="Diamante Rosa">
+   <img src="/assets/items/DiamanteRosa.png" class="item-icon" alt="Diamante Rosa">
    <div class="item-info">
      <h1 class="item-title">Diamante Rosa</h1>
      <span class="item-category" data-category="materials">Materiais e Itens Gerais</span>

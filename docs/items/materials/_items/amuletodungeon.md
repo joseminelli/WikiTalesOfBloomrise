@@ -4,7 +4,7 @@ title: "Amuleto de Viagem: Dungeon"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/amuletodungeon.png" class="item-icon" alt="Amuleto de Viagem: Dungeon">
+   <img src="/assets/items/AmuletoDungeon.png" class="item-icon" alt="Amuleto de Viagem: Dungeon">
    <div class="item-info">
      <h1 class="item-title">Amuleto de Viagem: Dungeon</h1>
      <span class="item-category" data-category="materials">Materiais e Itens Gerais</span>

@@ -4,7 +4,7 @@ title: "Ensopado de Peixe"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/ensopadopeixe.png" class="item-icon" alt="Ensopado de Peixe">
+   <img src="/assets/items/EnsopadoPeixe.png" class="item-icon" alt="Ensopado de Peixe">
    <div class="item-info">
      <h1 class="item-title">Ensopado de Peixe</h1>
      <span class="item-category" data-category="consumables_hp">Consumíveis — Vida</span>

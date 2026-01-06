@@ -4,7 +4,7 @@ title: "Osso"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/bone.png" class="item-icon" alt="Osso">
+   <img src="/assets/items/Bone.png" class="item-icon" alt="Osso">
    <div class="item-info">
      <h1 class="item-title">Osso</h1>
      <span class="item-category" data-category="materials">Materiais e Itens Gerais</span>

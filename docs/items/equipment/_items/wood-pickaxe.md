@@ -4,7 +4,7 @@ title: "Picareta de Madeira"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/wood-pickaxe.png" class="item-icon" alt="Picareta de Madeira">
+   <img src="/assets/items/Wood-Pickaxe.png" class="item-icon" alt="Picareta de Madeira">
    <div class="item-info">
      <h1 class="item-title">Picareta de Madeira</h1>
      <span class="item-category" data-category="equipment">Equipamentos</span>
@@ -31,6 +31,6 @@ title: "Picareta de Madeira"
         <span>5x Madeira Refinada</span>
     </a>
     <a href="/items/materials/_items/woodlog/" class="mini-card">
-        <img src="/assets/items/woodlog.png" alt="Tronco de Madeira">
+        <img src="/assets/items/WoodLog.png" alt="Tronco de Madeira">
         <span>2x Tronco de Madeira</span>
     </a></div></div></div>

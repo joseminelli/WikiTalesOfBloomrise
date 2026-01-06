@@ -4,7 +4,7 @@ title: "Geladeira Branca"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/item-fridge-white.png" class="item-icon" alt="Geladeira Branca">
+   <img src="/assets/items/ITEM-FRIDGE-WHITE.png" class="item-icon" alt="Geladeira Branca">
    <div class="item-info">
      <h1 class="item-title">Geladeira Branca</h1>
      <span class="item-category" data-category="placeable">Itens Posicionáveis</span>

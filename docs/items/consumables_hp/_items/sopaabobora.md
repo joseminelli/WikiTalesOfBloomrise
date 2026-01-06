@@ -4,7 +4,7 @@ title: "Sopa de Abóbora"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/sopaabobora.png" class="item-icon" alt="Sopa de Abóbora">
+   <img src="/assets/items/sopaAbobora.png" class="item-icon" alt="Sopa de Abóbora">
    <div class="item-info">
      <h1 class="item-title">Sopa de Abóbora</h1>
      <span class="item-category" data-category="consumables_hp">Consumíveis — Vida</span>

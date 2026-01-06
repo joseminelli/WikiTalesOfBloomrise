@@ -4,7 +4,7 @@ title: "Semente de Girassol"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/seed-girasol.png" class="item-icon" alt="Semente de Girassol">
+   <img src="/assets/items/Seed-Girasol.png" class="item-icon" alt="Semente de Girassol">
    <div class="item-info">
      <h1 class="item-title">Semente de Girassol</h1>
      <span class="item-category" data-category="plants">Plantas e Flores</span>

@@ -4,7 +4,7 @@ title: "Baú"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/item-chest.png" class="item-icon" alt="Baú">
+   <img src="/assets/items/ITEM-CHEST.png" class="item-icon" alt="Baú">
    <div class="item-info">
      <h1 class="item-title">Baú</h1>
      <span class="item-category" data-category="placeable">Itens Posicionáveis</span>

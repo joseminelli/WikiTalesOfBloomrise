@@ -4,7 +4,7 @@ title: "Guia de Criação"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/recipebook.png" class="item-icon" alt="Guia de Criação">
+   <img src="/assets/items/Recipebook.png" class="item-icon" alt="Guia de Criação">
    <div class="item-info">
      <h1 class="item-title">Guia de Criação</h1>
      <span class="item-category" data-category="books">Livros e Guias</span>

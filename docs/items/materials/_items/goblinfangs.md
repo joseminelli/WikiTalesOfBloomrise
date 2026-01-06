@@ -4,7 +4,7 @@ title: "Presa de Goblin"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/goblinfangs.png" class="item-icon" alt="Presa de Goblin">
+   <img src="/assets/items/GoblinFangs.png" class="item-icon" alt="Presa de Goblin">
    <div class="item-info">
      <h1 class="item-title">Presa de Goblin</h1>
      <span class="item-category" data-category="materials">Materiais e Itens Gerais</span>

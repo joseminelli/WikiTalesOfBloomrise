@@ -4,7 +4,7 @@ title: "Detector de Metais"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/detectormetal.png" class="item-icon" alt="Detector de Metais">
+   <img src="/assets/items/DetectorMetal.png" class="item-icon" alt="Detector de Metais">
    <div class="item-info">
      <h1 class="item-title">Detector de Metais</h1>
      <span class="item-category" data-category="equipment">Equipamentos</span>
@@ -27,14 +27,14 @@ title: "Detector de Metais"
 
 <div class="item-section"><h2>🔨 Como Criar</h2><p class="yield-text" style="margin-bottom: 0.5rem; font-size: 0.9rem; opacity: 0.8;">Rende: <strong>1x</strong></p><div class="used-grid">
     <a href="/items/materials/_items/cpu/" class="mini-card">
-        <img src="/assets/items/cpu.png" alt="CPU">
+        <img src="/assets/items/CPU.png" alt="CPU">
         <span>2x CPU</span>
     </a>
     <a href="/items/materials/_items/ferro/" class="mini-card">
-        <img src="/assets/items/ferro.png" alt="Barra de Ferro">
+        <img src="/assets/items/Ferro.png" alt="Barra de Ferro">
         <span>2x Barra de Ferro</span>
     </a>
     <a href="/items/materials/_items/bateria/" class="mini-card">
-        <img src="/assets/items/bateria.png" alt="Bateria">
+        <img src="/assets/items/Bateria.png" alt="Bateria">
         <span>2x Bateria</span>
     </a></div></div></div>

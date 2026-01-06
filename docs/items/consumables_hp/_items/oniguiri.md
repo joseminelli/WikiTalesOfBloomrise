@@ -4,7 +4,7 @@ title: "Onigiri"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/oniguiri.png" class="item-icon" alt="Onigiri">
+   <img src="/assets/items/Oniguiri.png" class="item-icon" alt="Onigiri">
    <div class="item-info">
      <h1 class="item-title">Onigiri</h1>
      <span class="item-category" data-category="consumables_hp">Consumíveis — Vida</span>

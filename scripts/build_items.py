@@ -97,11 +97,40 @@ def t(locale, key, fallback=""):
     if not key: return fallback
     return locale.get(key, fallback or key)
 
+REAL_FILENAME_MAP = {}
+
+def map_real_filenames():
+    """Mapeia nomes de arquivos reais indexando-os por versões normalizadas."""
+    global REAL_FILENAME_MAP
+    if ASSETS_DIR.exists():
+        for file in ASSETS_DIR.iterdir():
+            if file.is_file():
+                # CHAVE 1: Tudo colado e minúsculo (ex: batataassada)
+                clean_key = file.stem.lower().replace("-", "").replace("_", "")
+                REAL_FILENAME_MAP[clean_key] = file.name
+                
+                # CHAVE 2: Slug padrão (ex: batata-assada)
+                slug_key = slug(file.stem)
+                REAL_FILENAME_MAP[slug_key] = file.name
+
 def resolve_item_icon(item_id):
-    # Força o nome do arquivo a ser o slug. Ex: "Wood Axe" -> "wood-axe.png"
-    icon_file = f"{slug(item_id)}.png"
-    if (ASSETS_DIR / icon_file).exists():
-        return icon_file
+    if not REAL_FILENAME_MAP:
+        map_real_filenames()
+    
+    # 1. Tenta slug (batata-assada)
+    target_slug = slug(item_id)
+    if target_slug in REAL_FILENAME_MAP:
+        return REAL_FILENAME_MAP[target_slug]
+        
+    # 2. Tenta tudo colado (batataassada)
+    target_clean = item_id.lower().replace("-", "").replace("_", "")
+    if target_clean in REAL_FILENAME_MAP:
+        return REAL_FILENAME_MAP[target_clean]
+    
+    # 3. Tenta ID bruto minúsculo
+    if item_id.lower() in REAL_FILENAME_MAP:
+        return REAL_FILENAME_MAP[item_id.lower()]
+
     return PLACEHOLDER_IMAGE
 
 def detect_category(item):
@@ -398,7 +427,7 @@ def build_tables(items, locale, recipes, used_in):
 if __name__ == "__main__":
     ASSETS_DIR.mkdir(parents=True, exist_ok=True)
     DOCS_DIR.mkdir(parents=True, exist_ok=True)
-    
+    map_real_filenames()
     items = load_items()
     locale = load_locale()
     recipes, used_in = load_recipes()

@@ -4,7 +4,7 @@ title: "Semente de Abóbora"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/seed-abobora.png" class="item-icon" alt="Semente de Abóbora">
+   <img src="/assets/items/Seed-abobora.png" class="item-icon" alt="Semente de Abóbora">
    <div class="item-info">
      <h1 class="item-title">Semente de Abóbora</h1>
      <span class="item-category" data-category="plants">Plantas e Flores</span>

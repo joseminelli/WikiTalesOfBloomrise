@@ -4,7 +4,7 @@ title: "Semente de Batata"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/seed-batata.png" class="item-icon" alt="Semente de Batata">
+   <img src="/assets/items/Seed-batata.png" class="item-icon" alt="Semente de Batata">
    <div class="item-info">
      <h1 class="item-title">Semente de Batata</h1>
      <span class="item-category" data-category="plants">Plantas e Flores</span>

@@ -4,7 +4,7 @@ title: "Chocolate"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/chocolate.png" class="item-icon" alt="Chocolate">
+   <img src="/assets/items/Chocolate.png" class="item-icon" alt="Chocolate">
    <div class="item-info">
      <h1 class="item-title">Chocolate</h1>
      <span class="item-category" data-category="consumables_hp">Consumíveis — Vida</span>

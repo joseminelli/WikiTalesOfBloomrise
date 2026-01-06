@@ -4,7 +4,7 @@ title: "Guia de Jardinagem"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/guiadejardinagem2.png" class="item-icon" alt="Guia de Jardinagem">
+   <img src="/assets/items/GuiaDeJardinagem2.png" class="item-icon" alt="Guia de Jardinagem">
    <div class="item-info">
      <h1 class="item-title">Guia de Jardinagem</h1>
      <span class="item-category" data-category="books">Livros e Guias</span>

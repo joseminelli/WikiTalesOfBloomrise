@@ -4,7 +4,7 @@ title: "Semente de Trigo"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/seed-trigo.png" class="item-icon" alt="Semente de Trigo">
+   <img src="/assets/items/Seed-trigo.png" class="item-icon" alt="Semente de Trigo">
    <div class="item-info">
      <h1 class="item-title">Semente de Trigo</h1>
      <span class="item-category" data-category="plants">Plantas e Flores</span>

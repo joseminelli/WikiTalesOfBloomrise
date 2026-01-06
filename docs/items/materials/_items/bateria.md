@@ -4,7 +4,7 @@ title: "Bateria"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/bateria.png" class="item-icon" alt="Bateria">
+   <img src="/assets/items/Bateria.png" class="item-icon" alt="Bateria">
    <div class="item-info">
      <h1 class="item-title">Bateria</h1>
      <span class="item-category" data-category="materials">Materiais e Itens Gerais</span>
@@ -25,4 +25,4 @@ title: "Bateria"
   </div>
 </div>
 
-<div class="item-section used-in"><h2>🛠️ Usado para criar</h2><div class="used-grid"><a href="/items/equipment/_items/detectormetal/" class="mini-card"><img src="/assets/items/detectormetal.png"><span>Detector de Metais</span></a></div></div></div>
+<div class="item-section used-in"><h2>🛠️ Usado para criar</h2><div class="used-grid"><a href="/items/equipment/_items/detectormetal/" class="mini-card"><img src="/assets/items/DetectorMetal.png"><span>Detector de Metais</span></a></div></div></div>

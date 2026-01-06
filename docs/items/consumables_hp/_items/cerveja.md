@@ -4,7 +4,7 @@ title: "Cerveja"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/cerveja.png" class="item-icon" alt="Cerveja">
+   <img src="/assets/items/Cerveja.png" class="item-icon" alt="Cerveja">
    <div class="item-info">
      <h1 class="item-title">Cerveja</h1>
      <span class="item-category" data-category="consumables_hp">Consumíveis — Vida</span>

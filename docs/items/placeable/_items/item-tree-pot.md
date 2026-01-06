@@ -4,7 +4,7 @@ title: "Árvore Decorativa no Pote"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/item-tree-pot.png" class="item-icon" alt="Árvore Decorativa no Pote">
+   <img src="/assets/items/ITEM-TREE-POT.png" class="item-icon" alt="Árvore Decorativa no Pote">
    <div class="item-info">
      <h1 class="item-title">Árvore Decorativa no Pote</h1>
      <span class="item-category" data-category="placeable">Itens Posicionáveis</span>

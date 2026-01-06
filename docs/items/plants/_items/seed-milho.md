@@ -4,7 +4,7 @@ title: "Semente de Milho"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/seed-milho.png" class="item-icon" alt="Semente de Milho">
+   <img src="/assets/items/Seed-milho.png" class="item-icon" alt="Semente de Milho">
    <div class="item-info">
      <h1 class="item-title">Semente de Milho</h1>
      <span class="item-category" data-category="plants">Plantas e Flores</span>

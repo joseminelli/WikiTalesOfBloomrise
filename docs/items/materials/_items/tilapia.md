@@ -4,7 +4,7 @@ title: "Tilápia"
 
 <div class="item-page">
 <div class="item-header">
-   <img src="/assets/items/tilapia.png" class="item-icon" alt="Tilápia">
+   <img src="/assets/items/Tilapia.png" class="item-icon" alt="Tilápia">
    <div class="item-info">
      <h1 class="item-title">Tilápia</h1>
      <span class="item-category" data-category="materials">Materiais e Itens Gerais</span>
@@ -25,4 +25,4 @@ title: "Tilápia"
   </div>
 </div>
 
-<div class="item-section used-in"><h2>🛠️ Usado para criar</h2><div class="used-grid"><a href="/items/consumables_hp/_items/peixefrito/" class="mini-card"><img src="/assets/items/peixefrito.png"><span>Peixe Frito</span></a><a href="/items/consumables_hp/_items/tilapiagrelhada/" class="mini-card"><img src="/assets/items/tilapiagrelhada.png"><span>Tilápia Grelhada</span></a></div></div></div>
+<div class="item-section used-in"><h2>🛠️ Usado para criar</h2><div class="used-grid"><a href="/items/consumables_hp/_items/peixefrito/" class="mini-card"><img src="/assets/items/PeixeFrito.png"><span>Peixe Frito</span></a><a href="/items/consumables_hp/_items/tilapiagrelhada/" class="mini-card"><img src="/assets/items/TilapiaGrelhada.png"><span>Tilápia Grelhada</span></a></div></div></div>
