@@ -1,62 +1,67 @@
-# Tales of Bloomrise Wiki
 
-Bem-vindo à wiki oficial de **Tales of Bloomrise** 🌸  
-Aqui você encontra informações sobre itens, personagens, locais e mecânicas do jogo.
+<div class="logo">
 
-Esta wiki é mantida pelo próprio desenvolvedor e gerada a partir dos dados internos do jogo, garantindo que as informações estejam sempre atualizadas.
+<img src="assets/logo.png" alt="Tales of Bloomrise" width="500" />
 
----
+</div>
+<div class="hero">
+<p class="hero-title">
+🌸 A wiki oficial de <strong>Tales of Bloomrise</strong>
+</p>
 
-## 🌱 Sobre o jogo
+<p class="hero-subtitle">
+RPG brasileiro em pixel art que mistura exploração de dungeons,
+vida na vila e personagens memoráveis.
+</p>
 
-**Tales of Bloomrise** é um RPG em pixel art que combina vida cotidiana em uma vila acolhedora com exploração, combate e mistérios escondidos em florestas e dungeons.
+</div>
 
-Você acompanha **Rayy**, uma aventureira corajosa que protege a vila de Bloomrise enquanto constrói relações, enfrenta criaturas estranhas e descobre segredos antigos.
+<div class="info-card">
+<h2>🌿 Sobre o jogo</h2>
 
----
+<p>
+<em>Tales of Bloomrise</em> é um RPG em pixel art inspirado em
+<strong>Stardew Valley</strong> e <strong>Zelda clássico</strong>.
+</p>
 
-## 📚 Conteúdo da Wiki
+<p>
+Você joga como <strong>Rayy</strong>, uma aventureira que protege
+a vila de Bloomrise enquanto explora ruínas, enfrenta criaturas
+e cria laços com os moradores locais.
+</p>
+</div>
 
-### 🎒 Itens
-Materiais, consumíveis, equipamentos e outros objetos encontrados ou usados durante a aventura.
+<h2>📦 Conteúdo da Wiki</h2>
 
-➡️ [Acessar itens](itens/index.md)
+<div class="grid">
 
----
+<div class="grid-item">
+<h3>🧱 Itens & Materiais</h3>
+<p>Ingredientes e recursos gerais.</p>
+<a href="items/materials/">Ver itens →</a>
+</div>
 
-### 🧍 Personagens *(em breve)*
-Moradores da vila, comerciantes, aliados e figuras misteriosas.
+<div class="grid-item">
+<h3>❤️ Consumíveis</h3>
+<p>Cura, energia e efeitos.</p>
+<a href="items/consumables_hp/">Ver consumíveis →</a>
+</div>
 
----
+<div class="grid-item">
+<h3>⚔️ Equipamentos</h3>
+<p>Armas, armaduras e acessórios.</p>
+<a href="items/equipment/">Ver equipamentos →</a>
+</div>
 
-### 🗺️ Locais *(em breve)*
-Bloomrise, florestas, dungeons e áreas especiais.
+<div class="grid-item">
+<h3>🧑 Personagens</h3>
+<p>NPCs, histórias e eventos.</p>
+<em>Em breve</em>
+</div>
 
----
+</div>
 
-### 📜 Lore & Mundo *(em breve)*
-Histórias, livros, eventos e segredos do mundo.
-
----
-
-## 🛠️ Estado do desenvolvimento
-
-*Tales of Bloomrise* ainda está em desenvolvimento ativo.  
-Alguns conteúdos podem mudar, ser ajustados ou ainda não estar disponíveis no jogo final.
-
-Esta wiki reflete a versão mais recente dos dados implementados.
-
----
-
-## 💬 Feedback e comunidade
-
-Encontrou algo errado ou tem sugestões?
-
-- Acompanhe o desenvolvimento pelas redes sociais
-- Participe das discussões da comunidade
-- Feedback ajuda muito o desenvolvimento do jogo ❤️
-
----
-
-> © Whiskline Studio — Tales of Bloomrise  
-> Wiki hospedada em **wiki.talesofbloomrise.com**
+<p class="footer-note">
+📘 Esta wiki é atualizada junto com o desenvolvimento de
+<strong>Tales of Bloomrise</strong>.
+</p>

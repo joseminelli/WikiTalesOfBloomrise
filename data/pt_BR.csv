@@ -1,0 +1,1221 @@
+key;text
+UI_PLAY_BUTTON;Jogar
+UI_INVENTORY_TITLE;Mochila
+UI_CRAFT_TITLE;Criar
+UI_CRAFT_ITEMS_TITLE;Seus itens
+ATTR_POINTS;Pontos:
+ENTERING_IN_HUD;Entrando em...
+LIFE_INV;Vida
+STAMINA_INV;Energia
+UI_SETTINGS_TITLE;Configurações
+CHEST_TITLE;Baú
+FRIDGE_TITLE;Geladeira
+MAP_TITLE;Mapa
+IDIOMA_TITLE;Idioma
+SHOP_TITLE;Loja
+ICECREAM_TITLE;Sorvetes
+HOTDOG_VAN_TITLE;Van do Hot Dog
+FLOWERSHOP_TITLE;Floricultura
+BLACKSMITH_TITLE;Ferreiro
+SLEEP_TEXT;No próximo dia...
+BARMAN_TITLE;Bar
+BOOK_TITLE;Livraria
+MACHINE_TITLE;Máquina
+LOADING_TITLE;Carregando...
+SKIP_DIALOGUE;Pular diálogo
+PAUSE_TITLE;Pausa
+EXIT_TITLE;Sair do jogo?
+EXIT_MESSAGE;Você realmente quer sair da aventura?
+PIX_MESSAGE;Chave Pix Copiada!   Obrigado por ajudar este projeto indie!
+DONATE_MESSAGE;Tales of Bloomrise é gratuito e feito com carinho.Se quiser apoiar, você pode fazer uma doação pelo Catarse
+DONATE_TITLE;Apoie o jogo!
+DEAD_TITLE;Fim da Luta
+QUEST_TITLE;Tarefas
+DIALOGUE_PASS_TEXT;Toque em qualquer lugar para avançar
+NOQUESTS_TEXT;Sem tarefas ativas no momento(interaja com os moradores)
+OBJECTIVES_TEXT;Objetivos:
+GUIDECOMPLETE_TEXT;Aprovado!
+GAMEBOY_FUTURE_TEXT;Jogos disponíveis no futuro... :)
+CANCEL_BTN_TEXT;Cancelar
+COMPLETE_BTN_TEXT;Completar
+TO_PLACE_TEXT;Colocar
+ROTATE_TEXT;Rotacionar
+MADE_BY_TEXT;Feito por
+CHARACTER_ARTS_TEXT;Arte dos personagens
+NO_PROCESSING_ITEMS;Sem itens em processamento
+NO_RECIPES;Nenhuma receita disponível para esta estação.
+REQUIRED_ITENS_TITLE;Itens necessários
+DETAILED_ANIMS;Animações detalhadas
+TARGET_FPS;FPS alvo
+EVENT_FINISHED;Evento finalizado!
+TIME_REMAINING;Tempo restante: 
+HEALTH;HP: 
+STAMINA;Energia: 
+INGREDIENTS;Ingredientes: 
+MADE_IN;Feito em: 
+TIME;Tempo: 
+GROW_TIME;Tempo de Crescimento: 
+TOTAL_HARVESTS;Colheitas Totais: 
+REGROW_TIME;Tempo para colheita regressar: 
+UNIQUE_HARVEST;Colheita Única.
+PIER_BEACH_LOCATION;Praia do Cais
+TOOL_NEEDED_FISHINGROD;Você precisa de uma Vara de Pesca.
+NOT_ENOUGH_STAMINA;Energia insuficiente.
+NO_FISHING_SPOTS;Nenhum local de pesca por perto.
+FISHING_SPOT_COOLDOWN;Espere antes de pescar novamente.
+FISH_CAUGHT;Você pescou um novo peixe!
+FISHING_MISSED_ALERT;O peixe escapou! Tente novamente.
+NEW_FISH_DISCOVERED;Novo Peixe Descoberto
+FISH_BOOK_TITLE;Peixopédia
+FISH_BOOK_EMPTY;Apanhe peixes para os registar aqui. Cada peixe apanhado pela primeira vez será adicionado ao seu diário.
+LOCATION;Localização
+TIME_OF_DAY;Horário
+RARITY;Raridade
+NIGHT_ONLY;Apenas à Noite
+ANY_TIME;Qualquer Hora
+RARITY_COMMON;Comum
+RARITY_UNCOMMON;Incomum
+RARITY_RARE;Raro
+RARITY_EPIC;Épico
+LOCATION_RIO;Rio
+LOCATION_OCEANO;Oceano
+LOCATION_LAGO;Lago da Vila
+TOOL_NEEDED_FISHINGROD;É necessária uma Vara de Pesca.
+NO_BAIT_ALERT;Você precisa de isca para pescar!
+FISHSING;Pescando
+TRASH_CAUGHT;Você pescou um item inútil.
+CONTROLS_TITLE;Controles
+MOVE_CONTROL;Mover
+INVENTORY_CONTROL;Abrir Mochila
+ATTACK_CONTROL;Usar/Atacar
+PAUSE_CONTROL;Pausar
+INTERACT_CONTROL;Abrir/Interagir
+MAP_CONTROL;Abrir Mapa
+QUEST_CONTROL;Abrir Tarefas
+UI_TUTORIAL_SKIP;Toque em qualquer lugar para avançar
+UI_TUTORIAL_QUEST;Aqui você verá suas Tarefas. Fique atento: alguns NPCs podem te dar missões importantes ao falar com eles!
+UI_TUTORIAL_TOOLBAR;Esta é sua Barra de Ferramentas. Você pode tocar para acessá-los rapidamente durante a aventura.
+UI_TUTORIAL_ACTIONBTN;Use o Botão de Ação para atacar inimigos ou usar o item que você selecionou na Toolbar!
+UI_TUTORIAL_INVENTORY;Aqui está sua Mochila! Você pode ver todos os itens que coletou, equipamentos que possui e gerenciar seus recursos.
+UI_TUTORIAL_DASH; Use o Dash para se esquivar de ataques ou se mover mais rápido pelo cenário!
+UI_TUTORIAL_MAPBTN;Toque no botão de Mapa para ver onde você está e explorar o mundo ao seu redor.
+Workbench;Mesa de Trabalho
+Stove;Fogão
+Forge;Forja
+Anvil;Bigorna
+AlchemyTable;Mesa de Alquimia
+WineBarrel;Barril de Vinho
+Composter;Composteira
+TailoringTable;Mesa de Costura
+LEVEL_HUD;Nível:
+EXP_STATS;Exp:
+TOTEXP_STATS;Exp Total:
+TOTDMG_STATS;Dano Total:
+CCHANCE_STATS;% Crítica:
+CRITDMG_STATS;Dano Crítico:
+REQEXP_STATS;Req. Exp:
+ATTR_TITLE;Atributos
+ATTR_STRENGTH;Força
+ATTR_DEXTERITY;Destreza
+ATTR_HEALTH;Vida
+USE_BTN;Usar
+CANCEL_BTN;Cancelar
+BACK_BTN;Voltar
+DROP_BTN;Dropar
+REMOVE_BTN;Remover
+DONATE_BTN;Ajude o jogo
+SETTINGS_BTN;Ajustes
+EXIT_BTN;Sair
+SAVE_BTN;Salvar
+RATE_BTN;Avalie!
+COPYPIX_BTN;Quero doar!
+REJECT_BTN;Rejeitar
+ACCEPT_BTN;Aceitar
+TRYAGAIN_BTN;Tentar Novamente
+CRAFT_BTN;Criar
+ONPROGRESS_BTN;Em Progresso
+COMPLETED_TEXT;Concluído
+CLAIM_TEXT;Coletar
+REWARDS_TEXT;Recompensas:
+APPLY_TEXT;Aplicar
+DOOR_DISABLED;Fechado
+DOOR_ENTER;Entrar
+DOOR_EXIT;Sair
+DOOR_NEXT;Seguir
+LOCKED;Trancado
+INTERIOR_REFORM;Interior em reforma
+CAVE_UNLICK_TITLE;Caverna Misteriosa
+CAVE_UNLICK_DESC;Uma caverna escondida na floresta, cheia de minérios e surpresas. Dizem que criaturas estranhas vivem lá dentro.
+CAVE_BRIDGE_UNLICK_TITLE;Ponte misteriosa da caverna
+CAVE_BRIDGE_UNLICK_DESC;Uma ponte que leva a uma parte desconhecida da caverna. Dizem que atravessá-la traz sorte... ou azar.
+ITEM_FISHINGROD_TITLE;Vara de Pesca
+ITEM_FISHINGROD_DESC;Uma vara de pesca simples, mas confiável. O primeiro passo para se tornar um mestre pescador. Pode ser usada em área de pesca.
+ITEM_SARDINHA_TITLE;Sardinha
+ITEM_SARDINHA_DESC;Um peixe marinho pequeno e prateado. Brilha sob o sol quando é puxado da água. É bastante comum no oceano.
+ITEM_TILAPIA_TITLE;Tilápia
+ITEM_TILAPIA_DESC;Um peixe de rio muito popular. Sua carne é leve e saborosa, o que o torna um ingrediente valioso para cozinhar.
+ITEM_HERRING_TITLE;Herring
+ITEM_HERRING_DESC;Um peixe pequeno e oleoso do oceano, que vive em grandes cardumes. Dizem que seu sabor é mais forte.
+ITEM_CHUB_TITLE;Chub
+ITEM_CHUB_DESC;Um peixe de rio comum e surpreendentemente resistente. Não é muito saboroso, mas dá uma boa briga.
+ITEMRAINBOWTROUT_TITLE;Truta Arco-Íris
+ITEMRAINBOWTROUT_DESC;Uma linda truta de rio, famosa por suas escamas coloridas que brilham em tons de arco-íris. É um peixe muito procurado.
+ITEM_ISCA_TITLE;Isca de Peixe
+ITEM_ISCA_DESC;Uma mistura especial que atrai peixes para a sua linha. Anexe à vara de pesca para aumentar a chance de fisgadas.
+FISH_UNKNOWN_NAME;Peixe Desconhecido
+FISH_UNKNOWN_DATA;???
+FISH_UNKNOWN_DESC;Um peixe que você ainda não descobriu.
+ITEM_GRILLED_SARDINE_TITLE;Sardinha Grelhada
+ITEM_GRILLED_SARDINE_DESC;Simples e salgada. Um lanche rápido que restaura um pouco de energia.
+ITEM_FRIED_FISH_TITLE;Peixe Frito
+ITEM_FRIED_FISH_DESC;Um filé de tilápia crocante. Restaura uma boa quantidade de vida.
+ITEM_FISH_STEW_TITLE;Ensopado de Peixe
+ITEM_FISH_STEW_DESC;Um ensopado rico com peixe e vegetais da horta. Muito nutritivo e enche bastante.
+ITEM_FILERAINBOWTROUT_TITLE;Filé de Truta Arco-Íris
+ITEM_FILERAINBOWTROUT_DESC;Um filé suculento de truta arco-íris. Restaura muita vida e energia.
+ITEM_TILAPIAASSADA_TITLE;Tilápia Grelhada
+ITEM_TILAPIAASSADA_DESC;Tilápia temperada e grelhada na perfeição. Restaura uma grande quantidade de vida.
+ITEM_OIL_TITLE ;Óleo vegetal
+ITEM_OIL_DESC ;Óleo extraído de plantas, usado em várias receitas culinárias.
+ITEM_GARDENINGGUIDE_TITLE;Guia de Jardinagem
+ITEM_GARDENINGGUIDE_DESC;Um guia completo com dicas e segredos sobre o cultivo das plantas locais. Detalha como preparar a terra, os tempos de crescimento e as propriedades de cada espécie.
+FARMING_BOOK_TITLE_1;O Guia do Fazendeiro: Primeiros Passos
+FARMING_BOOK_PAGE_1_TEXT;Para começar sua fazenda, você precisará de um Pacote de Terra Você pode conseguir um na Composteira ou comprá-lo na Loja de Flores.\\n\\nCom o Lote de Cultivo em mãos, você pode posicioná-lo em qualquer área livre no chão, com espaço para andar ao redor dele\\n\\nCom o lote posicionado, selecione uma Semente na sua barra de ferramentas e clique no lote para plantar. O resto é com a natureza!
+FARMING_BOOK_TITLE_2;O Guia do Fazendeiro: Colheita
+FARMING_BOOK_PAGE_2_TEXT;As plantas crescem com o tempo, mesmo que você esteja fora explorando. O tempo não para para um bom fazendeiro!\\n\\nQuando a planta estiver pronta, aproxime-se e interaja para colher. Algumas plantas, como Tomates e Milho, continuarão produzindo após a primeira colheita!\\n\\nApós a colheita final, a planta irá murchar. Use qualquer ferramenta para limpar o lote. Cuidado: acertar uma planta saudável com uma ferramenta também irá destruí-la!
+Key;Portuguese
+ITEM_LYLA_DIARY_TITLE;Diário da Lyla
+ITEM_LYLA_DIARY_DESC;O diário pessoal de Lyla Quinn, uma jovem aventureira que recentemente se mudou para Bloomrise. Suas páginas estão cheias de pensamentos, experiências e descobertas sobre a vida na vila e suas interações com os moradores locais.
+LYLA_DIARY_COVER_TITLE;Propriedade de Lyla
+LYLA_DIARY_COVER_TEXT;Não leia! (A não ser que você prometa me devolver!)\\n— Lyla Quinn
+LYLA_DIARY_PAGE_1_TITLE;Primeiras Impressões
+LYLA_DIARY_PAGE_1_TEXT;Primeiro dia em Bloomrise! Esperava um lugar com um pouco mais de asfalto, mas até que as pessoas são legais. Quem não gostou muito foi meu salto, ficou cheio de lama….
+LYLA_DIARY_PAGE_2_TITLE;A Flor-Cantante
+LYLA_DIARY_PAGE_2_TEXT;Lupi apareceu com uma semente “misteriosa” e disse que ia nascer uma “flor-cantante”. Plantei… e por enquanto só tem um matinho tímido. Mas tô conversando com ele todos os dias — flores gostam de elogios, né?
+LYLA_DIARY_PAGE_3_TITLE;O Teste de Decibéis
+LYLA_DIARY_PAGE_3_TEXT;Jaden e aquele cabelo quadrado estão em missão: testar quantos decibéis a vila aguenta. Resultado: todos sobrevivemos, mas alguns sapos parecem ter fugido do bar
+LYLA_DIARY_PAGE_4_TITLE;O Tucano Elegante
+LYLA_DIARY_PAGE_4_TEXT;Milo é o tucano mais elegante que já vi. Fiquei uns dez minutos elogiando as penas dele. Ele só piscou e foi embora. Interpretei como “obrigado”.
+LYLA_DIARY_PAGE_5_TITLE;O Prefeito (e Glitter)
+LYLA_DIARY_PAGE_5_TEXT;Victor é tão certinho que acho que ele revisa a gramática das conversas antes de falar. Mas ele me emprestou um livro — com luvas! Disse que era “para não deixar marcas”. Adorei. Vou devolver com glitter.
+LYLA_DIARY_PAGE_6_TITLE;Unhas vs. Pregos
+LYLA_DIARY_PAGE_6_TEXT;Wade me trouxe um pedaço de madeira “pra treinar martelar pregos”. Expliquei que minhas unhas não foram feitas pra esse tipo de aventura. Ele riu alto, me ensinou mesmo assim… e eu quase consegui…. Quase.
+LYLA_DIARY_PAGE_7_TITLE;O Chá de Glitter
+LYLA_DIARY_PAGE_7_TEXT;Selene me serviu um chá com glitter comestível (sim, brilha de verdade!). Marcus disse que foi “experimento novo”. Quase dancei em cima do balcão de tão doce que era!
+LYLA_DIARY_PAGE_8_TITLE;Uma Sugestão Estilosa
+LYLA_DIARY_PAGE_8_TEXT;Gosto muito da Rayy — ela tem esse jeitinho corajoso e meio desajeitado que é impossível não admirar. Mas, sinceramente… um vestido brilhante no lugar da jardineira faria milagres. Só uma sugestão estilosa.
+LYLA_DIARY_PAGE_9_TITLE;O Contador de Histórias
+LYLA_DIARY_PAGE_9_TEXT;Max passa o dia inteiro contando histórias de batalha. Aposto que se um goblin aparecesse, ele sairia correndo e depois escreveria um livro sobre isso. Ainda assim, não dá pra negar que ele sabe como entreter a vila.
+LYLA_DIARY_PAGE_10_TITLE;O Ferreiro Habilidoso
+LYLA_DIARY_PAGE_10_TEXT;Darius é tão habilidoso que provavelmente poderia forjar um vestido tão brilhante quanto o meu. Mas prefiro deixar o trabalho das roupas comigo… e pra ele só as espadas.
+LYLA_DIARY_PAGE_11_TITLE;O Organizador da Vila
+LYLA_DIARY_PAGE_11_TEXT;O Minelli é tão organizado que às vezes parece que ele criou a vila inteira. Às vezes, tenho a sensação de que ele decide o que acontece. Se for verdade, espero que esteja lendo isso: quero mais dias de sol e sapatos novos.
+LYLA_DIARY_PAGE_12_TITLE;Um Ponto de Cor
+LYLA_DIARY_PAGE_12_TEXT;Às vezes, Bloomrise parece uma pintura viva — e eu adoro ser o pontinho vermelho de trancinhas no meio de tanto verde. Acho que gosto daqui mais do que imaginei…
+ITEM_CRAFTBOOK_TITLE;Guia de Criação
+ITEM_CRAFTBOOK_DESC;Um guia detalhado que ensina como criar diversos itens úteis e ferramentas essenciais para a aventura em Bloomrise. Inclui receitas para armas, utensílios e outros equipamentos necessários para sobreviver e prosperar na vila.
+CRAFTBOOK_PAGE_1_TITLE;Introdução à Criação
+CRAFTBOOK_PAGE_1_TEXT;A criação é uma habilidade essencial para qualquer aventureiro em Bloomrise. Com os recursos certos e um pouco de conhecimento, você pode fabricar ferramentas, armas e outros itens que facilitarão sua jornada.\\n\\nPara começar a criar, você precisará de uma Estação de Criação adequada, como uma Mesa de Trabalho ou Forja. Cada estação permite a criação de diferentes tipos de itens.
+CRAFTBOOK_PAGE_2_TITLE;Coletando Recursos
+CRAFTBOOK_PAGE_2_TEXT;Os recursos são a base de qualquer criação. Explore o mundo ao seu redor para coletar materiais como madeira, pedra, minérios e plantas. Cada item tem suas próprias propriedades e usos na criação.\\n\\nLembre-se de gerenciar seu inventário e armazenar recursos extras em baús ou geladeiras para uso futuro.
+ITEM_BESTIARY_TITLE;Bestiário de Bloomrise
+ITEM_BESTIARY_DESC;Um compêndio ilustrado que documenta as criaturas encontradas em Bloomrise e arredores. Cada entrada inclui descrições, habitats e alguns detalhes sobre os mosntros
+BESTIRYBOOK_PAGE_1_TITLE;Sobre o Bestiário
+BESTIRYBOOK_PAGE_1_TEXT;Este bestiário foi pensado para ajudar os aventureiros a catalogarem as criaturas que encontram em suas jornadas. Cada monstro listado aqui inclui informações essenciais para reconhecê-los e entender seus comportamentos.
+BESTIRYBOOK_PAGE_2_TITLE;Como Usar o Bestiário
+BESTIRYBOOK_PAGE_2_TEXT;Para adicionar uma criatura ao seu bestiário, basta derrotá-la!. Uma vez registrada, você poderá consultar suas informações sempre que precisar.
+BESTIARY_NO_MONSTERS_TEXT;Nenhum monstro registrado ainda. Explore o mundo e derrote criaturas para preenchê-lo!
+BESTIARY_MORE_MONSTERS_TEXT;Ainda há mais criaturas para descobrir! Continue explorando e enfrentando novos desafios.
+BESTIARY_ALL_MONSTERS_TEXT;Você registrou todas as criaturas conhecidas! Parabéns, aventureiro!
+ITEM_BOOK_MAX_TITLE;Crônicas de Rook
+ITEM_BOOK_MAX_DESC;As lendárias aventuras de Max Rook, o aventureiro mais famoso que já viveu. Desde suas batalhas épicas contra monstros temíveis, este livro narra a vida de um homem que se tornou uma lenda viva.
+BOOK_MAX_1_TITLE;Crônicas de Rook: O Fim da Estrada
+BOOK_MAX_1_TEXT;Muito antes de qualquer semente ser plantada na clareira, muito antes da primeira viga da taverna ser erguida, o nome de Max Rook era uma moeda em si. Naquela época, ele não era apenas Max. Ele era "O Grande Max", "Rook, o Implacável", "A Lâmina do Trovão". Canções eram cantadas sobre ele em tavernas que ele jamais visitaria, detalhando feitos que, para seu aborrecimento, eram quase sempre verdadeiros.
+BOOK_MAX_2_TITLE;
+BOOK_MAX_2_TEXT;Ele era o aventureiro por excelência. Sua vida era o aço, a poeira da estrada e o fedor de criptas úmidas. Sua espada, a Lâmina do Trovão, zumbia fracamente mesmo dentro da bainha, sempre ansiosa pelo próximo conflito.\\n\\nE conflitos não faltavam.
+BOOK_MAX_3_TITLE;
+BOOK_MAX_3_TEXT;Foi ele quem, sozinho, enfrentou o Grande Slime de Pântano-turvo. Os refugiados que ele salvou juraram que a criatura era do tamanho de duas casas. Max nunca os corrigiu. Ele apenas limpou a gosma da bota e seguiu em frente, aperfeiçoando sua infame "Estocada da Garça" — um golpe rápido, direto no núcleo da criatura, que ele desenvolveu após notar que força bruta apenas o fazia escorregar.
+BOOK_MAX_4_TITLE;
+BOOK_MAX_4_TEXT;Foi ele também que, segundo a lenda, se viu cercado por um bando de cinquenta (ou talvez sessenta, o número crescia a cada ano) Goblins na Floresta Antiga. Desarmado, com sua espada fincada em um zumbi a trinta passos de distância, ele apenas pegou um galho seco do chão. Agora a luta está justa, ele teria dito. As histórias não costumam detalhar o que aconteceu depois, apenas que os Goblins desenvolveram um medo profundo de gravetos pelo resto de suas curtas vidas.
+BOOK_MAX_5_TITLE;
+BOOK_MAX_5_TEXT;Mas a glória é uma companheira barulhenta. O tinir das moedas, os aplausos nas tavernas, o grito constante de Perigo!... tudo se tornou um ruído único e maçante.
+BOOK_MAX_6_TITLE;
+BOOK_MAX_6_TEXT;O ponto de virada, ele recordaria mais tarde, foi na Cripta Esquecida. Ele enfrentava um exército infinito de Zumbis. A luta não era difícil, era tediosa. Cada golpe era o mesmo som oco de metal em osso podre.
+BOOK_MAX_7_TITLE;
+BOOK_MAX_7_TEXT;Sua Lâmina do Trovão estava entediada. Ele usou seu "Salto Triplo do Morcego Cego" não para impressionar, mas para terminar a luta cinco segundos mais rápido.
+BOOK_MAX_8_TITLE;
+BOOK_MAX_8_TEXT;Quando o silêncio finalmente caiu na cripta, Max não sentiu alívio. Sentiu um vazio profundo. O rugido dos monstros e os aplausos das multidões eram apenas sons diferentes para a mesma solidão.
+BOOK_MAX_9_TITLE;
+BOOK_MAX_9_TEXT;O aço, antes leve como uma pena, agora pesava em seu quadril. A Lâmina do Trovão não era mais uma extensão de seu braço
+BOOK_MAX_10_TITLE;
+BOOK_MAX_10_TEXT;Ele parou de caçar. Guardou a espada lendária em um baú que enterrou ao pé de uma montanha sem nome. Vendeu sua famosa capa azul-trovão, aquela que diziam ser à prova de flechas, por uma caneca de hidromel morno e um mapa que não levava a lugar nenhum.
+BOOK_MAX_11_TITLE;
+BOOK_MAX_11_TEXT;E então, ele andou.\\n\\nPor estações que ele não se deu ao trabalho de contar, Max Rook apenas andou. Ele não procurava mais glória. Ele procurava... silêncio. Um silêncio que não fosse vazio. Ele queria um lugar onde suas mãos, agora calejadas mais pelo cabo do machado de lenhador do que pelo punho da espada, pudessem construir algo, e não apenas destruir.
+BOOK_MAX_12_TITLE;
+BOOK_MAX_12_TEXT;Sua jornada terminou em uma clareira selvagem, esquecida no meio de uma vasta floresta. O lugar era verde, intocado, mas não era pacífico. Goblins e Slimes—os ecos de seu antigo trabalho—infestavam o lugar.\\n\\nFoi quando ele ouviu o som de um machado batendo... errado.
+BOOK_MAX_13_TITLE;
+BOOK_MAX_13_TEXT;Curioso, ele se aproximou. E lá, no meio do caos, estava a visão mais estranha de sua longa carreira: um homem pálido de cabelo de tijela, com óculos na ponta do nariz, tentando ler um livro pesado enquanto, com a outra mão, tentava (e falhava miseravelmente) derrubar uma árvore. Ele lia uma linha, suspirava, balançava o machado, e a terra tremia mais que a árvore.
+BOOK_MAX_14_TITLE;
+BOOK_MAX_14_TEXT;Um pequeno grupo de Goblins, atraído pelo barulho, começou a emergir das árvores. O homem, irritado com a interrupção de sua leitura, ergueu o machado de forma totalmente errada, como se fosse um porrete.\\n\\nMax Rook suspirou. Ele viu o caos, a incompetência e o perigo. Mas, pela primeira vez em décadas, ele viu algo que não era um fardo. Era um projeto.
+BOOK_MAX_15_TITLE;
+BOOK_MAX_15_TEXT;Ele olhou para o chão. A Lâmina do Trovão estava a léguas de distância. Mas ali, ao seu pé, havia um bom galho de carvalho. Firme. Pesado.\\n\\nMax sorriu. A aventura havia terminado. O trabalho estava prestes a começar.
+ITEM_FISHBOOK_TITLE;Peixário de Bloomrise
+ITEM_FISHBOOK_DESC;Um guia ilustrado que documenta as várias espécies de peixes encontradas em Bloomrise e arredores. Cada entrada inclui descrições, habitats e dicas sobre onde e como pescá-los.
+ITEM_FLOWER_FOREST_SMALL_BLUE_TITLE;Flor Azul Pequena
+ITEM_FLOWER_FOREST_LARGE_BLUE_TITLE;Flor Azul Grande
+ITEM_FLOWER_FOREST_SMALL_PURPLE_TITLE;Flor Roxa Pequena
+ITEM_FLOWER_FOREST_LARGE_PURPLE_TITLE;Flor Roxa Grande
+ITEM_FLOWER_FOREST_SMALL_PINK_TITLE;Flor Rosa Pequena
+ITEM_FLOWER_FOREST_LARGE_PINK_TITLE;Flor Rosa Grande
+ITEM_FLOWER_FOREST_SMALL_ORANGE_TITLE;Flor Laranja Pequena
+ITEM_FLOWER_FOREST_LARGE_ORANGE_TITLE;Flor Laranja Grande
+ITEM_LEAF_TITLE;Folha
+ITEM_MYSTIC_MUSHROOM_TITLE;Cogumelo Místico
+ITEM_DETECTORMETAL_NAME;Detector de Metais
+ITEM_DETECTORMETAL_DESC;Um dispositivo usado para localizar metais enterrados no solo, escute o bipe para encontrar alguns itens na praia.
+ITEM_WOODLOG_NAME;Tronco de Madeira
+ITEM_AMETIST_NAME;Ametista
+ITEM_BATWING_NAME;Asa de Morcego
+ITEM_COAL_NAME;Carvão
+ITEM_CHROMITA_NAME;Chromita
+ITEM_PINKDIAM_NAME;Diamante Rosa
+ITEM_ESMERALMA_NAME;Esmeralma
+ITEM_IRON_INGOT_NAME;Barra de Ferro
+ITEM_GOLD_INGOT_NAME;Barra de Ouro
+ITEM_GOBLINFANG_NAME;Presa de Goblin
+ITEM_GOLDENKEY_NAME;Chave Dourada
+ITEM_REFINEDWOOD_NAME;Madeira Refinada
+ITEM_GHOSTCLOTH_NAME;Pano de Fantasma
+ITEM_STONE_NAME;Pedra
+ITEM_SLIMEBALL_NAME;Bola de Slime
+ITEM_BONE_NAME;Osso
+ITEM_RATTAIL_NAME;Rabo de Rato
+ITEM_FUNGI_NAME;Cogumelo Fungi
+ITEM_ZOMBIEBRAINS_NAME;Cérebro de Zumbi
+ITEM_GUIDE_NAME;Guia do Aventureiro
+ITEM_SNAKEVENOM_TITLE;Veneno de Cobra
+ITEM_TRAVELAMULET_HOME_TITLE;Amuleto de Viagem: Lar
+ITEM_TRAVELAMULET_CAVE_TITLE;Amuleto de Viagem: Caverna
+ITEM_TRAVELAMULET_BEACH_TITLE;Amuleto de Viagem: Praia
+ITEM_TRAVELAMULET_DUNGEON_TITLE;Amuleto de Viagem: Dungeon
+ITEM_CORDA_TITLE;Corda
+ITEM_PAPEL_USADO_TITLE;Papel Usado
+ITEM_PARAFUSO_TITLE;Parafuso
+ITEM_CPU_TITLE;CPU
+ITEM_BATTERY_TITLE;Bateria
+ITEM_GOLD_ORE_TITLE;Minério de Ouro
+ITEM_IRON_ORE_TITLE;Minério de Ferro
+ITEM_BEER_NAME;Cerveja
+ITEM_CHOCOLATE_NAME;Chocolate
+ITEM_COOKIE_NAME;Cookie
+ITEM_MILKSHAKE_NAME;Milkshake
+ITEM_ONIGIRI_NAME;Onigiri
+ITEM_SUSHI_NAME;Sushi
+ITEM_TACO_NAME;Taco
+ITEM_COFFEE_NAME;Café
+ITEM_FIZZCOLA_NAME;FizzCola
+ITEM_SODA_NAME;Soda
+ITEM_STAWBERRYDRINK_NAME;Suco de Morango
+ITEM_TURBIX_NAME;Turbix
+ITEM_IRON_AXE_NAME;Machado de Ferro
+ITEM_RAYY_SWORD_NAME;Espada da Rayy
+ITEM_GOLD_SWORD_Name;Espada de Ouro
+ITEM_AMETIST_SWORD_NAME;Espada de Ametista
+ITEM_ESMERALMA_SWORD_NAME;Espada de Esmeralma
+ITEM_BOW_NAME;Arco
+ITEM_IRONPICKAXE_NAME;Picareta de Ferro
+ITEM_WOOD_PICKAXE_NAME;Picareta de Madeira
+ITEM_WOOD_AXE_NAME;Machado de Madeira
+ITEM_CHROMITE_AXE_NAME;Machado de Chromita
+ITEM_CHROMITE_PICKAXE_NAME;Picareta de Chromita
+SHOP_ALERT;Precisa de um vendedor para isso.
+BLACKSMITH_ALERT;Precisa de um vendedor para isso.
+BAR_ALERT;Precisa de um vendedor para isso.
+BLACKSMITH_ALERT2;Aberto entre 10h - 22h
+BAR_ALERT2;Aberto entre 12h - 22h
+CHOP_ALERT;Precisa de machado
+WRONGTOOl_ALERT;Ferramenta errada
+SAVE_ALERT;Jogo salvo!
+CONFIG_ALERT;Ajustes salvos!
+ALERT_TOO_FAR;Muito longe para coletar.
+COLECT;Coletou
+INVALID_CODE;Código inválido!
+FAIRYACTIVESURPRISE_CODE;Você recebeu uma surpresa mágica!
+REDEEMED_CODE;Este código já foi resgatado.
+SUCCESS_CODE_START;Você recebeu: 
+SOLD_FOR;Vendido por 
+BOUGHT_FOR;Comprado por 
+HERE;aqui 
+CANNOT_STOREITEM;Não pode colocar esse item aqui
+LOGIN_ACHIEVEMENT_FAIL;Falha ao conectar com o servidor de conquistas.
+OPEN_ACHIEVEMENT_FAIL;Conquistas indisponíveis no momento.
+XP_ADDED;XP Adicionado 
+CANNOT_HARVEST;Não pode colher isso agora.
+PLANT_WITHERED_NEEDS_CLEARING;A planta está murcha e precisa ser removida.
+PLANT_STILL_GROWING;A planta ainda está crescendo.
+CRAFT_ERROR;Você não tem os materiais necessários.
+COLLECTED_ITEM;Você coletou
+UNLOCKABLE_INSUFFICIENT_RESOURCES;Recursos insuficientes para desbloquear.
+YOU_CAN_COLLECT_IN;Você pode coletar em 
+SHOP_PURCHASE_FAILED;Espaço ou fundos insuficientes.
+NEW_MONSTER_DISCOVERED;Novo monstro descoberto!
+CRAFT_QUEUE_FULL;Fila de criação cheia.
+SELECT_SEED_FIRST;Selecione uma semente primeiro.
+TOO_SOON_TO_SLEEP;Ainda é muito cedo para dormir.
+OBJECT_TOO_FAR;Objeto muito longe.
+NPC_TOO_FAR;Morador muito longe.
+BED_TOO_FAR;Cama muito longe.
+SHOP_TOO_FAR;Loja muito longe.
+DOOR_TOO_FAR;Porta muito longe.
+CHEST_TOO_FAR;Baú muito longe.
+PLANT_TOO_FAR;Planta muito longe.
+FARMPLOT_TOO_FAR;Pedaço de terra muito longe.
+COLLECTIBLE_TOO_FAR;Objeto coletável muito longe.
+UNLOCKABLE_TOO_FAR;Desbloqueável muito longe.
+CRAFTING_TOO_FAR;Estação de criação muito longe.
+YOU_FOUND;Você encontrou 
+BEACHITEM_NOT_FOUND;Nada foi encontrado
+NO_HIDDEN_ITEM_FOUND;Nenhum item escondido encontrado.
+FULL_HELTH;Vida cheia, use quando precisar
+FULL_STAMINA;Stamina cheia, use quando precisar
+MONSTER_SLIME_NAME;Slime
+MONSTER_SLIME_LORE;Criaturas pegajosas que estão se multiplicando por toda parte, tornando a situação escorregadia demais. Antes mesmo de ter uma espada, Rayy já os enfrentava apenas com sua coragem.
+MONSTER_GOBLIN_NAME;Goblin
+MONSTER_GOBLIN_LORE;A reputação dos Goblins é dividida: alguns dizem que eles são apenas mal-entendidos, enquanto outros afirmam que são ladrões que chegaram a roubar o sino da praça da vila.
+MONSTER_ZOMBIE_NAME;Zumbi
+MONSTER_ZOMBIE_LORE;Mortos-vivos que andam devagar, mas fedem rápido. Costumam aparecer em bandos e atrapalham os exploradores na dungeon.
+MONSTER_SKELETON_NAME;Esqueleto
+MONSTER_SKELETON_LORE;Restos reanimados de antigos guerreiros que vagam pela dungeon. Eles atacam qualquer um que se aproxime, fazendo barulho com seus ossos.
+MONSTER_RAT_NAME;Rato
+MONSTER_RAT_LORE;Pequenos roedores que infestam as áreas escuras da dungeon. Embora pareçam inofensivos, eles podem ser uma verdadeira praga para os aventureiros desavisados.
+MONSTER_GHOST_NAME;Fantasma
+MONSTER_GHOST_LORE;Aparições etéreas descritas como vultos brilhantes que vagam pela Floresta Misteriosa durante a noite. Enquanto alguns moradores acham que são apenas histórias, outros juram ter ouvido seus lamentos.
+MONSTER_BAT_NAME;Morcego
+MONSTER_BAT_LORE;Morcegos são uma praga comum na dungeon. Voam em padrões erráticos e atacam sem aviso, tornando a exploração das cavernas um desafio constante.
+MONSTER_FUNGI_NAME;Fungi
+MONSTER_FUNGI_LORE;Cuidado onde pisa! Estes cogumelos roxos parecem inofensivos, mas ganham vida quando aventureiros se aproximam. Eles liberam esporos tóxicos para se defender.
+MONSTER_COBRA_NAME;Cobra
+MONSTER_COBRA_LORE;Réptil ágil e venenoso que se esconde nas frestas da dungeon. Seu bote é rápido e seu veneno pode ser perigoso, exigindo atenção redobrada dos exploradores.
+LOCATION_ANYWHERE;Por toda parte
+LOCATION_DUNGEON;Dungeon
+LOCATION_MYSTERIOUS_FOREST;Floresta Misteriosa
+LOCATION_MINES;Minas
+ITEM_FARM_PLOT_TITLE;Pacote de Terra
+ITEM_FARM_PLOT_DESC;Um pequeno pedaço de terra fértil, pronto para receber sementes e crescer plantas. Ideal para iniciar sua horta.
+ITEM_SEED_CARROT_TITLE;Semente de Cenoura
+ITEM_SEED_CARROT_DESC;Um pequeno saquinho com sementes de cenoura. Prontas para serem plantadas e cultivadas.
+ITEM_SEED_TOMATO_TITLE;Semente de Tomate
+ITEM_SEED_TOMATO_DESC;Um saquinho cheio de sementes de tomate, esperando para dar vida a um pé cheio de frutos vermelhos.
+ITEM_TOMATO_TITLE;Tomate
+ITEM_TOMATO_DESC;Tomate vermelho e brilhante, colhido no ponto certo. Tão suculento que é uma pena cozinhá-lo... mas os molhos ficam incríveis.
+ITEM_CARROT_TITLE;Cenoura
+ITEM_CARROT_DESC;Cenoura laranja e crocante, direto da terra. Seu sabor é adocicado e terroso. Perfeita para um lanche rápido ou para dar substância a um ensopado.
+ITEM_SEED_POTATO_TITLE;Semente de Batata
+ITEM_SEED_POTATO_DESC;Um saquinho de sementes de batata, prontas para crescer em tubérculos robustos e nutritivos.
+ITEM_POTATO_TITLE;Batata
+ITEM_POTATO_DESC;Batata robusta e terrosa. A base de qualquer refeição de fazendeiro que se preze. Versátil, nutritiva e muito reconfortante.
+ITEM_SEED_PUMPKIN_TITLE;Semente de Abóbora
+ITEM_SEED_PUMPKIN_DESC;Um saquinho de sementes que pode dar origem a grandes abóboras. Ideal para o outono.
+ITEM_PUMPKIN_TITLE;Abóbora
+ITEM_PUMPKIN_DESC;Grande, pesada e perfeitamente laranja. O cheiro adocicado da polpa é um clássico de Bloomrise. Essencial para tortas, sopas e festivais.
+ITEM_SEED_SUNFLOWER_TITLE;Semente de Girassol
+ITEM_SEED_SUNFLOWER_DESC;Um saquinho com sementes de girassol, prometendo flores altas e vibrantes.
+ITEM_SUNFLOWER_TITLE;Girassol
+ITEM_SUNFLOWER_DESC;Flor vibrante que parece sorrir para o sol. Embora seja linda como decoração, suas sementes torradas são um lanche popular na vila.
+ITEM_SEED_ONION_TITLE;Semente de Cebola
+ITEM_SEED_ONION_DESC;Pequenas sementes que darão origem a cebolas de aroma marcante e sabor suave.
+ITEM_ONION_TITLE;Cebola
+ITEM_ONION_DESC;Cebola de casca fina e aroma pungente. Cortá-la pode fazer os olhos lacrimejarem, mas seu sabor é o segredo de quase todas as boas receitas.
+ITEM_SEED_STRAWBERRY_TITLE;Semente de Morango
+ITEM_SEED_STRAWBERRY_DESC;Um saquinho de sementes de morango, prontas para render frutas doces e suculentas.
+ITEM_STRAWBERRY_TITLE;Morango
+ITEM_STRAWBERRY_DESC;Vermelho-rubi e perfumado, colhido no auge da doçura. É a guloseima favorita da natureza. Quase impossível guardar sem comer um... ou dois.
+ITEM_SEED_CORN_TITLE;Semente de Milho
+ITEM_SEED_CORN_DESC;Sementes douradas de milho, símbolo de fartura e colheitas generosas.
+ITEM_CORN_TITLE;Milho
+ITEM_CORN_DESC;Espiga robusta, repleta de grãos dourados e suculentos. Tem um sabor adocicado, quase amanteigado. Perfeita para assar ou moer para fazer fubá.
+ITEM_SEED_WHEAT_TITLE;Semente de Trigo
+ITEM_SEED_WHEAT_DESC;Grãos simples que, com paciência, se transformam em campos dourados de trigo.
+ITEM_WHEAT_TITLE;Trigo
+ITEM_WHEAT_DESC;Feixe de trigo dourado, seco ao sol. O pilar da panificação. Moído, transforma-se na farinha essencial para pães, bolos e tortas.
+ITEM_SEED_TURNIP_TITLE;Semente de Nabo
+ITEM_SEED_TURNIP_DESC;Sementes modestas que escondem nabos crocantes e de sabor terroso.
+ITEM_TURNIP_TITLE;Nabo
+ITEM_TURNIP_DESC;Nabo modesto, mas surpreendentemente crocante. Tem um sabor levemente apimentado e terroso. Essencial para ensopados rústicos.
+ITEM_SEED_GRAPE_TITLE;Semente de Uva
+ITEM_SEED_GRAPE_DESC;Sementes que darão origem a videiras cheias de cachos suculentos.
+ITEM_GRAPE_TITLE;Uva
+ITEM_GRAPE_DESC;Cacho de uvas escuras, cobertas por uma fina névoa. Cada uva explode com um sabor doce e refrescante. O primeiro passo para um suco fino ou um vinho renomado.
+ITEM_BREAD_TITLE;Pão
+ITEM_BREAD_DESC;Um pão rústico e quentinho, com uma crosta crocante. Perfeito para começar o dia.
+ITEM_CARROTCAKE_TITLE;Bolo de Cenoura
+ITEM_CARROTCAKE_DESC;Um bolo fofinho de cenoura com uma generosa cobertura de chocolate. O favorito de todos.
+ITEM_CHOCOLATECAKE_TITLE;Bolo de Chocolate
+ITEM_CHOCOLATECAKE_DESC;Uma fatia de bolo de chocolate rico e cremoso. Impossível resistir.
+ITEM_SANDWICH_TITLE;Sanduíche
+ITEM_SANDWICH_DESC;Uma refeição prática e deliciosa, recheada com ingredientes frescos da fazenda.
+ITEM_POTATOBREAD_TITLE;Pão de Batata
+ITEM_POTATOBREAD_DESC;Um pãozinho incrivelmente macio e leve, feito com batatas. Derrete na boca.
+ITEM_GRAPEJUICE_TITLE;Suco de Uva
+ITEM_GRAPEJUICE_DESC;Um suco doce e revigorante, feito com as uvas mais frescas para restaurar suas energias.
+ITEM_ROOTSTEW_TITLE;Ensopado de Raízes
+ITEM_ROOTSTEW_DESC;Um prato quente e nutritivo, cheio de batatas, cenouras e outros vegetais. Comida que conforta.
+ITEM_WINE_TITLE;Vinho
+ITEM_WINE_DESC;Um vinho artesanal de sabor complexo, envelhecido com cuidado. Fica melhor a cada ano.
+ITEM_STRAWBERRYJAM_TITLE;Geleia de Morango
+ITEM_STRAWBERRYJAM_DESC;Uma geleia caseira e brilhante, com o sabor concentrado do verão. Perfeita para passar no pão.
+ITEM_PUMPKINSOUP_TITLE;Sopa de Abóbora
+ITEM_PUMPKINSOUP_DESC;Uma sopa aveludada e reconfortante, com um sabor adocicado de abóbora. Aquece até a alma em dias frios.
+ITEM_PUMPKINPIE_TITLE;Torta de Abóbora
+ITEM_PUMPKINPIE_DESC;Uma fatia clássica do outono. Doce na medida certa, com um delicioso toque de especiarias.
+ITEM_FRENCHFRIES_TITLE;Batata Frita
+ITEM_FRENCHFRIES_DESC;Batatas crocantes por fora e macias por dentro. Um lanche clássico e irresistível.
+ITEM_MYSTICDONUT_TITLE;Donut Místico
+ITEM_MYSTICDONUT_DESC;Um donut incomum feito com cogumelos luminescentes da caverna. Tem um sabor... inesperado e energizante.
+ITEM_POPCORN_TITLE;Pipoca
+ITEM_POPCORN_DESC;Grãos de milho estourados, leves e salgadinhos. Perfeitos para relaxar depois de um dia de trabalho.
+ITEM_HOTDOG_TITLE;Cachorro-Quente
+ITEM_HOTDOG_DESC;Um clássico irresistível. Pão macio com uma salsicha suculenta, perfeito para recarregar as energias rapidamente.
+ITEM_BAKEDPOTATO_TITLE;Batata Assada
+ITEM_BAKEDPOTATO_DESC;Uma batata simples assada inteira, quente e reconfortante. Fica ainda melhor com um pouco de manteiga.
+ITEM_SOFA_MILITARY_TITLE;Sofá Verde Militar
+ITEM_SOFA_MILITARY_DESC;Um sofá robusto de cor verde militar, ideal para dar um ar rústico ao ambiente. (mecânica em desenvolvimento)
+ITEM_SOFA_G_MILITARY_TITLE;Sofá Grande Verde Militar
+ITEM_SOFA_G_MILITARY_DESC;Um sofá grande e robusto de cor verde militar, ideal para dar um ar rústico ao ambiente. (mecânica em desenvolvimento)
+ITEM_TABLE_MILITARY_TITLE;Mesa de Jantar Verde Militar
+ITEM_TABLE_MILITARY_DESC;Uma mesa de jantar verde militar, resistente e prática para reunir todos. (mecânica em desenvolvimento)
+ITEM_TREE_FRUIT_POT_TITLE;Árvore Decorativa no Pote
+ITEM_TREE_FRUIT_POT_DESC;Uma pequena árvore cultivada em um vaso elegante. Apenas decorativa, mas traz vida ao ambiente. (mecânica em desenvolvimento)
+ITEM_TREE_FRUIT_ROUNDED_POT_TITLE;Árvore Decorativa no Pote Redondo
+ITEM_TREE_FRUIT_ROUNDED_POT_DESC;Uma árvore plantada em um vaso arredondado, simples e charmosa. Apenas decorativa. (mecânica em desenvolvimento)
+ITEM_LAMP_TALL_BLUE_TITLE;Abajur Alto Azul
+ITEM_LAMP_TALL_BLUE_DESC;Um abajur alto com tom azul suave, perfeito para iluminar cantinhos da casa. (mecânica em desenvolvimento)
+ITEM_CRAFTING_TABLE_TITLE;Mesa de Criação
+ITEM_CRAFTING_TABLE_DESC;Uma mesa robusta para criar e experimentar novos itens. (mecânica em desenvolvimento)
+ITEM_CHEST_TITLE;Baú
+ITEM_CHEST_DESC;Um baú simples para guardar itens importantes e manter tudo organizado. (mecânica em desenvolvimento)
+ITEM_CHAIR_WOOD_TITLE;Cadeira de Madeira
+ITEM_CHAIR_WOOD_DESC;Uma cadeira simples de madeira, perfeita para qualquer ambiente. (mecânica em desenvolvimento)
+ITEM_FRIDGE_WHITE_TITLE;Geladeira Branca
+ITEM_FRIDGE_WHITE_DESC;Uma geladeira simples e branca, perfeita para manter comidas e bebidas frescas. (mecânica em desenvolvimento)
+ITEM_BED_DOUBLE_MILITARY_TITLE;Cama de Casal Verde Militar
+ITEM_BED_DOUBLE_MILITARY_DESC;Uma cama de casal robusta, com tecido verde militar, perfeita para descansar depois de um longo dia. (mecânica em desenvolvimento)
+ITEM_HALLOWEEN_PUMPKIN_TITLE;Abóbora de Halloween
+ITEM_HALLOWEEN_PUMPKIN_DESC;Uma abóbora esculpida com um rosto assustador, perfeita para decorar na época de Halloween. <color=#FFee00>  (Item colecionável)</color> (mecânica em desenvolvimento)
+ITEM_FLOWER_FOREST_SMALL_BLUE_DESC;Uma flor azul pequena encontrada nas clareiras da floresta. Pode ser usada em poções ou para presentear NPCs.
+ITEM_FLOWER_FOREST_LARGE_BLUE_DESC;Uma flor azul grande e rara da floresta, muito apreciada em receitas mágicas.
+ITEM_FLOWER_FOREST_SMALL_PURPLE_DESC;Uma flor roxa pequena e delicada, comum nas bordas da floresta.
+ITEM_FLOWER_FOREST_LARGE_PURPLE_DESC;Uma flor roxa grande com pétalas brilhantes, usada em poções especiais.
+ITEM_FLOWER_FOREST_SMALL_PINK_DESC;Uma flor rosa pequena que exala um perfume suave, perfeita para artesanato.
+ITEM_FLOWER_FOREST_LARGE_PINK_DESC;Uma flor rosa grande e rara, símbolo de beleza e vitalidade.
+ITEM_FLOWER_FOREST_SMALL_ORANGE_DESC;Uma flor laranja pequena e vibrante, muito usada em pigmentos.
+ITEM_FLOWER_FOREST_LARGE_ORANGE_DESC;Uma flor laranja grande e difícil de encontrar, ingrediente chave em elixires energéticos.
+ITEM_LEAF_DESC;Uma folha verde simples obtida ao coletar árvores ou cortar grama. Artesãos e alquimistas juram que ela tem usos especiais.
+ITEM_MYSTIC_MUSHROOM_DESC;Um raro cogumelo que brilha suavemente na escuridão da Caverna Mística. Dizem que ele reage à presença de energia antiga.
+ITEM_WOODLOG_DESC;Um bom pedaço de madeira. Pode servir pra construir uma casa. Ou só pra queimar na fogueira.
+ITEM_AMETIST_DESC;Roxa e serena, como um fim de tarde depois da chuva.
+ITEM_BATWING_DESC;Frágil, leve e... um pouco estranha. Ainda bate sozinha às vezes.
+ITEM_COAL_DESC;Escuro, quente e cheio de potencial (e fuligem).
+ITEM_CHROMITA_DESC;Um cristal raro que pulsa com tons de rosa, azul, verde e roxo. Dizem que guarda a essência das quatro primeiras cores que surgiram no mundo.
+ITEM_PINKDIAM_DESC;Brilho encantador, poder discreto. E uma tentação perigosa.
+ITEM_ESMERALMA_DESC;Brilho suave, energia tranquila. Dizem que atrai sorte... espero que sem fantasmas.
+ITEM_IRON_INGOT_DESC;Sólido e confiável. Essencial para qualquer forja de respeito.
+ITEM_GOLD_INGOT_DESC;Brilhante e valioso. Perfeito para criar itens especiais. As moedas de Bloomrise não são feitas disso, mas deveriam ser.
+ITEM_GOBLINFANG_DESC;Troféus pontiagudos arrancados da boca de um goblin. Não são mágicas, só meio assustadoras.
+ITEM_GOLDENKEY_DESC;Brilhante, misteriosa e claramente importante. Não perca.
+ITEM_REFINEDWOOD_DESC;Madeira trabalhada com cuidado e precisão, livre de farpas e cheia de potencial.
+ITEM_GHOSTCLOTH_DESC;Tecido etéreo, meio transparente e 100% arrepiante.
+ITEM_STONE_DESC;Um pedaço de rocha comum, mas com mil e uma utilidades. Serve para construir, arremessar… ou apenas guardar no bolso, por precaução.
+ITEM_SLIMEBALL_DESC;Uma esfera pegajosa que um slime largou. Cheira estranho. E a textura? Mais estranha ainda.
+ITEM_BONE_DESC;Um osso branco e resistente, provavelmente de um esqueleto. Sinceramente não sei por que alguém guardaria isso.
+ITEM_RATTAIL_DESC;Um rabo de rato peludo e um tanto nojento. Não parece ter muita utilidade, mas quem sabe?
+ITEM_FUNGI_DESC;Um cogumelo estranho que o fungi produz na caverna. Dizem que tem propriedades medicinais, mas ninguém testou ainda.
+ITEM_ZOMBIEBRAINS_DESC;Ainda meio molenga. Cientificamente inútil. Socialmente desconfortável.
+ITEM_GUIDE_DESC;Um caderno azul com retalhos costurados à mão. Dentro, há missões importantes para toda a vila, e no fim... algumas dicas estranhamente precisas. A letra é caprichada, mas você não sabe ao certo de quem é.
+ITEM_SNAKEVENOM_DESC;Um líquido esverdeado retirado das presas de serpente. Enfraquece lentamente quem entra em contato.
+ITEM_TRAVELAMULET_HOME_DESC;Uma medalha antiga que canaliza energia para levar Rayy de volta à frente de sua casa. O teleporte consome toda a energia de Rayy.
+ITEM_TRAVELAMULET_CAVE_DESC;Uma medalha antiga que canaliza energia para levar Rayy para a frente da entrada da caverna mística. O teleporte consome toda a energia de Rayy.
+ITEM_TRAVELAMULET_DUNGEON_DESC;Uma medalha antiga que canaliza energia para levar Rayy para a frente da entrada da dungeon. O teleporte consome toda a energia de Rayy.
+ITEM_TRAVELAMULET_BEACH_DESC;Uma medalha antiga que canaliza energia para levar Rayy para a frente da praia. O teleporte consome toda a energia de Rayy.
+ITEM_CORDA_DESC;Uma corda resistente, feita para aguentar peso e tensão. Útil para criar alguns itens.
+ITEM_PAPEL_USADO_DESC;Um pedaço de papel amassado, com algumas anotações rabiscadas. Parece que alguém estava tentando lembrar de algo importante, mas parece meio inútil agora.
+ITEM_PARAFUSO_DESC;Um parafuso de metal, usado para fixar coisas. Pode ser útil em reparos ou construções no futuro.
+ITEM_CPU_DESC;Um pequeno chip eletrônico, com circuitos complexos. Provavelmente faz parte de algum dispositivo tecnológico desconhecido.
+ITEM_BATTERY_DESC;Uma bateria compacta, capaz de armazenar energia elétrica. Pode ser usada para alimentar dispositivos eletrônicos.
+ITEM_GOLD_ORE_DESC;Um minério brilhante e valioso, Pode ser processado na forja para criar uma barra de ouro.
+ITEM_IRON_ORE_DESC;Um minério comum e resistente, Pode ser processado na forja para criar uma barra de ferro.
+ITEM_BEER_DESC;Espumosa e relaxante. Talvez não cure tudo, mas acalma a mente e o corpo.
+ITEM_CHOCOLATE_DESC;Doce felicidade derretida. Restaura sua alma e um pouco de vida.
+ITEM_ICECREAM_DESC;Gelado, doce e cremoso. Uma explosão de frescor que derrete suas preocupações.
+ITEM_ICECREAM_TITLE;Sorvete
+ITEM_PICOLE_TITLE;Picolé
+ITEM_PICOLE_DESC;Gelado, doce e refrescante. Perfeito para dias quentes e corações partidos.
+ITEM_COOKIE_DESC;Um petisco crocante. Restaura um pouco de esperança e algumas memórias boas.
+ITEM_MILKSHAKE_DESC;Gelado, doce e tão bom que cura até coração partido
+ITEM_ONIGIRI_DESC;Um bolinho de arroz com gostinho de lar.
+ITEM_SUSHI_DESC;Cru, sofisticado e questionavelmente fresco. Todo mundo devia experimentar pelo menos uma vez.
+ITEM_TACO_DESC;Uma mistura misteriosa de carne e especiarias. Levanta o ânimo de qualquer aventureiro.
+ITEM_COFFEE_DESC;Amargo, quente e perigosamente eficaz. Restaura 4 de Energia e aumenta a atenção (ou a ansiedade).
+ITEM_FIZZCOLA_DESC;Doce, escura e cheia de gás — no corpo e no humor. Te dá um sorriso instantâneo!; Sweet, dark and full of fizz — in body and mood. Gives you an instant smile!
+ITEM_SODA_DESC;Bolhas doces e elétricas engarrafadas. Estraga seus dentes mas vale a pena, eu acho.
+ITEM_STAWBERRYDRINK_DESC;Doce, rosa e cheia de energia. Sempre uma boa pedida para recarregar as baterias.
+ITEM_TURBIX_DESC;Um gole desse energético e o mundo parece mais rápido. Perfeito para quando você precisa de um impulso extra.
+ITEM_IRON_AXE_DESC;Um machado de ferro pesado e mas confiável. Perfeito para cortar madeira ou cabeças de goblins.
+ITEM_BOW_DESC;Um arco de madeira com mira razoável. Não vai ganhar concursos mas cumpre o trabalho... eventualmente.
+ITEM_IRONPICKAXE_DESC;Feita para quebrar pedras. Pode até quebrar suas costas. Use com responsabilidade.
+ITEM_RAYY_SWORD_DESC;Afiada e satisfatória de balançar. A fiel espada forjada por alguém especial que não sabia exatamente o que estava fazendo, mas fez um ótimo trabalho!
+ITEM_GOLD_SWORD_DESC;Brilhante e elegante. Seu fio dourado não é só beleza, oferecendo um poder de corte superior a espada original.
+ITEM_AMETIST_SWORD_DESC;Encantada com ametista, brilha suavemente. Sua aura mística confere um corte mais potente que o ouro e estende seu alcance ligeiramente.
+ITEM_ESMERALMA_SWORD_DESC;Feita de esmeralma, brilha intensamente. Sua energia canalizada resulta em golpes notavelmente mais fortes que a ametista e aumenta seu alcance consideravelmente.
+ITEM_WOOD_PICKAXE_DESC;Uma picareta simples de madeira. Não é muito eficiente, mas quebra o galho.
+ITEM_WOOD_AXE_DESC;Um machado básico de madeira. Ideal para cortar árvores pequenas e fazer lenha.
+ITEM_CHROMITE_AXE_DESC;Um machado feito de chromita, raro e resistente. Perfeito para cortar árvores robustas e enfrentar criaturas perigosas.
+ITEM_CHROMITE_PICKAXE_DESC;Uma picareta feita de chromita, resistente e eficaz. Ideal para minerar minérios duros e enfrentar desafios subterrâneos.
+LIBRARY_TITLE;Biblioteca
+BLACKSMITH_TITLE;Ferreiro
+BAR_TITLE;Bar
+JADENHOUSE_TITLE;Casa do Jaden
+LUPINHOUSE_TITLE;Casa do Lupi
+LYLANHOUSE_TITLE;Casa do Lyla
+MILONHOUSE_TITLE;Casa do Milo
+FLOWERFIELD_TITLE;Campo de Flores
+FARMHOUSE_TITLE;Celeiro
+MAXHOUSE_TITLE;Barraca do Max
+RAYYNHOUSE_TITLE;Casa da Rayy
+SELENENHOUSE_TITLE;Casa da Selene
+VICTORNHOUSE_TITLE;Casa do Victor
+WADENHOUSE_TITLE;Casa do Wade
+FOREST_TITLE;Floresta Misteriosa
+BLOOMRISE_TITLE;Bloomrise
+DUNGEON_TITLE;Dungeon Misteriosa
+DUNGEON1_TITLE;Caverna Viscosa
+DUNGEON2_TITLE;Cripta Esquecida
+DUNGEON3_TITLE;Toca dos Goblins
+DUNGEON4_TITLE;Galerias Esquecidas
+DUNGEON5_TITLE;Santuário Brumoso
+CAVE_TITLE;Caverna Misteriosa
+LOADING_TIP1;O mundo está carregando... com carinho.
+LOADING_TIP2;Os caminhos estão sendo desenhados. Prepare-se para a aventura.
+LOADING_TIP3;Tudo se encaixando, como numa boa receita.
+LOADING_TIP4;Os pixels estão encontrando seus lugares.
+LOADING_TIP5;A próxima parte da jornada está quase pronta.
+LOADING_TIP6;Os moradores estão tomando seus lugares.
+LOADING_TIP7;O tempo está se alinhando para a próxima cena.
+LOADING_TIP8;As histórias estão se organizando nos bastidores.
+LOADING_TIP9;Rayy está amarrando as botas... quase lá.
+LOADING_TIP10;Lupi deixou algo carregando… tomara que funcione.
+LOADING_TIP11;Victor está revisando os scripts antigos.
+LOADING_TIP12;Lupi plantou algo no loading... seja lá o que for.
+LOADING_TIP13;Darius afiou um script por engano.
+LOADING_TIP13;Rayy pediu pra esperar só mais um segundo.
+LOADING_TIP14;Lupi nomeou o loading de 'EsperaMística'.
+LOADING_TIP15;O código tirou um cochilo... mas já tá voltando.
+LOADING_TIP16;Empilhando madeira com o Wade.
+LOADING_TIP17;Preparando um café quentinho no bar… ou seria um chá?
+LOADING_TIP18;Lupi está nomeando mais uma planta… ou talvez um personagem.
+LOADING_TIP19;Afiando a espada da Rayy…
+LOADING_TIP20;Preparando um café quentinho no bar… ou seria um chá?
+LOADING_TIP21;Lupi está nomeando mais uma planta…
+LOADING_TIP22;Misturando poções… ou era suco?
+LOADING_TIP23;Limpando a bagunça do inventário.
+LOADING_TIP24;Jaden está afinando os instrumentos…
+LOADING_TIP25;Finalizando ajustes…
+QUEST_BRAIN_IN_PLACE_TITLE;Cabeça no Lugar
+QUEST_BRAIN_IN_PLACE_DESC;Victor anda obcecado com cérebros de zumbi. Disse que é pra um projeto... ou talvez só decoração. De qualquer jeito, melhor não saber.
+QUEST_BRAIN_IN_PLACE_OBJ;Colete 2 Cérebros de Zumbi.
+QUEST_SWEET_MEMORIES_TITLE;Doces Memórias
+QUEST_SWEET_MEMORIES_DESC;Marcus cheirou um biscoito e quase chorou. Parece que esses cookies lembram algo importante pra ele. Vai saber...
+QUEST_SWEET_MEMORIES_OBJ;Colete 5 cookies
+QUEST_WOOD_HELP_TITLE;Madeira Que Ajuda
+QUEST_WOOD_HELP_DESC;Wade tá tentando consertar uma cerca meio caída. Disse que é rapidinho, mas esqueceu de contar com a preguiça. Dá uma força pra ele.
+QUEST_WOOD_HELP_OBJ;Colete 3 Troncos de Madeira.
+QUEST_STICKY_SERVICE_TITLE;Serviço Melequento
+QUEST_STICKY_SERVICE_DESC;Minelli foi surpreendida por dois slimes perto da dungeon. Agora tá indignada — e quer que alguém resolva isso. Tipo... você.
+QUEST_STICKY_SERVICE_OBJ;Derrote 2 slimes
+QUEST_WILD_SMILE_TITLE;Sorriso Selvagem
+QUEST_WILD_SMILE_DESC;Darius pediu presas de goblin com um sorrisinho suspeito. Não disse pra quê — e talvez seja melhor deixar assim.
+QUEST_WILD_SMILE_OBJ;Colete 2 Presas de Goblin
+QUEST_SUN_TEA_TITLE;Chá de Sol
+QUEST_SUN_TEA_DESC;Lupi acredita que os girassóis guardam um pouco de sol dentro deles. Ele quer fazer um 'chá de sol' para animar as plantas que ficam dentro de casa.
+QUEST_SUN_TEA_OBJ;Colete 5 Girassóis.
+QUEST_SERENITY_TEA_TITLE;Chá da Serenidade
+QUEST_SERENITY_TEA_DESC;Selene percebeu uma tensão no ar da vila. Para ajudar a acalmar os ânimos, ela quer preparar um chá especial com flores da floresta.
+QUEST_SERENITY_TEA_OBJ1;Colete 3 Flores Azuis Pequenas.
+QUEST_SERENITY_TEA_OBJ2;Colete 3 Flores Roxas Pequenas.
+QUEST_COLOR_OF_INSPIRATION_TITLE;A Cor da Inspiração
+QUEST_COLOR_OF_INSPIRATION_DESC;Lyla está no meio de sua criação de moda. Ela precisa de uma Ametista para inspirar e completar a peça, mas as cavernas são terrivelmente ruins para o seu penteado.
+QUEST_COLOR_OF_INSPIRATION_OBJ;Colete 1 Ametista.
+NOTES_ADVENTURER_TITLE;Anotações do Aventureiro
+NOTES_ADVENTURER_DESC;Sobre lojas:\\nAlguns moradores vendem coisas, mas só quando estão perto das bancadas deles.\\n\\nSobre tarefas:\\nMuita gente na vila vai precisar de uma mãozinha.\\nSe oferecer ajuda de vez em quando, pode acabar ganhando coisas boas (ou no mínimo, histórias engraçadas).
+NOTES_TIPS_TITLE;Dicas úteis
+NOTES_TIPS_DESC;- Selecione uma arma, chegue perto e... torça pra acertar.\\n\\n- Role pra desviar de ataques. De conversas? Nem sempre.\\n\\n- Mochila cheia? Vende umas tranqueiras e finge que foi estratégia.\\n\\n- A vila muda. Presta atenção ou ela te passa a perna.
+QUEST_BARRELDESTRUCTION_TITLE;A Arte de Destruir Coisas
+QUEST_BARRELDESTRUCTION_DESC;Caixas, barris e potes misteriosos estão espalhados pelas dungeons, como se alguém os tivesse deixado ali de propósito. Talvez seja uma boa ideia destruí-los e ver se escondem algo útil...
+QUEST_BARRELDESTRUCTION_OBJECTIVE;Destrua 60 barris/vasos
+QUEST_TALKAROUND_TITLE;Boca a Boca
+QUEST_TALKAROUND_DESC;Para entender uma vila, não basta olhar — tem que ouvir. Cumprimente todos os moradores de Bloomrise e descubra um pouco do que cada um carrega no coração (ou esconde atrás de um sorriso).
+QUEST_TALKAROUND_OBJECTIVE;Fale com os moradores
+QUEST_ZOMBIECLEANUP_TITLE;Cheiro de Problema
+QUEST_ZOMBIECLEANUP_DESC;Eles andam devagar, mas fedem rápido. Zumbis estão aparecendo em bandos e atrapalhando qualquer um que tente explorar a dungeon. Hora de dar um fim nesse problema fedorento e restaurar um pouco de paz... e ar puro.
+QUEST_ZOMBIECLEANUP_OBJECTIVE;Derrote 100 Zumbis
+QUEST_SUSHICRISIS_TITLE;Crise do Sushi
+QUEST_SUSHICRISIS_DESC;Lyla quer organizar um evento “super cultural” com sushi pra todos. O problema? Ninguém avisou que o peixe acabava. Coletar 35 sushi pode evitar uma catástrofe diplomática (e alimentar).
+QUEST_SUSHICRISIS_OBJECTIVE;Coletar 35 Sushi
+QUEST_VILLAGETASKS_TITLE;Como Agradar um Vilarejo
+QUEST_VILLAGETASKS_DESC;Bloomrise é cheia de pessoas com histórias, rotinas… e pedidos! Muitos moradores precisam de ajuda de vez em quando. Fale com eles, aceite uma tarefa e mostre que você está disposta a fazer a diferença por aqui.
+QUEST_VILLAGETASKS_OBJECTIVE;Complete 6 tarefa da vila
+QUEST_CHROMITE_TITLE;Cores que Vieram Primeiro
+QUEST_CHROMITE_DESC;A lenda diz que a Chromita guarda a essência das quatro primeiras cores do mundo. Poucos já viram uma de perto, menos ainda tocaram. Coletar 1 já é um feito. Coletar várias? Aventureiros chamam de milagre.
+QUEST_CHROMITE_OBJECTIVE;Coletar 20 Chromitas
+QUEST_LOGS_TITLE;Lenha pra Hoje, Fogo pra Amanhã
+QUEST_LOGS_DESC;O velho Wade reclamou que está difícil manter a fogueira acesa com tanta árvore crescendo ao redor da vila. Corte algumas árvores para abrir espaço e garantir lenha para os próximos dias.
+QUEST_LOGS_OBJECTIVE;Derrube 60 árvores
+QUEST_SLIMES_TITLE;Limpeza Pegajosa
+QUEST_SLIMES_DESC;Os slimes estão se multiplicando em tudo quanto é canto. Campos, cavernas, até perto da vila! A situação tá ficando escorregadia demais — literalmente.
+QUEST_SLIMES_OBJECTIVE;Derrote 100 Slimes
+QUEST_COOKIES_TITLE;Operação Biscoito
+QUEST_COOKIES_DESC;Wade jura que assou biscoitos pra um lanche comunitário, mas só sobraram farelos suspeitos e um Lupi com a boca cheia. Se conseguir 35 cookies, dá pra refazer o estoque… ou pelo menos distrair o culpado com mais um.
+QUEST_COOKIES_OBJECTIVE;Coletar 35 Cookies
+QUEST_SODAS_TITLE;Refri Requisitado
+QUEST_SODAS_DESC;As máquinas de refrigerante da vila pararam misteriosamente… de novo. Enquanto o inventor tenta “recalibrar os resfriadores térmicos de carbono”, alguém precisa coletar 35 sodas antes que a sede vença.
+QUEST_SODAS_OBJECTIVE;Coletar 20 Sodas
+QUEST_ROCKS_TITLE;Rochas no Caminho
+QUEST_ROCKS_DESC;Durante suas explorações, Rayy percebe que algumas passagens estão bloqueadas por grandes pedras. Quebrar essas rochas pode abrir novos caminhos... ou esconder segredos!
+QUEST_ROCKS_OBJECTIVE;Quebrar 60 pedras
+QUEST_GOBLINS_TITLE;Sem Goblins, por favor
+QUEST_GOBLINS_DESC;Alguns dizem que os goblins são só mal-entendidos. Outros dizem que eles roubaram até o sino da praça. Independente da versão, 60 deles precisam sair do caminho. Menos confusão, mais sossego.
+QUEST_GOBLINS_OBJECTIVE;Derrote 100 Goblins
+QUEST_GHOSTS_TITLE;Silêncio na Floresta
+QUEST_GHOSTS_DESC;Moradores estão a sussurando sobre vultos brilhantes vagando pela Floresta Misteriosa durante a noite. Alguns dizem que são apenas histórias… outros juram que ouviram lamentos. Derrote alguns fantasmas e traga paz aos que ainda têm coragem de sair à noite.
+QUEST_GHOSTS_OBJECTIVE;Derrote 60 Fantasmas
+QUEST_TURBIX_TITLE;Turbix Emergencial
+QUEST_TURBIX_DESC;Marcus tentou substituir o Turbix por chá de cogumelo caseiro. Resultado? Um bar vazio e um cliente que dançou por 3 horas sem parar. Melhor garantir 35 latas e manter o bar abastecido com cafeína real.
+QUEST_TURBIX_OBJECTIVE;Coletar 35 Turbix
+QUEST_SNAKES_TITLE;Veneno nas Sombras
+QUEST_SNAKES_DESC;As cobras começaram a aparecer em trilhas próximas às dungeons, deslizando silenciosas entre pedras e mato. O problema? Cada mordida pode ser o fim de um aventureiro desatento. Melhor reduzir o risco antes que alguém não volte pra casa.
+QUEST_SNAKES_OBJECTIVE;Derrote 70 Cobras
+QUEST_BATS_TITLE;Caçada Noturna
+QUEST_BATS_DESC;Os morcegos se multiplicaram nas cavernas e agora incomodam qualquer aventureiro que passa. Melhor reduzir o barulho de asas antes que alguém enlouqueça — ou seja picado no escuro.
+QUEST_BATS_OBJECTIVE;Derrote 80 Morcegos
+QUEST_CATCHTILAPIA_TITLE;Um Sabor de Rio
+QUEST_CATCHTILAPIA_DESC;A Tilápia de água doce é famosa por sua carne leve e saborosa, sendo um ingrediente principal em muitos pratos da vila. Pescadores habilidosos que conseguem trazer Tilápias frescas são sempre bem-vindos no bar!
+QUEST_CATCHTILAPIA_OBJECTIVE;Pesque 3 Tilápias
+QUEST_CATCHHERRING_TITLE;Prata do Oceano
+QUEST_CATCHHERRING_DESC;Pequenos, prateados e sempre em grupo. O Herring é um peixe oceânico vital, usado tanto na culinária quanto para fazer óleos. Pescadores costumam procurar por seus grandes cardumes brilhando perto da costa na praia.
+QUEST_CATCHHERRING_OBJECTIVE;Pesque 5 Herring
+QUEST_HARVESTCROPS_TITLE;A Colheita da Vila
+QUEST_HARVESTCROPS_DESC;A agricultura é a alma de Bloomrise. Contribuir com a colheita ajuda a todos, desde o armazém geral até a cozinha do bar. Plante suas sementes, cuide delas e colha os frutos do seu trabalho para ajudar a abastecer a vila.
+QUEST_HARVESTCROPS_OBJECTIVE;Colha 10 plantações (qualquer tipo)
+DIALOGUE_CAT_1;Ora, ora... quem é você? Veio passear por aqui?
+DIALOGUE_CAT_2;Você parece estar procurando um lar. Quer ficar? Acho que você ia gostar daqui.
+DIALOGUE_CAT_3;Bom, se vai ficar, precisa de um nome... Hum... que tal 'Senhorito bigodes'?
+DIALOGUE_CAT_4;Não, espera... você é uma gatinha, uma mocinha. Esse nome não serve...
+DIALOGUE_CAT_5;Já sei! 'Marin'. É perfeito! O que você acha?
+DIALOGUE_CAT_6;Então está decidido. Bem-vinda ao seu novo lar, Marin!
+
+DIALOGUE_TUTORIAL_1;Rayy… eu sei que não sou ferreiro, mas fiz uma espada pra você. Com medo e sem prática, mas ver você lutando contra slimes me inspirou.
+DIALOGUE_TUTORIAL_2;Você fez uma espada? É linda, meio torta, mas linda.
+DIALOGUE_TUTORIAL_3;Não é perfeita, mas funciona. Lembra de equipar ela antes de atacar os monstros, tá?
+DIALOGUE_TUTORIAL_4;Entendi: espada numa aba invisível, botão flutuante pra atacar?
+DIALOGUE_TUTORIAL_5;Você vai entender na prática. E oha só alguns monstros invadiram a dungeon no canto superior da vila. Tem umas placas pelo caminho se quiser dar uma olhada.
+DIALOGUE_TUTORIAL_6;Trilhas misteriosas com sinalização opcional, né?
+DIALOGUE_TUTORIAL_7;E se no caminho você quiser vender ou comprar alguns itens passa na loja. A porta vai estar aberta, como sempre.
+DIALOGUE_TUTORIAL_8;Com desconto especial pra sua heroína preferida, né?
+DIALOGUE_TUTORIAL_9;Claro. Casar com o dono da loja tem suas vantagens.
+DIALOGUE_TUTORIAL_10;Ah, e outra coisa, o pessoal da vila anda com umas tarefas pendentes também. Se puder dar uma força pra eles de vez em quando… vale a pena anotar.
+DIALOGUE_TUTORIAL_11;E antes que eu esqueça, toma isso aqui — “Guia do Aventureiro”. Achei numa dungeon outro dia. Acho que vai ser útil pra você.
+DIALOGUE_TUTORIAL_12;Obrigada! Parece que vou precisar mesmo, isso vai me dar bons objetivos pra começar.
+DIALOGUE_TUTORIAL_13;Boa sorte, Rayy! E cuidado por aí.
+        #--------------- DIALOGO 1---------------;
+DIALOGUE1_JMINELLI_1;Acha que eu conseguiria cuidar da loja por um dia?
+DIALOGUE1_JMINELLI_2;Só se eu puder usar sua espada por um dia.
+        #--------------- DIALOGO 2---------------;
+DIALOGUE2_JMINELLI_1;Fui na dungeon hoje. Encontrei umas coisas diferentes.
+DIALOGUE2_JMINELLI_2;Guarda umas pra mim. Vai que viram moda.
+        #--------------- DIALOGO 3---------------;
+DIALOGUE3_JMINELLI_1;O que tá em promoção hoje?
+DIALOGUE3_JMINELLI_2;O que você quiser, o desconto de esposa tá valendo!
+        #--------------- DIALOGO 4---------------;
+DIALOGUE4_JMINELLI_1;Olha só... uma bancada de criação na sala. Um toque ousado de caos doméstico. Admiro a coragem.
+DIALOGUE4_JMINELLI_2;Só toma cuidado pra não confundir o martelo com o garfo. Já aconteceu comigo. Não recomendo.
+DIALOGUE4_JMINELLI_3;Ainda tô aprendendo... Mas se der certo, talvez eu faça porão pras minhas coisinhas.
+        #--------------- DIALOGO 5---------------;
+DIALOGUE5_JMINELLI_1;Sabe que adoro quando você faz piada na hora certa.
+DIALOGUE5_JMINELLI_2;É o meu jeito de manter a paz. E de ganhar descontos na loja.
+        #--------------- DIALOGO 6---------------;
+DIALOGUE6_JMINELLI_1;Tomara que você não esteja dando uns descontos melhores pro Wade do que pra mim.
+DIALOGUE6_JMINELLI_2;Ele me traz recursos. Você me traz amor. É um negócio justo.
+        #--------------- DIALOGO 7---------------;
+DIALOGUE7_JMINELLI_1;Trouxe o que você queria: seu chocolate favorito.
+DIALOGUE7_JMINELLI_2;Você sabe mesmo como conquistar uma guerreira.
+DIALOGUE7_JMINELLI_3;Só o melhor pra minha heroína.
+        #--------------- DIALOGO 8---------------;
+DIALOGUE8_JMINELLI_1;Você ainda guarda aquelas tintas que comprou da Lupi, né?
+DIALOGUE8_JMINELLI_2;Guardo sim. E ainda uso. Pintei umas botboletas esses dias mesmo.
+DIALOGUE8_JMINELLI_3;Vi de longe. Ficou bom, viu? Meio torto, meio colorido demais... mas bom. Tem sua cara.
+DIALOGUE8_JMINELLI_4;Torto e colorido demais é meu estilo oficial, obrigada.
+DIALOGUE8_JMINELLI_5;É. E por algum motivo, combina com a vila inteira.
+        #--------------- DIALOGO 9---------------;
+DIALOGUE9_JMINELLI_1;Você já pensou em tirar um dia de folga?
+DIALOGUE9_JMINELLI_2;Já. Mas daí lembrei que você ia gastar tudo na loja dos outros.
+        #--------------- DIALOGO 10---------------;
+DIALOGUE10_JMINELLI_1;Você reorganizou a loja... de novo?
+DIALOGUE10_JMINELLI_2;Organização é arte. Você devia tentar.
+DIALOGUE11_JMINELLI_1;Adoro ouvir as histórias dos moradores mais antigos daqui.
+DIALOGUE11_JMINELLI_2;Eles sempre têm algo interessante para contar.
+
+DIALOGUE12_JMINELLI_1;Estava pensando em passarmos na Selene mais tarde.
+DIALOGUE12_JMINELLI_2;Ótima ideia. Aquele chá de girassol dela faz maravilhas após um dia longo.
+
+DIALOGUE13_JMINELLI_1;Rayy, não esqueça de levar um lanche. A dungeon abre o apetite.
+DIALOGUE13_JMINELLI_2;Pode deixar, mestre dos estoques. Volto antes que sinta minha falta.
+        #--------------- MISSAO 1---------------;
+QUEST1_START_JMINELLI_1;Rayy, ouvi que uns slimes estão se espalhando dentro da dungeon… e sabe como eles são, né? Escorregam em tudo, até na reputação da vila.
+QUEST1_START_JMINELLI_2;Se puder acabar com dois deles pra mim, prometo uma recompensa... tipo um cookie! Mas volta aqui depois, hein?
+QUEST1_ONCOMPLETE_JMINELLI_1;Você já deu conta daquela missão, lembra? Aproveite seu descanso merecido!
+QUEST_ONCOOLDOWN_JMINELLI_1;Ainda tô colocando as coisas no lugar depois da sua última ajuda, Rayy. Aqueles slimes fizeram uma bagunça bem grande!
+QUEST1_PROGRESS_JMINELLI_1;Já lidou com os slimes perto da dungeon?
+QUEST1_PROGRESS_JMINELLI_2;Se não, cuidado onde pisa... Um deles quase levou minha caixa de maçãs hoje.
+QUEST1_PROGRESS_JMINELLI_3;Já tô no rastro deles. Se escorregarem de novo, vai ser pra bem longe daqui.
+QUEST1_END_JMINELLI_1;Missão cumprida! Dois slimes a menos rondando a dungeon.
+QUEST1_END_JMINELLI_2;Boa! Agora posso andar por ali sem virar parte do chão... ou da parede.
+QUEST1_END_JMINELLI_3;Tá aqui sua recompensa — e valeu por sempre dar conta do recado.
+        #--------------- MISSAO 2---------------;
+QUEST1_START_VICTOR_1;Rayy… eu teria uma tarefa um pouco… peculiar, se você estiver disposta.
+QUEST1_START_VICTOR_2;Se for menos nojenta que limpar o curral das vacas da Selene, pode falar.
+QUEST1_START_VICTOR_3;Preciso de dois cérebros de zumbi. Motivos... acadêmicos. E não, não é pra decorar a biblioteca. (Dessa vez.)
+QUEST1_ONCOMPLETE_VICTOR_1;A vila agradece sua eficiência. Essa tarefa não será necessária novamente. Por ora.
+QUEST_ONCOOLDOWN_VICTOR_1;Os cérebros ainda estão... se mexendo. Preciso de tempo pra analisar. Sua ajuda anterior foi mais do que suficiente por enquanto.
+QUEST1_PROGRESS_VICTOR_1;Ainda em busca dos cérebros?
+QUEST1_PROGRESS_VICTOR_2;Se começarem a tentar conversar com você, corra.
+QUEST1_PROGRESS_VICTOR_3;Se um cérebro me der bom dia, eu largo tudo e viro florista.
+QUEST1_END_VICTOR_1;Aqui estão… dois cérebros molengas e ligeiramente ofensivos ao olfato.
+QUEST1_END_VICTOR_2;
+QUEST1_END_VICTOR_3;
+        #--------------- MISSAO 3---------------;
+QUEST1_START_MARCUS_1;Hm. Outro dia, arrumando alguns papéis antigos… encontrei um bilhete da minha irmã. Junto dele, uma migalha. Cookie de canela.
+QUEST1_START_MARCUS_2;Não me entenda mal, não sou do tipo sentimental. Mas certas memórias… merecem uma segunda mordida.
+QUEST1_START_MARCUS_3;Se encontrar uns cookies por aí, poderia me trazer seis? Só por curiosidade. Científica, claro.
+QUEST1_ONCOMPLETE_MARCUS_1;Aqueles cookies... ficaram na memória. Literalmente e emocionalmente. Não preciso de mais. Uma boa lembrança basta.
+QUEST1_ONCOMPLETE_MARCUS_2;Que bom. Do jeito que você falou, quase pensei que eu ia ter que abrir uma padaria.
+QUEST_ONCOOLDOWN_MARCUS_1;Ainda digerindo os últimos cookies… e memórias. Esses biscoitos foram bem necessários, Rayy.
+QUEST1_PROGRESS_MARCUS_1;Ainda não conseguiu os seis cookies? Tudo bem. Nostalgia pode esperar um pouco mais.
+QUEST1_PROGRESS_MARCUS_2;Estou caçando eles. Só espero não comer um por acidente…
+QUEST1_END_MARCUS_1;Cinco cookies. Quase idênticos aos de antes.
+QUEST1_END_MARCUS_2;Obrigado, Rayy. Eu… precisava disso.
+QUEST1_END_MARCUS_3;Só não vá espalhar por aí que ando colecionando doces por motivos sentimentais.
+QUEST1_END_MARCUS_4;Sem julgamentos. E seu segredo está seguro comigo — desde que eu possa ficar com um desses cookies.
+        #--------------- MISSAO 3---------------;
+QUEST1_START_WADE_1;Rayy, tô ficando sem madeira pra terminar umas coisas aqui.
+QUEST1_START_WADE_2;Se puder juntar uns troncos pra mim, já ajuda um bocado.
+QUEST1_ONCOMPLETE_WADE_1;Já me ajudou demais com isso. Se eu precisar de novo, prometo que aviso — com antecedência!
+QUEST_ONCOOLDOWN_WADE_1;A madeira que você trouxe ainda tá rendendo bem! Não se preocupa, assim que eu precisar de mais, te chamo.
+QUEST1_PROGRESS_WADE_1;Conseguiu deitar algumas arvores?
+QUEST1_PROGRESS_WADE_2;Tô no caminho. E tentando não ser atacada por árvores com pernas.
+QUEST1_END_WADE_1;Aqui estão os troncos das árvores. Três, como pediu, inteiros e sem cupim (acho).
+QUEST1_END_WADE_2;Ótimo! Com isso já dá pra fazer… hmm… mais um banquinho.
+QUEST1_END_WADE_3;Brincadeira. (Ou não.)
+        #--------------- MISSAO 4---------------;
+QUEST1_START_DARIUS_1;Rayy, tô testando um encaixe novo pra uma arma... mas vou precisar de presas de goblin. Duas já servem.
+QUEST1_START_DARIUS_2;Presas de goblin? Que chique. Agora as armas têm dentes?
+QUEST1_START_DARIUS_3;Mais ou menos. Digamos que é estética agressiva. Consegue pegar alguns pra mim?
+QUEST1_ONCOMPLETE_DARIUS_1;Aquilo que você fez já foi mais que o suficiente. Se eu inventar outra doideira, te chamo.
+QUEST_ONCOOLDOWN_DARIUS_1;As presas que você trouxe estão em teste. Tô vendo se a arma não sai mordendo sozinha. Valeu por ter trazido tão rápido!
+QUEST1_PROGRESS_DARIUS_1;Conseguiu as presas?
+QUEST1_PROGRESS_DARIUS_2;Ainda não. Os goblins não gostam muito da ideia, acredita?
+QUEST1_END_DARIUS_1;Aqui estão. Tirei com cuidado, na medida do possível... ninguém saiu voando...
+QUEST1_END_DARIUS_2;Ótimo. Essas vão encaixar bem. Obrigado, Rayy.
+QUEST1_END_DARIUS_3;Agora vamos ver se arma com dentes morde melhor.
+        #--------------- MISSAO 5---------------;
+QUEST4_START_LUPI_1;Rayy! Descobri o segredo das plantas felizes! É o sol! Mas e as que ficam dentro de casa?
+QUEST4_START_LUPI_2;Você vai... carregar o sol pra dentro de casa, Lupi?
+QUEST4_START_LUPI_3;Quase isso! Vou fazer um chá de girassol! Eles são basicamente sois portáteis. Se você trouxer alguns, posso fazer um chá de sol pra todo mundo se sentir quentinho e feliz!
+QUEST4_ONCOMPLETE_LUPI_1;Não preciso de mais girassóis por enquanto, Rayy! O último chá foi tão forte que minhas samambaias ficaram bronzeadas!
+QUEST4_ONCOOLDOWN_LUPI_1;As plantas ainda estão absorvendo a 'luz' do último chá. Elas me disseram que estão cheias de energia! Precisam de um tempo pra usar tudo isso em novas folhas!
+QUEST4_PROGRESS_LUPI_1;Já encontrou os pequenos sois?
+QUEST4_PROGRESS_LUPI_2;Ainda não. Eles são mais tímidos do que parecem.
+QUEST4_PROGRESS_LUPI_3;Tenta cantar pra eles! Eles gostam de música e se abrem mais fácil!
+QUEST4_END_LUPI_1;Trouxe os girassóis. Estão quentinhos, como você disse.
+QUEST4_END_LUPI_2;Eles são perfeitos! Olha só, dá pra sentir a energia do sol neles! Minhas plantas vão ter uma festa!
+QUEST4_END_LUPI_3;Obrigado, Rayy! Quer um gole do chá quando ficar pronto? Tem gosto de dia de verão!
+        #--------------- MISSAO 6---------------;
+QUEST5_START_SELENE_1;Rayy, você também sentiu? Há uma quietude inquieta na vila ultimamente. As pessoas sorriem, mas os olhos estão cansados.
+QUEST5_START_SELENE_2;Agora que você falou... parece que todo mundo está guardando um suspiro. O que pretende fazer?
+QUEST5_START_SELENE_3;Às vezes, uma xícara de chá quente ouve mais do que mil palavras. Preciso de algumas flores da floresta... as azuis e as roxas pequenas. Elas ajudam a acalmar o coração.
+QUEST5_ONCOMPLETE_SELENE_1;O chá que você ajudou a fazer trouxe muita paz, Rayy. Por enquanto, a vila respira mais aliviada.
+QUEST5_ONCOOLDOWN_SELENE_1;Ainda tenho um pouco das flores que você trouxe. O aroma delas já acalma o bar. Quando precisar de mais, avisarei você.
+QUEST5_PROGRESS_SELENE_1;Conseguiu encontrar as flores para o chá?
+QUEST5_PROGRESS_SELENE_2;Estou procurando. Elas são mais discretas do que eu lembrava.
+QUEST5_PROGRESS_SELENE_3;As melhores coisas geralmente são. Tenha calma na sua busca.
+QUEST5_END_SELENE_1;Selene, aqui estão as flores que você pediu.
+QUEST5_END_SELENE_2;Ah, perfeitas. O cheiro delas já traz um pouco de paz. Obrigada, Rayy.
+QUEST5_END_SELENE_3;Isto não vai resolver os problemas do mundo, mas vai aquecer a alma de quem precisa. É um começo.
+        #--------------- MISSAO 7---------------;
+        QUEST7_START_LYLA_1;Rayy, querida! Uma emergência artística! Estou criando um vestido que vai revolucionar a moda de Bloomrise, mas ele está... mudo!
+QUEST7_START_LYLA_2;Um vestido mudo? Ele se recusa a falar com você?
+QUEST7_START_LYLA_3;Exato! Ele precisa de um ponto de cor, de inspiração! Uma Ametista! Aquele tom de roxo é exatamente o que eu preciso. Eu mesma iria, mas a umidade da caverna...
+QUEST7_ONCOMPLETE_LYLA_1;Aquela Ametista foi um marco na minha carreira, querida. Mas a moda não para! Já estou em outra paleta de cores agora.
+QUEST7_ONCOOLDOWN_LYLA_1;Ainda estou processando a energia da última pedra. A inspiração é como um bom perfume, não se apresse. Volte depois, quem sabe a musa da moda me visita novamente.
+QUEST7_PROGRESS_LYLA_1;E então? Minha obra-prima está em pausa, esperando por seu toque de glamour.
+QUEST7_PROGRESS_LYLA_2;Estou procurando, Lyla. Pedras chiques não crescem em árvores.
+QUEST7_PROGRESS_LYLA_3;Pense no meu vestido, Rayy! Ele está nu sem a Ametista! É uma questão de decência!
+QUEST7_END_LYLA_1;Lyla, sua pedra. Cuidado pra não tropeçar nela com esses sapatos.
+QUEST7_END_LYLA_2;Ah, ela é perfeita! Tão dramática! A luz bate nela e cria um espetáculo! Já consigo ver o design completo!
+QUEST7_END_LYLA_3;Obrigada, Rayy! Você não salvou o mundo, mas salvou o meu look. O que, convenhamos, é quase a mesma coisa.
+        #--------------- DIALOGO 1---------------;
+        DIALOGUE1_WADE_1;Isso na sua mão é calo ou tatuagem?
+        DIALOGUE1_WADE_2;Se doer é calo. Se coçar, aí sim eu me preocupo.
+        #--------------- DIALOGO 2---------------;
+        DIALOGUE2_WADE_1;Tem madeira sobrando hoje?
+        DIALOGUE2_WADE_2;Sempre. Árvore não descansa, e eu também não.
+        #--------------- DIALOGO 3---------------;
+        DIALOGUE3_WADE_1;Você já viu o que acontece quando um goblin tenta cortar madeira?
+        DIALOGUE3_WADE_2;Não, mas imagino que seja um desastre.
+        #--------------- DIALOGO 4---------------;
+        DIALOGUE4_WADE_1;Tá cheirando a pinho aqui.
+        DIALOGUE4_WADE_2;É meu cheiro — essência de mata fresca.
+        #--------------- DIALOGO 5---------------;
+        DIALOGUE5_WADE_1;Você e o Minelli ainda trocam suprimentos por descontos?
+        DIALOGUE5_WADE_2;Isso. Ele ganha prateleiras, eu ganho desconto. Trabalho em equipe.
+        #--------------- DIALOGO 6---------------;
+        DIALOGUE6_WADE_1;Você sempre assovia quando trabalha?
+        DIALOGUE6_WADE_2;Só quando a madeira tá de bom humor. Se não, é só um barulho estranho.
+        #--------------- DIALOGO 7---------------;
+        DIALOGUE7_WADE_1;Você viu o tempo hoje? Tá perfeito pra uma caminhada.
+        DIALOGUE7_WADE_2;Vi sim. Mas a pilha de troncos aqui não vai andar sozinha.
+        DIALOGUE_WR_2_WADE_1;Ei, Rayy! Você balança essa espada como se estivesse cortando lenha! Hah!
+        DIALOGUE_WR_2_RAYY_1;Isso é um elogio ou uma crítica?
+        DIALOGUE_WR_2_WADE_2;É um elogio! Lenha é difícil de cortar!
+        DIALOGUE_WR_3_RAYY_1;Wade, você já lutou contra um... Fungi? Aquele cogumelo roxo?
+        DIALOGUE_WR_3_WADE_1;Claro. Tentei cortar um ao meio uma vez.
+        DIALOGUE_WR_3_RAYY_2;E o que aconteceu?
+        DIALOGUE_WR_3_WADE_1;(Coça a barba) Meu machado ficou roxo por uma semana. E eu espirrei por três dias. Coisa estranha.
+        DIALOGUE_WR_4_RAYY_1;Você é forte, Wade. Você deveria vir para a dungeon comigo.
+        DIALOGUE_WR_4_WADE_1;Hah! Meus dias de dungeon acabaram, garota. Prefiro lutar contra um nó de carvalho do que contra um Zumbi.
+        DIALOGUE_WR_4_RAYY_2;O nó de carvalho é mais difícil?
+
+        DIALOGUE9_WADE_15;O que faz um machado durar tanto tempo nas suas mãos?
+        DIALOGUE9_WADE_16;Limpeza constante e nunca bater em pedras. O metal tem memória, menina.
+
+        DIALOGUE10_WADE_17;Consegue me ensinar a reforçar a estrutura da minha casa?
+        DIALOGUE10_WADE_18;Traga os troncos e as ferramentas. O trabalho ensina mais que a conversa.
+
+        DIALOGUE11_WADE_21;"Wade, como você sabe qual árvore está pronta para o corte?"
+        DIALOGUE11_WADE_22;Pelo som da casca quando bato nela. A árvore avisa quando o ciclo termina.
+
+        #--------------- DIALOGO 1---------------;
+        DIALOGUE1_DARIUS_1;A vila tem estado mais tranquila, né?
+        DIALOGUE1_DARIUS_2;É... espero que isso dure. Mas é sempre bom manter a espada afiada.
+        #--------------- DIALOGO 2---------------;
+        DIALOGUE2_DARIUS_1;Seus braços nunca cansam?
+        DIALOGUE2_DARIUS_2;Meus braços? Nunca. Minha paciência? Com frequência.
+        #--------------- DIALOGO 3---------------;
+        DIALOGUE3_DARIUS_1;Essa forja já derreteu alguma coisa que não devia?
+        DIALOGUE3_DARIUS_2;Uma vez... meu almoço
+        #--------------- DIALOGO 4---------------;
+        DIALOGUE4_DARIUS_1;Fiquei sabendo que quer criar algumas coisas na sua bancada em casa. Só não esquece do ferreiro aqui, hein?
+        DIALOGUE4_DARIUS_2;Tem coisa que só o fogo e o braço certo conseguem fazer. E modéstia à parte... eu tenho os dois.
+        DIALOGUE4_DARIUS_3;Prometo não roubar todos os seus clientes. Só uns dois ou três.
+        #--------------- DIALOGO 5---------------;
+        DIALOGUE5_DARIUS_1;Quantos martelos você tem, exatamente?
+        DIALOGUE5_DARIUS_2;Contando os de decoração... devem ser uns 10.
+        #--------------- DIALOGO 6---------------;
+        DIALOGUE6_DARIUS_1;Você tem mais clientes além de mim, Darius?
+        DIALOGUE6_DARIUS_2;Uma vez o Lupi comprou uma espada de papel. Mas não sei se conta.
+        #--------------- DIALOGO 7---------------;
+        DIALOGUE7_DARIUS_1;Você já pensou em fazer armas com materiais diferentes?
+        DIALOGUE7_DARIUS_2;Sim. Uma vez tentei com chocolate. Foi um fracasso… mas delicioso.
+        #--------------- DIALOGO 8---------------;
+        DIALOGUE8_DARIUS_1;Você já pensou em fazer bijuteria, Darius?
+        DIALOGUE8_DARIUS_2;Se for de ferro fundido, até que posso considerar.
+        #--------------- DIALOGO 9---------------;
+        DIALOGUE9_DARIUS_1;Você é o melhor ferreiro que eu conheço!
+        DIALOGUE9_DARIUS_2;Melhor que seja. Meu topete depende disso.
+        DIALOGUE_DR_3_RAYY_1;Darius, você pode fazer uma... armadura de glitter? A Lyla não para de me sugerir isso.
+        DIALOGUE_DR_3_DARIUS_1;(Ele encara Rayy por cinco segundos.) ...Não.
+        DIALOGUE_DR_3_RAYY_2;...Eu precisava perguntar.
+        #--------------- DIALOGO 1---------------;
+        DIALOGUE1_JADEN_1;Treinando de novo?
+        DIALOGUE1_JADEN_2;Sempre. A grandeza não tira cochilo.
+        #--------------- DIALOGO 2---------------;
+        DIALOGUE2_JADEN_1;Vai cantar hoje no bar?
+        DIALOGUE2_JADEN_2;Se a inspiração bater... ou se alguém me pagar um chá de hibisco.
+        #--------------- DIALOGO 3---------------;
+        DIALOGUE3_JADEN_1;Você já pensou em fazer uma música sobre a vila?
+        DIALOGUE3_JADEN_2;Já. Mas ainda não encontrei a melodia certa. Talvez precise de mais aventuras.
+        #--------------- DIALOGO 4---------------;
+        DIALOGUE4_JADEN_1;Você dorme com o cabelo assim ou acorda e ele se arruma sozinho?
+        DIALOGUE4_JADEN_2;É talento natural. Igual à minha voz.
+        #--------------- DIALOGO 5---------------;
+        DIALOGUE5_JADEN_1;Você lembra daquela música sobre uma vaca que virou estrela?
+        DIALOGUE5_JADEN_2;Quem esqueceria? Foi um sucesso rural.
+        #--------------- DIALOGO 6---------------;
+        DIALOGUE6_JADEN_1;Você sempre ensaia falas sozinho?
+        DIALOGUE6_JADEN_2;Não estou sozinho. Estou com o público imaginário. Eles são muito compreensivos.
+        #--------------- DIALOGO 7---------------;
+        DIALOGUE7_JADEN_1;Você sempre tão confiante, ou é atuação?
+        DIALOGUE7_JADEN_2;Se eu contar, estraga o mistério.
+        #--------------- DIALOGO 8---------------;
+        DIALOGUE8_JADEN_1;Seu cabelo tá especialmente... quadrado hoje.
+        DIALOGUE8_JADEN_2;Isso não é cabelo, é estilo com atitude.
+
+        #--------------- DIALOGO 1---------------;
+        DIALOGUE1_LUPI_1;Essa planta aqui… tá com cara de normal.
+        DIALOGUE1_LUPI_2;É o que ela quer que você pense.
+        #--------------- DIALOGO 2---------------;
+        DIALOGUE2_LUPI_1;Lupi, por que suas tintas têm cheiro de frutas?
+        DIALOGUE2_LUPI_2;Mistério da natureza! Ou talvez eu tenha usado suco de morango por acidente.
+        DIALOGUE2_LUPI_3;De novo?
+        DIALOGUE2_LUPI_4;É arte com aroma, Rayy. Tendência futura!
+        #--------------- DIALOGO 3---------------;
+        DIALOGUE3_LUPI_1;Lupi… você já teve mesmo uma tartaruga? Ou foi só invenção sua?
+        DIALOGUE3_LUPI_2 ;Tive sim Ela se chamava Tartalina. Pequena, tranquila… sempre dormia encostada nos meus pés.
+        DIALOGUE3_LUPI_3;Um dia, deixei a tampa da caixa meio aberta. Achei que ela não ligaria. Mas... quando voltei, ela já não estava mais lá.
+        DIALOGUE3_LUPI_4;Sinto muito…
+        DIALOGUE3_LUPI_5;Pensar que ela tá vivendo uma aventura por aí… ajuda um pouco.
+        DIALOGUE3_LUPI_6;Se um dia ela aparecer, tenho certeza de que vai saber voltar pra casa.
+        #--------------- DIALOGO 4---------------;
+        DIALOGUE4_LUPI_1;O que tem na sua bolsa agora?
+        DIALOGUE4_LUPI_2;Segredos, lanchinhos e uma semente possivelmente amaldiçoada. Quer uma?
+        DIALOGUE4_LUPI_3;Obrigada, mas acho que essa semente pertence à sua coleção de caos mágico...
+        #--------------- DIALOGO 5---------------;
+        DIALOGUE5_LUPI_1;O que você está plantando hoje, Lupi?
+        DIALOGUE5_LUPI_2;Achei essa semente estranha atrás do mercado! Pode ser uma MegaFrutaSolar ou uma PedraAlface. Vou dar nome quando crescer e ganhar um rostinho!
+        #--------------- DIALOGO 6---------------;
+        DIALOGUE6_LUPI_1;Vai chover hoje, hein.
+        DIALOGUE6_LUPI_2;Perfeito! As sementes dançam melhor com chuva.
+        #--------------- DIALOGO 7---------------;
+        DIALOGUE7_LUPI_1;Você cavou buracos atrás do celeiro de novo?
+        DIALOGUE7_LUPI_2;Talvez. Era pra uma “experiência botânica controlada”.
+        #--------------- DIALOGO 8---------------;
+        DIALOGUE8_LUPI_1;Você gosta de passar tempo com o Milo, né?
+        DIALOGUE8_LUPI_2;Ele é tipo... um trovão silencioso! Super calmo, mas você sente que ele tá pensando em coisas incríveis. Eu falo muito pra ele não precisar falar nada!
+        #--------------- DIALOGO 9---------------;
+        DIALOGUE9_LUPI_1;Você realmente plantou essa semente estranha bem no meio do caminho?
+        DIALOGUE9_LUPI_2;Sim! Assim todo mundo pode ver ela crescer! Se nascer algum perigo... eu só dou um abraço. Geralmente funciona. Tipo... 80% das vezes!
+        #--------------- DIALOGO 10---------------;
+        DIALOGUE10_LUPI_1;Você tem certeza que essa semente não é uma pedra?
+        DIALOGUE10_LUPI_2;Só tem um jeito de descobrir... plantando!
+        DIALOGUE_LPR_1_LUPI_1;Rayy! Você que anda por aí... já viu alguma planta que pisca quando você assobia?
+        DIALOGUE_LPR_1_RAYY_1;Não. Lupi, plantas não piscam.
+        DIALOGUE_LPR_1_LUPI_2;As suas não. As minhas estão quase lá.
+        DIALOGUE_LPR_2_LUPI_1;Os Slimes não são maus. Eles só estão... úmidos e confusos. Eles me lembram um tipo de musgo senciente.
+        DIALOGUE_LPR_2_RAYY_1;O 'musgo senciente' tentou me engolir ontem.
+        DIALOGUE_LPR_2_LUPI_2;Exato! Como uma bromélia carnívora. Fascinante!
+
+        #--------------- DIALOGO 1---------------;
+        DIALOGUE1_LYLA_1;Novo vestido de novo, Lyla?
+        DIALOGUE1_LYLA_2;Obviamente. Um dia sem moda é um dia desperdiçado.
+        #--------------- DIALOGO 2---------------;
+        DIALOGUE2_LYLA_1;Rayy… ontem vi algo na floresta. Uma figura branca, parada… sumiu quando pisquei.
+        DIALOGUE2_LYLA_2;E você foi atrás?
+        DIALOGUE2_LYLA_3;Claro que não! Sou artista, não exorcista.
+        #--------------- DIALOGO 3---------------;
+        DIALOGUE3_LYLA_1;Tá mais frio hoje, né?
+        DIALOGUE3_LYLA_2;Achei que fosse a montanha... mas é o vento. Definitivamente o vento.
+        #--------------- DIALOGO 4---------------;
+        DIALOGUE4_LYLA_1;Tá se acostumando com a vila?
+        DIALOGUE4_LYLA_2;Ainda tropeço em pedras. Mas agora eu tropeço com elegância.
+        #--------------- DIALOGO 5---------------;
+        DIALOGUE5_LYLA_1;Tá tudo bem, Lyla? Já vi você olhando pra uma das vacas do celeiro como se ela tivesse te insultado.
+        DIALOGUE5_LYLA_2;Ela correu atrás de mim, Rayy. Na cidade, as coisas só correm se estiverem pegando fogo ou forem estilosas.
+        #--------------- DIALOGO 6---------------;
+        DIALOGUE6_LYLA_1;Você já pensou em aprender a lutar?
+        DIALOGUE6_LYLA_2;Já lutei... por prateleiras de promoção, sapatos edição limitada... foi bem traumático.
+        #--------------- DIALOGO 7---------------;
+        DIALOGUE7_LYLA_1;Você já plantou alguma coisa?
+        DIALOGUE7_LYLA_2;Sim! Um cacto. Ele morreu. Mas com estilo.
+        #--------------- DIALOGO 8---------------;
+        DIALOGUE8_LYLA_1;Você já tentou cozinhar alguma coisa da vila?
+        DIALOGUE8_LYLA_2;Sim! A fumaça saiu bonita. Já é um começo.
+        #--------------- DIALOGO 9---------------;
+        DIALOGUE9_LYLA_1;Você tá usando salto... na floresta?
+        DIALOGUE9_LYLA_2;Confiança, Rayy. E um pouco de teimosia.
+        DIALOGUE_LR_1_LYLA_1;Rayy, querida. Essa sua coragem é nota 10. Mas essa jardineira... é nota 2.
+        DIALOGUE_LR_1_RAYY_1;Funciona pra lutar contra Slimes. Seu vestido de glitter funcionaria?
+        DIALOGUE_LR_1_LYLA_2;Claro! O brilho ofuscaria eles. Pense nisso. 'Distração tática'.
+        DIALOGUE_LR_2_LYLA_1;Eu vi você treinando com a espada mais cedo. Foi... enérgico.
+        DIALOGUE_LR_2_RAYY_1;Eu estava lutando contra um toco de árvore. E ganhei.
+        DIALOGUE_LR_2_LYLA_2;Claro que sim. Mas tente fazer isso com mais 'finesse'. Gire o pulso! Faça pose! Os monstros odeiam quem não tem postura.
+
+        DIALOGUE9_LYLA_1;Lyla, acha que essa mochila combina com meu equipamento?
+        DIALOGUE9_LYLA_2;É funcional, admito. Mas um laço de fita faria maravilhas pelo seu visual.
+
+        DIALOGUE10_LYLA_1;Viu as novas sementes que o Lupi plantou?
+        DIALOGUE10_LYLA_2;"Sim! Se elas florescerem naquele tom de roxo, vou precisar de um vestido novo."
+
+        #--------------- DIALOGO 1---------------;
+        DIALOGUE1_MARCUS_1;Como você e a Selene dividem as tarefas no bar?
+        DIALOGUE1_MARCUS_2;Ela manda e eu finjo que mando também. Funciona bem.
+        #--------------- DIALOGO 2---------------;
+        DIALOGUE2_MARCUS_1;As cadeiras do bar tão mais confortáveis ou é impressão minha?
+        DIALOGUE2_MARCUS_2;Troquei a almofada. Pequenos luxos fazem a diferença.
+        #--------------- DIALOGO 3---------------;
+        DIALOGUE3_MARCUS_1;Não fica chato atender as mesmas pessoas todo dia?
+        DIALOGUE3_MARCUS_2;Não quando cada morador conta a mesma história, mas piora um pouco a cada vez.
+        #--------------- DIALOGO 4---------------;
+        DIALOGUE4_MARCUS_1;O que você faria se o bar pegasse fogo?
+        DIALOGUE4_MARCUS_2;Saio, vou chamar a Selene e deixo ela cuidar disso. Ela assusta mais que fogo.
+        #--------------- DIALOGO 5---------------;
+        DIALOGUE5_MARCUS_1;Você está sempre tão calmo, Marcus. Mesmo quando tem ataque de slime.
+        DIALOGUE5_MARCUS_2;Calma salva alguns copos... pânico derruba bebidas.
+        #--------------- DIALOGO 6---------------;
+        DIALOGUE6_MARCUS_1;Você já sorriu hoje, Marcus?
+        DIALOGUE6_MARCUS_2;Já. Foi interno. Muito discreto.
+        #--------------- DIALOGO 7---------------;
+        DIALOGUE7_MARCUS_1;Você lembra do nome daquele cliente que só fala em rimas?
+        DIALOGUE7_MARCUS_2;Infelizmente, sim. Ele volta todo dia... Acho que começa com Jad.. Não tenho total certeza.
+        #--------------- DIALOGO 8---------------;
+        DIALOGUE8_MARCUS_1;Marcus, qual o sabor especial de hoje?
+        DIALOGUE8_MARCUS_2;Frutas do bosque com um toque de mel. Lembra o cheiro da vila na primavera.
+
+        DIALOGUE9_MARCUS_1;Marcus, o cheiro de cookies está tomando conta da vila!
+        DIALOGUE9_MARCUS_2;É o segredo para manter os moradores sorrindo, Rayy. Um pouco de açúcar e memória.
+
+        #--------------- DIALOGO 1---------------;
+        DIALOGUE1_MAX_1;Ainda treinando, Max?
+        DIALOGUE1_MAX_2;Claro! Ontem mesmo derrotei um exército invisível.
+        #--------------- DIALOGO 2---------------;
+        DIALOGUE2_MAX_1;Dizem que você já foi imbatível!
+        DIALOGUE2_MAX_2;Já foi? Ha! Eu sou invicto, principalmente porque ninguém está assistindo.
+        #--------------- DIALOGO 3---------------;
+        DIALOGUE3_MAX_1;Você deveria descansar de vez em quando.
+        DIALOGUE3_MAX_2;Lendas não descansam. A gente posa dramaticamente e faz monólogos.
+        #--------------- DIALOGO 4---------------;
+        DIALOGUE4_MAX_1;Você realmente lutou contra um bicho de cinco cabeças?
+        DIALOGUE4_MAX_2;Se foram duas ou cinco, ninguém sabe. Mas eu venci gloriosamente.
+        #--------------- DIALOGO 5---------------;
+        DIALOGUE5_MAX_1;Você sente falta das aventuras?
+        DIALOGUE5_MAX_2;Toda manhã. Até lembrar que posso tomar chá sentado.
+        #--------------- DIALOGO 6---------------;
+        DIALOGUE6_MAX_1;Você treinou hoje?
+        DIALOGUE6_MAX_2;Treinei meu olhar fixo e ameaçador. Muito eficaz contra pombos.
+        DIALOGUE_MR_3_RAYY_1;Max, é verdade que você já lutou com um Slime do tamanho de uma casa?
+        DIALOGUE_MR_3_MAX_1;Do tamanho de uma casa? (Risada) Não! Era do tamanho de duas casas! E tinha olhos vermelhos!
+        DIALOGUE_MR_3_RAYY_2;...Claro que tinha.
+
+        #--------------- DIALOGO 1---------------;
+        DIALOGUE1_Milo_1;As árvores perto do lago parecem maiores, né?
+        DIALOGUE1_Milo_2 ;Elas cresceram. E também aprenderam a balançar mais devagar.
+        #--------------- DIALOGO 2---------------;
+        DIALOGUE2_Milo_1;Como você consegue ficar sempre tão quieto?
+        DIALOGUE2_Milo_2;Eu sou quieto porque o Lupi já fala demais por nós dois.
+        #--------------- DIALOGO 3---------------;
+        DIALOGUE3_Milo_1;Lupi disse que você é divertido, mesmo quieto.
+        DIALOGUE3_Milo_2;Ele fala por nós dois. Eu só balanço a cabeça e sorrio.
+        #--------------- DIALOGO 4---------------;
+        DIALOGUE4_Milo_1;Você ficou ali parado quanto tempo hoje?
+        DIALOGUE4_Milo_2;O suficiente pra ver o mundo se mover ao redor.
+        #--------------- DIALOGO 5---------------;
+        DIALOGUE5_Milo_1;Você sempre parece tão calmo.
+        DIALOGUE5_Milo_2;O barulho é passageiro. A quietude permanece.
+        #--------------- DIALOGO 6---------------;
+        DIALOGUE6_Milo_1;Você viu alguma coisa estranha hoje?
+        DIALOGUE6_Milo_2;O vento sussurrou... tem algo estranho no ar. Ou talvez eu só esteja com fome.
+        DIALOGUE_MLR_1_RAYY_1;Então... Milo. Muitas... penas... hoje?
+        DIALOGUE_MLR_1_MILO_1;(Ele te encara e pisca 2 vezes.)
+        DIALOGUE_MLR_1_RAYY_2;Vou interpretar isso como 'sim, e está um tédio'.
+        DIALOGUE_MLR_2_RAYY_1;Alguma novidade hoje, Milo? Viu algo estranho?
+        DIALOGUE_MLR_2_MILO_1;(Ele olha para o céu. Olha para Rayy. E solta um pequeno 'Crrk'.)
+        DIALOGUE_MLR_2_RAYY_2;'O céu está azul' ou 'Um meteoro vai cair'? Você é péssimo em dar dicas.
+
+        #--------------- DIALOGO 1---------------;
+        DIALOGUE1_SELENE_1;As pessoas realmente se abrem com você.
+        DIALOGUE1_SELENE_2;Quando você oferece carinho em vez de respostas, elas geralmente fazem isso.
+        #--------------- DIALOGO 2---------------;
+        DIALOGUE2_SELENE_1;Hoje tá calmo no bar?
+        DIALOGUE2_SELENE_2;Por enquanto. A vila sempre guarda surpresas depois do pôr do sol.
+        #--------------- DIALOGO 3---------------;
+        DIALOGUE3_SELENE_1;Preciso de um chá que ajude a pensar melhor.
+        DIALOGUE3_SELENE_2;Posso fazer um. Mas o segredo é beber devagar.
+        #--------------- DIALOGO 4---------------;
+        DIALOGUE4_SELENE_1;Você acha que Max um dia vai superar essa obsessão por batalhas?
+        DIALOGUE4_SELENE_2;Talvez. Algumas cicatrizes só cicatrizam com o tempo e a compaixão.
+        #--------------- DIALOGO 5---------------;
+        DIALOGUE5_SELENE_1;Aquele chá novo me fez ver estrelas. Literalmente.
+        DIALOGUE5_SELENE_2;Significa que está funcionando. Ou que você precisa dormir.
+        #--------------- DIALOGO 6---------------;
+        DIALOGUE6_SELENE_1;Você já pensou em escrever um livro sobre a vila?
+        DIALOGUE6_SELENE_2;Todos os dias. Mas é difícil terminar um capítulo quando o Marcus muda o final.
+        #--------------- DIALOGO 7---------------;
+        DIALOGUE7_SELENE_1;Vocês vendem conselhos aqui também?
+        DIALOGUE7_SELENE_2;A primeira dose é grátis. As seguintes... dependem do assunto.
+        #--------------- DIALOGO 8---------------;
+        DIALOGUE8_SELENE_1;Você sempre parece saber quando alguém precisa conversar.
+        DIALOGUE8_SELENE_2;Os olhos ouvem melhor que os ouvidos, Rayy. A maioria das pessoas esquece disso.
+        #--------------- DIALOGO 9---------------;
+        DIALOGUE9_SELENE_1;Você já foi aventureira, né?
+        DIALOGUE9_SELENE_2;Há muito tempo. Hoje, eu preparo histórias ao invés de vivê-las. Mas as duas coisas podem ser curativas.
+        DIALOGUE_SR_3_RAYY_1;Selene, o que tem naquela sua bebida roxa? A que brilha.
+        DIALOGUE_SR_3_SELENE_1;Ah, tem suco de uva, água com gás e... uma pitada de poeira de Fantasma.
+        DIALOGUE_SR_3_RAYY_2;...Acho que prefiro um suco normazinho mesmo.
+
+        DIALOGUE10_SELENE_1;Selene, as plantas parecem mais brilhantes hoje.
+        DIALOGUE10_SELENE_2;Elas sentem sua energia, Rayy. Estão apenas devolvendo o carinho.
+
+        DIALOGUE11_SELENE_1;Alguma erva nova para minhas poções de aventura?
+        DIALOGUE11_SELENE_2;Tente misturar pétalas azuis com orvalho. A clareza mental será imediata.
+
+        #--------------- DIALOGO 1---------------;
+        DIALOGUE1_VICTOR_1;Já encontrou algum livro interessante ultimamente?
+        DIALOGUE1_VICTOR_2;Cada página é um portal, se você souber qual abrir.
+        #--------------- DIALOGO 2---------------;
+        DIALOGUE2_VICTOR_1;Ouvi dizer que você tem umas máquinas estranhas escondidas em casa.
+        DIALOGUE2_VICTOR_2;Estranhas, não. Avançadas. E não estão escondidas — só não estão... prontas para o público.
+        DIALOGUE2_VICTOR_3;Então é verdade? Você tá testando alguma invenção maluca sozinho?
+        DIALOGUE2_VICTOR_4;Digamos que estou avaliando funcionalidades. E efeitos colaterais mínimos.
+        DIALOGUE2_VICTOR_5;Funcionalidades'? Victor, uma das vacas saiu dançando depois de encostar numa dessas coisas.
+        DIALOGUE2_VICTOR_6;Isso foi... inesperado. Mas tecnicamente, foi um sucesso. A vaca parecia feliz.
+        DIALOGUE2_VICTOR_7;Você vai colocar isso na vila mesmo?
+        DIALOGUE2_VICTOR_8;Se passar nos testes finais. A vila merece inovação — mesmo que venha acompanhada de música e bovinos animados.
+        #--------------- DIALOGO 3---------------;
+        DIALOGUE3_VICTOR_1;Parece que você sabe mais do que conta.
+        DIALOGUE3_VICTOR_2;Segredos são o que constroem mundos... e também são ótimos pra guardar cookies.
+        #--------------- DIALOGO 4---------------;
+        DIALOGUE4_VICTOR_1;Qual é a sua parte favorita da vila?
+        DIALOGUE4_VICTOR_2;Onde a luz encontra a sombra, e os segredos sussurram para quem sabe ouvir.
+        #--------------- DIALOGO 5---------------;
+        DIALOGUE5_VICTOR_1;Rayy… você acredita em coisas que a ciência não explica?
+        DIALOGUE5_VICTOR_2;Tipo o Lupi?
+        DIALOGUE5_VICTOR_3;Tipo o que eu vi na floresta ontem à noite... flutuava e sussurrava meu nome.
+        #--------------- DIALOGO 6---------------;
+        DIALOGUE6_VICTOR_1;Você já andou pela parte sul da vila hoje?
+        DIALOGUE6_VICTOR_2;Sim. Duas árvores novas, uma cerca caída, e um gato dormindo sobre um livro. Um dia comum.
+        #--------------- DIALOGO 7---------------;
+        DIALOGUE7_VICTOR_1;Você já tentou tirar o dia pra... não ler?
+        DIALOGUE7_VICTOR_2;Tentei. Comecei lendo sobre como fazer isso.
+        #--------------- DIALOGO 8---------------;
+        DIALOGUE8_VICTOR_1;Você sai daqui às vezes?
+        DIALOGUE8_VICTOR_2;De vez em quando. As árvores têm histórias que valem mais que qualquer conversa.
+        #--------------- DIALOGO 9---------------;
+        DIALOGUE9_VICTOR_1;Você tem livros sobre monstros que dançam?
+        DIALOGUE9_VICTOR_2;Depois do último experimento, talvez seja hora de escrever um.
+        DIALOGUE_VR_1_VICTOR_1;Senhorita Rayy. Você correu 14% mais rápido hoje do que ontem. Algum motivo particular?
+        DIALOGUE_VR_1_RAYY_1;Um morcego gigante estava tentando morder minha cabeça.
+        DIALOGUE_VR_1_VICTOR_2;Interessante. Adrenalina como catalisador de performance. Anotado.
+        DIALOGUE_VR_2_RAYY_1;Victor, você tem algum livro que ensina a lutar melhor? Com diagramas?
+        DIALOGUE_VR_2_VICTOR_1;Tenho 'A Arte da Guerra' e 'Meditações sobre a impermanência do Combate'. Nenhum tem figuras.
+        DIALOGUE_VR_2_RAYY_2;...Vou só continuar batendo nas coisas com a parte pontuda da espada.
+        DIALOGUE_VR_3_RAYY_1;Victor, você que sabe tudo, Qual o ponto fraco dos zumbis?
+        DIALOGUE_VR_3_VICTOR_1;Academicamente? Sua falta de agilidade cognitiva e decomposição estrutural. E o fogo. O fogo é estatisticamente muito eficaz.
+        DIALOGUE_VR_3_RAYY_2;...Vou ficar com 'bater na cabeça'. Mas obrigado pelo fogo.
+        DIALOGUE_VR_4_RAYY_1;Eu 'arrebentei' aqueles Goblins hoje!
+        DIALOGUE_VR_4_VICTOR_1;'Arrebentar' é um verbo coloquial e impreciso. Você quis dizer 'derrotou', 'venceu' ou 'desmembrou'?_
+        DIALOGUE_VR_4_RAYY_2;Eu quis dizer 'arrebentei'.
+
+        DIALOGUE10_VICTOR_1;Prefeito, a vila parece bem calma hoje.
+        DIALOGUE10_VICTOR_2;Calma é sinal de que as regras estão sendo seguidas. Mantenha assim.
+
+        DIALOGUE11_VICTOR_1;Algum novo decreto importante para Bloomrise?
+        DIALOGUE11_VICTOR_2;Apenas um ajuste nos impostos sobre sementes. Nada que mude sua rotina.
+
+        DIALOGUE12_VICTOR_1;Prefeito, as flores da praça estão impecáveis.
+        DIALOGUE12_VICTOR_2;Manter a ordem estética é o primeiro passo para uma vila próspera.
+
+        DIALOGUE13_VICTOR_1;Algum problema com o meu diário de exploração, Victor?
+        DIALOGUE13_VICTOR_2;Apenas as margens, Rayy. Mantenha os textos centralizados no papel.
+
+        DIALOGUE1_VACA_1;Muuuu!
+        DIALOGUE1_VACA_2;Muuuuuuu!
+        DIALOGUE1_VACA_3;Hummm, faz sentido.
+        DIALOGUE1_VACA_4;Devo estar sonhando, né?

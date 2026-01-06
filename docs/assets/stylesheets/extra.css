@@ -1,0 +1,89 @@
+/* Fonte pixel (opcional) */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+:root {
+  --bloom-bg: #1f3b44;
+  --bloom-card: #2fa78638;
+  --bloom-border: #40cb9f;
+  --bloom-accent: #ffb7c5;
+}
+
+[data-md-color-scheme="bloomrise"] {
+  --md-primary-fg-color: #40cb9f;
+  --md-primary-fg-color--light: #6fe0bd;
+  --md-primary-fg-color--dark: #2fa786;
+
+  --md-accent-fg-color: #ffb7c5;
+
+  --md-default-bg-color: #edf1f1;
+  --md-default-fg-color: #eaf6f3;
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+/* HERO */
+.hero {
+  background:
+    linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)),
+    url("../banner.png");
+  background-size: cover;
+  background-position: center;
+  padding: 2rem 2rem;
+  border-radius: 14px;
+  text-align: center;
+  color: white;
+  margin-bottom: 3rem;
+}
+
+.hero-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.hero-subtitle {
+  max-width: 700px;
+  margin: 1rem auto 0;
+  opacity: .95;
+}
+
+/* INFO CARD */
+.info-card {
+  background: var(--bloom-card);
+  border: 2px solid var(--bloom-border);
+  border-radius: 12px;
+  padding: 1.5rem 2rem;
+  margin: 2rem 0;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.2rem;
+}
+
+.grid-item {
+  background: var(--bloom-card);
+  border: 2px solid var(--bloom-border);
+  border-radius: 12px;
+  padding: 1.2rem;
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+
+.grid-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 0 #00000055;
+}
+
+.grid-item h3 {
+  margin-top: 0;
+}
+
+/* FOOTER NOTE */
+.footer-note {
+  opacity: .8;
+  font-size: .9rem;
+  text-align: center;
+}

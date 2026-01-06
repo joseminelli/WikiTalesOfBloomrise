@@ -4,11 +4,19 @@ site_url: https://wiki.talesofbloomrise.com
 theme:
   name: material
   language: pt
+  logo: assets/logo-small.png
+  favicon: assets/logo-small.png
+  palette:
+    scheme: bloomrise
+
+
+extra_css:
+  - assets/stylesheets/extra.css
 
 nav:
   - Início: index.md
   - Itens:
-      - Visão geral: itens/index.md
+      - Visão geral: items/index.md
       - Materiais: items/materials.md
       - Consumíveis (Vida): items/consumables_hp.md
       - Consumíveis (Energia): items/consumables_energy.md
