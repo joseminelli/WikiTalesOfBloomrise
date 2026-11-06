@@ -1,15 +1,16 @@
 ---
 import '../styles/global.css';
 import { LANGS, ui, type Lang } from '../lib/i18n';
-import { NAV_GROUPS, catIcon, LINKS } from '../lib/data';
+import { NAV_GROUPS, ALL_CATS, catIcon, LINKS } from '../lib/data';
 import LangMenu from '../components/LangMenu.astro';
-interface Props { lang: Lang; title: string; description?: string; path?: string; }
-const { lang, title, description, path = '' } = Astro.props;
+interface Props { lang: Lang; title: string; description?: string; path?: string; spoiler?: boolean; }
+const { lang, title, description, path = '', spoiler = false } = Astro.props;
 const t = (k: string) => ui(lang, k);
 const fullTitle = title ? `${title} · ${t('siteTitle')}` : t('siteTitle');
 const here = Astro.url.pathname;
 const isActive = (cat: string) => here.startsWith(`/${lang.slug}/${cat}/`);
-const mechIcon = catIcon('mechanics');
+const searchCats = Object.fromEntries(ALL_CATS.map((c) => [c, { label: t(c), icon: catIcon(c) }]));
+const searchTexts = { placeholder: t('search'), nav: t('kbdNav'), open: t('kbdOpen'), close: t('kbdClose'), empty: t('noResults'), loading: t('searching'), browse: t('searchTry'), count: t('resultsCount') };
 ---
 <!doctype html>
 <html lang={lang.html} data-spoilers="off">
@@ -67,7 +68,7 @@ const mechIcon = catIcon('mechanics');
       </div>
     </header>
 
-    <main id="main" data-pagefind-body>
+    <main id="main" data-pagefind-body data-pagefind-meta={spoiler ? 'spoiler:1' : undefined}>
       <slot />
     </main>
 
@@ -94,9 +95,19 @@ const mechIcon = catIcon('mechanics');
     </footer>
     <button class="to-top" id="to-top" type="button" aria-label={t('top')}>↑</button>
 
-    <dialog id="search-dialog"><div class="box"><div id="search-root"></div></div></dialog>
+    <dialog id="search-dialog" aria-label={t('search')}>
+      <div class="sbox">
+        <div class="s-input">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M15.5 15.5L21 21" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
+          <input id="s-q" type="search" autocomplete="off" spellcheck="false" placeholder={t('search')} aria-label={t('search')} />
+          <button type="button" class="s-esc" id="s-close" aria-label={t('kbdClose')}>Esc</button>
+        </div>
+        <div id="s-body" class="s-body"></div>
+        <div class="s-foot"><span><kbd>↑</kbd><kbd>↓</kbd> {t('kbdNav')}</span><span><kbd>↵</kbd> {t('kbdOpen')}</span><span><kbd>Esc</kbd> {t('kbdClose')}</span></div>
+      </div>
+    </dialog>
 
-    <script is:inline define:vars={{ placeholder: t('search') }}>
+    <script is:inline define:vars={{ lang: lang.slug, searchCats, searchTexts }}>
       const html = document.documentElement;
       const sps = [...document.querySelectorAll('.js-spoiler')];
       const sync = () => sps.forEach((b) => b.setAttribute('aria-pressed', html.dataset.spoilers === 'on' ? 'true' : 'false'));
@@ -134,20 +145,58 @@ const mechIcon = catIcon('mechanics');
       addEventListener('scroll', () => toTop.classList.toggle('show', scrollY > 600), { passive: true });
       toTop.addEventListener('click', () => scrollTo({ top: 0, behavior: 'smooth' }));
 
+      // ---------- busca (Pagefind via API, interface propria) ----------
       const dlg = document.getElementById('search-dialog');
-      let loaded = false;
-      async function openSearch() {
-        dlg.showModal();
-        if (!loaded) {
-          loaded = true;
-          try {
-            const css = document.createElement('link'); css.rel = 'stylesheet'; css.href = '/pagefind/pagefind-ui.css'; document.head.appendChild(css);
-            await new Promise((res, rej) => { const s = document.createElement('script'); s.src = '/pagefind/pagefind-ui.js'; s.onload = res; s.onerror = rej; document.head.appendChild(s); });
-            new PagefindUI({ element: '#search-root', showSubResults: true, showImages: false, translations: { placeholder } });
-          } catch (e) { document.getElementById('search-root').textContent = 'Search is available after a production build (npm run build).'; }
+      const qIn = document.getElementById('s-q');
+      const body = document.getElementById('s-body');
+      let pf = null, seq = 0, active = -1, timer;
+      const esc = (x) => String(x).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+      const catOf = (url) => { const seg = url.split('/').filter(Boolean); return seg.length > 1 ? seg[1] : ''; };
+      const catChips = () => '<p class="s-label">' + esc(searchTexts.browse) + '</p><div class="s-chips">' + Object.entries(searchCats).map(([c, v]) =>
+        '<a class="s-chip" href="/' + lang + '/' + c + '/">' + (v.icon ? '<img class="px" src="/sprites/' + v.icon + '" alt="">' : '') + esc(v.label) + '</a>').join('') + '</div>';
+      const showHome = () => { body.innerHTML = catChips(); active = -1; };
+      const setActive = (i) => {
+        const items = [...body.querySelectorAll('.s-item')]; if (!items.length) return;
+        active = (i + items.length) % items.length;
+        items.forEach((el, k) => el.classList.toggle('on', k === active));
+        items[active].scrollIntoView({ block: 'nearest' });
+      };
+      async function run(q) {
+        const my = ++seq;
+        if (!q.trim()) return showHome();
+        body.innerHTML = '<p class="s-msg">' + esc(searchTexts.loading) + '</p>';
+        try {
+          if (!pf) { pf = await import('/pagefind/pagefind.js'); }
+          const res = await pf.search(q);
+          if (my !== seq) return;
+          const rows = await Promise.all(res.results.slice(0, 12).map((r) => r.data()));
+          if (my !== seq) return;
+          if (!rows.length) { body.innerHTML = '<p class="s-msg">' + esc(searchTexts.empty) + '</p>'; return; }
+          body.innerHTML = '<p class="s-label">' + esc(searchTexts.count.replace('{n}', res.results.length)) + '</p>' + rows.map((d) => {
+            const c = catOf(d.url), cat = searchCats[c];
+            const img = (d.meta && d.meta.image) || (cat && cat.icon ? '/sprites/' + cat.icon : '');
+            const spoiler = d.meta && d.meta.spoiler ? ' spoiler' : '';
+            const title = ((d.meta && d.meta.title) || '').replace(/\s*·.*$/, '');
+            return '<a class="s-item' + spoiler + '" href="' + d.url + '">' +
+              '<span class="s-ico">' + (img ? '<img class="px" src="' + img + '" alt="">' : '') + '</span>' +
+              '<span class="s-txt">' + (cat ? '<span class="s-cat">' + esc(cat.label) + '</span>' : '') + '<b>' + esc(title) + '</b><span class="s-ex">' + d.excerpt + '</span></span></a>';
+          }).join('');
+          setActive(0);
+        } catch (e) {
+          body.innerHTML = '<p class="s-msg">Search is available after a production build (npm run build).</p>';
         }
-        setTimeout(() => document.querySelector('#search-root input')?.focus(), 50);
       }
+      function openSearch() {
+        dlg.showModal(); qIn.value = ''; showHome();
+        setTimeout(() => qIn.focus(), 30);
+      }
+      qIn.addEventListener('input', () => { clearTimeout(timer); timer = setTimeout(() => run(qIn.value), 140); });
+      qIn.addEventListener('keydown', (e) => {
+        if (e.key === 'ArrowDown') { e.preventDefault(); setActive(active + 1); }
+        else if (e.key === 'ArrowUp') { e.preventDefault(); setActive(active - 1); }
+        else if (e.key === 'Enter') { const el = body.querySelectorAll('.s-item')[active]; if (el) { e.preventDefault(); location.href = el.getAttribute('href'); } }
+      });
+      document.getElementById('s-close').addEventListener('click', () => dlg.close());
       document.querySelectorAll('#open-search, [data-open-search]').forEach((b) => b.addEventListener('click', openSearch));
       dlg.addEventListener('click', (e) => { if (e.target === dlg) dlg.close(); });
       addEventListener('keydown', (e) => { if (e.key === '/' && !/INPUT|TEXTAREA|SELECT/.test(document.activeElement.tagName)) { e.preventDefault(); openSearch(); } });

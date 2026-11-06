@@ -17,7 +17,7 @@ const idx = monsters.findIndex((x) => x.id === m.id);
 const prev = idx > 0 ? monsters[idx - 1] : null;
 const next = idx < monsters.length - 1 ? monsters[idx + 1] : null;
 ---
-<Base lang={lang} title={name} path={`monsters/${slug(m.id)}/`}>
+<Base lang={lang} title={name} path={`monsters/${slug(m.id)}/`} spoiler={spoiler}>
   <PageHead lang={lang} cat="monsters" title="" crumbs={[{ label: name }]} />
   <div class="layout-2">
     <div>
@@ -39,13 +39,13 @@ const next = idx < monsters.length - 1 ? monsters[idx + 1] : null;
           ))}
         </section>
       )}
-      <div class="pager">
+      <div class="pager" data-pagefind-ignore>
         {prev ? <a class="card" href={monsterUrl(lang, prev.id)}>← <span class="t">{monsterName(lang, prev)}</span></a> : <span></span>}
         {next ? <a class="card next" href={monsterUrl(lang, next.id)}><span class="t">{monsterName(lang, next)}</span> →</a> : <span></span>}
       </div>
     </div>
     <aside class={`infobox ${spoiler ? 'spoiler-block' : ''}`}>
-      <span class="slot lg">{m.icon && <img src={`/sprites/${m.icon}`} alt={name} />}</span>
+      <span class="slot lg">{m.icon && <img src={`/sprites/${m.icon}`} alt={name} data-pagefind-meta="image[src]" />}</span>
       <h1>{name}</h1>
       <dl class="kv">
         <dt>{t('hp')}</dt><dd>{m.hp}</dd>

@@ -214,10 +214,6 @@ footer .legal { width: min(1180px, 100% - 2rem); margin: 0 auto; padding: 1rem 0
 .to-top { position: fixed; right: 1rem; bottom: 1rem; z-index: 40; width: 44px; height: 44px; border-radius: 50%; border: 1px solid var(--line-strong); background: var(--surface-strong); color: var(--brand); font-size: 1.2rem; cursor: pointer; opacity: 0; pointer-events: none; transition: opacity .2s; }
 .to-top.show { opacity: 1; pointer-events: auto; }
 
-#search-dialog { border: 0; padding: 0; background: transparent; width: min(740px, 100% - 1rem); margin: 8vh auto 0; }
-#search-dialog::backdrop { background: rgba(4, 9, 8, .78); backdrop-filter: blur(4px); }
-#search-dialog .box { background: #101a20; border: 1px solid var(--line-strong); border-radius: 18px; padding: 1rem; max-height: 80vh; overflow: auto; box-shadow: var(--shadow); }
-:root { --pagefind-ui-scale: .95; --pagefind-ui-primary: #c4ef7d; --pagefind-ui-text: #f6fbef; --pagefind-ui-background: #0b1417; --pagefind-ui-border: rgba(201,227,202,.25); --pagefind-ui-tag: rgba(255,255,255,.08); --pagefind-ui-font: Lexend, system-ui, sans-serif; }
 
 /* Big Apple so tem glifos latinos: ru/zh usam fonte do sistema */
 html:lang(ru), html:lang(zh) { --font-pixel: 'Lexend', system-ui, 'Segoe UI', 'Noto Sans', 'Noto Sans SC', sans-serif; }
@@ -396,3 +392,38 @@ dd.colors { display: flex; flex-wrap: wrap; gap: .4rem; }
 @media (max-width: 600px) { .rc-name b { font-size: 1.15rem; } .rc-out .slot.lg { width: 52px; height: 52px; } .rc-out .slot.lg img { width: 40px; height: 40px; } }
 
 .rc .rc-out, .rc .rc-out:hover { color: var(--text); }
+
+/* ---------- busca ---------- */
+#search-dialog { border: 0; padding: 0; background: transparent; width: min(720px, 100% - 1rem); margin: 9vh auto 0; color: var(--text); }
+#search-dialog::backdrop { background: rgba(4, 9, 8, .72); backdrop-filter: blur(5px); }
+.sbox { background: #0e171a; border: 1px solid var(--line-strong); border-radius: 20px; box-shadow: 0 30px 80px rgba(0,0,0,.55), inset 0 1px 0 rgba(255,255,255,.06); overflow: hidden; display: flex; flex-direction: column; max-height: 78vh; }
+.s-input { display: flex; align-items: center; gap: .7rem; padding: .85rem 1rem; border-bottom: 1px solid var(--line); color: var(--text-muted); }
+.s-input input { flex: 1; min-width: 0; background: none; border: 0; outline: 0; color: var(--text); font: 1.15rem var(--font-body); }
+.s-input input::placeholder { color: var(--text-muted); opacity: .8; }
+.s-input input::-webkit-search-cancel-button { display: none; }
+.s-esc { font: .85rem var(--font-pixel); color: var(--text-muted); background: var(--surface-soft); border: 1px solid var(--line); border-radius: 6px; padding: .15rem .5rem; cursor: pointer; }
+.s-esc:hover { color: var(--text); border-color: var(--line-strong); }
+.s-body { overflow-y: auto; padding: .6rem; min-height: 120px; }
+.s-label { margin: .4rem .5rem .5rem; font-family: var(--font-pixel); font-size: .85rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: .08em; }
+.s-msg { margin: 1.4rem .5rem; color: var(--text-muted); text-align: center; }
+.s-chips { display: flex; flex-wrap: wrap; gap: .45rem; padding: 0 .4rem .6rem; }
+.s-chip { display: inline-flex; align-items: center; gap: .45rem; padding: .35rem .8rem .35rem .45rem; border-radius: 99px; border: 1px solid var(--line); background: var(--surface-soft); color: var(--text); font-family: var(--font-pixel); font-size: 1rem; }
+.s-chip img { width: 22px; height: 22px; image-rendering: pixelated; }
+.s-chip:hover { border-color: var(--line-strong); background: rgba(196,239,125,.12); color: var(--brand); text-decoration: none; }
+.s-item { display: flex; gap: .85rem; align-items: center; padding: .6rem .7rem; border-radius: 14px; border: 1px solid transparent; color: var(--text); }
+.s-item:hover { text-decoration: none; color: var(--text); background: rgba(255,255,255,.05); }
+.s-item.on { background: rgba(196,239,125,.12); border-color: var(--line-strong); }
+.s-ico { width: 52px; height: 52px; flex: none; display: grid; place-items: center; border-radius: 12px; background: rgba(0,0,0,.35); border: 1px solid var(--line); }
+.s-ico img { width: 38px; height: 38px; object-fit: contain; image-rendering: pixelated; }
+.s-txt { display: flex; flex-direction: column; min-width: 0; gap: .1rem; }
+.s-cat { font-size: .68rem; text-transform: uppercase; letter-spacing: .09em; color: var(--brand); font-weight: 600; }
+.s-txt b { font-family: var(--font-pixel); font-weight: normal; font-size: 1.2rem; line-height: 1.15; }
+.s-ex { font-size: .85rem; color: var(--text-muted); display: -webkit-box; -webkit-line-clamp: 2; line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.s-ex mark, .s-txt mark { background: rgba(196,239,125,.22); color: var(--brand); border-radius: 3px; padding: 0 .12em; }
+html[data-spoilers='off'] .s-item.spoiler .s-txt b, html[data-spoilers='off'] .s-item.spoiler .s-ex, html[data-spoilers='off'] .s-item.spoiler .s-ico img { filter: blur(6px); }
+.s-foot { display: flex; gap: 1.2rem; padding: .55rem 1rem; border-top: 1px solid var(--line); font-size: .78rem; color: var(--text-muted); }
+.s-foot kbd { font: .75rem var(--font-pixel); border: 1px solid var(--line); border-radius: 5px; padding: 0 .35rem; margin-right: .2rem; background: var(--surface-soft); }
+@media (max-width: 600px) { #search-dialog { margin-top: 2vh; } .sbox { max-height: 92vh; border-radius: 16px; } .s-foot { display: none; } .s-txt b { font-size: 1.05rem; } }
+
+.s-input input:focus, .s-input input:focus-visible { box-shadow: none; outline: 0; }
+.s-foot kbd { font-family: system-ui, 'Segoe UI Symbol', sans-serif; font-size: .75rem; }

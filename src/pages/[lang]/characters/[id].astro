@@ -21,7 +21,7 @@ const idx = all.findIndex((n) => n.id === npc.id);
 const prev = idx > 0 ? all[idx - 1] : null;
 const next = idx < all.length - 1 ? all[idx + 1] : null;
 ---
-<Base lang={lang} title={name} path={`characters/${slug(npc.id)}/`}>
+<Base lang={lang} title={name} path={`characters/${slug(npc.id)}/`} spoiler={spoiler}>
   <PageHead lang={lang} cat="characters" title="" crumbs={[{ label: name }]} />
   <div class="layout-2">
     <div>
@@ -71,7 +71,7 @@ const next = idx < all.length - 1 ? all[idx + 1] : null;
         </section>
       )}
 
-      <div class="pager">
+      <div class="pager" data-pagefind-ignore>
         {prev ? <a class="card" href={npcUrl(lang, prev.id)}>← <span class="t">{npcName(lang, prev)}</span></a> : <span></span>}
         {next ? <a class="card next" href={npcUrl(lang, next.id)}><span class="t">{npcName(lang, next)}</span> →</a> : <span></span>}
       </div>
@@ -80,7 +80,7 @@ const next = idx < all.length - 1 ? all[idx + 1] : null;
     <aside class={`infobox ${spoiler ? 'spoiler-block' : ''}`}>
       {npc.portrait && <div class="portrait"><img id="portrait-main" class="px" src={`/sprites/${npc.portrait}`} alt={name} /></div>}
       <div class="who">
-        <span class="slot sm">{npc.icon && <img src={`/sprites/${npc.icon}`} alt="" />}</span>
+        <span class="slot sm">{npc.icon && <img src={`/sprites/${npc.icon}`} alt="" data-pagefind-meta="image[src]" />}</span>
         <h1>{name}</h1>
       </div>
       <dl class="kv">

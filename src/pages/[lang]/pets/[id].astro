@@ -23,7 +23,7 @@ const steps = pet.id === 'dog' ? ['petHow_dog1', 'petHow_dog2', 'petHow_dog3'] :
 const fmt = (n: number) => (Number.isInteger(n) ? String(n) : n.toFixed(1));
 const quotes = pet.id === 'cat' ? pet.storyKeys : pet.id === 'dog' ? [...pet.foundKeys, ...pet.adoptKeys] : pet.lines ?? [];
 ---
-<Base lang={lang} title={name} description={t(`pet_${pet.id}_desc`)} path={`pets/${pet.id}/`}>
+<Base lang={lang} title={name} description={t(`pet_${pet.id}_desc`)} path={`pets/${pet.id}/`} spoiler={spoiler}>
   <PageHead lang={lang} cat="pets" title="" crumbs={[{ label: name }]} />
   <div class="layout-2">
     <div>
@@ -96,7 +96,7 @@ const quotes = pet.id === 'cat' ? pet.storyKeys : pet.id === 'dog' ? [...pet.fou
         </section>
       )}
 
-      <div class="pager">
+      <div class="pager" data-pagefind-ignore>
         {prev ? <a class="card" href={petUrl(lang, prev.id)}>← <span class="t">{t(`pet_${prev.id}`)}</span></a> : <span></span>}
         {next ? <a class="card next" href={petUrl(lang, next.id)}><span class="t">{t(`pet_${next.id}`)}</span> →</a> : <span></span>}
       </div>
@@ -104,7 +104,7 @@ const quotes = pet.id === 'cat' ? pet.storyKeys : pet.id === 'dog' ? [...pet.fou
 
     <aside class={`infobox ${spoiler ? 'spoiler-block' : ''}`}>
       <div class={`pet-hero ${pet.id === 'fairy' ? 'fairy' : ''}`} style={pet.glow ? `--glow:${pet.glow}` : undefined}>
-        {pet.icon && <img class="px" src={`/sprites/${pet.icon}`} alt={name} />}
+        {pet.icon && <img class="px" src={`/sprites/${pet.icon}`} alt={name} data-pagefind-meta="image[src]" />}
       </div>
       <h1>{name}</h1>
       <span class="badge">{t(`petTag_${pet.id}`)}</span>

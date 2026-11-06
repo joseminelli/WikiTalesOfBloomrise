@@ -66,6 +66,12 @@ export const EXTRA_T: Record<string, string[]> = {
   anim_float: ['Flutuando', 'Floating', 'Flotando', 'Flotte', 'Schwebt', 'Fluttua', 'Парит', '漂浮', 'Melayang'],
   result: ['Resultado', 'Result', 'Resultado', 'Résultat', 'Ergebnis', 'Risultato', 'Результат', '成品', 'Hasil'],
   filterRecipes: ['Filtrar por receita ou ingrediente…', 'Filter by recipe or ingredient…', 'Filtrar por receta o ingrediente…', 'Filtrer par recette ou ingrédient…', 'Nach Rezept oder Zutat filtern…', 'Filtra per ricetta o ingrediente…', 'Фильтр по рецепту или ингредиенту…', '按配方或材料筛选…', 'Filter resep atau bahan…'],
+  kbdNav: ['navegar', 'navigate', 'navegar', 'naviguer', 'navigieren', 'naviga', 'выбор', '选择', 'navigasi'],
+  kbdOpen: ['abrir', 'open', 'abrir', 'ouvrir', 'öffnen', 'apri', 'открыть', '打开', 'buka'],
+  kbdClose: ['fechar', 'close', 'cerrar', 'fermer', 'schließen', 'chiudi', 'закрыть', '关闭', 'tutup'],
+  searching: ['Buscando…', 'Searching…', 'Buscando…', 'Recherche…', 'Suche…', 'Ricerca…', 'Поиск…', '搜索中…', 'Mencari…'],
+  searchTry: ['Explorar por categoria', 'Browse by category', 'Explorar por categoría', 'Parcourir par catégorie', 'Nach Kategorie stöbern', 'Sfoglia per categoria', 'Обзор по категориям', '按分类浏览', 'Jelajahi per kategori'],
+  resultsCount: ['{n} resultados', '{n} results', '{n} resultados', '{n} résultats', '{n} Ergebnisse', '{n} risultati', 'Результатов: {n}', '{n} 个结果', '{n} hasil'],
   // aba Mecânicas
   mechIntro: ['Entenda como o mundo de Bloomrise funciona: tempo, clima, plantio, criação, combate, amizade e mais.', 'Learn how the world of Bloomrise works: time, weather, farming, crafting, combat, friendship and more.', 'Descubre cómo funciona el mundo de Bloomrise: tiempo, clima, cultivo, creación, combate, amistad y más.', 'Découvrez comment fonctionne le monde de Bloomrise : temps, météo, culture, artisanat, combat, amitié et plus.', 'Erfahre, wie die Welt von Bloomrise funktioniert: Zeit, Wetter, Anbau, Herstellung, Kampf, Freundschaft und mehr.', 'Scopri come funziona il mondo di Bloomrise: tempo, meteo, coltivazione, creazione, combattimento, amicizia e altro.', 'Узнайте, как устроен мир Bloomrise: время, погода, ферма, крафт, бой, дружба и многое другое.', '了解 Bloomrise 世界的运作方式：时间、天气、种植、制作、战斗、友谊等。', 'Pelajari cara dunia Bloomrise bekerja: waktu, cuaca, bertani, kerajinan, pertarungan, persahabatan, dan lainnya.'],
   onThisPage: ['Nesta página', 'On this page', 'En esta página', 'Sur cette page', 'Auf dieser Seite', 'In questa pagina', 'На этой странице', '本页内容', 'Di halaman ini'],

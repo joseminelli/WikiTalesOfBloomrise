@@ -27,7 +27,7 @@ const prev = idx > 0 ? sameType[idx - 1] : null;
 const next = idx < sameType.length - 1 ? sameType[idx + 1] : null;
 const similar = sameType.filter((x) => x.i.id !== item.id).slice(Math.max(0, idx - 4), Math.max(0, idx - 4) + 8);
 ---
-<Base lang={lang} title={name} description={desc} path={`items/${slug(item.id)}/`}>
+<Base lang={lang} title={name} description={desc} path={`items/${slug(item.id)}/`} spoiler={spoiler}>
   <PageHead lang={lang} cat="items" title="" crumbs={[{ label: t(`t_${item.type}`), href: `/${lang.slug}/items/?type=${item.type}` }, { label: name }]} />
 
   <div class="layout-2">
@@ -88,7 +88,7 @@ const similar = sameType.filter((x) => x.i.id !== item.id).slice(Math.max(0, idx
         </section>
       )}
 
-      <section>
+      <section data-pagefind-ignore>
         <h2>{t('related')}</h2>
         <div class="grid tight">
           {similar.map(({ i, n }) => (
@@ -98,7 +98,7 @@ const similar = sameType.filter((x) => x.i.id !== item.id).slice(Math.max(0, idx
             </a>
           ))}
         </div>
-        <div class="pager">
+        <div class="pager" data-pagefind-ignore>
           {prev ? <a class="card" href={itemUrl(lang, prev.i.id)}>← <span class="t">{prev.n}</span></a> : <span></span>}
           {next ? <a class="card next" href={itemUrl(lang, next.i.id)}><span class="t">{next.n}</span> →</a> : <span></span>}
         </div>
@@ -106,7 +106,7 @@ const similar = sameType.filter((x) => x.i.id !== item.id).slice(Math.max(0, idx
     </div>
 
     <aside class={`infobox ${spoiler ? 'spoiler-block' : ''}`}>
-      <span class="slot lg">{item.icon && <img src={`/sprites/${item.icon}`} alt={name} />}</span>
+      <span class="slot lg">{item.icon && <img src={`/sprites/${item.icon}`} alt={name} data-pagefind-meta="image[src]" />}</span>
       <h1>{name}</h1>
       <span class="badge">{t(`t_${item.type}`)}</span>
       <dl class="kv">

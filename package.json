@@ -6,15 +6,11 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build && pagefind --site dist",
-    "preview": "astro preview",
-    "deploy": "npm run build && gh-pages -d dist --dotfiles"
+    "preview": "astro preview"
   },
   "dependencies": {
     "astro": "^7.4.7",
     "pagefind": "^1.6.0",
     "sharp": "^0.35.5"
-  },
-  "devDependencies": {
-    "gh-pages": "^6.3.0"
   }
 }

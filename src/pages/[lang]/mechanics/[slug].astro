@@ -49,7 +49,7 @@ const toc = entry.headings;
       <article class="panel prose" id="mech-article"><Content /></article>
 
       {related.length > 0 && (
-        <section>
+        <section data-pagefind-ignore>
           <h2>{t('seeAlso')}</h2>
           <div class="chips">
             {related.map((c) => (
@@ -61,7 +61,7 @@ const toc = entry.headings;
         </section>
       )}
 
-      <div class="pager">
+      <div class="pager" data-pagefind-ignore>
         {prev ? <a class="card" href={`/${lang.slug}/mechanics/${prev.slug}/`}>← <span class="t">{prev.title}</span></a> : <span></span>}
         {next ? <a class="card next" href={`/${lang.slug}/mechanics/${next.slug}/`}><span class="t">{next.title}</span> →</a> : <span></span>}
       </div>

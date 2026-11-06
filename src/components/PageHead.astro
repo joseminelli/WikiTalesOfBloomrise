@@ -14,7 +14,7 @@ trail.push(...crumbs);
 {title && <div class="page-head">
   {img && <span class="slot"><img src={`/sprites/${img}`} alt="" /></span>}
   <div>
-    <h1>{title}{count !== undefined && count !== '' && <span class="count">{count}</span>}</h1>
+    <h1>{title}{count !== undefined && count !== '' && <span class="count" data-pagefind-ignore>{count}</span>}</h1>
     {sub && <p>{sub}</p>}
   </div>
 </div>}
