@@ -1,0 +1,27 @@
+---
+import Base from '../../../layouts/Base.astro';
+import PageHead from '../../../components/PageHead.astro';
+import { LANGS, ui } from '../../../lib/i18n';
+import { npcs, npcName, npcUrl, isSpoiler, itemById } from '../../../lib/data';
+export function getStaticPaths() { return LANGS.map((l) => ({ params: { lang: l.slug }, props: { lang: l } })); }
+const { lang } = Astro.props;
+const t = (k: string) => ui(lang, k);
+const list = npcs.filter((n) => n.friendship);
+---
+<Base lang={lang} title={t('characters')} path="characters/">
+  <PageHead lang={lang} cat="characters" title={t('characters')} count={list.length} />
+  <div class="grid">
+    {list.map((n) => (
+      <a class={`card ${isSpoiler('npc', n.id) ? 'spoiler' : ''}`} href={npcUrl(lang, n.id)} style="align-items:flex-start">
+        <span class="slot lg">{n.icon && <img src={`/sprites/${n.icon}`} alt="" loading="lazy" />}</span>
+        <span>
+          <span class="t" style="font-size:1.25rem">{npcName(lang, n)}</span>
+          <small style="margin-top:.5rem">{t('likesPreview')}</small>
+          <span style="display:flex; gap:.2rem; margin-top:.2rem; flex-wrap:wrap">
+            {n.friendship.loved.slice(0, 4).map((id: string) => { const it = itemById.get(id); return it?.icon && <span class="slot sm"><img src={`/sprites/${it.icon}`} alt="" loading="lazy" /></span>; })}
+          </span>
+        </span>
+      </a>
+    ))}
+  </div>
+</Base>

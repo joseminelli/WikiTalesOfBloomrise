@@ -1,0 +1,28 @@
+---
+import Base from '../../../layouts/Base.astro';
+import PageHead from '../../../components/PageHead.astro';
+import ItemChip from '../../../components/ItemChip.astro';
+import { LANGS, ui } from '../../../lib/i18n';
+import { shops, itemById, g, npcById, npcName, npcUrl } from '../../../lib/data';
+export function getStaticPaths() { return LANGS.map((l) => ({ params: { lang: l.slug }, props: { lang: l } })); }
+const { lang } = Astro.props;
+const t = (k: string) => ui(lang, k);
+---
+<Base lang={lang} title={t('shops')} path="shops/">
+  <PageHead lang={lang} cat="shops" title={t('shops')} />
+  <div class="grid wide">
+    {shops.map((s) => (
+      <section class="panel" id={s.id}>
+        <h2>{g(lang, s.id, s.id)}</h2>
+        {s.npc && npcById.get(s.npc) && <p><a class="chip" href={npcUrl(lang, s.npc)}>{npcName(lang, npcById.get(s.npc))}</a></p>}
+        <table>
+          <tbody>
+            {s.items.map((id: string) => (
+              <tr><td><ItemChip lang={lang} id={id} /></td><td style="text-align:right">{itemById.get(id)?.buy ?? ''} 🪙</td></tr>
+            ))}
+          </tbody>
+        </table>
+      </section>
+    ))}
+  </div>
+</Base>

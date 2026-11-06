@@ -1,0 +1,38 @@
+---
+// Cartao de receita: o ITEM GERADO e o titulo (icone grande + nome + quantidade); ingredientes numa lista separada.
+import ItemChip from './ItemChip.astro';
+import { ui, type Lang } from '../lib/i18n';
+import { TICK_SECONDS, itemById, itemName, itemUrl, isSpoiler } from '../lib/data';
+interface Props { lang: Lang; recipe: any; showStation?: boolean; }
+const { lang, recipe, showStation = true } = Astro.props;
+const t = (k: string) => ui(lang, k);
+const secs = Math.round(recipe.ticks * TICK_SECONDS);
+const out = itemById.get(recipe.output);
+const name = itemName(lang, out);
+const names = [name, ...recipe.ingredients.flatMap((i: any) => [i.item, ...i.alts].map((id: string) => itemName(lang, itemById.get(id))))].join(' ').toLowerCase();
+---
+<article class="rc" data-text={names}>
+  <a class={`rc-out ${isSpoiler('item', recipe.output) ? 'spoiler' : ''}`} href={itemUrl(lang, recipe.output)}>
+    <span class="slot lg">{out?.icon && <img src={`/sprites/${out.icon}`} alt="" loading="lazy" />}</span>
+    <span class="rc-name">
+      <small>{t('result')}</small>
+      <b>{name}</b>
+    </span>
+    {recipe.qty > 1 && <span class="rc-qty">×{recipe.qty}</span>}
+  </a>
+  <div class="rc-ing">
+    <small>{t('ingredients')}</small>
+    <ul>
+      {recipe.ingredients.map((ing: any) => (
+        <li>
+          <ItemChip lang={lang} id={ing.item} qty={ing.qty} />
+          {ing.alts.map((a: string) => (<><span class="or">{ui(lang, 'or')}</span><ItemChip lang={lang} id={a} /></>))}
+        </li>
+      ))}
+    </ul>
+  </div>
+  <footer class="rc-meta">
+    <span>⏱ {secs}{t('seconds')}</span>
+    {showStation && <span>🔨 {t(`s_${recipe.station}`)}</span>}
+  </footer>
+</article>

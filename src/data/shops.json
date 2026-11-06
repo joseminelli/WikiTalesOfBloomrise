@@ -1,0 +1,164 @@
+[
+ {
+  "id": "BAIT_SHOP",
+  "items": [
+   "VaraDePesca",
+   "isca",
+   "chub",
+   "Herring",
+   "RainbowTrout",
+   "Sardinha",
+   "Tilapia"
+  ],
+  "places": [
+   "BaitShop"
+  ],
+  "npc": null
+ },
+ {
+  "id": "BARMAN_TITLE",
+  "items": [
+   "strawberry_drink",
+   "coffee",
+   "Soda",
+   "sushi",
+   "taco",
+   "Turbix",
+   "Milkshake",
+   "Cerveja",
+   "sucouva",
+   "Fizzcola",
+   "FileTrutaArcoIris"
+  ],
+  "places": [
+   "Interactcheck",
+   "Marcus Hawke",
+   "World"
+  ],
+  "npc": null
+ },
+ {
+  "id": "BLACKSMITH_TITLE",
+  "items": [
+   "Iron Axe",
+   "Bow",
+   "Iron Pickaxe",
+   "Ametista",
+   "Carvao",
+   "Chromita",
+   "DiamanteRosa",
+   "Esmeralma",
+   "Ferro",
+   "Wood Axe",
+   "Wood Pickaxe",
+   "IronOre",
+   "Ouro",
+   "goldOre",
+   "pedra",
+   "bomb"
+  ],
+  "places": [
+   "Darius Forge",
+   "Ferreiro"
+  ],
+  "npc": "Darius"
+ },
+ {
+  "id": "BOOK_TITLE",
+  "items": [
+   "CronicasDeRook",
+   "MonsterBook",
+   "DiarioLyla",
+   "Recipebook",
+   "GuiaDeJardinagem2",
+   "ItemFishBook"
+  ],
+  "places": [
+   "Biblioteca"
+  ],
+  "npc": null
+ },
+ {
+  "id": "HOTDOG_VAN_TITLE",
+  "items": [
+   "hotdog",
+   "Soda"
+  ],
+  "places": [
+   "World"
+  ],
+  "npc": null
+ },
+ {
+  "id": "ICECREAM_TITLE",
+  "items": [
+   "Picole",
+   "Sorvete"
+  ],
+  "places": [
+   "World"
+  ],
+  "npc": null
+ },
+ {
+  "id": "MACHINE_TITLE",
+  "items": [
+   "Soda",
+   "Fizzcola"
+  ],
+  "places": [
+   "Máquina de refri",
+   "Biblioteca"
+  ],
+  "npc": null
+ },
+ {
+  "id": "SHOP_TITLE",
+  "items": [
+   "guide",
+   "IronSword",
+   "Chocolate",
+   "Oniguiri",
+   "cookie",
+   "WoodLog",
+   "GoblinFangs",
+   "SlimeBall",
+   "zombieBrain",
+   "PanoDeFantasma",
+   "AsaDeMorcego",
+   "venenodecobra",
+   "FungDrop",
+   "AmuletoCasa",
+   "AmuletoCaverna",
+   "AmuletoPraia",
+   "AmuletoDungeon",
+   "Bateria",
+   "CommonArrow",
+   "bigflowerblue",
+   "bigflowerorange",
+   "bigflowerPurple",
+   "Seed_cenoura",
+   "Seed_tomato",
+   "Seed_batata",
+   "Seed_abobora",
+   "Seed_cebola",
+   "Seed_Girasol",
+   "Seed_milho",
+   "Seed_morango",
+   "Seed_Nabo",
+   "Seed_trigo",
+   "Seed_uva",
+   "farmPlot",
+   "smallblueflower",
+   "smallorangeflower",
+   "smallpinkflower",
+   "smallpurpleflower"
+  ],
+  "places": [
+   "Market",
+   "J.Minelli",
+   "World"
+  ],
+  "npc": null
+ }
+]

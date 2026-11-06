@@ -1,0 +1,18 @@
+{
+  "_comment": "Itens marcados aqui ficam borrados ate o leitor ligar 'Spoilers'. Formato: tipo:id. Tipos: item, monster, npc, quest, skill, guide, area. Edite a vontade.",
+  "list": [
+    "item:ColarDaTorre",
+    "item:GoldenKey",
+    "item:AmuletoCaverna",
+    "item:DiamanteRosa",
+    "item:Esmeralma",
+    "item:SoulmeraldSword",
+    "item:potion_legendary",
+    "item:DiarioLyla",
+    "item:CronicasDeRook",
+    "monster:Orbinaut",
+    "npc:MabelMoonbrook",
+    "quest:QUEST_RAT_TAIL_EMERALD",
+    "quest:QUEST_BLUE_SHELL"
+  ]
+}

@@ -1,0 +1,24 @@
+---
+import Base from '../../../layouts/Base.astro';
+import PageHead from '../../../components/PageHead.astro';
+import { LANGS, ui } from '../../../lib/i18n';
+import { pets, petUrl, isSpoiler } from '../../../lib/data';
+export function getStaticPaths() { return LANGS.map((l) => ({ params: { lang: l.slug }, props: { lang: l } })); }
+const { lang } = Astro.props;
+const t = (k: string) => ui(lang, k);
+---
+<Base lang={lang} title={t('pets')} path="pets/">
+  <PageHead lang={lang} cat="pets" title={t('pets')} count={pets.length} />
+  <div class="grid wide">
+    {pets.map((p) => (
+      <a class={`card pet-card ${isSpoiler('pet', p.id) ? 'spoiler' : ''}`} href={petUrl(lang, p.id)}>
+        <span class={`pet-art ${p.id === 'fairy' ? 'fairy' : ''}`} style={p.glow ? `--glow:${p.glow}` : undefined}>{p.icon && <img class="px" src={`/sprites/${p.icon}`} alt="" loading="lazy" />}</span>
+        <span>
+          <span class="t" style="font-size:1.4rem">{t(`pet_${p.id}`)}</span>
+          <small style="font-size:.85rem; color:var(--brand)">{t(`petTag_${p.id}`)}</small>
+          <small style="margin-top:.4rem">{t(`pet_${p.id}_desc`)}</small>
+        </span>
+      </a>
+    ))}
+  </div>
+</Base>

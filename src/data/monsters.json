@@ -1,0 +1,2245 @@
+[
+ {
+  "id": "bat",
+  "nameKey": "MONSTER_BAT_NAME",
+  "loreKey": "MONSTER_BAT_LORE",
+  "hp": "6 HP",
+  "damage": "1 HP",
+  "locationKey": "LOCATION_DUNGEON",
+  "icon": "Bat_01__Bat_01_6.png",
+  "variants": [
+   {
+    "id": "Bat1",
+    "anims": {
+     "idle": {
+      "down": {
+       "frames": [
+        "Bat_01__Bat_01_0.png"
+       ],
+       "durations": [
+        0.1
+       ]
+      }
+     },
+     "walk": {
+      "down": {
+       "frames": [
+        "Bat_01__Bat_01_1.png",
+        "Bat_01__Bat_01_2.png",
+        "Bat_01__Bat_01_3.png",
+        "Bat_01__Bat_01_4.png",
+        "Bat_01__Bat_01_5.png",
+        "Bat_01__Bat_01_6.png",
+        "Bat_01__Bat_01_3.png",
+        "Bat_01__Bat_01_2.png",
+        "Bat_01__Bat_01_1.png"
+       ],
+       "durations": [
+        0.067,
+        0.067,
+        0.05,
+        0.067,
+        0.067,
+        0.067,
+        0.05,
+        0.067,
+        0.1
+       ]
+      },
+      "up": {
+       "frames": [
+        "Bat_01__Bat_01_21.png",
+        "Bat_01__Bat_01_22.png",
+        "Bat_01__Bat_01_23.png",
+        "Bat_01__Bat_01_24.png",
+        "Bat_01__Bat_01_22.png",
+        "Bat_01__Bat_01_21.png"
+       ],
+       "durations": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+       ]
+      },
+      "left": {
+       "frames": [
+        "Bat_01__Bat_01_9.png",
+        "Bat_01__Bat_01_10.png",
+        "Bat_01__Bat_01_11.png",
+        "Bat_01__Bat_01_12.png",
+        "Bat_01__Bat_01_10.png",
+        "Bat_01__Bat_01_9.png"
+       ],
+       "durations": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+       ]
+      },
+      "right": {
+       "frames": [
+        "Bat_01__Bat_01_15.png",
+        "Bat_01__Bat_01_16.png",
+        "Bat_01__Bat_01_17.png",
+        "Bat_01__Bat_01_18.png",
+        "Bat_01__Bat_01_16.png",
+        "Bat_01__Bat_01_15.png"
+       ],
+       "durations": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+       ]
+      }
+     },
+     "damage": {
+      "down": {
+       "frames": [
+        "Bat_01__Bat_01_7.png",
+        "Bat_01__Bat_01_8.png",
+        "Bat_01__Bat_01_3.png",
+        "Bat_01__Bat_01_1.png",
+        "Bat_01__Bat_01_2.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.167,
+        0.167,
+        0.1
+       ]
+      },
+      "up": {
+       "frames": [
+        "Bat_01__Bat_01_25.png",
+        "Bat_01__Bat_01_26.png",
+        "Bat_01__Bat_01_21.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.1
+       ]
+      },
+      "left": {
+       "frames": [
+        "Bat_01__Bat_01_13.png",
+        "Bat_01__Bat_01_14.png",
+        "Bat_01__Bat_01_9.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.1
+       ]
+      },
+      "right": {
+       "frames": [
+        "Bat_01__Bat_01_19.png",
+        "Bat_01__Bat_01_20.png",
+        "Bat_01__Bat_01_15.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.1
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "lootTable": "Bat1LootTable",
+  "drops": {
+   "common": [],
+   "rare": [
+    "cookie",
+    "AsaDeMorcego",
+    "Soda",
+    "Cerveja"
+   ],
+   "legendary": [
+    "AmuletoCasa"
+   ],
+   "rareChance": 30,
+   "legendaryChance": 0
+  }
+ },
+ {
+  "id": "fungi",
+  "nameKey": "MONSTER_FUNGI_NAME",
+  "loreKey": "MONSTER_FUNGI_LORE",
+  "hp": "6 HP",
+  "damage": "2 HP",
+  "locationKey": "LOCATION_MINES",
+  "icon": "Fungus_03__Fungus_03_0.png",
+  "variants": [
+   {
+    "id": "Fungi",
+    "anims": {
+     "idle": {
+      "down": {
+       "frames": [
+        "Fungus_03__Fungus_03_0.png",
+        "Fungus_03__Fungus_03_1.png",
+        "Fungus_03__Fungus_03_2.png",
+        "Fungus_03__Fungus_03_3.png"
+       ],
+       "durations": [
+        0.283,
+        0.267,
+        0.283,
+        0.1
+       ]
+      },
+      "up": {
+       "frames": [
+        "Fungus_03__Fungus_03_18.png",
+        "Fungus_03__Fungus_03_19.png",
+        "Fungus_03__Fungus_03_20.png",
+        "Fungus_03__Fungus_03_21.png"
+       ],
+       "durations": [
+        0.283,
+        0.267,
+        0.283,
+        0.1
+       ]
+      },
+      "left": {
+       "frames": [
+        "Fungus_03__Fungus_03_6.png",
+        "Fungus_03__Fungus_03_7.png",
+        "Fungus_03__Fungus_03_8.png",
+        "Fungus_03__Fungus_03_9.png"
+       ],
+       "durations": [
+        0.283,
+        0.267,
+        0.283,
+        0.1
+       ]
+      },
+      "right": {
+       "frames": [
+        "Fungus_03__Fungus_03_12.png",
+        "Fungus_03__Fungus_03_13.png",
+        "Fungus_03__Fungus_03_14.png",
+        "Fungus_03__Fungus_03_15.png"
+       ],
+       "durations": [
+        0.283,
+        0.267,
+        0.283,
+        0.1
+       ]
+      }
+     },
+     "walk": {
+      "down": {
+       "frames": [
+        "Fungus_03__Fungus_03_24.png",
+        "Fungus_03__Fungus_03_25.png",
+        "Fungus_03__Fungus_03_26.png",
+        "Fungus_03__Fungus_03_27.png"
+       ],
+       "durations": [
+        0.217,
+        0.217,
+        0.183,
+        0.317
+       ]
+      },
+      "up": {
+       "frames": [
+        "Fungus_03__Fungus_03_36.png",
+        "Fungus_03__Fungus_03_37.png",
+        "Fungus_03__Fungus_03_38.png",
+        "Fungus_03__Fungus_03_39.png"
+       ],
+       "durations": [
+        0.2,
+        0.217,
+        0.2,
+        0.317
+       ]
+      },
+      "left": {
+       "frames": [
+        "Fungus_03__Fungus_03_28.png",
+        "Fungus_03__Fungus_03_29.png",
+        "Fungus_03__Fungus_03_30.png",
+        "Fungus_03__Fungus_03_31.png"
+       ],
+       "durations": [
+        0.2,
+        0.217,
+        0.2,
+        0.317
+       ]
+      },
+      "right": {
+       "frames": [
+        "Fungus_03__Fungus_03_32.png",
+        "Fungus_03__Fungus_03_33.png",
+        "Fungus_03__Fungus_03_34.png",
+        "Fungus_03__Fungus_03_35.png"
+       ],
+       "durations": [
+        0.2,
+        0.217,
+        0.2,
+        0.317
+       ]
+      }
+     },
+     "damage": {
+      "down": {
+       "frames": [
+        "Fungus_03__Fungus_03_4.png",
+        "Fungus_03__Fungus_03_5.png",
+        "Fungus_03__Fungus_03_0.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.267
+       ]
+      },
+      "up": {
+       "frames": [
+        "Fungus_03__Fungus_03_22.png",
+        "Fungus_03__Fungus_03_23.png",
+        "Fungus_03__Fungus_03_18.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.267
+       ]
+      },
+      "left": {
+       "frames": [
+        "Fungus_03__Fungus_03_10.png",
+        "Fungus_03__Fungus_03_11.png",
+        "Fungus_03__Fungus_03_6.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.267
+       ]
+      },
+      "right": {
+       "frames": [
+        "Fungus_03__Fungus_03_16.png",
+        "Fungus_03__Fungus_03_17.png",
+        "Fungus_03__Fungus_03_12.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.267
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "lootTable": "FungiLootTable",
+  "drops": {
+   "common": [],
+   "rare": [
+    "FungDrop"
+   ],
+   "legendary": [],
+   "rareChance": 30,
+   "legendaryChance": 0
+  }
+ },
+ {
+  "id": "Ghost1",
+  "nameKey": "MONSTER_GHOST_NAME",
+  "loreKey": "MONSTER_GHOST_LORE",
+  "hp": "6 HP",
+  "damage": "1 HP",
+  "locationKey": "LOCATION_MYSTERIOUS_FOREST",
+  "icon": "Ghost_01__Ghost_01_0.png",
+  "variants": [
+   {
+    "id": "Ghost1",
+    "anims": {
+     "idle": {
+      "down": {
+       "frames": [
+        "Ghost_01__Ghost_01_0.png",
+        "Ghost_01__Ghost_01_1.png",
+        "Ghost_01__Ghost_01_2.png",
+        "Ghost_01__Ghost_01_3.png"
+       ],
+       "durations": [
+        0.267,
+        0.3,
+        0.267,
+        0.1
+       ]
+      },
+      "up": {
+       "frames": [
+        "Ghost_01__Ghost_01_18.png",
+        "Ghost_01__Ghost_01_19.png",
+        "Ghost_01__Ghost_01_20.png",
+        "Ghost_01__Ghost_01_21.png"
+       ],
+       "durations": [
+        0.283,
+        0.267,
+        0.283,
+        0.1
+       ]
+      },
+      "left": {
+       "frames": [
+        "Ghost_01__Ghost_01_6.png",
+        "Ghost_01__Ghost_01_7.png",
+        "Ghost_01__Ghost_01_8.png",
+        "Ghost_01__Ghost_01_9.png"
+       ],
+       "durations": [
+        0.283,
+        0.267,
+        0.283,
+        0.1
+       ]
+      },
+      "right": {
+       "frames": [
+        "Ghost_01__Ghost_01_12.png",
+        "Ghost_01__Ghost_01_13.png",
+        "Ghost_01__Ghost_01_14.png",
+        "Ghost_01__Ghost_01_15.png"
+       ],
+       "durations": [
+        0.283,
+        0.267,
+        0.283,
+        0.1
+       ]
+      }
+     },
+     "damage": {
+      "down": {
+       "frames": [
+        "Ghost_01__Ghost_01_4.png",
+        "Ghost_01__Ghost_01_5.png",
+        "Ghost_01__Ghost_01_0.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.267
+       ]
+      },
+      "up": {
+       "frames": [
+        "Ghost_01__Ghost_01_22.png",
+        "Ghost_01__Ghost_01_23.png",
+        "Ghost_01__Ghost_01_18.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.267
+       ]
+      },
+      "left": {
+       "frames": [
+        "Ghost_01__Ghost_01_10.png",
+        "Ghost_01__Ghost_01_11.png",
+        "Ghost_01__Ghost_01_6.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.267
+       ]
+      },
+      "right": {
+       "frames": [
+        "Ghost_01__Ghost_01_16.png",
+        "Ghost_01__Ghost_01_17.png",
+        "Ghost_01__Ghost_01_12.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.267
+       ]
+      }
+     },
+     "dead": {
+      "down": {
+       "frames": [
+        "Ghost_01__Ghost_01_4.png"
+       ],
+       "durations": [
+        0.1
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "lootTable": "Ghost1LootTable",
+  "drops": {
+   "common": [],
+   "rare": [
+    "cookie",
+    "PanoDeFantasma",
+    "Soda",
+    "Cerveja"
+   ],
+   "legendary": [],
+   "rareChance": 30,
+   "legendaryChance": 0
+  }
+ },
+ {
+  "id": "goblinPequeno",
+  "nameKey": "MONSTER_GOBLIN_NAME",
+  "loreKey": "MONSTER_GOBLIN_LORE",
+  "hp": "11 HP",
+  "damage": "2 HP",
+  "locationKey": "LOCATION_DUNGEON",
+  "icon": "Enemy_Orc_01__Enemy_Orc_01_1.png",
+  "variants": [
+   {
+    "id": "Goblin",
+    "anims": {
+     "idle": {
+      "down": {
+       "frames": [
+        "Enemy_Orc_01__Enemy_Orc_01_1.png",
+        "Enemy_Orc_01__Enemy_Orc_01_2.png",
+        "Enemy_Orc_01__Enemy_Orc_01_3.png"
+       ],
+       "durations": [
+        0.333,
+        0.333,
+        0.433
+       ]
+      },
+      "right": {
+       "frames": [
+        "Enemy_Orc_01__Enemy_Orc_01_20.png",
+        "Enemy_Orc_01__Enemy_Orc_01_21.png",
+        "Enemy_Orc_01__Enemy_Orc_01_22.png",
+        "Enemy_Orc_01__Enemy_Orc_01_23.png"
+       ],
+       "durations": [
+        0.334,
+        0.333,
+        0.334,
+        0.1
+       ]
+      },
+      "up": {
+       "frames": [
+        "Enemy_Orc_01__Enemy_Orc_01_30.png",
+        "Enemy_Orc_01__Enemy_Orc_01_31.png",
+        "Enemy_Orc_01__Enemy_Orc_01_32.png",
+        "Enemy_Orc_01__Enemy_Orc_01_33.png"
+       ],
+       "durations": [
+        0.333,
+        0.333,
+        0.333,
+        0.1
+       ]
+      },
+      "left": {
+       "frames": [
+        "Enemy_Orc_01__Enemy_Orc_01_10.png",
+        "Enemy_Orc_01__Enemy_Orc_01_11.png",
+        "Enemy_Orc_01__Enemy_Orc_01_12.png",
+        "Enemy_Orc_01__Enemy_Orc_01_13.png"
+       ],
+       "durations": [
+        0.334,
+        0.333,
+        0.334,
+        0.1
+       ]
+      }
+     },
+     "walk": {
+      "down": {
+       "frames": [
+        "Enemy_Orc_01__Enemy_Orc_01_40.png",
+        "Enemy_Orc_01__Enemy_Orc_01_41.png",
+        "Enemy_Orc_01__Enemy_Orc_01_42.png",
+        "Enemy_Orc_01__Enemy_Orc_01_43.png"
+       ],
+       "durations": [
+        0.217,
+        0.2,
+        0.217,
+        0.3
+       ]
+      },
+      "right": {
+       "frames": [
+        "Enemy_Orc_01__Enemy_Orc_01_56.png",
+        "Enemy_Orc_01__Enemy_Orc_01_57.png",
+        "Enemy_Orc_01__Enemy_Orc_01_58.png",
+        "Enemy_Orc_01__Enemy_Orc_01_59.png"
+       ],
+       "durations": [
+        0.217,
+        0.2,
+        0.217,
+        0.3
+       ]
+      },
+      "up": {
+       "frames": [
+        "Enemy_Orc_01__Enemy_Orc_01_64.png",
+        "Enemy_Orc_01__Enemy_Orc_01_65.png",
+        "Enemy_Orc_01__Enemy_Orc_01_66.png",
+        "Enemy_Orc_01__Enemy_Orc_01_67.png"
+       ],
+       "durations": [
+        0.183,
+        0.2,
+        0.167,
+        0.283
+       ]
+      },
+      "left": {
+       "frames": [
+        "Enemy_Orc_01__Enemy_Orc_01_48.png",
+        "Enemy_Orc_01__Enemy_Orc_01_49.png",
+        "Enemy_Orc_01__Enemy_Orc_01_50.png",
+        "Enemy_Orc_01__Enemy_Orc_01_51.png"
+       ],
+       "durations": [
+        0.183,
+        0.2,
+        0.167,
+        0.283
+       ]
+      }
+     },
+     "damage": {
+      "down": {
+       "frames": [
+        "Enemy_Orc_01__Enemy_Orc_01_8.png",
+        "Enemy_Orc_01__Enemy_Orc_01_9.png",
+        "Enemy_Orc_01__Enemy_Orc_01_1.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.267
+       ]
+      },
+      "right": {
+       "frames": [
+        "Enemy_Orc_01__Enemy_Orc_01_28.png",
+        "Enemy_Orc_01__Enemy_Orc_01_29.png",
+        "Enemy_Orc_01__Enemy_Orc_01_20.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.267
+       ]
+      },
+      "up": {
+       "frames": [
+        "Enemy_Orc_01__Enemy_Orc_01_38.png",
+        "Enemy_Orc_01__Enemy_Orc_01_39.png",
+        "Enemy_Orc_01__Enemy_Orc_01_30.png"
+       ],
+       "durations": [
+        0.233,
+        0.267,
+        0.267
+       ]
+      },
+      "left": {
+       "frames": [
+        "Enemy_Orc_01__Enemy_Orc_01_18.png",
+        "Enemy_Orc_01__Enemy_Orc_01_19.png",
+        "Enemy_Orc_01__Enemy_Orc_01_10.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.267
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "lootTable": "GoblinLootTable",
+  "drops": {
+   "common": [],
+   "rare": [
+    "cookie",
+    "GoblinFangs",
+    "Soda",
+    "Cerveja"
+   ],
+   "legendary": [
+    "AmuletoCasa"
+   ],
+   "rareChance": 30,
+   "legendaryChance": 0
+  }
+ },
+ {
+  "id": "Orbinaut",
+  "nameKey": "MONSTER_ORBINAUT_NAME",
+  "loreKey": "MONSTER_ORBINAUT_LORE",
+  "hp": "????",
+  "damage": "2 HP",
+  "locationKey": "LOCATION_DUNGEON",
+  "icon": "Orbinaut_04__Orbinaut_04_0.png",
+  "variants": [
+   {
+    "id": "Orbinaut",
+    "anims": {
+     "idle": {
+      "down": {
+       "frames": [
+        "Orbinaut_04__Orbinaut_04_0.png",
+        "Orbinaut_04__Orbinaut_04_1.png",
+        "Orbinaut_04__Orbinaut_04_2.png",
+        "Orbinaut_04__Orbinaut_04_0.png"
+       ],
+       "durations": [
+        0.117,
+        0.117,
+        0.1,
+        0.1
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "lootTable": "OrbinautLootTable",
+  "drops": {
+   "common": [],
+   "rare": [],
+   "legendary": [],
+   "rareChance": 0,
+   "legendaryChance": 0
+  }
+ },
+ {
+  "id": "rat",
+  "nameKey": "MONSTER_RAT_NAME",
+  "loreKey": "MONSTER_RAT_LORE",
+  "hp": "6 HP",
+  "damage": "2 HP",
+  "locationKey": "LOCATION_DUNGEON",
+  "icon": "Rat_01__Rat_01_0.png",
+  "variants": [
+   {
+    "id": "Rat",
+    "anims": {
+     "idle": {
+      "down": {
+       "frames": [
+        "Rat_01__Rat_01_0.png",
+        "Rat_01__Rat_01_1.png",
+        "Rat_01__Rat_01_2.png",
+        "Rat_01__Rat_01_3.png"
+       ],
+       "durations": [
+        0.217,
+        0.2,
+        0.217,
+        0.3
+       ]
+      },
+      "up": {
+       "frames": [
+        "Rat_01__Rat_01_18.png",
+        "Rat_01__Rat_01_19.png",
+        "Rat_01__Rat_01_20.png",
+        "Rat_01__Rat_01_21.png"
+       ],
+       "durations": [
+        0.217,
+        0.2,
+        0.217,
+        0.3
+       ]
+      },
+      "left": {
+       "frames": [
+        "Rat_01__Rat_01_6.png",
+        "Rat_01__Rat_01_7.png",
+        "Rat_01__Rat_01_8.png",
+        "Rat_01__Rat_01_9.png"
+       ],
+       "durations": [
+        0.217,
+        0.2,
+        0.217,
+        0.3
+       ]
+      },
+      "right": {
+       "frames": [
+        "Rat_01__Rat_01_12.png",
+        "Rat_01__Rat_01_13.png",
+        "Rat_01__Rat_01_14.png",
+        "Rat_01__Rat_01_15.png"
+       ],
+       "durations": [
+        0.217,
+        0.2,
+        0.217,
+        0.3
+       ]
+      }
+     },
+     "walk": {
+      "down": {
+       "frames": [
+        "Rat_01__Rat_01_24.png",
+        "Rat_01__Rat_01_25.png",
+        "Rat_01__Rat_01_26.png",
+        "Rat_01__Rat_01_27.png"
+       ],
+       "durations": [
+        0.217,
+        0.2,
+        0.217,
+        0.3
+       ]
+      },
+      "up": {
+       "frames": [
+        "Rat_01__Rat_01_36.png",
+        "Rat_01__Rat_01_37.png",
+        "Rat_01__Rat_01_38.png",
+        "Rat_01__Rat_01_39.png"
+       ],
+       "durations": [
+        0.217,
+        0.2,
+        0.217,
+        0.3
+       ]
+      },
+      "left": {
+       "frames": [
+        "Rat_01__Rat_01_28.png",
+        "Rat_01__Rat_01_29.png",
+        "Rat_01__Rat_01_30.png",
+        "Rat_01__Rat_01_31.png"
+       ],
+       "durations": [
+        0.217,
+        0.2,
+        0.217,
+        0.3
+       ]
+      },
+      "right": {
+       "frames": [
+        "Rat_01__Rat_01_32.png",
+        "Rat_01__Rat_01_33.png",
+        "Rat_01__Rat_01_34.png",
+        "Rat_01__Rat_01_35.png"
+       ],
+       "durations": [
+        0.217,
+        0.2,
+        0.217,
+        0.3
+       ]
+      }
+     },
+     "damage": {
+      "down": {
+       "frames": [
+        "Rat_01__Rat_01_4.png",
+        "Rat_01__Rat_01_5.png",
+        "Rat_01__Rat_01_0.png"
+       ],
+       "durations": [
+        0.167,
+        0.183,
+        0.267
+       ]
+      },
+      "up": {
+       "frames": [
+        "Rat_01__Rat_01_22.png",
+        "Rat_01__Rat_01_23.png",
+        "Rat_01__Rat_01_18.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.267
+       ]
+      },
+      "left": {
+       "frames": [
+        "Rat_01__Rat_01_10.png",
+        "Rat_01__Rat_01_11.png",
+        "Rat_01__Rat_01_6.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.267
+       ]
+      },
+      "right": {
+       "frames": [
+        "Rat_01__Rat_01_16.png",
+        "Rat_01__Rat_01_17.png",
+        "Rat_01__Rat_01_12.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.267
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "lootTable": "RatLootTable",
+  "drops": {
+   "common": [],
+   "rare": [
+    "Rat Tail"
+   ],
+   "legendary": [],
+   "rareChance": 30,
+   "legendaryChance": 0
+  }
+ },
+ {
+  "id": "skeleton",
+  "nameKey": "MONSTER_SKELETON_NAME",
+  "loreKey": "MONSTER_SKELETON_LORE",
+  "hp": "8 HP",
+  "damage": "2 HP",
+  "locationKey": "LOCATION_DUNGEON",
+  "icon": "Skeleton_01__Skeleton_01_0.png",
+  "variants": [
+   {
+    "id": "Skeleton",
+    "anims": {
+     "idle": {
+      "down": {
+       "frames": [
+        "Skeleton_01__Skeleton_01_0.png",
+        "Skeleton_01__Skeleton_01_1.png",
+        "Skeleton_01__Skeleton_01_2.png",
+        "Skeleton_01__Skeleton_01_3.png"
+       ],
+       "durations": [
+        0.25,
+        0.25,
+        0.25,
+        0.35
+       ]
+      },
+      "up": {
+       "frames": [
+        "Skeleton_01__Skeleton_01_30.png",
+        "Skeleton_01__Skeleton_01_31.png",
+        "Skeleton_01__Skeleton_01_32.png",
+        "Skeleton_01__Skeleton_01_33.png"
+       ],
+       "durations": [
+        0.25,
+        0.25,
+        0.25,
+        0.35
+       ]
+      },
+      "left": {
+       "frames": [
+        "Skeleton_01__Skeleton_01_10.png",
+        "Skeleton_01__Skeleton_01_11.png",
+        "Skeleton_01__Skeleton_01_12.png",
+        "Skeleton_01__Skeleton_01_13.png"
+       ],
+       "durations": [
+        0.25,
+        0.25,
+        0.233,
+        0.35
+       ]
+      },
+      "right": {
+       "frames": [
+        "Skeleton_01__Skeleton_01_20.png",
+        "Skeleton_01__Skeleton_01_21.png",
+        "Skeleton_01__Skeleton_01_22.png",
+        "Skeleton_01__Skeleton_01_23.png"
+       ],
+       "durations": [
+        0.25,
+        0.25,
+        0.25,
+        0.35
+       ]
+      }
+     },
+     "walk": {
+      "down": {
+       "frames": [
+        "Skeleton_01__Skeleton_01_40.png",
+        "Skeleton_01__Skeleton_01_41.png",
+        "Skeleton_01__Skeleton_01_42.png",
+        "Skeleton_01__Skeleton_01_43.png"
+       ],
+       "durations": [
+        0.217,
+        0.2,
+        0.217,
+        0.3
+       ]
+      },
+      "up": {
+       "frames": [
+        "Skeleton_01__Skeleton_01_64.png",
+        "Skeleton_01__Skeleton_01_65.png",
+        "Skeleton_01__Skeleton_01_66.png",
+        "Skeleton_01__Skeleton_01_67.png"
+       ],
+       "durations": [
+        0.217,
+        0.2,
+        0.217,
+        0.3
+       ]
+      },
+      "left": {
+       "frames": [
+        "Skeleton_01__Skeleton_01_48.png",
+        "Skeleton_01__Skeleton_01_49.png",
+        "Skeleton_01__Skeleton_01_50.png",
+        "Skeleton_01__Skeleton_01_51.png"
+       ],
+       "durations": [
+        0.217,
+        0.2,
+        0.217,
+        0.3
+       ]
+      },
+      "right": {
+       "frames": [
+        "Skeleton_01__Skeleton_01_56.png",
+        "Skeleton_01__Skeleton_01_57.png",
+        "Skeleton_01__Skeleton_01_58.png",
+        "Skeleton_01__Skeleton_01_59.png"
+       ],
+       "durations": [
+        0.217,
+        0.2,
+        0.217,
+        0.3
+       ]
+      }
+     },
+     "damage": {
+      "down": {
+       "frames": [
+        "Skeleton_01__Skeleton_01_8.png",
+        "Skeleton_01__Skeleton_01_9.png",
+        "Skeleton_01__Skeleton_01_0.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.267
+       ]
+      },
+      "up": {
+       "frames": [
+        "Skeleton_01__Skeleton_01_38.png",
+        "Skeleton_01__Skeleton_01_39.png",
+        "Skeleton_01__Skeleton_01_30.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.267
+       ]
+      },
+      "left": {
+       "frames": [
+        "Skeleton_01__Skeleton_01_18.png",
+        "Skeleton_01__Skeleton_01_19.png",
+        "Skeleton_01__Skeleton_01_10.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.267
+       ]
+      },
+      "right": {
+       "frames": [
+        "Skeleton_01__Skeleton_01_28.png",
+        "Skeleton_01__Skeleton_01_29.png",
+        "Skeleton_01__Skeleton_01_20.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.267
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "lootTable": "SkeletonLootTable",
+  "drops": {
+   "common": [],
+   "rare": [
+    "cookie",
+    "Bone",
+    "Soda"
+   ],
+   "legendary": [],
+   "rareChance": 30,
+   "legendaryChance": 0
+  }
+ },
+ {
+  "id": "slime",
+  "nameKey": "MONSTER_SLIME_NAME",
+  "loreKey": "MONSTER_SLIME_LORE",
+  "hp": "2 HP",
+  "damage": "7 HP",
+  "locationKey": "LOCATION_DUNGEON",
+  "icon": "Slime_01__Slime_01_0.png",
+  "variants": [
+   {
+    "id": "BabySlime",
+    "anims": {
+     "idle": {
+      "down": {
+       "frames": [
+        "Baby_Slime_02__Baby_Slime_02_0.png",
+        "Baby_Slime_02__Baby_Slime_02_1.png",
+        "Baby_Slime_02__Baby_Slime_02_2.png",
+        "Baby_Slime_02__Baby_Slime_02_3.png"
+       ],
+       "durations": [
+        0.2,
+        0.217,
+        0.2,
+        0.317
+       ]
+      },
+      "up": {
+       "frames": [
+        "Baby_Slime_02__Baby_Slime_02_18.png",
+        "Baby_Slime_02__Baby_Slime_02_19.png",
+        "Baby_Slime_02__Baby_Slime_02_20.png",
+        "Baby_Slime_02__Baby_Slime_02_21.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.167,
+        0.267
+       ]
+      },
+      "left": {
+       "frames": [
+        "Baby_Slime_02__Baby_Slime_02_6.png",
+        "Baby_Slime_02__Baby_Slime_02_7.png",
+        "Baby_Slime_02__Baby_Slime_02_8.png",
+        "Baby_Slime_02__Baby_Slime_02_9.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.167,
+        0.267
+       ]
+      },
+      "right": {
+       "frames": [
+        "Baby_Slime_02__Baby_Slime_02_12.png",
+        "Baby_Slime_02__Baby_Slime_02_13.png",
+        "Baby_Slime_02__Baby_Slime_02_14.png",
+        "Baby_Slime_02__Baby_Slime_02_15.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.167,
+        0.267
+       ]
+      }
+     },
+     "walk": {
+      "down": {
+       "frames": [
+        "Baby_Slime_02__Baby_Slime_02_0.png",
+        "Baby_Slime_02__Baby_Slime_02_1.png",
+        "Baby_Slime_02__Baby_Slime_02_2.png",
+        "Baby_Slime_02__Baby_Slime_02_3.png"
+       ],
+       "durations": [
+        0.117,
+        0.133,
+        0.117,
+        0.233
+       ]
+      },
+      "up": {
+       "frames": [
+        "Baby_Slime_02__Baby_Slime_02_18.png",
+        "Baby_Slime_02__Baby_Slime_02_19.png",
+        "Baby_Slime_02__Baby_Slime_02_20.png",
+        "Baby_Slime_02__Baby_Slime_02_21.png"
+       ],
+       "durations": [
+        0.133,
+        0.117,
+        0.117,
+        0.233
+       ]
+      },
+      "left": {
+       "frames": [
+        "Baby_Slime_02__Baby_Slime_02_6.png",
+        "Baby_Slime_02__Baby_Slime_02_7.png",
+        "Baby_Slime_02__Baby_Slime_02_8.png",
+        "Baby_Slime_02__Baby_Slime_02_9.png"
+       ],
+       "durations": [
+        0.133,
+        0.117,
+        0.133,
+        0.217
+       ]
+      },
+      "right": {
+       "frames": [
+        "Baby_Slime_02__Baby_Slime_02_12.png",
+        "Baby_Slime_02__Baby_Slime_02_13.png",
+        "Baby_Slime_02__Baby_Slime_02_14.png",
+        "Baby_Slime_02__Baby_Slime_02_15.png"
+       ],
+       "durations": [
+        0.133,
+        0.117,
+        0.117,
+        0.233
+       ]
+      }
+     },
+     "damage": {
+      "down": {
+       "frames": [
+        "Baby_Slime_02__Baby_Slime_02_4.png",
+        "Baby_Slime_02__Baby_Slime_02_5.png",
+        "Baby_Slime_02__Baby_Slime_02_0.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.267
+       ]
+      },
+      "up": {
+       "frames": [
+        "Baby_Slime_02__Baby_Slime_02_22.png",
+        "Baby_Slime_02__Baby_Slime_02_23.png",
+        "Baby_Slime_02__Baby_Slime_02_18.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.267
+       ]
+      },
+      "left": {
+       "frames": [
+        "Baby_Slime_02__Baby_Slime_02_10.png",
+        "Baby_Slime_02__Baby_Slime_02_11.png",
+        "Baby_Slime_02__Baby_Slime_02_6.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.267
+       ]
+      },
+      "right": {
+       "frames": [
+        "Baby_Slime_02__Baby_Slime_02_16.png",
+        "Baby_Slime_02__Baby_Slime_02_17.png",
+        "Baby_Slime_02__Baby_Slime_02_12.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.267
+       ]
+      }
+     }
+    }
+   },
+   {
+    "id": "Slime_1",
+    "anims": {
+     "idle": {
+      "down": {
+       "frames": [
+        "Slime_01__Slime_01_0.png",
+        "Slime_01__Slime_01_1.png",
+        "Slime_01__Slime_01_2.png",
+        "Slime_01__Slime_01_3.png"
+       ],
+       "durations": [
+        0.283,
+        0.267,
+        0.283,
+        0.1
+       ]
+      },
+      "right": {
+       "frames": [
+        "Slime_01__Slime_01_4.png",
+        "Slime_01__Slime_01_5.png",
+        "Slime_01__Slime_01_6.png",
+        "Slime_01__Slime_01_7.png"
+       ],
+       "durations": [
+        0.283,
+        0.267,
+        0.283,
+        0.1
+       ]
+      },
+      "up": {
+       "frames": [
+        "Slime_01__Slime_01_12.png",
+        "Slime_01__Slime_01_13.png",
+        "Slime_01__Slime_01_14.png",
+        "Slime_01__Slime_01_15.png"
+       ],
+       "durations": [
+        0.267,
+        0.3,
+        0.267,
+        0.1
+       ]
+      },
+      "left": {
+       "frames": [
+        "Slime_01__Slime_01_4.png",
+        "Slime_01__Slime_01_5.png",
+        "Slime_01__Slime_01_6.png",
+        "Slime_01__Slime_01_7.png"
+       ],
+       "durations": [
+        0.283,
+        0.267,
+        0.283,
+        0.1
+       ]
+      }
+     },
+     "walk": {
+      "down": {
+       "frames": [
+        "Slime_01__Slime_01_16.png",
+        "Slime_01__Slime_01_17.png",
+        "Slime_01__Slime_01_18.png",
+        "Slime_01__Slime_01_19.png"
+       ],
+       "durations": [
+        0.25,
+        0.267,
+        0.233,
+        0.35
+       ]
+      },
+      "right": {
+       "frames": [
+        "Slime_01__Slime_01_8.png",
+        "Slime_01__Slime_01_9.png",
+        "Slime_01__Slime_01_10.png",
+        "Slime_01__Slime_01_9.png"
+       ],
+       "durations": [
+        0.25,
+        0.25,
+        0.283,
+        0.317
+       ]
+      },
+      "up": {
+       "frames": [
+        "Slime_01__Slime_01_28.png",
+        "Slime_01__Slime_01_29.png",
+        "Slime_01__Slime_01_30.png",
+        "Slime_01__Slime_01_31.png"
+       ],
+       "durations": [
+        0.25,
+        0.267,
+        0.233,
+        0.35
+       ]
+      },
+      "left": {
+       "frames": [
+        "Slime_01__Slime_01_20.png",
+        "Slime_01__Slime_01_21.png",
+        "Slime_01__Slime_01_22.png",
+        "Slime_01__Slime_01_23.png"
+       ],
+       "durations": [
+        0.25,
+        0.25,
+        0.25,
+        0.35
+       ]
+      }
+     },
+     "damage": {
+      "down": {
+       "frames": [
+        "Slime_02__Slime_02_4.png",
+        "Slime_02__Slime_02_5.png",
+        "Slime_01__Slime_01_0.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.267
+       ]
+      },
+      "right": {
+       "frames": [
+        "Slime_02__Slime_02_16.png",
+        "Slime_02__Slime_02_17.png",
+        "Slime_01__Slime_01_9.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.267
+       ]
+      },
+      "up": {
+       "frames": [
+        "Slime_02__Slime_02_22.png",
+        "Slime_02__Slime_02_23.png",
+        "Slime_01__Slime_01_12.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.267
+       ]
+      },
+      "left": {
+       "frames": [
+        "Slime_02__Slime_02_10.png",
+        "Slime_02__Slime_02_11.png",
+        "Slime_01__Slime_01_4.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.267
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "lootTable": "SlimeLootTable",
+  "drops": {
+   "common": [],
+   "rare": [
+    "cookie",
+    "SlimeBall",
+    "Soda"
+   ],
+   "legendary": [],
+   "rareChance": 30,
+   "legendaryChance": 0
+  }
+ },
+ {
+  "id": "snake",
+  "nameKey": "MONSTER_COBRA_NAME",
+  "loreKey": "MONSTER_COBRA_LORE",
+  "hp": "8 HP",
+  "damage": "2 HP",
+  "locationKey": "LOCATION_DUNGEON",
+  "icon": "Snake_02__Snake_02_0.png",
+  "variants": [
+   {
+    "id": "Snake 2",
+    "anims": {
+     "idle": {
+      "down": {
+       "frames": [
+        "Snake_03__Snake_03_0.png",
+        "Snake_03__Snake_03_1.png",
+        "Snake_03__Snake_03_2.png",
+        "Snake_03__Snake_03_3.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.167,
+        0.1
+       ]
+      },
+      "up": {
+       "frames": [
+        "Snake_03__Snake_03_18.png",
+        "Snake_03__Snake_03_19.png",
+        "Snake_03__Snake_03_20.png",
+        "Snake_03__Snake_03_21.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.167,
+        0.1
+       ]
+      },
+      "left": {
+       "frames": [
+        "Snake_03__Snake_03_6.png",
+        "Snake_03__Snake_03_7.png",
+        "Snake_03__Snake_03_8.png",
+        "Snake_03__Snake_03_9.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.167,
+        0.1
+       ]
+      },
+      "right": {
+       "frames": [
+        "Snake_03__Snake_03_12.png",
+        "Snake_03__Snake_03_13.png",
+        "Snake_03__Snake_03_14.png",
+        "Snake_03__Snake_03_15.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.167,
+        0.1
+       ]
+      }
+     },
+     "walk": {
+      "down": {
+       "frames": [
+        "Snake_03__Snake_03_24.png",
+        "Snake_03__Snake_03_25.png",
+        "Snake_03__Snake_03_26.png",
+        "Snake_03__Snake_03_27.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.167,
+        0.267
+       ]
+      },
+      "up": {
+       "frames": [
+        "Snake_03__Snake_03_36.png",
+        "Snake_03__Snake_03_37.png",
+        "Snake_03__Snake_03_38.png",
+        "Snake_03__Snake_03_39.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.167,
+        0.267
+       ]
+      },
+      "left": {
+       "frames": [
+        "Snake_03__Snake_03_28.png",
+        "Snake_03__Snake_03_29.png",
+        "Snake_03__Snake_03_30.png",
+        "Snake_03__Snake_03_31.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.167,
+        0.267
+       ]
+      },
+      "right": {
+       "frames": [
+        "Snake_03__Snake_03_32.png",
+        "Snake_03__Snake_03_33.png",
+        "Snake_03__Snake_03_34.png",
+        "Snake_03__Snake_03_35.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.167,
+        0.267
+       ]
+      }
+     },
+     "damage": {
+      "down": {
+       "frames": [
+        "Snake_03__Snake_03_4.png",
+        "Snake_03__Snake_03_5.png",
+        "Snake_03__Snake_03_0.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.267
+       ]
+      },
+      "up": {
+       "frames": [
+        "Snake_03__Snake_03_22.png",
+        "Snake_03__Snake_03_23.png",
+        "Snake_03__Snake_03_18.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.267
+       ]
+      },
+      "left": {
+       "frames": [
+        "Snake_03__Snake_03_10.png",
+        "Snake_03__Snake_03_11.png",
+        "Snake_03__Snake_03_6.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.267
+       ]
+      },
+      "right": {
+       "frames": [
+        "Snake_03__Snake_03_16.png",
+        "Snake_03__Snake_03_17.png",
+        "Snake_03__Snake_03_12.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.267
+       ]
+      }
+     }
+    }
+   },
+   {
+    "id": "Snake1",
+    "anims": {
+     "idle": {
+      "down": {
+       "frames": [
+        "Snake_02__Snake_02_0.png",
+        "Snake_02__Snake_02_1.png",
+        "Snake_02__Snake_02_2.png",
+        "Snake_02__Snake_02_3.png"
+       ],
+       "durations": [
+        0.167,
+        0.15,
+        0.167,
+        0.1
+       ]
+      },
+      "up": {
+       "frames": [
+        "Snake_02__Snake_02_18.png",
+        "Snake_02__Snake_02_19.png",
+        "Snake_02__Snake_02_20.png",
+        "Snake_02__Snake_02_21.png"
+       ],
+       "durations": [
+        0.167,
+        0.183,
+        0.167,
+        0.1
+       ]
+      },
+      "left": {
+       "frames": [
+        "Snake_02__Snake_02_6.png",
+        "Snake_02__Snake_02_7.png",
+        "Snake_02__Snake_02_8.png",
+        "Snake_02__Snake_02_9.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.167,
+        0.1
+       ]
+      },
+      "right": {
+       "frames": [
+        "Snake_02__Snake_02_12.png",
+        "Snake_02__Snake_02_13.png",
+        "Snake_02__Snake_02_14.png",
+        "Snake_02__Snake_02_15.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.167,
+        0.1
+       ]
+      }
+     },
+     "walk": {
+      "down": {
+       "frames": [
+        "Snake_02__Snake_02_24.png",
+        "Snake_02__Snake_02_25.png",
+        "Snake_02__Snake_02_26.png",
+        "Snake_02__Snake_02_27.png",
+        "Snake_02__Snake_02_24.png"
+       ],
+       "durations": [
+        0.167,
+        0.183,
+        0.15,
+        0.167,
+        0.1
+       ]
+      },
+      "up": {
+       "frames": [
+        "Snake_02__Snake_02_36.png",
+        "Snake_02__Snake_02_37.png",
+        "Snake_02__Snake_02_38.png",
+        "Snake_02__Snake_02_39.png",
+        "Snake_02__Snake_02_37.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.167,
+        0.167,
+        0.1
+       ]
+      },
+      "left": {
+       "frames": [
+        "Snake_02__Snake_02_28.png",
+        "Snake_02__Snake_02_29.png",
+        "Snake_02__Snake_02_30.png",
+        "Snake_02__Snake_02_31.png",
+        "Snake_02__Snake_02_29.png"
+       ],
+       "durations": [
+        0.167,
+        0.15,
+        0.167,
+        0.183,
+        0.1
+       ]
+      },
+      "right": {
+       "frames": [
+        "Snake_02__Snake_02_32.png",
+        "Snake_02__Snake_02_33.png",
+        "Snake_02__Snake_02_34.png",
+        "Snake_02__Snake_02_35.png",
+        "Snake_02__Snake_02_33.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.167,
+        0.167,
+        0.1
+       ]
+      }
+     },
+     "damage": {
+      "down": {
+       "frames": [
+        "Snake_02__Snake_02_4.png",
+        "Snake_02__Snake_02_5.png",
+        "Snake_02__Snake_02_0.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.1
+       ]
+      },
+      "up": {
+       "frames": [
+        "Snake_02__Snake_02_22.png",
+        "Snake_02__Snake_02_23.png",
+        "Snake_02__Snake_02_36.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.1
+       ]
+      },
+      "left": {
+       "frames": [
+        "Snake_02__Snake_02_10.png",
+        "Snake_02__Snake_02_11.png",
+        "Snake_02__Snake_02_6.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.1
+       ]
+      },
+      "right": {
+       "frames": [
+        "Snake_02__Snake_02_16.png",
+        "Snake_02__Snake_02_17.png",
+        "Snake_02__Snake_02_12.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.1
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "lootTable": "SnakeLootTable",
+  "drops": {
+   "common": [],
+   "rare": [
+    "cookie",
+    "venenodecobra",
+    "Soda"
+   ],
+   "legendary": [
+    "GoldenKey"
+   ],
+   "rareChance": 30,
+   "legendaryChance": 2
+  }
+ },
+ {
+  "id": "zombie",
+  "nameKey": "MONSTER_ZOMBIE_NAME",
+  "loreKey": "MONSTER_ZOMBIE_LORE",
+  "hp": "10 HP",
+  "damage": "3 HP",
+  "locationKey": "LOCATION_DUNGEON",
+  "icon": "Zombie_01__Zombie_01_0.png",
+  "variants": [
+   {
+    "id": "Zombie 2",
+    "anims": {
+     "idle": {
+      "down": {
+       "frames": [
+        "Zombie_02__Zombie_02_0.png",
+        "Zombie_02__Zombie_02_1.png",
+        "Zombie_02__Zombie_02_2.png",
+        "Zombie_02__Zombie_02_3.png"
+       ],
+       "durations": [
+        0.2,
+        0.2,
+        0.233,
+        0.3
+       ]
+      },
+      "up": {
+       "frames": [
+        "Zombie_02__Zombie_02_18.png",
+        "Zombie_02__Zombie_02_19.png",
+        "Zombie_02__Zombie_02_20.png",
+        "Zombie_02__Zombie_02_21.png"
+       ],
+       "durations": [
+        0.217,
+        0.2,
+        0.217,
+        0.3
+       ]
+      },
+      "left": {
+       "frames": [
+        "Zombie_02__Zombie_02_6.png",
+        "Zombie_02__Zombie_02_7.png",
+        "Zombie_02__Zombie_02_8.png",
+        "Zombie_02__Zombie_02_9.png"
+       ],
+       "durations": [
+        0.217,
+        0.2,
+        0.217,
+        0.3
+       ]
+      },
+      "right": {
+       "frames": [
+        "Zombie_02__Zombie_02_12.png",
+        "Zombie_02__Zombie_02_13.png",
+        "Zombie_02__Zombie_02_14.png",
+        "Zombie_02__Zombie_02_15.png"
+       ],
+       "durations": [
+        0.217,
+        0.2,
+        0.217,
+        0.3
+       ]
+      }
+     },
+     "walk": {
+      "down": {
+       "frames": [
+        "Zombie_02__Zombie_02_24.png",
+        "Zombie_02__Zombie_02_25.png",
+        "Zombie_02__Zombie_02_26.png",
+        "Zombie_02__Zombie_02_27.png"
+       ],
+       "durations": [
+        0.217,
+        0.2,
+        0.217,
+        0.3
+       ]
+      },
+      "up": {
+       "frames": [
+        "Zombie_02__Zombie_02_36.png",
+        "Zombie_02__Zombie_02_37.png",
+        "Zombie_02__Zombie_02_38.png",
+        "Zombie_02__Zombie_02_39.png"
+       ],
+       "durations": [
+        0.217,
+        0.2,
+        0.217,
+        0.3
+       ]
+      },
+      "left": {
+       "frames": [
+        "Zombie_02__Zombie_02_28.png",
+        "Zombie_02__Zombie_02_29.png",
+        "Zombie_02__Zombie_02_30.png",
+        "Zombie_02__Zombie_02_31.png"
+       ],
+       "durations": [
+        0.217,
+        0.2,
+        0.217,
+        0.3
+       ]
+      },
+      "right": {
+       "frames": [
+        "Zombie_02__Zombie_02_32.png",
+        "Zombie_02__Zombie_02_33.png",
+        "Zombie_02__Zombie_02_34.png",
+        "Zombie_02__Zombie_02_35.png"
+       ],
+       "durations": [
+        0.217,
+        0.2,
+        0.217,
+        0.3
+       ]
+      }
+     },
+     "damage": {
+      "down": {
+       "frames": [
+        "Zombie_02__Zombie_02_4.png",
+        "Zombie_02__Zombie_02_5.png",
+        "Zombie_02__Zombie_02_0.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.267
+       ]
+      },
+      "up": {
+       "frames": [
+        "Zombie_02__Zombie_02_22.png",
+        "Zombie_02__Zombie_02_23.png",
+        "Zombie_02__Zombie_02_18.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.267
+       ]
+      },
+      "left": {
+       "frames": [
+        "Zombie_02__Zombie_02_10.png",
+        "Zombie_02__Zombie_02_11.png",
+        "Zombie_02__Zombie_02_6.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.267
+       ]
+      },
+      "right": {
+       "frames": [
+        "Zombie_02__Zombie_02_16.png",
+        "Zombie_02__Zombie_02_17.png",
+        "Zombie_02__Zombie_02_12.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.267
+       ]
+      }
+     }
+    }
+   },
+   {
+    "id": "Zombie",
+    "anims": {
+     "idle": {
+      "down": {
+       "frames": [
+        "Zombie_01__Zombie_01_0.png",
+        "Zombie_01__Zombie_01_1.png",
+        "Zombie_01__Zombie_01_2.png",
+        "Zombie_01__Zombie_01_3.png"
+       ],
+       "durations": [
+        0.217,
+        0.2,
+        0.217,
+        0.3
+       ]
+      },
+      "up": {
+       "frames": [
+        "Zombie_01__Zombie_01_18.png",
+        "Zombie_01__Zombie_01_19.png",
+        "Zombie_01__Zombie_01_20.png",
+        "Zombie_01__Zombie_01_21.png"
+       ],
+       "durations": [
+        0.283,
+        0.267,
+        0.283,
+        0.1
+       ]
+      },
+      "left": {
+       "frames": [
+        "Zombie_01__Zombie_01_6.png",
+        "Zombie_01__Zombie_01_7.png",
+        "Zombie_01__Zombie_01_8.png",
+        "Zombie_01__Zombie_01_9.png"
+       ],
+       "durations": [
+        0.283,
+        0.267,
+        0.283,
+        0.1
+       ]
+      },
+      "right": {
+       "frames": [
+        "Zombie_01__Zombie_01_12.png",
+        "Zombie_01__Zombie_01_13.png",
+        "Zombie_01__Zombie_01_14.png",
+        "Zombie_01__Zombie_01_15.png"
+       ],
+       "durations": [
+        0.283,
+        0.267,
+        0.283,
+        0.1
+       ]
+      }
+     },
+     "walk": {
+      "down": {
+       "frames": [
+        "Zombie_01__Zombie_01_24.png",
+        "Zombie_01__Zombie_01_25.png",
+        "Zombie_01__Zombie_01_26.png",
+        "Zombie_01__Zombie_01_27.png"
+       ],
+       "durations": [
+        0.2,
+        0.217,
+        0.2,
+        0.317
+       ]
+      },
+      "up": {
+       "frames": [
+        "Zombie_01__Zombie_01_36.png",
+        "Zombie_01__Zombie_01_37.png",
+        "Zombie_01__Zombie_01_38.png",
+        "Zombie_01__Zombie_01_39.png"
+       ],
+       "durations": [
+        0.217,
+        0.2,
+        0.217,
+        0.3
+       ]
+      },
+      "left": {
+       "frames": [
+        "Zombie_01__Zombie_01_28.png",
+        "Zombie_01__Zombie_01_29.png",
+        "Zombie_01__Zombie_01_30.png",
+        "Zombie_01__Zombie_01_29.png",
+        "Zombie_01__Zombie_01_31.png"
+       ],
+       "durations": [
+        0.217,
+        0.2,
+        0.217,
+        0.2,
+        0.1
+       ]
+      },
+      "right": {
+       "frames": [
+        "Zombie_01__Zombie_01_32.png",
+        "Zombie_01__Zombie_01_33.png",
+        "Zombie_01__Zombie_01_34.png",
+        "Zombie_01__Zombie_01_35.png"
+       ],
+       "durations": [
+        0.217,
+        0.2,
+        0.217,
+        0.3
+       ]
+      }
+     },
+     "damage": {
+      "down": {
+       "frames": [
+        "Zombie_01__Zombie_01_4.png",
+        "Zombie_01__Zombie_01_5.png",
+        "Zombie_01__Zombie_01_0.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.267
+       ]
+      },
+      "up": {
+       "frames": [
+        "Zombie_01__Zombie_01_22.png",
+        "Zombie_01__Zombie_01_18.png"
+       ],
+       "durations": [
+        0.334,
+        0.267
+       ]
+      },
+      "left": {
+       "frames": [
+        "Zombie_01__Zombie_01_10.png",
+        "Zombie_01__Zombie_01_11.png",
+        "Zombie_01__Zombie_01_6.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.267
+       ]
+      },
+      "right": {
+       "frames": [
+        "Zombie_01__Zombie_01_16.png",
+        "Zombie_01__Zombie_01_17.png",
+        "Zombie_01__Zombie_01_12.png"
+       ],
+       "durations": [
+        0.167,
+        0.167,
+        0.267
+       ]
+      }
+     }
+    }
+   }
+  ],
+  "lootTable": "zombieLootTable",
+  "drops": {
+   "common": [],
+   "rare": [
+    "cookie",
+    "zombieBrain",
+    "Soda"
+   ],
+   "legendary": [
+    "GoldenKey",
+    "AmuletoCasa"
+   ],
+   "rareChance": 30,
+   "legendaryChance": 2
+  }
+ }
+]

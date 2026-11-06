@@ -1,0 +1,46 @@
+---
+import Base from '../../../layouts/Base.astro';
+import PageHead from '../../../components/PageHead.astro';
+import RecipeCard from '../../../components/RecipeCard.astro';
+import { LANGS, ui } from '../../../lib/i18n';
+import { recipes, STATIONS } from '../../../lib/data';
+export function getStaticPaths() { return LANGS.map((l) => ({ params: { lang: l.slug }, props: { lang: l } })); }
+const { lang } = Astro.props;
+const t = (k: string) => ui(lang, k);
+const groups = STATIONS.map((s) => [s, recipes.filter((r) => r.station === s)] as const).filter(([, r]) => r.length);
+---
+<Base lang={lang} title={t('crafting')} path="crafting/">
+  <PageHead lang={lang} cat="crafting" title={t('crafting')} count={recipes.length} />
+  <div class="with-side">
+    <aside class="side" id="stations">
+      <h4>{t('stations')}</h4>
+      {groups.map(([s, r]) => <a href={`#${s}`} data-s={s}><span>{t(`s_${s}`)}</span><span class="n">{r.length}</span></a>)}
+    </aside>
+    <div>
+      <input class="filter" id="rq" type="search" placeholder={t('filterRecipes')} autocomplete="off" />
+      <p id="r-empty" style="display:none">{t('noResults')}</p>
+      {groups.map(([s, list]) => (
+        <section id={s} data-station>
+          <h2 style="margin-top:0">{t(`s_${s}`)}</h2>
+          <div class="grid wide" style="margin-bottom:2rem">
+            {list.map((r) => <RecipeCard lang={lang} recipe={r} showStation={false} />)}
+          </div>
+        </section>
+      ))}
+    </div>
+  </div>
+  <script is:inline>
+    document.getElementById('rq').addEventListener('input', (e) => {
+      const q = e.target.value.toLowerCase().trim(); let total = 0;
+      document.querySelectorAll('[data-station]').forEach((sec) => {
+        let n = 0;
+        sec.querySelectorAll('.rc').forEach((c) => { const ok = !q || c.dataset.text.includes(q); c.style.display = ok ? '' : 'none'; if (ok) n++; });
+        sec.style.display = n ? '' : 'none'; total += n;
+      });
+      document.getElementById('r-empty').style.display = total ? 'none' : '';
+    });
+    const links = [...document.querySelectorAll('#stations a')];
+    const io = new IntersectionObserver((es) => es.forEach((e) => { if (e.isIntersecting) { links.forEach((l) => l.classList.toggle('on', l.dataset.s === e.target.id)); } }), { rootMargin: '-90px 0px -65% 0px' });
+    document.querySelectorAll('[data-station]').forEach((s) => io.observe(s));
+  </script>
+</Base>

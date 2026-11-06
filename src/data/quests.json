@@ -1,0 +1,534 @@
+[
+ {
+  "id": "MinerioFerro",
+  "nameKey": "QUEST_IRON_HEART_TITLE",
+  "descKey": "QUEST_IRON_HEART_DESC",
+  "objectives": [
+   {
+    "type": "Collect",
+    "amount": 2,
+    "target": "IronOre",
+    "isItem": true
+   }
+  ],
+  "gold": 40,
+  "xp": 30.0,
+  "rewardItems": [],
+  "repeatable": true,
+  "cooldownMin": 2
+ },
+ {
+  "id": "MinerioOuro",
+  "nameKey": "QUEST_GOLDEN_GLOW_TITLE",
+  "descKey": "QUEST_GOLDEN_GLOW_DESC",
+  "objectives": [
+   {
+    "type": "Collect",
+    "amount": 2,
+    "target": "goldOre",
+    "isItem": true
+   }
+  ],
+  "gold": 50,
+  "xp": 30.0,
+  "rewardItems": [],
+  "repeatable": true,
+  "cooldownMin": 2
+ },
+ {
+  "id": "SorrisoSelvagem",
+  "nameKey": "QUEST_WILD_SMILE_TITLE",
+  "descKey": "QUEST_WILD_SMILE_DESC",
+  "objectives": [
+   {
+    "type": "Collect",
+    "amount": 2,
+    "target": "GoblinFangs",
+    "isItem": true
+   }
+  ],
+  "gold": 20,
+  "xp": 30.0,
+  "rewardItems": [],
+  "repeatable": true,
+  "cooldownMin": 2
+ },
+ {
+  "id": "servicoMelequento1",
+  "nameKey": "QUEST_STICKY_SERVICE_TITLE",
+  "descKey": "QUEST_STICKY_SERVICE_DESC",
+  "objectives": [
+   {
+    "type": "Kill",
+    "amount": 2,
+    "target": "slime",
+    "isItem": false
+   }
+  ],
+  "gold": 30,
+  "xp": 30.0,
+  "rewardItems": [],
+  "repeatable": true,
+  "cooldownMin": 2
+ },
+ {
+  "id": "AbanosDeFormiga",
+  "nameKey": "QUEST_LUPI_LEAVES_TITLE",
+  "descKey": "QUEST_LUPI_LEAVES_DESC",
+  "objectives": [
+   {
+    "type": "Collect",
+    "amount": 10,
+    "target": "Leaf",
+    "isItem": true
+   }
+  ],
+  "gold": 60,
+  "xp": 40.0,
+  "rewardItems": [],
+  "repeatable": true,
+  "cooldownMin": 2
+ },
+ {
+  "id": "ChaDeSol",
+  "nameKey": "QUEST_SUN_TEA_TITLE",
+  "descKey": "QUEST_SUN_TEA_DESC",
+  "objectives": [
+   {
+    "type": "Collect",
+    "amount": 5,
+    "target": "sunflower",
+    "isItem": true
+   }
+  ],
+  "gold": 60,
+  "xp": 40.0,
+  "rewardItems": [],
+  "repeatable": true,
+  "cooldownMin": 2
+ },
+ {
+  "id": "GlobosRoxos",
+  "nameKey": "QUEST_LUPI_GRAPES_TITLE",
+  "descKey": "QUEST_LUPI_GRAPES_DESC",
+  "objectives": [
+   {
+    "type": "Collect",
+    "amount": 3,
+    "target": "grape",
+    "isItem": true
+   }
+  ],
+  "gold": 60,
+  "xp": 40.0,
+  "rewardItems": [],
+  "repeatable": true,
+  "cooldownMin": 2
+ },
+ {
+  "id": "ACorDaInspiracao",
+  "nameKey": "QUEST_COLOR_OF_INSPIRATION_TITLE",
+  "descKey": "QUEST_COLOR_OF_INSPIRATION_DESC",
+  "objectives": [
+   {
+    "type": "Collect",
+    "amount": 1,
+    "target": "Ametista",
+    "isItem": true
+   }
+  ],
+  "gold": 40,
+  "xp": 40.0,
+  "rewardItems": [],
+  "repeatable": true,
+  "cooldownMin": 2
+ },
+ {
+  "id": "AzulPerfeito",
+  "nameKey": "QUEST_LYLA_FLOWERS_TITLE",
+  "descKey": "QUEST_LYLA_FLOWERS_DESC",
+  "objectives": [
+   {
+    "type": "Collect",
+    "amount": 4,
+    "target": "bigflowerblue",
+    "isItem": true
+   }
+  ],
+  "gold": 40,
+  "xp": 40.0,
+  "rewardItems": [],
+  "repeatable": true,
+  "cooldownMin": 2
+ },
+ {
+  "id": "DramaAlado",
+  "nameKey": "QUEST_LYLA_BATS_TITLE",
+  "descKey": "QUEST_LYLA_BATS_DESC",
+  "objectives": [
+   {
+    "type": "Kill",
+    "amount": 5,
+    "target": "bat",
+    "isItem": false
+   }
+  ],
+  "gold": 40,
+  "xp": 40.0,
+  "rewardItems": [],
+  "repeatable": true,
+  "cooldownMin": 2
+ },
+ {
+  "id": "berrysInitial",
+  "nameKey": "BERRY_INITIAL_TITLE",
+  "descKey": "BERRY_INITIAL_DESC",
+  "objectives": [
+   {
+    "type": "Collect",
+    "amount": 5,
+    "target": "berry_safira",
+    "isItem": true
+   }
+  ],
+  "gold": 80,
+  "xp": 30.0,
+  "rewardItems": [],
+  "repeatable": false,
+  "cooldownMin": 2
+ },
+ {
+  "id": "QUEST_BONE",
+  "nameKey": "QUEST_BONE_TITLE",
+  "descKey": "QUEST_BONE_DESC",
+  "objectives": [
+   {
+    "type": "Collect",
+    "amount": 4,
+    "target": "Bone",
+    "isItem": true
+   }
+  ],
+  "gold": 80,
+  "xp": 30.0,
+  "rewardItems": [
+   {
+    "item": "potion_health_basic",
+    "qty": 1
+   }
+  ],
+  "repeatable": false,
+  "cooldownMin": 2
+ },
+ {
+  "id": "QUEST_BLUE_SHELL",
+  "nameKey": "QUEST_BLUE_SHELL_TITLE",
+  "descKey": "QUEST_BLUE_SHELL_DESC",
+  "objectives": [
+   {
+    "type": "Collect",
+    "amount": 3,
+    "target": "conchaAzul",
+    "isItem": true
+   }
+  ],
+  "gold": 70,
+  "xp": 50.0,
+  "rewardItems": [],
+  "repeatable": false,
+  "cooldownMin": 2
+ },
+ {
+  "id": "QUEST_RAT_TAIL_EMERALD",
+  "nameKey": "QUEST_RAT_TAIL_EMERALD_TITLE",
+  "descKey": "QUEST_RAT_TAIL_EMERALD_DESC",
+  "objectives": [
+   {
+    "type": "Collect",
+    "amount": 3,
+    "target": "Rat Tail",
+    "isItem": true
+   },
+   {
+    "type": "Collect",
+    "amount": 1,
+    "target": "Esmeralma",
+    "isItem": true
+   }
+  ],
+  "gold": 70,
+  "xp": 50.0,
+  "rewardItems": [
+   {
+    "item": "potion_legendary",
+    "qty": 1
+   }
+  ],
+  "repeatable": false,
+  "cooldownMin": 2
+ },
+ {
+  "id": "QUEST_SNAKE_VENOM",
+  "nameKey": "QUEST_SNAKE_VENOM_TITLE",
+  "descKey": "QUEST_SNAKE_VENOM_DESC",
+  "objectives": [
+   {
+    "type": "Collect",
+    "amount": 3,
+    "target": "venenodecobra",
+    "isItem": true
+   }
+  ],
+  "gold": 80,
+  "xp": 30.0,
+  "rewardItems": [],
+  "repeatable": false,
+  "cooldownMin": 2
+ },
+ {
+  "id": "DocesMemorias",
+  "nameKey": "QUEST_SWEET_MEMORIES_TITLE",
+  "descKey": "QUEST_SWEET_MEMORIES_DESC",
+  "objectives": [
+   {
+    "type": "Collect",
+    "amount": 5,
+    "target": "cookie",
+    "isItem": true
+   }
+  ],
+  "gold": 20,
+  "xp": 30.0,
+  "rewardItems": [],
+  "repeatable": true,
+  "cooldownMin": 2
+ },
+ {
+  "id": "MorangosDeEpoca",
+  "nameKey": "QUEST_MARCUS_MORANGO_TITLE",
+  "descKey": "QUEST_MARCUS_MORANGO_DESC",
+  "objectives": [
+   {
+    "type": "Collect",
+    "amount": 4,
+    "target": "Strawberry",
+    "isItem": true
+   }
+  ],
+  "gold": 80,
+  "xp": 30.0,
+  "rewardItems": [],
+  "repeatable": true,
+  "cooldownMin": 2
+ },
+ {
+  "id": "CriticasRastejantes",
+  "nameKey": "QUEST_MAX_SNAKES_TITLE",
+  "descKey": "QUEST_MAX_SNAKES_DESC",
+  "objectives": [
+   {
+    "type": "Kill",
+    "amount": 3,
+    "target": "snake",
+    "isItem": false
+   }
+  ],
+  "gold": 80,
+  "xp": 30.0,
+  "rewardItems": [],
+  "repeatable": true,
+  "cooldownMin": 2
+ },
+ {
+  "id": "DueloDeOssos",
+  "nameKey": "QUEST_MAX_SKELETONS_TITLE",
+  "descKey": "QUEST_MAX_SKELETONS_DESC",
+  "objectives": [
+   {
+    "type": "Kill",
+    "amount": 4,
+    "target": "skeleton",
+    "isItem": false
+   }
+  ],
+  "gold": 80,
+  "xp": 30.0,
+  "rewardItems": [],
+  "repeatable": true,
+  "cooldownMin": 2
+ },
+ {
+  "id": "EstrategiaDoMestre",
+  "nameKey": "QUEST_MAX_GOBLINS_TITLE",
+  "descKey": "QUEST_MAX_GOBLINS_DESC",
+  "objectives": [
+   {
+    "type": "Kill",
+    "amount": 5,
+    "target": "goblinPequeno",
+    "isItem": false
+   }
+  ],
+  "gold": 80,
+  "xp": 30.0,
+  "rewardItems": [],
+  "repeatable": true,
+  "cooldownMin": 2
+ },
+ {
+  "id": "ChaDaSerenidade",
+  "nameKey": "QUEST_SERENITY_TEA_TITLE",
+  "descKey": "QUEST_SERENITY_TEA_DESC",
+  "objectives": [
+   {
+    "type": "Collect",
+    "amount": 3,
+    "target": "smallblueflower",
+    "isItem": true
+   },
+   {
+    "type": "Collect",
+    "amount": 3,
+    "target": "smallpurpleflower",
+    "isItem": true
+   }
+  ],
+  "gold": 40,
+  "xp": 40.0,
+  "rewardItems": [],
+  "repeatable": true,
+  "cooldownMin": 2
+ },
+ {
+  "id": "EssenciaDeEsmeralma",
+  "nameKey": "QUEST_SELENE_ESMERALMA_TITLE",
+  "descKey": "QUEST_SELENE_ESMERALMA_DESC",
+  "objectives": [
+   {
+    "type": "Collect",
+    "amount": 2,
+    "target": "Esmeralma",
+    "isItem": true
+   }
+  ],
+  "gold": 60,
+  "xp": 40.0,
+  "rewardItems": [],
+  "repeatable": true,
+  "cooldownMin": 2
+ },
+ {
+  "id": "ReliquiaDasOndas",
+  "nameKey": "QUEST_SELENE_AMULET_TITLE",
+  "descKey": "QUEST_SELENE_AMULET_DESC",
+  "objectives": [
+   {
+    "type": "Collect",
+    "amount": 1,
+    "target": "AmuletoPraia",
+    "isItem": true
+   }
+  ],
+  "gold": 100,
+  "xp": 50.0,
+  "rewardItems": [],
+  "repeatable": true,
+  "cooldownMin": 2
+ },
+ {
+  "id": "CabeçaNoLugar",
+  "nameKey": "QUEST_BRAIN_IN_PLACE_TITLE",
+  "descKey": "QUEST_BRAIN_IN_PLACE_DESC",
+  "objectives": [
+   {
+    "type": "Collect",
+    "amount": 2,
+    "target": "zombieBrain",
+    "isItem": true
+   }
+  ],
+  "gold": 20,
+  "xp": 30.0,
+  "rewardItems": [],
+  "repeatable": true,
+  "cooldownMin": 2
+ },
+ {
+  "id": "CerebroDeSilicio",
+  "nameKey": "QUEST_VICTOR_CPU_TITLE",
+  "descKey": "QUEST_VICTOR_CPU_DESC",
+  "objectives": [
+   {
+    "type": "Collect",
+    "amount": 2,
+    "target": "CPU",
+    "isItem": true
+   }
+  ],
+  "gold": 50,
+  "xp": 30.0,
+  "rewardItems": [],
+  "repeatable": true,
+  "cooldownMin": 2
+ },
+ {
+  "id": "FerramentasAmarras",
+  "nameKey": "QUEST_WADE_SUPPLIES_TITLE",
+  "descKey": "QUEST_WADE_SUPPLIES_DESC",
+  "objectives": [
+   {
+    "type": "Collect",
+    "amount": 1,
+    "target": "Wood Axe",
+    "isItem": true
+   },
+   {
+    "type": "Collect",
+    "amount": 3,
+    "target": "corda",
+    "isItem": true
+   }
+  ],
+  "gold": 60,
+  "xp": 50.0,
+  "rewardItems": [],
+  "repeatable": true,
+  "cooldownMin": 2
+ },
+ {
+  "id": "MadeiraQueAjuda",
+  "nameKey": "QUEST_WOOD_HELP_TITLE",
+  "descKey": "QUEST_WOOD_HELP_DESC",
+  "objectives": [
+   {
+    "type": "Collect",
+    "amount": 3,
+    "target": "WoodLog",
+    "isItem": true
+   }
+  ],
+  "gold": 20,
+  "xp": 50.0,
+  "rewardItems": [],
+  "repeatable": true,
+  "cooldownMin": 2
+ },
+ {
+  "id": "Tutorial",
+  "nameKey": "QUEST_TUTORIAL_TITLE",
+  "descKey": "QUEST_TUTORIAL_DESC",
+  "objectives": [
+   {
+    "type": "Collect",
+    "amount": 1,
+    "target": "Wood Axe",
+    "isItem": true
+   }
+  ],
+  "gold": 10,
+  "xp": 30.0,
+  "rewardItems": [],
+  "repeatable": false,
+  "cooldownMin": 2
+ }
+]

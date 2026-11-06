@@ -1,0 +1,5687 @@
+[
+ {
+  "id": "AmetistSword",
+  "cls": "ItemWeapon",
+  "type": "Weapon",
+  "nameKey": "ITEM_AMETIST_SWORD_NAME",
+  "descKey": "ITEM_AMETIST_SWORD_DESC",
+  "fallbackName": "Espada de Ametista",
+  "buy": 400,
+  "sell": 200,
+  "stack": 1,
+  "consumable": false,
+  "icon": "Weapons_Icons__AmetistSword.png",
+  "weapon": {
+   "id": "AmetistWeapon_Sword",
+   "type": "Sword",
+   "damage": 3,
+   "range": 1.7,
+   "arc": 190,
+   "stamina": 1,
+   "ammo": null
+  },
+  "usedIn": [
+   "SoulmetistSword"
+  ],
+  "madeBy": [
+   "AmetistSword"
+  ],
+  "sources": [],
+  "gifts": {
+   "loved": [
+    "Max"
+   ],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "Bow",
+  "cls": "ItemWeapon",
+  "type": "Weapon",
+  "nameKey": "ITEM_BOW_NAME",
+  "descKey": "ITEM_BOW_DESC",
+  "fallbackName": "Arco",
+  "buy": 300,
+  "sell": 100,
+  "stack": 1,
+  "consumable": false,
+  "icon": "Weapons_Icons__Weapons_Icons_154.png",
+  "weapon": {
+   "id": "Weapon_Bow",
+   "type": "Bow",
+   "damage": 2,
+   "range": 1.5,
+   "arc": 90,
+   "stamina": 3,
+   "ammo": "CommonArrow"
+  },
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "BLACKSMITH_TITLE"
+  ]
+ },
+ {
+  "id": "Chromite Axe",
+  "cls": "ItemWeapon",
+  "type": "Weapon",
+  "nameKey": "ITEM_CHROMITE_AXE_NAME",
+  "descKey": "ITEM_CHROMITE_AXE_DESC",
+  "fallbackName": "Machado de chromita",
+  "buy": 500,
+  "sell": 250,
+  "stack": 1,
+  "consumable": false,
+  "icon": "Tool_Icons__Chromite_Axe.png",
+  "tool": "Axe",
+  "harvestDamage": 3,
+  "weapon": {
+   "id": "Weapon_chromite_Axe",
+   "type": "Axe",
+   "damage": 3,
+   "range": 2,
+   "arc": 100,
+   "stamina": 1,
+   "ammo": null
+  },
+  "usedIn": [],
+  "madeBy": [
+   "ChromiteAxe"
+  ],
+  "sources": [],
+  "gifts": {
+   "loved": [
+    "Wade"
+   ],
+   "liked": [
+    "Max"
+   ],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "Chromite Pickaxe",
+  "cls": "ItemWeapon",
+  "type": "Weapon",
+  "nameKey": "ITEM_CHROMITE_PICKAXE_NAME",
+  "descKey": "ITEM_CHROMITE_PICKAXE_DESC",
+  "fallbackName": "Picareta de ferro",
+  "buy": 260,
+  "sell": 130,
+  "stack": 1,
+  "consumable": false,
+  "icon": "Tool_Icons__Chromite_Pickaxe.png",
+  "tool": "Pickaxe",
+  "harvestDamage": 3,
+  "weapon": {
+   "id": "Weapon_chromite_Pickaxe",
+   "type": "PickAxe",
+   "damage": 2,
+   "range": 2,
+   "arc": 100,
+   "stamina": 1,
+   "ammo": null
+  },
+  "usedIn": [],
+  "madeBy": [
+   "ChromitePickAxe"
+  ],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "DetectorMetal",
+  "cls": "ItemWeapon",
+  "type": "Weapon",
+  "nameKey": "ITEM_DETECTORMETAL_NAME",
+  "descKey": "ITEM_DETECTORMETAL_DESC",
+  "fallbackName": "DetectorMetal",
+  "buy": 100,
+  "sell": 50,
+  "stack": 1,
+  "consumable": false,
+  "icon": "Crafting_Material_Icons__DetectorMetal.png",
+  "weapon": {
+   "id": "DetectorMetal",
+   "type": "DetectorMetal",
+   "damage": 0,
+   "range": 0,
+   "arc": 200,
+   "stamina": 0,
+   "ammo": null
+  },
+  "usedIn": [],
+  "madeBy": [
+   "detectorMetal"
+  ],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "GoldSword",
+  "cls": "ItemWeapon",
+  "type": "Weapon",
+  "nameKey": "ITEM_GOLD_SWORD_Name",
+  "descKey": "ITEM_GOLD_SWORD_DESC",
+  "fallbackName": "Espada de Ouro",
+  "buy": 300,
+  "sell": 100,
+  "stack": 1,
+  "consumable": false,
+  "icon": "Weapons_Icons__GoldSword.png",
+  "weapon": {
+   "id": "GoldWeapon_Sword",
+   "type": "Sword",
+   "damage": 2.5,
+   "range": 1.5,
+   "arc": 180,
+   "stamina": 0,
+   "ammo": null
+  },
+  "usedIn": [
+   "AmetistSword"
+  ],
+  "madeBy": [
+   "GoldSword"
+  ],
+  "sources": [],
+  "gifts": {
+   "loved": [
+    "Max"
+   ],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "Iron Axe",
+  "cls": "ItemWeapon",
+  "type": "Weapon",
+  "nameKey": "ITEM_IRON_AXE_NAME",
+  "descKey": "ITEM_IRON_AXE_DESC",
+  "fallbackName": "Machado de ferro",
+  "buy": 280,
+  "sell": 130,
+  "stack": 1,
+  "consumable": false,
+  "icon": "Tool_Icons__RayyAxe.png",
+  "tool": "Axe",
+  "harvestDamage": 2,
+  "weapon": {
+   "id": "Weapon_Axe",
+   "type": "Axe",
+   "damage": 2,
+   "range": 1.5,
+   "arc": 95,
+   "stamina": 1,
+   "ammo": null
+  },
+  "usedIn": [
+   "ChromiteAxe"
+  ],
+  "madeBy": [
+   "IronAxe"
+  ],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [
+    "Wade",
+    "Max"
+   ],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "BLACKSMITH_TITLE"
+  ]
+ },
+ {
+  "id": "Iron Pickaxe",
+  "cls": "ItemWeapon",
+  "type": "Weapon",
+  "nameKey": "ITEM_IRONPICKAXE_NAME",
+  "descKey": "ITEM_IRONPICKAXE_DESC",
+  "fallbackName": "Picareta de ferro",
+  "buy": 280,
+  "sell": 130,
+  "stack": 1,
+  "consumable": false,
+  "icon": "Tool_Icons__Rayy_pickaxe_iron.png",
+  "tool": "Pickaxe",
+  "harvestDamage": 2,
+  "weapon": {
+   "id": "Weapon_Pickaxe",
+   "type": "PickAxe",
+   "damage": 1,
+   "range": 1,
+   "arc": 95,
+   "stamina": 1,
+   "ammo": null
+  },
+  "usedIn": [
+   "ChromitePickAxe"
+  ],
+  "madeBy": [
+   "IronPickAxe"
+  ],
+  "sources": [
+   {
+    "kind": "metaldetector",
+    "table": "BeahItemRare",
+    "rarity": "legendary",
+    "monster": null
+   }
+  ],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "BLACKSMITH_TITLE"
+  ]
+ },
+ {
+  "id": "IronSword",
+  "cls": "ItemWeapon",
+  "type": "Weapon",
+  "nameKey": "ITEM_RAYY_SWORD_NAME",
+  "descKey": "ITEM_RAYY_SWORD_DESC",
+  "fallbackName": "Espada da Rayy",
+  "buy": 0,
+  "sell": 0,
+  "stack": 1,
+  "consumable": false,
+  "icon": "Weapons_Icons__Rayy_Sword.png",
+  "weapon": {
+   "id": "Weapon_Sword",
+   "type": "Sword",
+   "damage": 2,
+   "range": 1.5,
+   "arc": 180,
+   "stamina": 0,
+   "ammo": null
+  },
+  "usedIn": [
+   "GoldSword"
+  ],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [
+    "Max"
+   ],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "SHOP_TITLE"
+  ]
+ },
+ {
+  "id": "SoulmeraldSword",
+  "cls": "ItemWeapon",
+  "type": "Weapon",
+  "nameKey": "ITEM_ESMERALMA_SWORD_NAME",
+  "descKey": "ITEM_ESMERALMA_SWORD_DESC",
+  "fallbackName": "Espada de Esmeralma",
+  "buy": 500,
+  "sell": 250,
+  "stack": 1,
+  "consumable": false,
+  "icon": "Weapons_Icons__SoulmeraldSword.png",
+  "weapon": {
+   "id": "SoulmetistWeapon_Sword",
+   "type": "Sword",
+   "damage": 4,
+   "range": 2,
+   "arc": 200,
+   "stamina": 0,
+   "ammo": null
+  },
+  "usedIn": [],
+  "madeBy": [
+   "SoulmetistSword"
+  ],
+  "sources": [],
+  "gifts": {
+   "loved": [
+    "Max"
+   ],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "VaraDePesca",
+  "cls": "ItemWeapon",
+  "type": "Weapon",
+  "nameKey": "ITEM_FISHINGROD_TITLE",
+  "descKey": "ITEM_FISHINGROD_DESC",
+  "fallbackName": "VaraDePesca",
+  "buy": 100,
+  "sell": 50,
+  "stack": 1,
+  "consumable": false,
+  "icon": "Tool_Icons__Tool_Icons_257.png",
+  "weapon": {
+   "id": "FishingRodWeapon",
+   "type": "FishRod",
+   "damage": 0,
+   "range": 1.5,
+   "arc": 90,
+   "stamina": 0,
+   "ammo": null
+  },
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "BAIT_SHOP"
+  ]
+ },
+ {
+  "id": "Wood Axe",
+  "cls": "ItemWeapon",
+  "type": "Weapon",
+  "nameKey": "ITEM_WOOD_AXE_NAME",
+  "descKey": "ITEM_WOOD_AXE_DESC",
+  "fallbackName": "Machado de madeira",
+  "buy": 180,
+  "sell": 80,
+  "stack": 1,
+  "consumable": false,
+  "icon": "Tool_Icons__Tool_Icons_229.png",
+  "tool": "Axe",
+  "harvestDamage": 1,
+  "weapon": {
+   "id": "Weapon_Wood_Axe",
+   "type": "Axe",
+   "damage": 2,
+   "range": 1,
+   "arc": 90,
+   "stamina": 1,
+   "ammo": null
+  },
+  "usedIn": [],
+  "madeBy": [
+   "woodAxe"
+  ],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [
+    "Wade",
+    "Max"
+   ],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "BLACKSMITH_TITLE"
+  ]
+ },
+ {
+  "id": "Wood Pickaxe",
+  "cls": "ItemWeapon",
+  "type": "Weapon",
+  "nameKey": "ITEM_WOOD_PICKAXE_NAME",
+  "descKey": "ITEM_WOOD_PICKAXE_DESC",
+  "fallbackName": "Picareta de Madeira",
+  "buy": 180,
+  "sell": 80,
+  "stack": 1,
+  "consumable": false,
+  "icon": "Tool_Icons__Tool_Icons_219.png",
+  "tool": "Pickaxe",
+  "harvestDamage": 1,
+  "weapon": {
+   "id": "Weapon_Wood_Pickaxe",
+   "type": "PickAxe",
+   "damage": 1,
+   "range": 1,
+   "arc": 90,
+   "stamina": 1,
+   "ammo": null
+  },
+  "usedIn": [],
+  "madeBy": [
+   "woodPickaxe"
+  ],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "BLACKSMITH_TITLE"
+  ]
+ },
+ {
+  "id": "abobora",
+  "cls": "ItemHealthPotion",
+  "type": "Food",
+  "nameKey": "ITEM_PUMPKIN_TITLE",
+  "descKey": "ITEM_PUMPKIN_DESC",
+  "fallbackName": "Abobora",
+  "buy": 35,
+  "sell": 17,
+  "stack": 32,
+  "consumable": true,
+  "icon": "Solaria_Crops_DEMO__Solaria_Crops_DEMO_28.png",
+  "heal": 1,
+  "usedIn": [
+   "sopaAbobora",
+   "tortaabobora"
+  ],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "barry",
+  "cls": "ItemHealthPotion",
+  "type": "Food",
+  "nameKey": "BERRY_TITLE",
+  "descKey": "BERRY_DESC",
+  "fallbackName": "grape",
+  "buy": 5,
+  "sell": 2,
+  "stack": 32,
+  "consumable": true,
+  "icon": "Ext_Obj_02__berryobj.png",
+  "heal": 1,
+  "usedIn": [
+   "geleiaberryCraft",
+   "tortaBerryCraft"
+  ],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "batata",
+  "cls": "ItemHealthPotion",
+  "type": "Food",
+  "nameKey": "ITEM_POTATO_TITLE",
+  "descKey": "ITEM_POTATO_DESC",
+  "fallbackName": "Batata",
+  "buy": 35,
+  "sell": 17,
+  "stack": 32,
+  "consumable": true,
+  "icon": "Solaria_Crops_DEMO__Solaria_Crops_DEMO_42.png",
+  "heal": 2,
+  "usedIn": [
+   "EnsopadoPeixe",
+   "batataAssadaCraft",
+   "batatafritaCraft",
+   "ensopado",
+   "paobatat"
+  ],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "batata Assada",
+  "cls": "ItemHealthPotion",
+  "type": "Food",
+  "nameKey": "ITEM_BAKEDPOTATO_TITLE",
+  "descKey": "ITEM_BAKEDPOTATO_DESC",
+  "fallbackName": "batata Assada",
+  "buy": 35,
+  "sell": 17,
+  "stack": 32,
+  "consumable": true,
+  "icon": "Food_Icons__batataassada.png",
+  "heal": 5,
+  "usedIn": [],
+  "madeBy": [
+   "batataAssadaCraft"
+  ],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "batatafrita",
+  "cls": "ItemHealthPotion",
+  "type": "Food",
+  "nameKey": "ITEM_FRENCHFRIES_TITLE",
+  "descKey": "ITEM_FRENCHFRIES_DESC",
+  "fallbackName": "Batata Frita",
+  "buy": 35,
+  "sell": 17,
+  "stack": 32,
+  "consumable": true,
+  "icon": "Food_Icons__batatafrita.png",
+  "heal": 7,
+  "usedIn": [],
+  "madeBy": [
+   "batatafritaCraft"
+  ],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "berry_safira",
+  "cls": "ItemHealthPotion",
+  "type": "Food",
+  "nameKey": "BERRY_SAFIRA",
+  "descKey": "BERRY_SAFIRA_DESC",
+  "fallbackName": "grape",
+  "buy": 5,
+  "sell": 2,
+  "stack": 32,
+  "consumable": true,
+  "icon": "Ext_Obj_02__Ext_Obj_02_119.png",
+  "heal": 1,
+  "usedIn": [
+   "geleiaberrySafiraCraft"
+  ],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "CARROTCAKE",
+  "cls": "ItemHealthPotion",
+  "type": "Food",
+  "nameKey": "ITEM_CARROTCAKE_TITLE",
+  "descKey": "ITEM_CARROTCAKE_DESC",
+  "fallbackName": "Bolo de cenoura",
+  "buy": 35,
+  "sell": 17,
+  "stack": 32,
+  "consumable": true,
+  "icon": "Food_Icons__Bolo_de_cenoura.png",
+  "heal": 5,
+  "usedIn": [],
+  "madeBy": [
+   "bolocenoura"
+  ],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [
+    "Minelli"
+   ],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "cebola",
+  "cls": "ItemHealthPotion",
+  "type": "Food",
+  "nameKey": "ITEM_ONION_TITLE",
+  "descKey": "ITEM_ONION_DESC",
+  "fallbackName": "cebola",
+  "buy": 35,
+  "sell": 17,
+  "stack": 32,
+  "consumable": true,
+  "icon": "Crops_Objects__Onion.png",
+  "heal": 1,
+  "usedIn": [
+   "Hamburger",
+   "sopaAbobora"
+  ],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "cenoura",
+  "cls": "ItemHealthPotion",
+  "type": "Food",
+  "nameKey": "ITEM_CARROT_TITLE",
+  "descKey": "ITEM_CARROT_DESC",
+  "fallbackName": "cenoura",
+  "buy": 35,
+  "sell": 17,
+  "stack": 32,
+  "consumable": true,
+  "icon": "Solaria_Crops_DEMO__Solaria_Crops_DEMO_10.png",
+  "heal": 3,
+  "usedIn": [
+   "EnsopadoPeixe",
+   "bolocenoura",
+   "ensopado",
+   "filetrutaarcoiris"
+  ],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "Cerveja",
+  "cls": "ItemHealthPotion",
+  "type": "Food",
+  "nameKey": "ITEM_BEER_NAME",
+  "descKey": "ITEM_BEER_DESC",
+  "fallbackName": "Cerveja",
+  "buy": 10,
+  "sell": 5,
+  "stack": 32,
+  "consumable": true,
+  "icon": "comidasPurrCafe__comidasPurrCafe_94.png",
+  "heal": 1,
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [
+   {
+    "kind": "breakable",
+    "table": "TrashLootTable",
+    "rarity": "common",
+    "monster": null
+   },
+   {
+    "kind": "monster",
+    "table": "Bat1LootTable",
+    "rarity": "rare",
+    "monster": "bat"
+   },
+   {
+    "kind": "monster",
+    "table": "Ghost1LootTable",
+    "rarity": "rare",
+    "monster": "Ghost1"
+   },
+   {
+    "kind": "monster",
+    "table": "GoblinLootTable",
+    "rarity": "rare",
+    "monster": "goblinPequeno"
+   },
+   {
+    "kind": "dungeon",
+    "table": "DungeonComumLootTable",
+    "rarity": "common",
+    "monster": null
+   },
+   {
+    "kind": "dungeon",
+    "table": "DungeonDifícilLootTable 1",
+    "rarity": "common",
+    "monster": null
+   }
+  ],
+  "gifts": {
+   "loved": [
+    "Marcus"
+   ],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "BARMAN_TITLE"
+  ]
+ },
+ {
+  "id": "Chocolate",
+  "cls": "ItemHealthPotion",
+  "type": "Food",
+  "nameKey": "ITEM_CHOCOLATE_NAME",
+  "descKey": "ITEM_CHOCOLATE_DESC",
+  "fallbackName": "Chocolate",
+  "buy": 20,
+  "sell": 10,
+  "stack": 32,
+  "consumable": true,
+  "icon": "comidasPurrCafe__comidasPurrCafe_97.png",
+  "heal": 2,
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "SHOP_TITLE"
+  ]
+ },
+ {
+  "id": "coco",
+  "cls": "ItemHealthPotion",
+  "type": "Food",
+  "nameKey": "ITEM_COCONUT_TITLE",
+  "descKey": "ITEM_COCONUT_DESC",
+  "fallbackName": "grape",
+  "buy": 5,
+  "sell": 2,
+  "stack": 32,
+  "consumable": true,
+  "icon": "Food_Icons__Food_Icons_26.png",
+  "heal": 1,
+  "usedIn": [
+   "OleoCocoCraft"
+  ],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [
+    "Jaden"
+   ],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "coffee",
+  "cls": "ItemStaminaPotion",
+  "type": "Food",
+  "nameKey": "ITEM_COFFEE_NAME",
+  "descKey": "ITEM_COFFEE_DESC",
+  "fallbackName": "Coffee",
+  "buy": 20,
+  "sell": 10,
+  "stack": 32,
+  "consumable": true,
+  "icon": "comidasPurrCafe__comidasPurrCafe_111.png",
+  "stamina": 10,
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [
+   {
+    "kind": "breakable",
+    "table": "BarrilLootTable",
+    "rarity": "rare",
+    "monster": null
+   },
+   {
+    "kind": "breakable",
+    "table": "TrashLootTable",
+    "rarity": "rare",
+    "monster": null
+   },
+   {
+    "kind": "dungeon",
+    "table": "DungeonComumLootTable",
+    "rarity": "rare",
+    "monster": null
+   },
+   {
+    "kind": "dungeon",
+    "table": "DungeonDifícilLootTable 1",
+    "rarity": "rare",
+    "monster": null
+   }
+  ],
+  "gifts": {
+   "loved": [
+    "Jaden"
+   ],
+   "liked": [
+    "Selene"
+   ],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "BARMAN_TITLE"
+  ]
+ },
+ {
+  "id": "cookie",
+  "cls": "ItemHealthPotion",
+  "type": "Food",
+  "nameKey": "ITEM_COOKIE_NAME",
+  "descKey": "ITEM_COOKIE_DESC",
+  "fallbackName": "Cookie",
+  "buy": 15,
+  "sell": 7,
+  "stack": 32,
+  "consumable": true,
+  "icon": "comidasPurrCafe__comidasPurrCafe_116.png",
+  "heal": 3,
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [
+   {
+    "kind": "breakable",
+    "table": "BarrilLootTable",
+    "rarity": "rare",
+    "monster": null
+   },
+   {
+    "kind": "breakable",
+    "table": "TrashLootTable",
+    "rarity": "rare",
+    "monster": null
+   },
+   {
+    "kind": "monster",
+    "table": "Bat1LootTable",
+    "rarity": "rare",
+    "monster": "bat"
+   },
+   {
+    "kind": "monster",
+    "table": "Ghost1LootTable",
+    "rarity": "rare",
+    "monster": "Ghost1"
+   },
+   {
+    "kind": "monster",
+    "table": "GoblinLootTable",
+    "rarity": "rare",
+    "monster": "goblinPequeno"
+   },
+   {
+    "kind": "monster",
+    "table": "SkeletonLootTable",
+    "rarity": "rare",
+    "monster": "skeleton"
+   },
+   {
+    "kind": "monster",
+    "table": "SlimeLootTable",
+    "rarity": "rare",
+    "monster": "slime"
+   },
+   {
+    "kind": "monster",
+    "table": "SnakeLootTable",
+    "rarity": "rare",
+    "monster": "snake"
+   },
+   {
+    "kind": "monster",
+    "table": "zombieLootTable",
+    "rarity": "rare",
+    "monster": "zombie"
+   },
+   {
+    "kind": "dungeon",
+    "table": "DungeonComumLootTable",
+    "rarity": "rare",
+    "monster": null
+   },
+   {
+    "kind": "dungeon",
+    "table": "DungeonDifícilLootTable 1",
+    "rarity": "common",
+    "monster": null
+   },
+   {
+    "kind": "dungeon",
+    "table": "DungeonDifícilLootTable 1",
+    "rarity": "rare",
+    "monster": null
+   }
+  ],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "SHOP_TITLE"
+  ]
+ },
+ {
+  "id": "corn",
+  "cls": "ItemHealthPotion",
+  "type": "Food",
+  "nameKey": "ITEM_CORN_TITLE",
+  "descKey": "ITEM_CORN_DESC",
+  "fallbackName": "Milho",
+  "buy": 35,
+  "sell": 17,
+  "stack": 32,
+  "consumable": true,
+  "icon": "Crops_Objects__Corn.png",
+  "heal": 3,
+  "usedIn": [
+   "pipocaCraft"
+  ],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "donutsmistico",
+  "cls": "ItemHealthPotion",
+  "type": "Food",
+  "nameKey": "ITEM_MYSTICDONUT_TITLE",
+  "descKey": "ITEM_MYSTICDONUT_DESC",
+  "fallbackName": "Donuts Místico",
+  "buy": 35,
+  "sell": 17,
+  "stack": 32,
+  "consumable": true,
+  "icon": "Food_Icons__Donuts_Mistico.png",
+  "heal": 15,
+  "usedIn": [],
+  "madeBy": [
+   "donutsMistico"
+  ],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "EnsopadoPeixe",
+  "cls": "ItemHealthPotion",
+  "type": "Food",
+  "nameKey": "ITEM_FISH_STEW_TITLE",
+  "descKey": "ITEM_FISH_STEW_DESC",
+  "fallbackName": "Ensopado de Peixe",
+  "buy": 40,
+  "sell": 20,
+  "stack": 32,
+  "consumable": true,
+  "icon": "Food_Icons__EnsopadoPeixe.png",
+  "heal": 8,
+  "usedIn": [],
+  "madeBy": [
+   "EnsopadoPeixe"
+  ],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "ensopadoRaizes",
+  "cls": "ItemHealthPotion",
+  "type": "Food",
+  "nameKey": "ITEM_ROOTSTEW_TITLE",
+  "descKey": "ITEM_ROOTSTEW_DESC",
+  "fallbackName": "Ensopado de Raizes",
+  "buy": 35,
+  "sell": 17,
+  "stack": 32,
+  "consumable": true,
+  "icon": "Food_Icons__EnsopadoRaizes.png",
+  "heal": 5,
+  "usedIn": [],
+  "madeBy": [
+   "ensopado"
+  ],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "FileTrutaArcoIris",
+  "cls": "ItemHealthPotion",
+  "type": "Food",
+  "nameKey": "ITEM_FILERAINBOWTROUT_TITLE",
+  "descKey": "ITEM_FILERAINBOWTROUT_DESC",
+  "fallbackName": "Filé de Truta Arco-Íris",
+  "buy": 70,
+  "sell": 35,
+  "stack": 32,
+  "consumable": true,
+  "icon": "Food_Icons__FileRAinbowtrout.png",
+  "heal": 10,
+  "usedIn": [],
+  "madeBy": [
+   "filetrutaarcoiris"
+  ],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "BARMAN_TITLE"
+  ]
+ },
+ {
+  "id": "Fizzcola",
+  "cls": "ItemStaminaPotion",
+  "type": "Food",
+  "nameKey": "ITEM_FIZZCOLA_NAME",
+  "descKey": "ITEM_FIZZCOLA_DESC",
+  "fallbackName": "FizzCola",
+  "buy": 10,
+  "sell": 5,
+  "stack": 32,
+  "consumable": true,
+  "icon": "World_of_Solaria_Food_and_Drink_Icons_Update_01_DEMO__World_of_Solaria_Food_and_Drink_Icons_Update_01_DEMO_14.png",
+  "stamina": 3,
+  "usedIn": [
+   "Potion_speed_craft",
+   "Potion_stamina_craft"
+  ],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "BARMAN_TITLE",
+   "MACHINE_TITLE"
+  ]
+ },
+ {
+  "id": "FungDrop",
+  "cls": "ItemHealthPotion",
+  "type": "Food",
+  "nameKey": "ITEM_FUNGI_NAME",
+  "descKey": "ITEM_FUNGI_DESC",
+  "fallbackName": "FungDrop",
+  "buy": 10,
+  "sell": 5,
+  "stack": 32,
+  "consumable": true,
+  "icon": "Enemy_Drops__Enemy_Drops_2.png",
+  "heal": 1,
+  "usedIn": [
+   "donutsMistico"
+  ],
+  "madeBy": [],
+  "sources": [
+   {
+    "kind": "monster",
+    "table": "FungiLootTable",
+    "rarity": "rare",
+    "monster": "fungi"
+   }
+  ],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "SHOP_TITLE"
+  ]
+ },
+ {
+  "id": "Geleia Safira",
+  "cls": "ItemHealthPotion",
+  "type": "Food",
+  "nameKey": "GELEIASAFIRA_TITLE",
+  "descKey": "GELEIASAFIRA_DESC",
+  "fallbackName": "Geleia de Morango",
+  "buy": 35,
+  "sell": 17,
+  "stack": 32,
+  "consumable": true,
+  "icon": "Food_Icons__Food_Icons_293.png",
+  "heal": 4,
+  "usedIn": [],
+  "madeBy": [
+   "geleiaberrySafiraCraft"
+  ],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "geleiaBerry",
+  "cls": "ItemHealthPotion",
+  "type": "Food",
+  "nameKey": "GELEIABERRY_TITLE",
+  "descKey": "GELEIABERRY_DESC",
+  "fallbackName": "Geleia de Morango",
+  "buy": 35,
+  "sell": 17,
+  "stack": 32,
+  "consumable": true,
+  "icon": "Food_Icons__Geleia_Berry.png",
+  "heal": 4,
+  "usedIn": [],
+  "madeBy": [
+   "geleiaberryCraft"
+  ],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "geleiamorango",
+  "cls": "ItemHealthPotion",
+  "type": "Food",
+  "nameKey": "ITEM_STRAWBERRYJAM_TITLE",
+  "descKey": "ITEM_STRAWBERRYJAM_DESC",
+  "fallbackName": "Geleia de Morango",
+  "buy": 35,
+  "sell": 17,
+  "stack": 32,
+  "consumable": true,
+  "icon": "Food_Icons__GeleiaMorango.png",
+  "heal": 9,
+  "usedIn": [],
+  "madeBy": [
+   "geleiamorango"
+  ],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "geleiaUva",
+  "cls": "ItemHealthPotion",
+  "type": "Food",
+  "nameKey": "GELEIAUVA_TITLE",
+  "descKey": "GELEIAUVA_DESC",
+  "fallbackName": "Geleia de Morango",
+  "buy": 35,
+  "sell": 17,
+  "stack": 32,
+  "consumable": true,
+  "icon": "Food_Icons__Food_Icons_271.png",
+  "heal": 9,
+  "usedIn": [],
+  "madeBy": [
+   "geleiaUva"
+  ],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "grape",
+  "cls": "ItemHealthPotion",
+  "type": "Food",
+  "nameKey": "ITEM_GRAPE_TITLE",
+  "descKey": "ITEM_GRAPE_DESC",
+  "fallbackName": "grape",
+  "buy": 35,
+  "sell": 17,
+  "stack": 32,
+  "consumable": true,
+  "icon": "Crops_Objects__Grapes.png",
+  "heal": 3,
+  "usedIn": [
+   "geleiaUva",
+   "sucodeuva",
+   "vinho"
+  ],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "hotdog",
+  "cls": "ItemHealthPotion",
+  "type": "Food",
+  "nameKey": "ITEM_HOTDOG_TITLE",
+  "descKey": "ITEM_HOTDOG_DESC",
+  "fallbackName": "hotdog",
+  "buy": 25,
+  "sell": 10,
+  "stack": 32,
+  "consumable": true,
+  "icon": "Food_Icons__hotdog.png",
+  "heal": 3,
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "HOTDOG_VAN_TITLE"
+  ]
+ },
+ {
+  "id": "Milkshake",
+  "cls": "ItemHealthPotion",
+  "type": "Food",
+  "nameKey": "ITEM_MILKSHAKE_NAME",
+  "descKey": "ITEM_MILKSHAKE_DESC",
+  "fallbackName": "Milkshake",
+  "buy": 25,
+  "sell": 10,
+  "stack": 32,
+  "consumable": true,
+  "icon": "comidasPurrCafe__comidasPurrCafe_129.png",
+  "heal": 3,
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [
+   {
+    "kind": "breakable",
+    "table": "BarrilLootTable",
+    "rarity": "rare",
+    "monster": null
+   },
+   {
+    "kind": "breakable",
+    "table": "TrashLootTable",
+    "rarity": "rare",
+    "monster": null
+   },
+   {
+    "kind": "dungeon",
+    "table": "DungeonComumLootTable",
+    "rarity": "rare",
+    "monster": null
+   },
+   {
+    "kind": "dungeon",
+    "table": "DungeonDifícilLootTable 1",
+    "rarity": "rare",
+    "monster": null
+   }
+  ],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "BARMAN_TITLE"
+  ]
+ },
+ {
+  "id": "Oniguiri",
+  "cls": "ItemHealthPotion",
+  "type": "Food",
+  "nameKey": "ITEM_ONIGIRI_NAME",
+  "descKey": "ITEM_ONIGIRI_DESC",
+  "fallbackName": "Oniguiri",
+  "buy": 25,
+  "sell": 10,
+  "stack": 32,
+  "consumable": true,
+  "icon": "World_of_Solaria_Food_and_Drink_Icons_Update_01_DEMO__World_of_Solaria_Food_and_Drink_Icons_Update_01_DEMO_7.png",
+  "heal": 3,
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [
+   {
+    "kind": "breakable",
+    "table": "BarrilLootTable",
+    "rarity": "rare",
+    "monster": null
+   },
+   {
+    "kind": "breakable",
+    "table": "TrashLootTable",
+    "rarity": "rare",
+    "monster": null
+   },
+   {
+    "kind": "dungeon",
+    "table": "DungeonComumLootTable",
+    "rarity": "rare",
+    "monster": null
+   },
+   {
+    "kind": "dungeon",
+    "table": "DungeonDifícilLootTable 1",
+    "rarity": "rare",
+    "monster": null
+   }
+  ],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "SHOP_TITLE"
+  ]
+ },
+ {
+  "id": "ovoFrito",
+  "cls": "ItemHealthPotion",
+  "type": "Food",
+  "nameKey": "OVO_FRITO_TITLE",
+  "descKey": "OVO_FRITO_DESC",
+  "fallbackName": "Oniguiri",
+  "buy": 25,
+  "sell": 10,
+  "stack": 32,
+  "consumable": true,
+  "icon": "Food_Icons__Food_Icons_653.png",
+  "heal": 4,
+  "usedIn": [
+   "waffle"
+  ],
+  "madeBy": [
+   "ovoFrito"
+  ],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "pao",
+  "cls": "ItemHealthPotion",
+  "type": "Food",
+  "nameKey": "ITEM_BREAD_TITLE",
+  "descKey": "ITEM_BREAD_DESC",
+  "fallbackName": "pao",
+  "buy": 35,
+  "sell": 17,
+  "stack": 32,
+  "consumable": true,
+  "icon": "Food_Icons__Pao.png",
+  "heal": 3,
+  "usedIn": [
+   "Hamburger"
+  ],
+  "madeBy": [
+   "pao"
+  ],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "paodebatata",
+  "cls": "ItemHealthPotion",
+  "type": "Food",
+  "nameKey": "ITEM_POTATOBREAD_TITLE",
+  "descKey": "ITEM_POTATOBREAD_DESC",
+  "fallbackName": "Pão de batata",
+  "buy": 35,
+  "sell": 17,
+  "stack": 32,
+  "consumable": true,
+  "icon": "Food_Icons__PaoDebatata.png",
+  "heal": 4,
+  "usedIn": [],
+  "madeBy": [
+   "paobatat"
+  ],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "PeixeFrito",
+  "cls": "ItemHealthPotion",
+  "type": "Food",
+  "nameKey": "ITEM_FRIED_FISH_TITLE",
+  "descKey": "ITEM_FRIED_FISH_DESC",
+  "fallbackName": "Peixe Frito",
+  "buy": 50,
+  "sell": 25,
+  "stack": 32,
+  "consumable": true,
+  "icon": "Food_Icons__PeixeFrito.png",
+  "heal": 6,
+  "usedIn": [],
+  "madeBy": [
+   "peixefrito"
+  ],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "Picole",
+  "cls": "ItemHealthPotion",
+  "type": "Food",
+  "nameKey": "ITEM_PICOLE_TITLE",
+  "descKey": "ITEM_PICOLE_DESC",
+  "fallbackName": "Picole",
+  "buy": 20,
+  "sell": 10,
+  "stack": 32,
+  "consumable": true,
+  "icon": "Food_Icons__Food_Icons_445.png",
+  "heal": 2,
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "ICECREAM_TITLE"
+  ]
+ },
+ {
+  "id": "pipoca",
+  "cls": "ItemHealthPotion",
+  "type": "Food",
+  "nameKey": "ITEM_POPCORN_TITLE",
+  "descKey": "ITEM_POPCORN_DESC",
+  "fallbackName": "pipoca",
+  "buy": 35,
+  "sell": 17,
+  "stack": 32,
+  "consumable": true,
+  "icon": "Food_Icons__pipoca.png",
+  "heal": 6,
+  "usedIn": [],
+  "madeBy": [
+   "pipocaCraft"
+  ],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [
+    "Jaden"
+   ],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "Pizza",
+  "cls": "ItemHealthPotion",
+  "type": "Food",
+  "nameKey": "PIZZA_TITLE",
+  "descKey": "PIZZA_DESC",
+  "fallbackName": "Oniguiri",
+  "buy": 25,
+  "sell": 10,
+  "stack": 32,
+  "consumable": true,
+  "icon": "Food_Icons__Food_Icons_510.png",
+  "heal": 6,
+  "usedIn": [],
+  "madeBy": [
+   "pizza"
+  ],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "potion_damage",
+  "cls": "Potion",
+  "type": "Food",
+  "nameKey": "POTION_DAMAGE_NAME",
+  "descKey": "POTION_DAMAGE_DESC",
+  "fallbackName": "potion_damage",
+  "buy": 80,
+  "sell": 40,
+  "stack": 99,
+  "consumable": true,
+  "icon": "Potion_Icons__Potion_Icons_321.png",
+  "effects": [
+   {
+    "type": "DamageBoost",
+    "value": 1.5,
+    "duration": 8.0
+   }
+  ],
+  "usedIn": [],
+  "madeBy": [
+   "Potion_damager_craft"
+  ],
+  "sources": [],
+  "gifts": {
+   "loved": [
+    "MabelMoonbrook"
+   ],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "potion_defense",
+  "cls": "Potion",
+  "type": "Food",
+  "nameKey": "POTION_DEFENSE_NAME",
+  "descKey": "POTION_DEFENSE_DESC",
+  "fallbackName": "potion_defense",
+  "buy": 90,
+  "sell": 45,
+  "stack": 99,
+  "consumable": true,
+  "icon": "Potion_Icons__Potion_Icons_302.png",
+  "effects": [
+   {
+    "type": "DamageReduction",
+    "value": 0.3,
+    "duration": 12.0
+   }
+  ],
+  "usedIn": [],
+  "madeBy": [
+   "Potion_damage_reduce_craft"
+  ],
+  "sources": [],
+  "gifts": {
+   "loved": [
+    "MabelMoonbrook"
+   ],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "potion_experience",
+  "cls": "Potion",
+  "type": "Food",
+  "nameKey": "POTION_EXPERIENCE_NAME",
+  "descKey": "POTION_EXPERIENCE_DESC",
+  "fallbackName": "potion_experience",
+  "buy": 200,
+  "sell": 100,
+  "stack": 99,
+  "consumable": true,
+  "icon": "Potion_Icons__Potion_Icons_66.png",
+  "effects": [
+   {
+    "type": "ExperienceGain",
+    "value": 500.0,
+    "duration": 0.0
+   }
+  ],
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [
+    "MabelMoonbrook"
+   ],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "potion_health_basic",
+  "cls": "Potion",
+  "type": "Food",
+  "nameKey": "POTION_HEALTH_BASIC_NAME",
+  "descKey": "POTION_HEALTH_BASIC_DESC",
+  "fallbackName": "potion_health_basic",
+  "buy": 50,
+  "sell": 25,
+  "stack": 99,
+  "consumable": true,
+  "icon": "Potion_Icons__Potion_Icons_423.png",
+  "effects": [
+   {
+    "type": "HealthRegeneration",
+    "value": 2.0,
+    "duration": 3.0
+   }
+  ],
+  "usedIn": [],
+  "madeBy": [
+   "Potion_heal_small_craft",
+   "Potion_speed_craft"
+  ],
+  "sources": [],
+  "gifts": {
+   "loved": [
+    "MabelMoonbrook"
+   ],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [
+   "QUEST_BONE"
+  ],
+  "soldBy": []
+ },
+ {
+  "id": "potion_legendary",
+  "cls": "Potion",
+  "type": "Food",
+  "nameKey": "POTION_LEGENDARY_NAME",
+  "descKey": "POTION_LEGENDARY_DESC",
+  "fallbackName": "potion_legendary",
+  "buy": 500,
+  "sell": 250,
+  "stack": 99,
+  "consumable": true,
+  "icon": "Potion_Icons__Potion_Icons_467.png",
+  "effects": [
+   {
+    "type": "HealthRegeneration",
+    "value": 2.0,
+    "duration": 4.0
+   },
+   {
+    "type": "StaminaRegeneration",
+    "value": 3.0,
+    "duration": 5.0
+   },
+   {
+    "type": "SpeedBoost",
+    "value": 1.3,
+    "duration": 10.0
+   },
+   {
+    "type": "DamageBoost",
+    "value": 1.2,
+    "duration": 10.0
+   },
+   {
+    "type": "DamageReduction",
+    "value": 0.2,
+    "duration": 10.0
+   }
+  ],
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [
+    "MabelMoonbrook"
+   ],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [
+   "QUEST_RAT_TAIL_EMERALD"
+  ],
+  "soldBy": []
+ },
+ {
+  "id": "potion_speed",
+  "cls": "Potion",
+  "type": "Food",
+  "nameKey": "POTION_SPEED_NAME",
+  "descKey": "POTION_SPEED_DESC",
+  "fallbackName": "potion_speed",
+  "buy": 75,
+  "sell": 35,
+  "stack": 99,
+  "consumable": true,
+  "icon": "Potion_Icons__Potion_Icons_259.png",
+  "effects": [
+   {
+    "type": "SpeedBoost",
+    "value": 1.5,
+    "duration": 10.0
+   }
+  ],
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [
+    "MabelMoonbrook"
+   ],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "potion_stamina",
+  "cls": "Potion",
+  "type": "Food",
+  "nameKey": "POTION_STAMINA_NAME",
+  "descKey": "POTION_STAMINA_DESC",
+  "fallbackName": "potion_stamina",
+  "buy": 40,
+  "sell": 20,
+  "stack": 99,
+  "consumable": true,
+  "icon": "Potion_Icons__Potion_Icons_100.png",
+  "effects": [
+   {
+    "type": "StaminaRegeneration",
+    "value": 2.0,
+    "duration": 5.0
+   }
+  ],
+  "usedIn": [],
+  "madeBy": [
+   "Potion_stamina_craft"
+  ],
+  "sources": [],
+  "gifts": {
+   "loved": [
+    "MabelMoonbrook"
+   ],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "sanduiche",
+  "cls": "ItemHealthPotion",
+  "type": "Food",
+  "nameKey": "ITEM_SANDWICH_TITLE",
+  "descKey": "ITEM_SANDWICH_DESC",
+  "fallbackName": "sanduiche",
+  "buy": 35,
+  "sell": 17,
+  "stack": 32,
+  "consumable": true,
+  "icon": "Food_Icons__sanduiche.png",
+  "heal": 9,
+  "usedIn": [],
+  "madeBy": [
+   "Hamburger"
+  ],
+  "sources": [],
+  "gifts": {
+   "loved": [
+    "Jaden"
+   ],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "SardinhaGrelhada",
+  "cls": "ItemHealthPotion",
+  "type": "Food",
+  "nameKey": "ITEM_GRILLED_SARDINE_TITLE",
+  "descKey": "ITEM_GRILLED_SARDINE_DESC",
+  "fallbackName": "Sardinha Grelhada",
+  "buy": 50,
+  "sell": 25,
+  "stack": 32,
+  "consumable": true,
+  "icon": "Food_Icons__Sardinha_assada.png",
+  "heal": 6,
+  "usedIn": [],
+  "madeBy": [
+   "sardinhaAssada"
+  ],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "Soda",
+  "cls": "ItemStaminaPotion",
+  "type": "Food",
+  "nameKey": "ITEM_SODA_NAME",
+  "descKey": "ITEM_SODA_DESC",
+  "fallbackName": "Soda",
+  "buy": 10,
+  "sell": 5,
+  "stack": 32,
+  "consumable": true,
+  "icon": "comidasPurrCafe__comidasPurrCafe_48.png",
+  "stamina": 3,
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [
+   {
+    "kind": "dog",
+    "table": "DogLoottable",
+    "rarity": "common",
+    "monster": null
+   },
+   {
+    "kind": "breakable",
+    "table": "BarrilLootTable",
+    "rarity": "rare",
+    "monster": null
+   },
+   {
+    "kind": "breakable",
+    "table": "TrashLootTable",
+    "rarity": "common",
+    "monster": null
+   },
+   {
+    "kind": "monster",
+    "table": "Bat1LootTable",
+    "rarity": "rare",
+    "monster": "bat"
+   },
+   {
+    "kind": "monster",
+    "table": "Ghost1LootTable",
+    "rarity": "rare",
+    "monster": "Ghost1"
+   },
+   {
+    "kind": "monster",
+    "table": "GoblinLootTable",
+    "rarity": "rare",
+    "monster": "goblinPequeno"
+   },
+   {
+    "kind": "monster",
+    "table": "SkeletonLootTable",
+    "rarity": "rare",
+    "monster": "skeleton"
+   },
+   {
+    "kind": "monster",
+    "table": "SlimeLootTable",
+    "rarity": "rare",
+    "monster": "slime"
+   },
+   {
+    "kind": "monster",
+    "table": "SnakeLootTable",
+    "rarity": "rare",
+    "monster": "snake"
+   },
+   {
+    "kind": "monster",
+    "table": "zombieLootTable",
+    "rarity": "rare",
+    "monster": "zombie"
+   },
+   {
+    "kind": "metaldetector",
+    "table": "BeahItem",
+    "rarity": "common",
+    "monster": null
+   },
+   {
+    "kind": "dungeon",
+    "table": "DungeonComumLootTable",
+    "rarity": "common",
+    "monster": null
+   },
+   {
+    "kind": "dungeon",
+    "table": "DungeonDifícilLootTable 1",
+    "rarity": "common",
+    "monster": null
+   }
+  ],
+  "gifts": {
+   "loved": [
+    "Marcus"
+   ],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "BARMAN_TITLE",
+   "MACHINE_TITLE",
+   "HOTDOG_VAN_TITLE"
+  ]
+ },
+ {
+  "id": "sopaAbobora",
+  "cls": "ItemHealthPotion",
+  "type": "Food",
+  "nameKey": "ITEM_PUMPKINSOUP_TITLE",
+  "descKey": "ITEM_PUMPKINSOUP_DESC",
+  "fallbackName": "sopaAbobora",
+  "buy": 35,
+  "sell": 17,
+  "stack": 32,
+  "consumable": true,
+  "icon": "Food_Icons__SopaAbobora.png",
+  "heal": 9,
+  "usedIn": [],
+  "madeBy": [
+   "sopaAbobora"
+  ],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "Sorvete",
+  "cls": "ItemHealthPotion",
+  "type": "Food",
+  "nameKey": "ITEM_ICECREAM_TITLE",
+  "descKey": "ITEM_ICECREAM_DESC",
+  "fallbackName": "Sorvete",
+  "buy": 20,
+  "sell": 10,
+  "stack": 32,
+  "consumable": true,
+  "icon": "Food_Icons__Food_Icons_496.png",
+  "heal": 2,
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [
+    "Victor"
+   ],
+   "liked": [
+    "Minelli"
+   ],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "ICECREAM_TITLE"
+  ]
+ },
+ {
+  "id": "Strawberry",
+  "cls": "ItemHealthPotion",
+  "type": "Food",
+  "nameKey": "ITEM_STRAWBERRY_TITLE",
+  "descKey": "ITEM_STRAWBERRY_DESC",
+  "fallbackName": "Strawberry",
+  "buy": 35,
+  "sell": 17,
+  "stack": 32,
+  "consumable": true,
+  "icon": "Crops_Objects__Strawberry.png",
+  "heal": 3,
+  "usedIn": [
+   "geleiamorango"
+  ],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "strawberry_drink",
+  "cls": "ItemStaminaPotion",
+  "type": "Food",
+  "nameKey": "ITEM_STAWBERRYDRINK_NAME",
+  "descKey": "ITEM_STAWBERRYDRINK_DESC",
+  "fallbackName": "Suco de Morango",
+  "buy": 15,
+  "sell": 7,
+  "stack": 32,
+  "consumable": true,
+  "icon": "comidasPurrCafe__comidasPurrCafe_47.png",
+  "stamina": 4,
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "BARMAN_TITLE"
+  ]
+ },
+ {
+  "id": "sucouva",
+  "cls": "ItemStaminaPotion",
+  "type": "Food",
+  "nameKey": "ITEM_GRAPEJUICE_TITLE",
+  "descKey": "ITEM_GRAPEJUICE_DESC",
+  "fallbackName": "sucouva",
+  "buy": 10,
+  "sell": 5,
+  "stack": 32,
+  "consumable": true,
+  "icon": "Food_Icons__sucodeuva.png",
+  "stamina": 7,
+  "usedIn": [],
+  "madeBy": [
+   "sucodeuva"
+  ],
+  "sources": [],
+  "gifts": {
+   "loved": [
+    "Marcus"
+   ],
+   "liked": [
+    "Jaden"
+   ],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "BARMAN_TITLE"
+  ]
+ },
+ {
+  "id": "sushi",
+  "cls": "ItemHealthPotion",
+  "type": "Food",
+  "nameKey": "ITEM_SUSHI_NAME",
+  "descKey": "ITEM_SUSHI_DESC",
+  "fallbackName": "Sushi",
+  "buy": 35,
+  "sell": 17,
+  "stack": 32,
+  "consumable": true,
+  "icon": "comidasPurrCafe__comidasPurrCafe_6.png",
+  "heal": 4,
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [
+   {
+    "kind": "breakable",
+    "table": "BarrilLootTable",
+    "rarity": "rare",
+    "monster": null
+   }
+  ],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "BARMAN_TITLE"
+  ]
+ },
+ {
+  "id": "taco",
+  "cls": "ItemHealthPotion",
+  "type": "Food",
+  "nameKey": "ITEM_TACO_NAME",
+  "descKey": "ITEM_TACO_DESC",
+  "fallbackName": "Taco",
+  "buy": 25,
+  "sell": 10,
+  "stack": 32,
+  "consumable": true,
+  "icon": "comidasPurrCafe__comidasPurrCafe_7.png",
+  "heal": 3,
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [
+   {
+    "kind": "dungeon",
+    "table": "DungeonComumLootTable",
+    "rarity": "common",
+    "monster": null
+   },
+   {
+    "kind": "dungeon",
+    "table": "DungeonDifícilLootTable 1",
+    "rarity": "common",
+    "monster": null
+   }
+  ],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "BARMAN_TITLE"
+  ]
+ },
+ {
+  "id": "TilapiaGrelhada",
+  "cls": "ItemHealthPotion",
+  "type": "Food",
+  "nameKey": "ITEM_TILAPIAASSADA_TITLE",
+  "descKey": "ITEM_TILAPIAASSADA_DESC",
+  "fallbackName": "TilapiaGrelhada",
+  "buy": 70,
+  "sell": 35,
+  "stack": 32,
+  "consumable": true,
+  "icon": "Food_Icons__TilapiaAssada.png",
+  "heal": 4,
+  "usedIn": [],
+  "madeBy": [
+   "TilapiaAssadaCraft"
+  ],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "tomato",
+  "cls": "ItemHealthPotion",
+  "type": "Food",
+  "nameKey": "ITEM_TOMATO_TITLE",
+  "descKey": "ITEM_TOMATO_DESC",
+  "fallbackName": "tomato",
+  "buy": 35,
+  "sell": 17,
+  "stack": 32,
+  "consumable": true,
+  "icon": "Solaria_Crops_DEMO__Solaria_Crops_DEMO_58.png",
+  "heal": 3,
+  "usedIn": [
+   "Hamburger",
+   "pizza"
+  ],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "tortaabobora",
+  "cls": "ItemHealthPotion",
+  "type": "Food",
+  "nameKey": "ITEM_PUMPKINPIE_TITLE",
+  "descKey": "ITEM_PUMPKINPIE_DESC",
+  "fallbackName": "tortaabobora",
+  "buy": 35,
+  "sell": 17,
+  "stack": 32,
+  "consumable": true,
+  "icon": "Food_Icons__TortaAbobora.png",
+  "heal": 9,
+  "usedIn": [],
+  "madeBy": [
+   "tortaabobora"
+  ],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "tortaBerry",
+  "cls": "ItemHealthPotion",
+  "type": "Food",
+  "nameKey": "TORTABERRY_TITLE",
+  "descKey": "TORTABERRY_DESC",
+  "fallbackName": "tortaabobora",
+  "buy": 35,
+  "sell": 17,
+  "stack": 32,
+  "consumable": true,
+  "icon": "Food_Icons__Torta_berry.png",
+  "heal": 9,
+  "usedIn": [],
+  "madeBy": [
+   "tortaBerryCraft"
+  ],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "Turbix",
+  "cls": "ItemStaminaPotion",
+  "type": "Food",
+  "nameKey": "ITEM_TURBIX_NAME",
+  "descKey": "ITEM_TURBIX_DESC",
+  "fallbackName": "Turbix",
+  "buy": 30,
+  "sell": 15,
+  "stack": 32,
+  "consumable": true,
+  "icon": "comidasPurrCafe__comidasPurrCafe_71.png",
+  "stamina": 15,
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [
+   {
+    "kind": "dog",
+    "table": "DogLoottable",
+    "rarity": "legendary",
+    "monster": null
+   },
+   {
+    "kind": "metaldetector",
+    "table": "BeahItem",
+    "rarity": "legendary",
+    "monster": null
+   },
+   {
+    "kind": "metaldetector",
+    "table": "BeahItemRare",
+    "rarity": "rare",
+    "monster": null
+   },
+   {
+    "kind": "dungeon",
+    "table": "DungeonComumLootTable",
+    "rarity": "common",
+    "monster": null
+   },
+   {
+    "kind": "dungeon",
+    "table": "DungeonDifícilLootTable 1",
+    "rarity": "common",
+    "monster": null
+   }
+  ],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "BARMAN_TITLE"
+  ]
+ },
+ {
+  "id": "Turnip",
+  "cls": "ItemHealthPotion",
+  "type": "Food",
+  "nameKey": "ITEM_TURNIP_TITLE",
+  "descKey": "ITEM_TURNIP_DESC",
+  "fallbackName": "Turnip",
+  "buy": 35,
+  "sell": 17,
+  "stack": 32,
+  "consumable": true,
+  "icon": "Crops_Objects__Turnip.png",
+  "heal": 3,
+  "usedIn": [
+   "Hamburger",
+   "ensopado",
+   "filetrutaarcoiris"
+  ],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "vinho",
+  "cls": "ItemStaminaPotion",
+  "type": "Food",
+  "nameKey": "ITEM_WINE_TITLE",
+  "descKey": "ITEM_WINE_DESC",
+  "fallbackName": "vinho",
+  "buy": 10,
+  "sell": 5,
+  "stack": 32,
+  "consumable": true,
+  "icon": "Food_Icons__Vinho.png",
+  "stamina": 10,
+  "usedIn": [],
+  "madeBy": [
+   "vinho"
+  ],
+  "sources": [],
+  "gifts": {
+   "loved": [
+    "Marcus"
+   ],
+   "liked": [
+    "Minelli"
+   ],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "waffle",
+  "cls": "ItemHealthPotion",
+  "type": "Food",
+  "nameKey": "WAFFLE_TITLE",
+  "descKey": "WAFFLE_DESC",
+  "fallbackName": "Oniguiri",
+  "buy": 25,
+  "sell": 10,
+  "stack": 32,
+  "consumable": true,
+  "icon": "Food_Icons__Food_Icons_499.png",
+  "heal": 4,
+  "usedIn": [],
+  "madeBy": [
+   "waffle"
+  ],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "cadeiramadeira",
+  "cls": "PlaceableItem",
+  "type": "Placeable",
+  "nameKey": "ITEM_CHAIR_WOOD_TITLE",
+  "descKey": "ITEM_CHAIR_WOOD_DESC",
+  "fallbackName": "Cadeira de Madeira",
+  "buy": 0,
+  "sell": 0,
+  "stack": 1,
+  "consumable": true,
+  "icon": "Icons__Icons_85.png",
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "camaverdemilitar",
+  "cls": "PlaceableItem",
+  "type": "Placeable",
+  "nameKey": "ITEM_BED_DOUBLE_MILITARY_TITLE",
+  "descKey": "ITEM_BED_DOUBLE_MILITARY_DESC",
+  "fallbackName": "Cama Casal Verde",
+  "buy": 0,
+  "sell": 0,
+  "stack": 1,
+  "consumable": true,
+  "icon": "Icons__Icons_856.png",
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "farmPlot",
+  "cls": "PlaceableItem",
+  "type": "Placeable",
+  "nameKey": "ITEM_FARM_PLOT_TITLE",
+  "descKey": "ITEM_FARM_PLOT_DESC",
+  "fallbackName": "FarmPlot",
+  "buy": 5,
+  "sell": 0,
+  "stack": 32,
+  "consumable": true,
+  "icon": "Crops_Icons__Crops_Icons_57.png",
+  "usedIn": [],
+  "madeBy": [
+   "farmPllot"
+  ],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "SHOP_TITLE"
+  ]
+ },
+ {
+  "id": "HalloweenPunpkin1",
+  "cls": "PlaceableItem",
+  "type": "Placeable",
+  "nameKey": "ITEM_HALLOWEEN_PUMPKIN_TITLE",
+  "descKey": "ITEM_HALLOWEEN_PUMPKIN_DESC",
+  "fallbackName": "Haloweeen pumpkin",
+  "buy": 0,
+  "sell": 0,
+  "stack": 1,
+  "consumable": true,
+  "icon": "Halloween_Assets__Halloween_Assets_11.png",
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "HalloweenPunpkin2",
+  "cls": "PlaceableItem",
+  "type": "Placeable",
+  "nameKey": "ITEM_HALLOWEEN_PUMPKIN_TITLE",
+  "descKey": "ITEM_HALLOWEEN_PUMPKIN_DESC",
+  "fallbackName": "Haloweeen pumpkin",
+  "buy": 0,
+  "sell": 0,
+  "stack": 1,
+  "consumable": true,
+  "icon": "Halloween_Assets__Halloween_Assets_12.png",
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "INTERACTICLE_CRAFTTABLE",
+  "cls": "PlaceableItem",
+  "type": "Placeable",
+  "nameKey": "ITEM_CRAFTING_TABLE_TITLE",
+  "descKey": "ITEM_CRAFTING_TABLE_DESC",
+  "fallbackName": "Workbench",
+  "buy": 0,
+  "sell": 0,
+  "stack": 1,
+  "consumable": true,
+  "icon": "Crafting_Stations__Crafting_Stations_39.png",
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "ITEM_ABAJUR_AZUL",
+  "cls": "PlaceableItem",
+  "type": "Placeable",
+  "nameKey": "ITEM_LAMP_TALL_BLUE_TITLE",
+  "descKey": "ITEM_LAMP_TALL_BLUE_DESC",
+  "fallbackName": "Abajur",
+  "buy": 0,
+  "sell": 0,
+  "stack": 1,
+  "consumable": true,
+  "icon": "Icons__Icons_1224.png",
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "ITEM_CHEST",
+  "cls": "PlaceableItem",
+  "type": "Placeable",
+  "nameKey": "ITEM_CHEST_TITLE",
+  "descKey": "ITEM_CHEST_DESC",
+  "fallbackName": "Baú",
+  "buy": 0,
+  "sell": 0,
+  "stack": 1,
+  "consumable": true,
+  "icon": "Icons__Icons_773.png",
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "ITEM_FRIDGE_WHITE",
+  "cls": "PlaceableItem",
+  "type": "Placeable",
+  "nameKey": "ITEM_FRIDGE_WHITE_TITLE",
+  "descKey": "ITEM_FRIDGE_WHITE_DESC",
+  "fallbackName": "Geladeira",
+  "buy": 0,
+  "sell": 0,
+  "stack": 1,
+  "consumable": true,
+  "icon": "Icons__Icons_370.png",
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "ITEM_TREE_POT",
+  "cls": "PlaceableItem",
+  "type": "Placeable",
+  "nameKey": "ITEM_TREE_FRUIT_POT_TITLE",
+  "descKey": "ITEM_TREE_FRUIT_POT_DESC",
+  "fallbackName": "Arvore Bonsai",
+  "buy": 0,
+  "sell": 0,
+  "stack": 1,
+  "consumable": true,
+  "icon": "Icons__Icons_3339.png",
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "ITEM_TREE_POT_ROUND",
+  "cls": "PlaceableItem",
+  "type": "Placeable",
+  "nameKey": "ITEM_TREE_FRUIT_ROUNDED_POT_TITLE",
+  "descKey": "ITEM_TREE_FRUIT_ROUNDED_POT_DESC",
+  "fallbackName": "Arvore Bonsai Redonda",
+  "buy": 0,
+  "sell": 0,
+  "stack": 1,
+  "consumable": true,
+  "icon": "Icons__Icons_3337.png",
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "mesajantarverdemilitar",
+  "cls": "PlaceableItem",
+  "type": "Placeable",
+  "nameKey": "ITEM_TABLE_MILITARY_TITLE",
+  "descKey": "ITEM_TABLE_MILITARY_DESC",
+  "fallbackName": "Mesa verde",
+  "buy": 0,
+  "sell": 0,
+  "stack": 1,
+  "consumable": true,
+  "icon": "Icons__Icons_848.png",
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "sofaduploverdemilitar",
+  "cls": "PlaceableItem",
+  "type": "Placeable",
+  "nameKey": "ITEM_SOFA_G_MILITARY_TITLE",
+  "descKey": "ITEM_SOFA_G_MILITARY_DESC",
+  "fallbackName": "Sofá Verde Grande",
+  "buy": 0,
+  "sell": 0,
+  "stack": 1,
+  "consumable": true,
+  "icon": "Icons__Icons_3448.png",
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "sofaverdemilitar",
+  "cls": "PlaceableItem",
+  "type": "Placeable",
+  "nameKey": "ITEM_SOFA_MILITARY_TITLE",
+  "descKey": "ITEM_SOFA_MILITARY_DESC",
+  "fallbackName": "Sofá verde",
+  "buy": 0,
+  "sell": 0,
+  "stack": 1,
+  "consumable": true,
+  "icon": "Icons__Icons_851.png",
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "Ametista",
+  "cls": "ItemExtra",
+  "type": "Ingredients",
+  "nameKey": "ITEM_AMETIST_NAME",
+  "descKey": "ITEM_AMETIST_DESC",
+  "fallbackName": "Ametista",
+  "buy": 75,
+  "sell": 35,
+  "stack": 64,
+  "consumable": false,
+  "icon": "Crafting_Materials_Objects_Updated_0c__Crafting_Materials_Objects_Updated_0c_943.png",
+  "usedIn": [
+   "AmetistSword"
+  ],
+  "madeBy": [],
+  "sources": [
+   {
+    "kind": "breakable",
+    "table": "BarrilLootTable",
+    "rarity": "rare",
+    "monster": null
+   },
+   {
+    "kind": "breakable",
+    "table": "Minério de Ametista",
+    "rarity": "common",
+    "monster": null
+   },
+   {
+    "kind": "breakable",
+    "table": "TrashLootTable",
+    "rarity": "rare",
+    "monster": null
+   },
+   {
+    "kind": "dungeon",
+    "table": "DungeonComumLootTable",
+    "rarity": "rare",
+    "monster": null
+   },
+   {
+    "kind": "dungeon",
+    "table": "DungeonDifícilLootTable 1",
+    "rarity": "rare",
+    "monster": null
+   }
+  ],
+  "gifts": {
+   "loved": [
+    "Darius"
+   ],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "BLACKSMITH_TITLE"
+  ]
+ },
+ {
+  "id": "Bateria",
+  "cls": "ItemExtra",
+  "type": "Ingredients",
+  "nameKey": "ITEM_BATTERY_TITLE",
+  "descKey": "ITEM_BATTERY_DESC",
+  "fallbackName": "Bateria",
+  "buy": 15,
+  "sell": 7,
+  "stack": 64,
+  "consumable": false,
+  "icon": "Crafting_Material_Icons__bateria.png",
+  "usedIn": [
+   "detectorMetal"
+  ],
+  "madeBy": [],
+  "sources": [
+   {
+    "kind": "dog",
+    "table": "DogLoottable",
+    "rarity": "rare",
+    "monster": null
+   },
+   {
+    "kind": "breakable",
+    "table": "TrashLootTable",
+    "rarity": "rare",
+    "monster": null
+   },
+   {
+    "kind": "metaldetector",
+    "table": "BeahItem",
+    "rarity": "rare",
+    "monster": null
+   }
+  ],
+  "gifts": {
+   "loved": [
+    "Victor"
+   ],
+   "liked": [],
+   "disliked": [
+    "Minelli",
+    "Wade",
+    "Darius",
+    "Milo",
+    "Lupi",
+    "Jaden",
+    "Lyla",
+    "MabelMoonbrook",
+    "Marcus",
+    "Selene",
+    "Max"
+   ]
+  },
+  "questRewards": [],
+  "soldBy": [
+   "SHOP_TITLE"
+  ]
+ },
+ {
+  "id": "Carvao",
+  "cls": "ItemExtra",
+  "type": "Ingredients",
+  "nameKey": "ITEM_COAL_NAME",
+  "descKey": "ITEM_COAL_DESC",
+  "fallbackName": "Carvão",
+  "buy": 20,
+  "sell": 10,
+  "stack": 64,
+  "consumable": false,
+  "icon": "Crafting_Materials_Objects_Updated_0c__Crafting_Materials_Objects_Updated_0c_432.png",
+  "usedIn": [
+   "GoldIngot",
+   "IronIngot",
+   "bombCraft"
+  ],
+  "madeBy": [
+   "CarvaoCraft"
+  ],
+  "sources": [
+   {
+    "kind": "breakable",
+    "table": "BarrilLootTable",
+    "rarity": "common",
+    "monster": null
+   },
+   {
+    "kind": "breakable",
+    "table": "Carvão",
+    "rarity": "common",
+    "monster": null
+   },
+   {
+    "kind": "dungeon",
+    "table": "DungeonComumLootTable",
+    "rarity": "common",
+    "monster": null
+   },
+   {
+    "kind": "dungeon",
+    "table": "DungeonDifícilLootTable 1",
+    "rarity": "common",
+    "monster": null
+   }
+  ],
+  "gifts": {
+   "loved": [],
+   "liked": [
+    "Darius"
+   ],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "BLACKSMITH_TITLE"
+  ]
+ },
+ {
+  "id": "Chromita",
+  "cls": "ItemExtra",
+  "type": "Ingredients",
+  "nameKey": "ITEM_CHROMITA_NAME",
+  "descKey": "ITEM_CHROMITA_DESC",
+  "fallbackName": "Chromita",
+  "buy": 150,
+  "sell": 75,
+  "stack": 64,
+  "consumable": false,
+  "icon": "Crafting_Materials_Objects_Updated_0c__Crafting_Materials_Objects_Updated_0c_944.png",
+  "usedIn": [
+   "ChromiteAxe",
+   "ChromitePickAxe"
+  ],
+  "madeBy": [],
+  "sources": [
+   {
+    "kind": "breakable",
+    "table": "Minério de Chromita",
+    "rarity": "common",
+    "monster": null
+   },
+   {
+    "kind": "dungeon",
+    "table": "DungeonComumLootTable",
+    "rarity": "legendary",
+    "monster": null
+   },
+   {
+    "kind": "dungeon",
+    "table": "DungeonDifícilLootTable 1",
+    "rarity": "legendary",
+    "monster": null
+   }
+  ],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "BLACKSMITH_TITLE"
+  ]
+ },
+ {
+  "id": "corda",
+  "cls": "ItemExtra",
+  "type": "Ingredients",
+  "nameKey": "ITEM_CORDA_TITLE",
+  "descKey": "ITEM_CORDA_DESC",
+  "fallbackName": "corda",
+  "buy": 10,
+  "sell": 5,
+  "stack": 64,
+  "consumable": false,
+  "icon": "Crafting_Material_Icons__corda.png",
+  "usedIn": [
+   "AmuletoCasaCraft",
+   "AmuletoCaveCraft",
+   "woodAxe",
+   "woodPickaxe"
+  ],
+  "madeBy": [
+   "Rope"
+  ],
+  "sources": [
+   {
+    "kind": "fishing",
+    "table": "FishAguaDoce",
+    "rarity": "common",
+    "monster": null
+   },
+   {
+    "kind": "fishing",
+    "table": "FishAguaSalgada",
+    "rarity": "common",
+    "monster": null
+   }
+  ],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "CPU",
+  "cls": "ItemExtra",
+  "type": "Ingredients",
+  "nameKey": "ITEM_CPU_TITLE",
+  "descKey": "ITEM_CPU_DESC",
+  "fallbackName": "CPU",
+  "buy": 10,
+  "sell": 5,
+  "stack": 64,
+  "consumable": false,
+  "icon": "Crafting_Material_Icons__cpu.png",
+  "usedIn": [
+   "detectorMetal"
+  ],
+  "madeBy": [
+   "CPU"
+  ],
+  "sources": [
+   {
+    "kind": "breakable",
+    "table": "TrashLootTable",
+    "rarity": "rare",
+    "monster": null
+   }
+  ],
+  "gifts": {
+   "loved": [
+    "Victor"
+   ],
+   "liked": [],
+   "disliked": [
+    "Minelli",
+    "Wade",
+    "Darius",
+    "Milo",
+    "Lupi",
+    "Jaden",
+    "Lyla",
+    "MabelMoonbrook",
+    "Marcus",
+    "Selene",
+    "Max"
+   ]
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "DiamanteRosa",
+  "cls": "ItemExtra",
+  "type": "Ingredients",
+  "nameKey": "ITEM_PINKDIAM_NAME",
+  "descKey": "ITEM_PINKDIAM_DESC",
+  "fallbackName": "Diamante Rosa",
+  "buy": 100,
+  "sell": 50,
+  "stack": 64,
+  "consumable": false,
+  "icon": "Crafting_Materials_Objects_Updated_0c__Crafting_Materials_Objects_Updated_0c_811.png",
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [
+   {
+    "kind": "breakable",
+    "table": "Minério de Diamante",
+    "rarity": "common",
+    "monster": null
+   },
+   {
+    "kind": "dungeon",
+    "table": "DungeonComumLootTable",
+    "rarity": "legendary",
+    "monster": null
+   },
+   {
+    "kind": "dungeon",
+    "table": "DungeonDifícilLootTable 1",
+    "rarity": "legendary",
+    "monster": null
+   }
+  ],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "BLACKSMITH_TITLE"
+  ]
+ },
+ {
+  "id": "egg",
+  "cls": "ItemExtra",
+  "type": "Ingredients",
+  "nameKey": "EGG_TITLE",
+  "descKey": "EGG_DESC",
+  "fallbackName": "Blue Big Flower",
+  "buy": 5,
+  "sell": 2,
+  "stack": 64,
+  "consumable": false,
+  "icon": "Food_Icons__Food_Icons_327.png",
+  "usedIn": [
+   "ovoFrito",
+   "pizza"
+  ],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "Esmeralma",
+  "cls": "ItemExtra",
+  "type": "Ingredients",
+  "nameKey": "ITEM_ESMERALMA_NAME",
+  "descKey": "ITEM_ESMERALMA_DESC",
+  "fallbackName": "Esmeralma",
+  "buy": 100,
+  "sell": 50,
+  "stack": 64,
+  "consumable": false,
+  "icon": "Crafting_Materials_Objects_Updated_0c__Crafting_Materials_Objects_Updated_0c_809.png",
+  "usedIn": [
+   "SoulmetistSword"
+  ],
+  "madeBy": [],
+  "sources": [
+   {
+    "kind": "breakable",
+    "table": "Minério de Esmeralma",
+    "rarity": "common",
+    "monster": null
+   },
+   {
+    "kind": "dungeon",
+    "table": "DungeonComumLootTable",
+    "rarity": "legendary",
+    "monster": null
+   },
+   {
+    "kind": "dungeon",
+    "table": "DungeonDifícilLootTable 1",
+    "rarity": "legendary",
+    "monster": null
+   }
+  ],
+  "gifts": {
+   "loved": [
+    "Darius"
+   ],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "BLACKSMITH_TITLE"
+  ]
+ },
+ {
+  "id": "Ferro",
+  "cls": "ItemExtra",
+  "type": "Ingredients",
+  "nameKey": "ITEM_IRON_INGOT_NAME",
+  "descKey": "ITEM_IRON_INGOT_DESC",
+  "fallbackName": "Ferro",
+  "buy": 55,
+  "sell": 25,
+  "stack": 64,
+  "consumable": false,
+  "icon": "Crafting_Materials_Objects_Updated_0c__Crafting_Materials_Objects_Updated_0c_394.png",
+  "usedIn": [
+   "AmuletoCasaCraft",
+   "AmuletoCaveCraft",
+   "CPU",
+   "ChromiteAxe",
+   "ChromitePickAxe",
+   "IronAxe",
+   "IronPickAxe",
+   "detectorMetal"
+  ],
+  "madeBy": [
+   "IronIngot"
+  ],
+  "sources": [
+   {
+    "kind": "metaldetector",
+    "table": "BeahItemRare",
+    "rarity": "common",
+    "monster": null
+   }
+  ],
+  "gifts": {
+   "loved": [
+    "Darius"
+   ],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "BLACKSMITH_TITLE"
+  ]
+ },
+ {
+  "id": "goldOre",
+  "cls": "ItemExtra",
+  "type": "Ingredients",
+  "nameKey": "ITEM_GOLD_ORE_TITLE",
+  "descKey": "ITEM_GOLD_ORE_DESC",
+  "fallbackName": "goldOre",
+  "buy": 25,
+  "sell": 10,
+  "stack": 64,
+  "consumable": false,
+  "icon": "Crafting_Material_Icons__goldOre.png",
+  "usedIn": [
+   "GoldIngot"
+  ],
+  "madeBy": [],
+  "sources": [
+   {
+    "kind": "dog",
+    "table": "DogLoottable",
+    "rarity": "rare",
+    "monster": null
+   },
+   {
+    "kind": "breakable",
+    "table": "Minério de ouro",
+    "rarity": "common",
+    "monster": null
+   },
+   {
+    "kind": "metaldetector",
+    "table": "BeahItem",
+    "rarity": "rare",
+    "monster": null
+   }
+  ],
+  "gifts": {
+   "loved": [],
+   "liked": [
+    "Darius"
+   ],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "BLACKSMITH_TITLE"
+  ]
+ },
+ {
+  "id": "IronOre",
+  "cls": "ItemExtra",
+  "type": "Ingredients",
+  "nameKey": "ITEM_IRON_ORE_TITLE",
+  "descKey": "ITEM_IRON_ORE_DESC",
+  "fallbackName": "ironOre",
+  "buy": 15,
+  "sell": 5,
+  "stack": 64,
+  "consumable": false,
+  "icon": "Crafting_Material_Icons__IronOre.png",
+  "usedIn": [
+   "IronIngot",
+   "bombCraft"
+  ],
+  "madeBy": [],
+  "sources": [
+   {
+    "kind": "dog",
+    "table": "DogLoottable",
+    "rarity": "common",
+    "monster": null
+   },
+   {
+    "kind": "breakable",
+    "table": "Minério de ferro",
+    "rarity": "common",
+    "monster": null
+   },
+   {
+    "kind": "metaldetector",
+    "table": "BeahItem",
+    "rarity": "common",
+    "monster": null
+   }
+  ],
+  "gifts": {
+   "loved": [],
+   "liked": [
+    "Darius"
+   ],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "BLACKSMITH_TITLE"
+  ]
+ },
+ {
+  "id": "Oleo vegetal",
+  "cls": "ItemExtra",
+  "type": "Ingredients",
+  "nameKey": "ITEM_OIL_TITLE",
+  "descKey": "ITEM_OIL_DESC",
+  "fallbackName": "Oleo vegetal",
+  "buy": 20,
+  "sell": 10,
+  "stack": 64,
+  "consumable": false,
+  "icon": "Food_Icons__Oleo.png",
+  "usedIn": [
+   "batatafritaCraft",
+   "ovoFrito",
+   "peixefrito",
+   "pipocaCraft"
+  ],
+  "madeBy": [
+   "OleoCraft"
+  ],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "OleoCoco",
+  "cls": "ItemExtra",
+  "type": "Ingredients",
+  "nameKey": "ITEM_COCONUT_OIL_TITLE",
+  "descKey": "ITEM_COCONUT_OIL_DESC",
+  "fallbackName": "Oleo vegetal",
+  "buy": 20,
+  "sell": 10,
+  "stack": 64,
+  "consumable": false,
+  "icon": "Food_Icons__Food_Icons_189.png",
+  "usedIn": [
+   "batatafritaCraft",
+   "ovoFrito",
+   "peixefrito",
+   "pipocaCraft"
+  ],
+  "madeBy": [
+   "OleoCocoCraft"
+  ],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "Ouro",
+  "cls": "ItemExtra",
+  "type": "Ingredients",
+  "nameKey": "ITEM_GOLD_INGOT_NAME",
+  "descKey": "ITEM_GOLD_INGOT_DESC",
+  "fallbackName": "ouro",
+  "buy": 55,
+  "sell": 25,
+  "stack": 64,
+  "consumable": false,
+  "icon": "Crafting_Materials_Objects_Updated_0c__Crafting_Materials_Objects_Updated_0c_787.png",
+  "usedIn": [
+   "CPU",
+   "GoldSword"
+  ],
+  "madeBy": [
+   "GoldIngot"
+  ],
+  "sources": [],
+  "gifts": {
+   "loved": [
+    "Darius"
+   ],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "BLACKSMITH_TITLE"
+  ]
+ },
+ {
+  "id": "papelUsado",
+  "cls": "ItemExtra",
+  "type": "Ingredients",
+  "nameKey": "ITEM_PAPEL_USADO_TITLE",
+  "descKey": "ITEM_PAPEL_USADO_DESC",
+  "fallbackName": "Papel Usado",
+  "buy": 10,
+  "sell": 5,
+  "stack": 64,
+  "consumable": false,
+  "icon": "Crafting_Material_Icons__papel.png",
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [
+   {
+    "kind": "breakable",
+    "table": "TrashLootTable",
+    "rarity": "common",
+    "monster": null
+   }
+  ],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": [
+    "Minelli",
+    "Wade",
+    "Darius",
+    "Milo",
+    "Lupi",
+    "Victor",
+    "Jaden",
+    "Lyla",
+    "MabelMoonbrook",
+    "Marcus",
+    "Selene",
+    "Max"
+   ]
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "pedra",
+  "cls": "ItemExtra",
+  "type": "Ingredients",
+  "nameKey": "ITEM_STONE_NAME",
+  "descKey": "ITEM_STONE_DESC",
+  "fallbackName": "Pedra",
+  "buy": 10,
+  "sell": 5,
+  "stack": 64,
+  "consumable": false,
+  "icon": "Crafting_Materials_Objects_Updated_0c__Crafting_Materials_Objects_Updated_0c_356.png",
+  "usedIn": [
+   "Common Arrow"
+  ],
+  "madeBy": [],
+  "sources": [
+   {
+    "kind": "breakable",
+    "table": "BarrilLootTable",
+    "rarity": "common",
+    "monster": null
+   },
+   {
+    "kind": "breakable",
+    "table": "PedraLootTable",
+    "rarity": "common",
+    "monster": null
+   }
+  ],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "BLACKSMITH_TITLE"
+  ]
+ },
+ {
+  "id": "Wheat",
+  "cls": "ItemExtra",
+  "type": "Ingredients",
+  "nameKey": "ITEM_WHEAT_TITLE",
+  "descKey": "ITEM_WHEAT_DESC",
+  "fallbackName": "Wheat",
+  "buy": 2,
+  "sell": 1,
+  "stack": 64,
+  "consumable": false,
+  "icon": "Crops_Objects__wheat.png",
+  "usedIn": [
+   "bolocenoura",
+   "donutsMistico",
+   "pao",
+   "paobatat",
+   "pizza",
+   "tortaBerryCraft",
+   "tortaabobora",
+   "waffle"
+  ],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [
+    "Milo"
+   ],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "guide",
+  "cls": "ItemGuide1",
+  "type": "Guidebook",
+  "nameKey": "ITEM_GUIDE_NAME",
+  "descKey": "ITEM_GUIDE_DESC",
+  "fallbackName": "Guia do Aventureiro",
+  "buy": 0,
+  "sell": 0,
+  "stack": 1,
+  "consumable": false,
+  "icon": "Crafting_Materials_Objects_Updated_0c__guidebook.png",
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "SHOP_TITLE"
+  ]
+ },
+ {
+  "id": "AmuletoCasa",
+  "cls": "ItemTeleport",
+  "type": "Treasure",
+  "nameKey": "ITEM_TRAVELAMULET_HOME_TITLE",
+  "descKey": "ITEM_TRAVELAMULET_HOME_DESC",
+  "fallbackName": "Amuleto de Viagem: Lar",
+  "buy": 250,
+  "sell": 110,
+  "stack": 12,
+  "consumable": true,
+  "icon": "Tool_Icons__AmuletoCasa.png",
+  "teleport": "RayyHouse",
+  "usedIn": [],
+  "madeBy": [
+   "AmuletoCasaCraft"
+  ],
+  "sources": [
+   {
+    "kind": "dog",
+    "table": "DogLoottable",
+    "rarity": "legendary",
+    "monster": null
+   },
+   {
+    "kind": "breakable",
+    "table": "BarrilLootTable",
+    "rarity": "legendary",
+    "monster": null
+   },
+   {
+    "kind": "breakable",
+    "table": "TrashLootTable",
+    "rarity": "legendary",
+    "monster": null
+   },
+   {
+    "kind": "monster",
+    "table": "Bat1LootTable",
+    "rarity": "legendary",
+    "monster": "bat"
+   },
+   {
+    "kind": "monster",
+    "table": "GoblinLootTable",
+    "rarity": "legendary",
+    "monster": "goblinPequeno"
+   },
+   {
+    "kind": "monster",
+    "table": "zombieLootTable",
+    "rarity": "legendary",
+    "monster": "zombie"
+   },
+   {
+    "kind": "metaldetector",
+    "table": "BeahItem",
+    "rarity": "legendary",
+    "monster": null
+   },
+   {
+    "kind": "metaldetector",
+    "table": "BeahItemRare",
+    "rarity": "rare",
+    "monster": null
+   },
+   {
+    "kind": "dungeon",
+    "table": "DungeonComumLootTable",
+    "rarity": "legendary",
+    "monster": null
+   },
+   {
+    "kind": "dungeon",
+    "table": "DungeonDifícilLootTable 1",
+    "rarity": "rare",
+    "monster": null
+   },
+   {
+    "kind": "dungeon",
+    "table": "DungeonDifícilLootTable 1",
+    "rarity": "legendary",
+    "monster": null
+   },
+   {
+    "kind": "fishing",
+    "table": "FishAguaDoce",
+    "rarity": "legendary",
+    "monster": null
+   },
+   {
+    "kind": "fishing",
+    "table": "FishAguaSalgada",
+    "rarity": "legendary",
+    "monster": null
+   }
+  ],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "SHOP_TITLE"
+  ]
+ },
+ {
+  "id": "AmuletoCaverna",
+  "cls": "ItemTeleport",
+  "type": "Treasure",
+  "nameKey": "ITEM_TRAVELAMULET_CAVE_TITLE",
+  "descKey": "ITEM_TRAVELAMULET_CAVE_DESC",
+  "fallbackName": "Amuleto de Viagem: Caverna",
+  "buy": 250,
+  "sell": 110,
+  "stack": 12,
+  "consumable": true,
+  "icon": "Tool_Icons__AmuletoCave.png",
+  "teleport": "Cave",
+  "usedIn": [],
+  "madeBy": [
+   "AmuletoCaveCraft"
+  ],
+  "sources": [
+   {
+    "kind": "dog",
+    "table": "DogLoottable",
+    "rarity": "legendary",
+    "monster": null
+   },
+   {
+    "kind": "metaldetector",
+    "table": "BeahItem",
+    "rarity": "legendary",
+    "monster": null
+   },
+   {
+    "kind": "metaldetector",
+    "table": "BeahItemRare",
+    "rarity": "rare",
+    "monster": null
+   },
+   {
+    "kind": "fishing",
+    "table": "FishAguaDoce",
+    "rarity": "legendary",
+    "monster": null
+   },
+   {
+    "kind": "fishing",
+    "table": "FishAguaSalgada",
+    "rarity": "legendary",
+    "monster": null
+   }
+  ],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "SHOP_TITLE"
+  ]
+ },
+ {
+  "id": "AmuletoDungeon",
+  "cls": "ItemTeleport",
+  "type": "Treasure",
+  "nameKey": "ITEM_TRAVELAMULET_DUNGEON_TITLE",
+  "descKey": "ITEM_TRAVELAMULET_DUNGEON_DESC",
+  "fallbackName": "Amuleto de Viagem: Dungeon",
+  "buy": 250,
+  "sell": 110,
+  "stack": 12,
+  "consumable": true,
+  "icon": "Tool_Icons__AmuletoDungeon.png",
+  "teleport": "Dungeon",
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [
+   {
+    "kind": "dog",
+    "table": "DogLoottable",
+    "rarity": "legendary",
+    "monster": null
+   },
+   {
+    "kind": "breakable",
+    "table": "BarrilLootTable",
+    "rarity": "legendary",
+    "monster": null
+   },
+   {
+    "kind": "metaldetector",
+    "table": "BeahItem",
+    "rarity": "legendary",
+    "monster": null
+   },
+   {
+    "kind": "metaldetector",
+    "table": "BeahItemRare",
+    "rarity": "rare",
+    "monster": null
+   }
+  ],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "SHOP_TITLE"
+  ]
+ },
+ {
+  "id": "AmuletoPraia",
+  "cls": "ItemTeleport",
+  "type": "Treasure",
+  "nameKey": "ITEM_TRAVELAMULET_BEACH_TITLE",
+  "descKey": "ITEM_TRAVELAMULET_BEACH_DESC",
+  "fallbackName": "Amuleto de Viagem: Praia",
+  "buy": 250,
+  "sell": 110,
+  "stack": 12,
+  "consumable": true,
+  "icon": "Tool_Icons__AmuletoPraia.png",
+  "teleport": "Beach",
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [
+   {
+    "kind": "dog",
+    "table": "DogLoottable",
+    "rarity": "legendary",
+    "monster": null
+   },
+   {
+    "kind": "breakable",
+    "table": "BarrilLootTable",
+    "rarity": "legendary",
+    "monster": null
+   },
+   {
+    "kind": "metaldetector",
+    "table": "BeahItem",
+    "rarity": "legendary",
+    "monster": null
+   },
+   {
+    "kind": "metaldetector",
+    "table": "BeahItemRare",
+    "rarity": "rare",
+    "monster": null
+   }
+  ],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "SHOP_TITLE"
+  ]
+ },
+ {
+  "id": "AsaDeMorcego",
+  "cls": "ItemExtra",
+  "type": "Treasure",
+  "nameKey": "ITEM_BATWING_NAME",
+  "descKey": "ITEM_BATWING_DESC",
+  "fallbackName": "Asa de Morcego",
+  "buy": 8,
+  "sell": 4,
+  "stack": 64,
+  "consumable": false,
+  "icon": "Crafting_Materials_Objects_Updated_0c__Crafting_Materials_Objects_Updated_0c_1135.png",
+  "usedIn": [
+   "Potion_damager_craft"
+  ],
+  "madeBy": [],
+  "sources": [
+   {
+    "kind": "monster",
+    "table": "Bat1LootTable",
+    "rarity": "rare",
+    "monster": "bat"
+   }
+  ],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "SHOP_TITLE"
+  ]
+ },
+ {
+  "id": "bomb",
+  "cls": "ItemMiniBomb",
+  "type": "Treasure",
+  "nameKey": "ITEM_MINIBOMB_TITLE",
+  "descKey": "ITEM_MINIBOMB_DESC",
+  "fallbackName": "bomb",
+  "buy": 30,
+  "sell": 15,
+  "stack": 8,
+  "consumable": true,
+  "icon": "bomb__bomb_1.png",
+  "tool": "All",
+  "harvestDamage": 10,
+  "usedIn": [],
+  "madeBy": [
+   "bombCraft"
+  ],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "BLACKSMITH_TITLE"
+  ]
+ },
+ {
+  "id": "Bone",
+  "cls": "ItemExtra",
+  "type": "Treasure",
+  "nameKey": "ITEM_BONE_NAME",
+  "descKey": "ITEM_BONE_DESC",
+  "fallbackName": "Bone",
+  "buy": 10,
+  "sell": 5,
+  "stack": 64,
+  "consumable": false,
+  "icon": "Crafting_Materials_Objects_Updated_0c__Crafting_Materials_Objects_Updated_0c_466.png",
+  "usedIn": [
+   "Potion_damage_reduce_craft",
+   "Potion_heal_small_craft"
+  ],
+  "madeBy": [],
+  "sources": [
+   {
+    "kind": "monster",
+    "table": "SkeletonLootTable",
+    "rarity": "rare",
+    "monster": "skeleton"
+   }
+  ],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "ColarDaTorre",
+  "cls": "ItemTeleport",
+  "type": "Treasure",
+  "nameKey": "ITEM_TOWER_NECKLACE_TITLE",
+  "descKey": "ITEM_TOWER_NECKLACE_DESC",
+  "fallbackName": "Amuleto de Viagem: Praia",
+  "buy": 250,
+  "sell": 0,
+  "stack": 12,
+  "consumable": true,
+  "icon": "image_1__ArcaniaTowerTp.png",
+  "teleport": "ArcaniaTower",
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "CommonArrow",
+  "cls": "InventoryItem",
+  "type": "Treasure",
+  "nameKey": "ITEM_COMMON_ARROW_TITLE",
+  "descKey": "ITEM_COMMON_ARROW_DESC",
+  "fallbackName": "CommonArrow",
+  "buy": 7,
+  "sell": 3,
+  "stack": 32,
+  "consumable": false,
+  "icon": "Zoe_Steel_ArrowIcon__Zoe_Steel_ArrowIcon.png",
+  "usedIn": [],
+  "madeBy": [
+   "Common Arrow"
+  ],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "SHOP_TITLE"
+  ]
+ },
+ {
+  "id": "conchaAzul",
+  "cls": "ItemExtra",
+  "type": "Treasure",
+  "nameKey": "ITEM_CONCHA_AZUL_TITLE",
+  "descKey": "ITEM_CONCHA_AZUL_DESC",
+  "fallbackName": "Purple Small Flower",
+  "buy": 10,
+  "sell": 5,
+  "stack": 64,
+  "consumable": false,
+  "icon": "Bch_Obj_01__ConchaAzul.png",
+  "usedIn": [
+   "Potion_speed_craft",
+   "Potion_stamina_craft"
+  ],
+  "madeBy": [],
+  "sources": [
+   {
+    "kind": "metaldetector",
+    "table": "BeahItem",
+    "rarity": "common",
+    "monster": null
+   }
+  ],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "conchaRosa",
+  "cls": "ItemExtra",
+  "type": "Treasure",
+  "nameKey": "ITEM_CONCHA_ROSA_TITLE",
+  "descKey": "ITEM_CONCHA_ROSA_DESC",
+  "fallbackName": "Purple Small Flower",
+  "buy": 10,
+  "sell": 5,
+  "stack": 64,
+  "consumable": false,
+  "icon": "Bch_Obj_01__ConchaRosa.png",
+  "usedIn": [
+   "Potion_heal_small_craft"
+  ],
+  "madeBy": [],
+  "sources": [
+   {
+    "kind": "metaldetector",
+    "table": "BeahItem",
+    "rarity": "common",
+    "monster": null
+   }
+  ],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "conchaRoxa",
+  "cls": "ItemExtra",
+  "type": "Treasure",
+  "nameKey": "ITEM_CONCHA_ROXA_TITLE",
+  "descKey": "ITEM_CONCHA_ROXA_DESC",
+  "fallbackName": "Purple Small Flower",
+  "buy": 10,
+  "sell": 5,
+  "stack": 64,
+  "consumable": false,
+  "icon": "Bch_Obj_01__ConchaRoxa.png",
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [
+   {
+    "kind": "metaldetector",
+    "table": "BeahItem",
+    "rarity": "common",
+    "monster": null
+   }
+  ],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "conchaVerde",
+  "cls": "ItemExtra",
+  "type": "Treasure",
+  "nameKey": "ITEM_CONCHA_VERDE_TITLE",
+  "descKey": "ITEM_CONCHA_VERDE_DESC",
+  "fallbackName": "Purple Small Flower",
+  "buy": 10,
+  "sell": 5,
+  "stack": 64,
+  "consumable": false,
+  "icon": "Bch_Obj_01__ConchaVerde.png",
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [
+   {
+    "kind": "metaldetector",
+    "table": "BeahItem",
+    "rarity": "common",
+    "monster": null
+   }
+  ],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "GoblinFangs",
+  "cls": "ItemExtra",
+  "type": "Treasure",
+  "nameKey": "ITEM_GOBLINFANG_NAME",
+  "descKey": "ITEM_GOBLINFANG_DESC",
+  "fallbackName": "Presas de Goblin",
+  "buy": 8,
+  "sell": 4,
+  "stack": 64,
+  "consumable": false,
+  "icon": "Crafting_Materials_Objects_Updated_0c__Crafting_Materials_Objects_Updated_0c_539.png",
+  "usedIn": [
+   "Potion_damager_craft"
+  ],
+  "madeBy": [],
+  "sources": [
+   {
+    "kind": "monster",
+    "table": "GoblinLootTable",
+    "rarity": "rare",
+    "monster": "goblinPequeno"
+   }
+  ],
+  "gifts": {
+   "loved": [],
+   "liked": [
+    "MabelMoonbrook"
+   ],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "SHOP_TITLE"
+  ]
+ },
+ {
+  "id": "GoldenKey",
+  "cls": "ItemExtra",
+  "type": "Treasure",
+  "nameKey": "ITEM_GOLDENKEY_NAME",
+  "descKey": "ITEM_GOLDENKEY_DESC",
+  "fallbackName": "Chave Dourada",
+  "buy": 100,
+  "sell": 50,
+  "stack": 64,
+  "consumable": false,
+  "icon": "Tool_Icons__Tool_Icons_62.png",
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [
+   {
+    "kind": "monster",
+    "table": "SnakeLootTable",
+    "rarity": "legendary",
+    "monster": "snake"
+   },
+   {
+    "kind": "monster",
+    "table": "zombieLootTable",
+    "rarity": "legendary",
+    "monster": "zombie"
+   },
+   {
+    "kind": "dungeon",
+    "table": "DungeonComumLootTable",
+    "rarity": "legendary",
+    "monster": null
+   },
+   {
+    "kind": "dungeon",
+    "table": "DungeonDifícilLootTable 1",
+    "rarity": "legendary",
+    "monster": null
+   }
+  ],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "isca",
+  "cls": "FishData",
+  "type": "Treasure",
+  "nameKey": "ITEM_ISCA_TITLE",
+  "descKey": "ITEM_ISCA_DESC",
+  "fallbackName": "isca",
+  "buy": 10,
+  "sell": 7,
+  "stack": 16,
+  "consumable": false,
+  "icon": "Fishing_Icons__Fishing_Icons_27.png",
+  "fish": {
+   "rarity": 0,
+   "nightOnly": false,
+   "xp": 10,
+   "locationKey": "LOCATION_OCEANO"
+  },
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "BAIT_SHOP"
+  ]
+ },
+ {
+  "id": "madeirarefinada",
+  "cls": "ItemExtra",
+  "type": "Treasure",
+  "nameKey": "ITEM_REFINEDWOOD_NAME",
+  "descKey": "ITEM_REFINEDWOOD_DESC",
+  "fallbackName": "Madeira Refinada",
+  "buy": 30,
+  "sell": 15,
+  "stack": 64,
+  "consumable": false,
+  "icon": "Crafting_Materials_Objects_Updated_0c__Crafting_Materials_Objects_Updated_0c_27.png",
+  "usedIn": [
+   "Common Arrow",
+   "IronAxe",
+   "IronPickAxe",
+   "woodAxe",
+   "woodPickaxe"
+  ],
+  "madeBy": [
+   "Woodlog"
+  ],
+  "sources": [],
+  "gifts": {
+   "loved": [
+    "Wade"
+   ],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "PanoDeFantasma",
+  "cls": "ItemExtra",
+  "type": "Treasure",
+  "nameKey": "ITEM_GHOSTCLOTH_NAME",
+  "descKey": "ITEM_GHOSTCLOTH_DESC",
+  "fallbackName": "Pano de Fantasma",
+  "buy": 20,
+  "sell": 10,
+  "stack": 64,
+  "consumable": false,
+  "icon": "Enemy_Drops__Enemy_Drops_0.png",
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [
+   {
+    "kind": "monster",
+    "table": "Ghost1LootTable",
+    "rarity": "rare",
+    "monster": "Ghost1"
+   }
+  ],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "SHOP_TITLE"
+  ]
+ },
+ {
+  "id": "Parafuso",
+  "cls": "ItemExtra",
+  "type": "Treasure",
+  "nameKey": "ITEM_PARAFUSO_TITLE",
+  "descKey": "ITEM_PARAFUSO_DESC",
+  "fallbackName": "parafuso",
+  "buy": 10,
+  "sell": 5,
+  "stack": 64,
+  "consumable": false,
+  "icon": "Crafting_Material_Icons__parafuso.png",
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [
+   {
+    "kind": "dog",
+    "table": "DogLoottable",
+    "rarity": "common",
+    "monster": null
+   },
+   {
+    "kind": "breakable",
+    "table": "TrashLootTable",
+    "rarity": "common",
+    "monster": null
+   },
+   {
+    "kind": "metaldetector",
+    "table": "BeahItem",
+    "rarity": "common",
+    "monster": null
+   },
+   {
+    "kind": "fishing",
+    "table": "FishAguaDoce",
+    "rarity": "common",
+    "monster": null
+   },
+   {
+    "kind": "fishing",
+    "table": "FishAguaSalgada",
+    "rarity": "common",
+    "monster": null
+   }
+  ],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": [
+    "Minelli",
+    "Wade",
+    "Darius",
+    "Milo",
+    "Lupi",
+    "Victor",
+    "Jaden",
+    "Lyla",
+    "MabelMoonbrook",
+    "Marcus",
+    "Selene",
+    "Max"
+   ]
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "Rat Tail",
+  "cls": "ItemExtra",
+  "type": "Treasure",
+  "nameKey": "ITEM_RATTAIL_NAME",
+  "descKey": "ITEM_RATTAIL_DESC",
+  "fallbackName": "RatTail",
+  "buy": 10,
+  "sell": 5,
+  "stack": 64,
+  "consumable": false,
+  "icon": "Crafting_Materials_Objects_Updated_0c__Crafting_Materials_Objects_Updated_0c_610.png",
+  "usedIn": [
+   "Potion_speed_craft",
+   "Potion_stamina_craft"
+  ],
+  "madeBy": [],
+  "sources": [
+   {
+    "kind": "monster",
+    "table": "RatLootTable",
+    "rarity": "rare",
+    "monster": "rat"
+   }
+  ],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "SlimeBall",
+  "cls": "ItemExtra",
+  "type": "Treasure",
+  "nameKey": "ITEM_SLIMEBALL_NAME",
+  "descKey": "ITEM_SLIMEBALL_DESC",
+  "fallbackName": "Bola de Slime",
+  "buy": 8,
+  "sell": 4,
+  "stack": 64,
+  "consumable": false,
+  "icon": "Crafting_Materials_Objects_Updated_0c__Crafting_Materials_Objects_Updated_0c_927.png",
+  "usedIn": [
+   "Potion_damager_craft"
+  ],
+  "madeBy": [],
+  "sources": [
+   {
+    "kind": "monster",
+    "table": "SlimeLootTable",
+    "rarity": "rare",
+    "monster": "slime"
+   }
+  ],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "SHOP_TITLE"
+  ]
+ },
+ {
+  "id": "venenodecobra",
+  "cls": "ItemExtra",
+  "type": "Treasure",
+  "nameKey": "ITEM_SNAKEVENOM_TITLE",
+  "descKey": "ITEM_SNAKEVENOM_DESC",
+  "fallbackName": "Veneno de Cobra",
+  "buy": 10,
+  "sell": 5,
+  "stack": 64,
+  "consumable": false,
+  "icon": "Crafting_Material_Icons__Crafting_Material_Icons_16.png",
+  "usedIn": [
+   "Potion_damage_reduce_craft"
+  ],
+  "madeBy": [],
+  "sources": [
+   {
+    "kind": "monster",
+    "table": "SnakeLootTable",
+    "rarity": "rare",
+    "monster": "snake"
+   }
+  ],
+  "gifts": {
+   "loved": [],
+   "liked": [
+    "MabelMoonbrook"
+   ],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "SHOP_TITLE"
+  ]
+ },
+ {
+  "id": "WoodLog",
+  "cls": "ItemExtra",
+  "type": "Treasure",
+  "nameKey": "ITEM_WOODLOG_NAME",
+  "descKey": "ITEM_WOODLOG_DESC",
+  "fallbackName": "Tronco de Madeira",
+  "buy": 10,
+  "sell": 5,
+  "stack": 64,
+  "consumable": false,
+  "icon": "Crafting_Materials_Objects_Updated_0c__Crafting_Materials_Objects_Updated_0c_26.png",
+  "usedIn": [
+   "CarvaoCraft",
+   "Woodlog",
+   "woodAxe",
+   "woodPickaxe"
+  ],
+  "madeBy": [],
+  "sources": [
+   {
+    "kind": "breakable",
+    "table": "TrashLootTable",
+    "rarity": "common",
+    "monster": null
+   },
+   {
+    "kind": "dungeon",
+    "table": "DungeonComumLootTable",
+    "rarity": "common",
+    "monster": null
+   },
+   {
+    "kind": "dungeon",
+    "table": "DungeonDifícilLootTable 1",
+    "rarity": "common",
+    "monster": null
+   }
+  ],
+  "gifts": {
+   "loved": [
+    "Wade"
+   ],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "SHOP_TITLE"
+  ]
+ },
+ {
+  "id": "zombieBrain",
+  "cls": "ItemExtra",
+  "type": "Treasure",
+  "nameKey": "ITEM_ZOMBIEBRAINS_NAME",
+  "descKey": "ITEM_ZOMBIEBRAINS_DESC",
+  "fallbackName": "Cérebro de Zumbi",
+  "buy": 10,
+  "sell": 5,
+  "stack": 64,
+  "consumable": false,
+  "icon": "Crafting_Materials_Objects_Updated_0c__zombieBrain.png",
+  "usedIn": [
+   "Potion_damage_reduce_craft"
+  ],
+  "madeBy": [],
+  "sources": [
+   {
+    "kind": "monster",
+    "table": "zombieLootTable",
+    "rarity": "rare",
+    "monster": "zombie"
+   }
+  ],
+  "gifts": {
+   "loved": [
+    "Victor"
+   ],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "SHOP_TITLE"
+  ]
+ },
+ {
+  "id": "bigflowerblue",
+  "cls": "ItemExtra",
+  "type": "Flower",
+  "nameKey": "ITEM_FLOWER_FOREST_LARGE_BLUE_TITLE",
+  "descKey": "ITEM_FLOWER_FOREST_LARGE_BLUE_DESC",
+  "fallbackName": "Blue Big Flower",
+  "buy": 10,
+  "sell": 1,
+  "stack": 64,
+  "consumable": false,
+  "icon": "Flowers_Objects__Flowers_Objects_95.png",
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [
+   {
+    "kind": "gathering",
+    "table": "BlueBigFlowerLootTable 1",
+    "rarity": "common",
+    "monster": null
+   }
+  ],
+  "gifts": {
+   "loved": [
+    "Lupi"
+   ],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "SHOP_TITLE"
+  ]
+ },
+ {
+  "id": "bigflowerorange",
+  "cls": "ItemExtra",
+  "type": "Flower",
+  "nameKey": "ITEM_FLOWER_FOREST_LARGE_ORANGE_TITLE",
+  "descKey": "ITEM_FLOWER_FOREST_LARGE_ORANGE_DESC",
+  "fallbackName": "orange Big Flower",
+  "buy": 10,
+  "sell": 2,
+  "stack": 64,
+  "consumable": false,
+  "icon": "Flowers_Objects__Flowers_Objects_18.png",
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [
+   {
+    "kind": "gathering",
+    "table": "YellowBigFlowerLootTable 2",
+    "rarity": "common",
+    "monster": null
+   }
+  ],
+  "gifts": {
+   "loved": [
+    "Lupi"
+   ],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "SHOP_TITLE"
+  ]
+ },
+ {
+  "id": "bigflowerPurple",
+  "cls": "ItemExtra",
+  "type": "Flower",
+  "nameKey": "ITEM_FLOWER_FOREST_LARGE_PURPLE_TITLE",
+  "descKey": "ITEM_FLOWER_FOREST_LARGE_PURPLE_DESC",
+  "fallbackName": "Purple Big Flower",
+  "buy": 10,
+  "sell": 2,
+  "stack": 64,
+  "consumable": false,
+  "icon": "Flowers_Objects__Flowers_Objects_86.png",
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [
+   {
+    "kind": "gathering",
+    "table": "PurpleBigFlowerLootTable",
+    "rarity": "common",
+    "monster": null
+   }
+  ],
+  "gifts": {
+   "loved": [
+    "Lupi"
+   ],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "SHOP_TITLE"
+  ]
+ },
+ {
+  "id": "MYSTIC_MUSHROOM",
+  "cls": "ItemExtra",
+  "type": "Flower",
+  "nameKey": "ITEM_MYSTIC_MUSHROOM_TITLE",
+  "descKey": "ITEM_MYSTIC_MUSHROOM_DESC",
+  "fallbackName": "mystic mushroom",
+  "buy": 2,
+  "sell": 1,
+  "stack": 64,
+  "consumable": false,
+  "icon": "Mystic_Cave_Tiles__Mystic_Cave_Tiles_1044.png",
+  "usedIn": [
+   "donutsMistico"
+  ],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [
+    "MabelMoonbrook"
+   ],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "smallblueflower",
+  "cls": "ItemExtra",
+  "type": "Flower",
+  "nameKey": "ITEM_FLOWER_FOREST_SMALL_BLUE_TITLE",
+  "descKey": "ITEM_FLOWER_FOREST_SMALL_BLUE_DESC",
+  "fallbackName": "Blue Small Flower",
+  "buy": 2,
+  "sell": 1,
+  "stack": 64,
+  "consumable": false,
+  "icon": "Flowers_Objects__Flowers_Objects_150.png",
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [
+    "Lyla",
+    "Selene"
+   ],
+   "liked": [
+    "Lupi"
+   ],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "SHOP_TITLE"
+  ]
+ },
+ {
+  "id": "smallorangeflower",
+  "cls": "ItemExtra",
+  "type": "Flower",
+  "nameKey": "ITEM_FLOWER_FOREST_SMALL_ORANGE_TITLE",
+  "descKey": "ITEM_FLOWER_FOREST_SMALL_ORANGE_DESC",
+  "fallbackName": "Orange Small Flower",
+  "buy": 2,
+  "sell": 1,
+  "stack": 64,
+  "consumable": false,
+  "icon": "Flowers_Objects__Flowers_Objects_160.png",
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [
+    "Lyla",
+    "Selene"
+   ],
+   "liked": [
+    "Lupi"
+   ],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "SHOP_TITLE"
+  ]
+ },
+ {
+  "id": "smallpinkflower",
+  "cls": "ItemExtra",
+  "type": "Flower",
+  "nameKey": "ITEM_FLOWER_FOREST_SMALL_PINK_TITLE",
+  "descKey": "ITEM_FLOWER_FOREST_SMALL_PINK_DESC",
+  "fallbackName": "pink Small Flower",
+  "buy": 2,
+  "sell": 1,
+  "stack": 64,
+  "consumable": false,
+  "icon": "Flowers_Objects__Flowers_Objects_155.png",
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [
+    "Lyla",
+    "Selene"
+   ],
+   "liked": [
+    "Lupi"
+   ],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "SHOP_TITLE"
+  ]
+ },
+ {
+  "id": "smallpurpleflower",
+  "cls": "ItemExtra",
+  "type": "Flower",
+  "nameKey": "ITEM_FLOWER_FOREST_SMALL_PURPLE_TITLE",
+  "descKey": "ITEM_FLOWER_FOREST_SMALL_PURPLE_DESC",
+  "fallbackName": "Purple Small Flower",
+  "buy": 2,
+  "sell": 1,
+  "stack": 64,
+  "consumable": false,
+  "icon": "Flowers_Objects__Flowers_Objects_145.png",
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [
+    "Lyla",
+    "Selene"
+   ],
+   "liked": [
+    "Lupi"
+   ],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "SHOP_TITLE"
+  ]
+ },
+ {
+  "id": "sunflower",
+  "cls": "ItemExtra",
+  "type": "Flower",
+  "nameKey": "ITEM_SUNFLOWER_TITLE",
+  "descKey": "ITEM_SUNFLOWER_DESC",
+  "fallbackName": "sunflower",
+  "buy": 2,
+  "sell": 1,
+  "stack": 64,
+  "consumable": false,
+  "icon": "Flowers_Objects__sunfolwer.png",
+  "usedIn": [
+   "OleoCraft"
+  ],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [
+    "Lupi"
+   ],
+   "liked": [
+    "Milo"
+   ],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "Leaf",
+  "cls": "ItemExtra",
+  "type": "Plant",
+  "nameKey": "ITEM_LEAF_TITLE",
+  "descKey": "ITEM_LEAF_DESC",
+  "fallbackName": "Leaf",
+  "buy": 5,
+  "sell": 2,
+  "stack": 64,
+  "consumable": false,
+  "icon": "Crafting_Material_Icons__Crafting_Material_Icons_370.png",
+  "usedIn": [
+   "Potion_heal_small_craft",
+   "Rope",
+   "farmPllot"
+  ],
+  "madeBy": [],
+  "sources": [
+   {
+    "kind": "gathering",
+    "table": "GrassLootTable 1",
+    "rarity": "common",
+    "monster": null
+   }
+  ],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "PurpleLeaf",
+  "cls": "ItemExtra",
+  "type": "Plant",
+  "nameKey": "ITEM_ARCANIALEAF_TITLE",
+  "descKey": "ITEM_ARCANIALEAF_DESC",
+  "fallbackName": "Leaf",
+  "buy": 5,
+  "sell": 2,
+  "stack": 64,
+  "consumable": false,
+  "icon": "Crafting_Material_Icons__Crafting_Material_Icons_371.png",
+  "usedIn": [
+   "Potion_heal_small_craft",
+   "Rope",
+   "farmPllot"
+  ],
+  "madeBy": [],
+  "sources": [
+   {
+    "kind": "gathering",
+    "table": "PurpleGrassLootTable",
+    "rarity": "common",
+    "monster": null
+   }
+  ],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": []
+ },
+ {
+  "id": "Seed_abobora",
+  "cls": "SeedItem",
+  "type": "Plant",
+  "nameKey": "ITEM_SEED_PUMPKIN_TITLE",
+  "descKey": "ITEM_SEED_PUMPKIN_DESC",
+  "fallbackName": "Semente de Abóbora",
+  "buy": 20,
+  "sell": 10,
+  "stack": 16,
+  "consumable": false,
+  "icon": "Solaria_Crops_DEMO__Solaria_Crops_DEMO_29.png",
+  "tool": "Axe",
+  "harvestDamage": 1,
+  "plant": "DadosAbobora",
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [
+    "Milo"
+   ],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "SHOP_TITLE"
+  ]
+ },
+ {
+  "id": "Seed_batata",
+  "cls": "SeedItem",
+  "type": "Plant",
+  "nameKey": "ITEM_SEED_POTATO_TITLE",
+  "descKey": "ITEM_SEED_POTATO_DESC",
+  "fallbackName": "Semente de batata",
+  "buy": 20,
+  "sell": 10,
+  "stack": 16,
+  "consumable": false,
+  "icon": "Solaria_Crops_DEMO__Solaria_Crops_DEMO_43.png",
+  "tool": "Axe",
+  "harvestDamage": 1,
+  "plant": "DadosBatata",
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [
+    "Milo"
+   ],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "SHOP_TITLE"
+  ]
+ },
+ {
+  "id": "Seed_cebola",
+  "cls": "SeedItem",
+  "type": "Plant",
+  "nameKey": "ITEM_SEED_ONION_TITLE",
+  "descKey": "ITEM_SEED_ONION_DESC",
+  "fallbackName": "Semente de Cebola",
+  "buy": 20,
+  "sell": 10,
+  "stack": 16,
+  "consumable": false,
+  "icon": "Crops_Objects__Onion_Seed.png",
+  "tool": "Axe",
+  "harvestDamage": 1,
+  "plant": "Dadoscebola",
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [
+    "Milo"
+   ],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "SHOP_TITLE"
+  ]
+ },
+ {
+  "id": "Seed_cenoura",
+  "cls": "SeedItem",
+  "type": "Plant",
+  "nameKey": "ITEM_SEED_CARROT_TITLE",
+  "descKey": "ITEM_SEED_CARROT_DESC",
+  "fallbackName": "Semente de Cenoura",
+  "buy": 20,
+  "sell": 10,
+  "stack": 16,
+  "consumable": false,
+  "icon": "Solaria_Crops_DEMO__Solaria_Crops_DEMO_11.png",
+  "tool": "Axe",
+  "harvestDamage": 1,
+  "plant": "DadosCenoura",
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [
+    "Milo"
+   ],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "SHOP_TITLE"
+  ]
+ },
+ {
+  "id": "Seed_Girasol",
+  "cls": "SeedItem",
+  "type": "Plant",
+  "nameKey": "ITEM_SEED_SUNFLOWER_TITLE",
+  "descKey": "ITEM_SEED_SUNFLOWER_DESC",
+  "fallbackName": "Semente de Girassol",
+  "buy": 20,
+  "sell": 10,
+  "stack": 16,
+  "consumable": false,
+  "icon": "Crops_Objects__sunfolwer_seed.png",
+  "tool": "Axe",
+  "harvestDamage": 1,
+  "plant": "DadosGirasol",
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [
+    "Milo"
+   ],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "SHOP_TITLE"
+  ]
+ },
+ {
+  "id": "Seed_milho",
+  "cls": "SeedItem",
+  "type": "Plant",
+  "nameKey": "ITEM_SEED_CORN_TITLE",
+  "descKey": "ITEM_SEED_CORN_DESC",
+  "fallbackName": "Semente de Milho",
+  "buy": 20,
+  "sell": 10,
+  "stack": 16,
+  "consumable": false,
+  "icon": "Crops_Objects__Corn_seed.png",
+  "tool": "Axe",
+  "harvestDamage": 1,
+  "plant": "DadosDoMilho",
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [
+    "Milo"
+   ],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "SHOP_TITLE"
+  ]
+ },
+ {
+  "id": "Seed_morango",
+  "cls": "SeedItem",
+  "type": "Plant",
+  "nameKey": "ITEM_SEED_STRAWBERRY_TITLE",
+  "descKey": "ITEM_SEED_STRAWBERRY_DESC",
+  "fallbackName": "Semente de Morango",
+  "buy": 20,
+  "sell": 10,
+  "stack": 16,
+  "consumable": false,
+  "icon": "Crops_Objects__Strawberry_.png",
+  "tool": "Axe",
+  "harvestDamage": 1,
+  "plant": "DadosDoMorango",
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [
+    "Milo"
+   ],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "SHOP_TITLE"
+  ]
+ },
+ {
+  "id": "Seed_Nabo",
+  "cls": "SeedItem",
+  "type": "Plant",
+  "nameKey": "ITEM_SEED_TURNIP_TITLE",
+  "descKey": "ITEM_SEED_TURNIP_DESC",
+  "fallbackName": "Semente de Nabo",
+  "buy": 20,
+  "sell": 10,
+  "stack": 16,
+  "consumable": false,
+  "icon": "Crops_Objects__Turnip_Seed.png",
+  "tool": "Axe",
+  "harvestDamage": 1,
+  "plant": "DadosNabo",
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [
+    "Milo"
+   ],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "SHOP_TITLE"
+  ]
+ },
+ {
+  "id": "Seed_tomato",
+  "cls": "SeedItem",
+  "type": "Plant",
+  "nameKey": "ITEM_SEED_TOMATO_TITLE",
+  "descKey": "ITEM_SEED_TOMATO_DESC",
+  "fallbackName": "Semente de Tomate",
+  "buy": 20,
+  "sell": 10,
+  "stack": 16,
+  "consumable": false,
+  "icon": "Solaria_Crops_DEMO__Solaria_Crops_DEMO_59.png",
+  "tool": "Axe",
+  "harvestDamage": 1,
+  "plant": "DadosDoTomate",
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [
+    "Milo"
+   ],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "SHOP_TITLE"
+  ]
+ },
+ {
+  "id": "Seed_trigo",
+  "cls": "SeedItem",
+  "type": "Plant",
+  "nameKey": "ITEM_SEED_WHEAT_TITLE",
+  "descKey": "ITEM_SEED_WHEAT_DESC",
+  "fallbackName": "Semente de Trigo",
+  "buy": 20,
+  "sell": 10,
+  "stack": 16,
+  "consumable": false,
+  "icon": "Crops_Objects__wheat_seed.png",
+  "tool": "Axe",
+  "harvestDamage": 1,
+  "plant": "DadosTrigo",
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [
+    "Milo"
+   ],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "SHOP_TITLE"
+  ]
+ },
+ {
+  "id": "Seed_uva",
+  "cls": "SeedItem",
+  "type": "Plant",
+  "nameKey": "ITEM_SEED_GRAPE_TITLE",
+  "descKey": "ITEM_SEED_GRAPE_DESC",
+  "fallbackName": "Semente de Uva",
+  "buy": 20,
+  "sell": 10,
+  "stack": 16,
+  "consumable": false,
+  "icon": "Crops_Objects__Grapes_Seed.png",
+  "tool": "Axe",
+  "harvestDamage": 1,
+  "plant": "DadosDauva",
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [
+    "Milo"
+   ],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "SHOP_TITLE"
+  ]
+ },
+ {
+  "id": "CronicasDeRook",
+  "cls": "ItemLoreBook",
+  "type": "LoreBook",
+  "nameKey": "ITEM_BOOK_MAX_TITLE",
+  "descKey": "ITEM_BOOK_MAX_DESC",
+  "fallbackName": "CronicasDeRook",
+  "buy": 25,
+  "sell": 15,
+  "stack": 1,
+  "consumable": false,
+  "icon": "Icons__MaxRook.png",
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "BOOK_TITLE"
+  ]
+ },
+ {
+  "id": "DiarioLyla",
+  "cls": "ItemLoreBook",
+  "type": "LoreBook",
+  "nameKey": "ITEM_LYLA_DIARY_TITLE",
+  "descKey": "ITEM_LYLA_DIARY_DESC",
+  "fallbackName": "DiarioLyla",
+  "buy": 50,
+  "sell": 25,
+  "stack": 1,
+  "consumable": false,
+  "icon": "Icons__DiarioLyla.png",
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "BOOK_TITLE"
+  ]
+ },
+ {
+  "id": "GuiaDeJardinagem2",
+  "cls": "ItemPlantBook",
+  "type": "LoreBook",
+  "nameKey": "ITEM_GARDENINGGUIDE_TITLE",
+  "descKey": "ITEM_GARDENINGGUIDE_DESC",
+  "fallbackName": "GuiaDeJardinagem2",
+  "buy": 50,
+  "sell": 25,
+  "stack": 1,
+  "consumable": false,
+  "icon": "Icons__GuiaDeJardinagem.png",
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [
+    "Minelli"
+   ],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "BOOK_TITLE"
+  ]
+ },
+ {
+  "id": "ItemFishBook",
+  "cls": "ItemFishBook",
+  "type": "LoreBook",
+  "nameKey": "ITEM_FISHBOOK_TITLE",
+  "descKey": "ITEM_FISHBOOK_DESC",
+  "fallbackName": "ItemFishBook",
+  "buy": 50,
+  "sell": 25,
+  "stack": 1,
+  "consumable": false,
+  "icon": "Icons__FishBook.png",
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [
+    "Minelli"
+   ],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "BOOK_TITLE"
+  ]
+ },
+ {
+  "id": "MonsterBook",
+  "cls": "ItemMonsterBookGuide",
+  "type": "LoreBook",
+  "nameKey": "ITEM_BESTIARY_TITLE",
+  "descKey": "ITEM_BESTIARY_DESC",
+  "fallbackName": "MonsterBook",
+  "buy": 50,
+  "sell": 25,
+  "stack": 1,
+  "consumable": false,
+  "icon": "Icons__MonsterGuide.png",
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [
+    "Minelli"
+   ],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "BOOK_TITLE"
+  ]
+ },
+ {
+  "id": "Recipebook",
+  "cls": "ItemRecipeBook",
+  "type": "LoreBook",
+  "nameKey": "ITEM_CRAFTBOOK_TITLE",
+  "descKey": "ITEM_CRAFTBOOK_DESC",
+  "fallbackName": "Recipebook",
+  "buy": 50,
+  "sell": 0,
+  "stack": 1,
+  "consumable": false,
+  "icon": "Icons__CraftGuide.png",
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [],
+  "gifts": {
+   "loved": [
+    "Minelli"
+   ],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "BOOK_TITLE"
+  ]
+ },
+ {
+  "id": "chub",
+  "cls": "FishData",
+  "type": "Fish",
+  "nameKey": "ITEM_CHUB_TITLE",
+  "descKey": "ITEM_CHUB_DESC",
+  "fallbackName": "chub",
+  "buy": 50,
+  "sell": 25,
+  "stack": 16,
+  "consumable": false,
+  "icon": "Fishing_Icons__Fishing_Icons_25.png",
+  "fish": {
+   "rarity": 0,
+   "nightOnly": false,
+   "xp": 10,
+   "locationKey": "LOCATION_LAGO"
+  },
+  "usedIn": [
+   "EnsopadoPeixe"
+  ],
+  "madeBy": [],
+  "sources": [
+   {
+    "kind": "fishing",
+    "table": "FishAguaDoce",
+    "rarity": "common",
+    "monster": null
+   }
+  ],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "BAIT_SHOP"
+  ]
+ },
+ {
+  "id": "Herring",
+  "cls": "FishData",
+  "type": "Fish",
+  "nameKey": "ITEM_HERRING_TITLE",
+  "descKey": "ITEM_HERRING_DESC",
+  "fallbackName": "Herring",
+  "buy": 50,
+  "sell": 25,
+  "stack": 16,
+  "consumable": false,
+  "icon": "Fishing_Icons__Fishing_Icons_24.png",
+  "fish": {
+   "rarity": 0,
+   "nightOnly": false,
+   "xp": 10,
+   "locationKey": "LOCATION_OCEANO"
+  },
+  "usedIn": [],
+  "madeBy": [],
+  "sources": [
+   {
+    "kind": "fishing",
+    "table": "FishAguaSalgada",
+    "rarity": "common",
+    "monster": null
+   }
+  ],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "BAIT_SHOP"
+  ]
+ },
+ {
+  "id": "RainbowTrout",
+  "cls": "FishData",
+  "type": "Fish",
+  "nameKey": "ITEMRAINBOWTROUT_TITLE",
+  "descKey": "ITEMRAINBOWTROUT_DESC",
+  "fallbackName": "Rainbow Trout",
+  "buy": 50,
+  "sell": 25,
+  "stack": 16,
+  "consumable": false,
+  "icon": "Fishing_Icons__Fishing_Icons_11.png",
+  "fish": {
+   "rarity": 2,
+   "nightOnly": false,
+   "xp": 10,
+   "locationKey": "LOCATION_LAGO"
+  },
+  "usedIn": [
+   "filetrutaarcoiris"
+  ],
+  "madeBy": [],
+  "sources": [
+   {
+    "kind": "fishing",
+    "table": "FishAguaDoce",
+    "rarity": "rare",
+    "monster": null
+   }
+  ],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "BAIT_SHOP"
+  ]
+ },
+ {
+  "id": "Sardinha",
+  "cls": "FishData",
+  "type": "Fish",
+  "nameKey": "ITEM_SARDINHA_TITLE",
+  "descKey": "ITEM_SARDINHA_DESC",
+  "fallbackName": "Sardinha",
+  "buy": 50,
+  "sell": 25,
+  "stack": 16,
+  "consumable": false,
+  "icon": "Fishing_Icons__Fishing_Icons_0.png",
+  "fish": {
+   "rarity": 0,
+   "nightOnly": false,
+   "xp": 10,
+   "locationKey": "LOCATION_OCEANO"
+  },
+  "usedIn": [
+   "sardinhaAssada"
+  ],
+  "madeBy": [],
+  "sources": [
+   {
+    "kind": "fishing",
+    "table": "FishAguaSalgada",
+    "rarity": "common",
+    "monster": null
+   }
+  ],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "BAIT_SHOP"
+  ]
+ },
+ {
+  "id": "Tilapia",
+  "cls": "FishData",
+  "type": "Fish",
+  "nameKey": "ITEM_TILAPIA_TITLE",
+  "descKey": "ITEM_TILAPIA_DESC",
+  "fallbackName": "Tilapia",
+  "buy": 50,
+  "sell": 25,
+  "stack": 16,
+  "consumable": false,
+  "icon": "Fishing_Icons__Fishing_Icons_15.png",
+  "fish": {
+   "rarity": 0,
+   "nightOnly": false,
+   "xp": 10,
+   "locationKey": "LOCATION_LAGO"
+  },
+  "usedIn": [
+   "TilapiaAssadaCraft",
+   "peixefrito"
+  ],
+  "madeBy": [],
+  "sources": [
+   {
+    "kind": "fishing",
+    "table": "FishAguaDoce",
+    "rarity": "common",
+    "monster": null
+   }
+  ],
+  "gifts": {
+   "loved": [],
+   "liked": [],
+   "disliked": []
+  },
+  "questRewards": [],
+  "soldBy": [
+   "BAIT_SHOP"
+  ]
+ }
+]

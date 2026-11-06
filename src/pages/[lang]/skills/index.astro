@@ -1,0 +1,28 @@
+---
+import Base from '../../../layouts/Base.astro';
+import PageHead from '../../../components/PageHead.astro';
+import { LANGS, ui } from '../../../lib/i18n';
+import { skills, skillById, g } from '../../../lib/data';
+export function getStaticPaths() { return LANGS.map((l) => ({ params: { lang: l.slug }, props: { lang: l } })); }
+const { lang } = Astro.props;
+const t = (k: string) => ui(lang, k);
+const fx: Record<string, string> = { DamageUpgrade: '⚔ +', HealthUpgrade: '❤ +', ManaUpgrade: '⚡ +', CChanceUpgrade: '🎯 % +', CDamageUpgrade: '💥 % +', DodgeUpgrade: '💨 % +', RegenValue: '♻ +', DropChanceMultiplier: '🍀 ×+' };
+---
+<Base lang={lang} title={t('skills')} path="skills/">
+  <PageHead lang={lang} cat="skills" title={t('skills')} />
+  <div class="grid wide">
+    {skills.map((s) => (
+      <section class="panel">
+        <div style="display:flex; gap:.8rem; align-items:center">
+          <span class="slot">{s.icon && <img src={`/sprites/${s.icon}`} alt="" loading="lazy" />}</span>
+          <div><h3 style="margin:0">{g(lang, s.nameKey, s.id)}</h3><small>{t('level')} {s.level} · {t('cost')} {s.cost}</small></div>
+        </div>
+        <p>{g(lang, s.descKey)}</p>
+        <div class="chips">
+          {Object.entries(s.effects).map(([k, v]) => <span class="chip" style="padding-left:.6rem">{fx[k] ? `${fx[k]}${v}` : k}</span>)}
+        </div>
+        {s.requires.length > 0 && <small>{t('requires')}: {s.requires.map((r: string) => g(lang, skillById.get(r)?.nameKey, r)).join(', ')}</small>}
+      </section>
+    ))}
+  </div>
+</Base>

@@ -1,0 +1,86 @@
+---
+import Base from '../../layouts/Base.astro';
+import ItemChip from '../../components/ItemChip.astro';
+import { LANGS, ui } from '../../lib/i18n';
+import { items, recipes, npcs, shops, plants, monsters, quests, skills, guide, NAV_GROUPS, catIcon, FEATURED_ITEMS, itemById, itemName, itemUrl, npcName, npcUrl, isSpoiler, LINKS } from '../../lib/data';
+export function getStaticPaths() { return LANGS.map((l) => ({ params: { lang: l.slug }, props: { lang: l } })); }
+const { lang } = Astro.props;
+const t = (k: string) => ui(lang, k);
+const fishCount = items.filter((i) => i.type === 'Fish' && i.fish && i.id !== 'isca').length;
+const residents = npcs.filter((n) => n.friendship);
+const counts: Record<string, number | string> = { items: items.length, crafting: recipes.length, characters: residents.length, shops: shops.length, plants: plants.length, fishing: fishCount, monsters: monsters.length, quests: quests.length, skills: skills.length, guide: guide.filter((g) => !g.note).length, map: '', mechanics: '' };
+const featured = FEATURED_ITEMS.map((id) => itemById.get(id)).filter(Boolean);
+---
+<Base lang={lang} title="" path="">
+  <section class="hero">
+    <img class="logo" src="/brand/logo.png" alt="Tales Of Bloomrise" />
+    <p>{t('tagline')}</p>
+    <button class="search-btn" type="button" data-open-search><span aria-hidden="true">🔍</span><span class="label">{t('search')}</span><kbd>/</kbd></button>
+    <div class="stats">
+      <span class="stat"><b>{items.length}</b>{t('items')}</span>
+      <span class="stat"><b>{recipes.length}</b>{t('recipes')}</span>
+      <span class="stat"><b>{residents.length}</b>{t('characters')}</span>
+      <span class="stat"><b>{monsters.length}</b>{t('monsters')}</span>
+      <span class="stat"><b>{quests.length}</b>{t('quests')}</span>
+    </div>
+  </section>
+
+  {NAV_GROUPS.map((grp) => (
+    <section class="group">
+      <h2>{t(grp.key)}</h2>
+      <div class="grid">
+        {grp.cats.map((c) => (
+          <a class="card tile" href={`/${lang.slug}/${c}/`}>
+            <div class="tile-row">
+              <span class="slot">{catIcon(c) && <img src={`/sprites/${catIcon(c)}`} alt="" />}</span>
+              <span class="t">{t(c)}</span>
+              <span class="count">{counts[c]}</span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
+  ))}
+
+  <section class="group">
+    <h2>{t('residents')}</h2>
+    <div class="residents">
+      {residents.map((n) => (
+        <a class={`card resident ${isSpoiler('npc', n.id) ? 'spoiler' : ''}`} href={npcUrl(lang, n.id)}>
+          <span class="slot">{n.icon && <img src={`/sprites/${n.icon}`} alt="" loading="lazy" />}</span>
+          <span class="t" style="font-size:.98rem">{npcName(lang, n)}</span>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <section class="group">
+    <h2>{t('popular')}</h2>
+    <div class="grid tight">
+      {featured.map((i: any) => (
+        <a class={`card ${isSpoiler('item', i.id) ? 'spoiler' : ''}`} href={itemUrl(lang, i.id)}>
+          <span class="slot">{i.icon && <img src={`/sprites/${i.icon}`} alt="" loading="lazy" />}</span>
+          <span><span class="t">{itemName(lang, i)}</span><small>{t(`t_${i.type}`)}</small></span>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <section class="group">
+    <h2>{t('map')}</h2>
+    <a class="map-teaser" href={`/${lang.slug}/map/`}>
+      <img class="px" src="/img/bloomrise.webp" alt="Bloomrise" loading="lazy" />
+      <span>Bloomrise</span>
+    </a>
+  </section>
+
+  <section class="group">
+    <h2>{t('community')}</h2>
+    <div class="chips">
+      <a class="btn" href={LINKS.steam} rel="noopener">Steam</a>
+      <a class="btn" href={LINKS.play} rel="noopener">Google Play</a>
+      <a class="btn" href={LINKS.discord} rel="noopener">Discord</a>
+      <a class="btn" href={LINKS.site} rel="noopener">{t('official')}</a>
+    </div>
+  </section>
+</Base>

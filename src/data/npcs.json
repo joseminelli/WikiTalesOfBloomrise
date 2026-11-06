@@ -1,0 +1,2854 @@
+[
+ {
+  "id": "Minelli",
+  "prefab": "J.Minelli",
+  "nameKey": "NPC_NAME_Minelli",
+  "schedule": [
+   {
+    "hour": 3.0,
+    "scene": "RayyHouse",
+    "points": [
+     "cozinhaRayy",
+     "quartoRayy"
+    ],
+    "activity": "Wander",
+    "goto": null
+   },
+   {
+    "hour": 6.9,
+    "scene": "RayyHouse",
+    "points": [
+     "saidaRayy"
+    ],
+    "activity": "Wander",
+    "goto": "World"
+   },
+   {
+    "hour": 7.1,
+    "scene": "World",
+    "points": [
+     "market_sell"
+    ],
+    "activity": "Stay",
+    "goto": null
+   },
+   {
+    "hour": 7.1,
+    "scene": "World",
+    "points": [
+     "market_sell"
+    ],
+    "activity": "Stay",
+    "goto": null
+   },
+   {
+    "hour": 15.0,
+    "scene": "World",
+    "points": [
+     "market_sell"
+    ],
+    "activity": "Stay",
+    "goto": null
+   },
+   {
+    "hour": 18.0,
+    "scene": "World",
+    "points": [
+     "rayyDoor"
+    ],
+    "activity": "Wander",
+    "goto": "RayyHouse"
+   },
+   {
+    "hour": 18.1,
+    "scene": "RayyHouse",
+    "points": [
+     "cozinhaRayy",
+     "quartoRayy"
+    ],
+    "activity": "Wander",
+    "goto": null
+   },
+   {
+    "hour": 22.0,
+    "scene": "RayyHouse",
+    "points": [
+     "cozinhaRayy",
+     "quartoRayy"
+    ],
+    "activity": "Wander",
+    "goto": null
+   }
+  ],
+  "icon": "Characters_map__Characters_map_3.png",
+  "friendship": {
+   "startingHearts": 9,
+   "discountPerHeart": 0,
+   "maxDiscount": 30,
+   "bonusLevel": 10,
+   "bonusHealth": 0,
+   "bonusStamina": 2,
+   "loved": [
+    "ItemFishBook",
+    "MonsterBook",
+    "GuiaDeJardinagem2",
+    "Recipebook"
+   ],
+   "liked": [
+    "CARROTCAKE",
+    "Sorvete",
+    "vinho"
+   ],
+   "disliked": [
+    "CPU",
+    "Bateria",
+    "papelUsado",
+    "Parafuso"
+   ],
+   "mail": [
+    {
+     "level": 8,
+     "item": "CARROTCAKE",
+     "qty": 1,
+     "everyDays": 2
+    }
+   ]
+  },
+  "portrait": "IMG_0824__IMG_0824.png",
+  "expressions": [
+   "IMG_0827__IMG_0827.png",
+   "JMinelli__JMinelli_3.png",
+   "IMG_0825__IMG_0825.png"
+  ],
+  "sprites": {
+   "idle": {
+    "down": {
+     "frames": [
+      "Minelli__Minelli_0.png",
+      "Minelli__Minelli_1.png",
+      "Minelli__Minelli_2.png",
+      "Minelli__Minelli_3.png"
+     ],
+     "durations": [
+      0.283,
+      0.267,
+      0.283,
+      0.1
+     ]
+    },
+    "right": {
+     "frames": [
+      "Minelli__Minelli_16.png",
+      "Minelli__Minelli_17.png",
+      "Minelli__Minelli_18.png",
+      "Minelli__Minelli_19.png"
+     ],
+     "durations": [
+      0.283,
+      0.267,
+      0.283,
+      0.1
+     ]
+    },
+    "up": {
+     "frames": [
+      "Minelli__Minelli_24.png",
+      "Minelli__Minelli_25.png",
+      "Minelli__Minelli_26.png",
+      "Minelli__Minelli_27.png"
+     ],
+     "durations": [
+      0.283,
+      0.267,
+      0.283,
+      0.1
+     ]
+    },
+    "left": {
+     "frames": [
+      "Minelli__Minelli_8.png",
+      "Minelli__Minelli_9.png",
+      "Minelli__Minelli_10.png",
+      "Minelli__Minelli_11.png"
+     ],
+     "durations": [
+      0.283,
+      0.267,
+      0.283,
+      0.1
+     ]
+    }
+   },
+   "walk": {
+    "down": {
+     "frames": [
+      "Minelli__Minelli_32.png",
+      "Minelli__Minelli_33.png",
+      "Minelli__Minelli_34.png",
+      "Minelli__Minelli_35.png"
+     ],
+     "durations": [
+      0.2,
+      0.217,
+      0.2,
+      0.317
+     ]
+    },
+    "right": {
+     "frames": [
+      "Minelli__Minelli_48.png",
+      "Minelli__Minelli_49.png",
+      "Minelli__Minelli_50.png",
+      "Minelli__Minelli_51.png"
+     ],
+     "durations": [
+      0.2,
+      0.217,
+      0.2,
+      0.3
+     ]
+    },
+    "up": {
+     "frames": [
+      "Minelli__Minelli_56.png",
+      "Minelli__Minelli_57.png",
+      "Minelli__Minelli_58.png",
+      "Minelli__Minelli_59.png"
+     ],
+     "durations": [
+      0.217,
+      0.2,
+      0.217,
+      0.3
+     ]
+    },
+    "left": {
+     "frames": [
+      "Minelli__Minelli_40.png",
+      "Minelli__Minelli_41.png",
+      "Minelli__Minelli_42.png",
+      "Minelli__Minelli_43.png"
+     ],
+     "durations": [
+      0.217,
+      0.2,
+      0.217,
+      0.3
+     ]
+    }
+   }
+  }
+ },
+ {
+  "id": "Wade",
+  "prefab": "Wade Woodson",
+  "nameKey": "NPC_NAME_Wade",
+  "schedule": [
+   {
+    "hour": 7.95,
+    "scene": "WadeHouse",
+    "points": [
+     "saidaWade"
+    ],
+    "activity": "Wander",
+    "goto": "World"
+   },
+   {
+    "hour": 8.0,
+    "scene": "World",
+    "points": [
+     "floresta1",
+     "floresta2",
+     "floresta3"
+    ],
+    "activity": "Wander",
+    "goto": null
+   },
+   {
+    "hour": 15.0,
+    "scene": "World",
+    "points": [
+     "floresta1",
+     "floresta2",
+     "floresta3"
+    ],
+    "activity": "Wander",
+    "goto": null
+   },
+   {
+    "hour": 18.0,
+    "scene": "World",
+    "points": [
+     "entradaBar"
+    ],
+    "activity": "Wander",
+    "goto": "Bar"
+   },
+   {
+    "hour": 18.1,
+    "scene": "Bar",
+    "points": [
+     "barEsquerda",
+     "barBanco"
+    ],
+    "activity": "Wander",
+    "goto": null
+   },
+   {
+    "hour": 23.9,
+    "scene": "Bar",
+    "points": [
+     "saidaBar"
+    ],
+    "activity": "Wander",
+    "goto": "World"
+   },
+   {
+    "hour": 22.0,
+    "scene": "World",
+    "points": [
+     "entradaWade"
+    ],
+    "activity": "Stay",
+    "goto": "WadeHouse"
+   },
+   {
+    "hour": 22.1,
+    "scene": "WadeHouse",
+    "points": [
+     "quartoWade",
+     "plantasWade"
+    ],
+    "activity": "Wander",
+    "goto": null
+   }
+  ],
+  "icon": "Characters_map__Characters_map_11.png",
+  "friendship": {
+   "startingHearts": 3,
+   "discountPerHeart": 0,
+   "maxDiscount": 30,
+   "bonusLevel": 10,
+   "bonusHealth": 0,
+   "bonusStamina": 2,
+   "loved": [
+    "WoodLog",
+    "madeirarefinada",
+    "Chromite Axe"
+   ],
+   "liked": [
+    "Iron Axe",
+    "Wood Axe"
+   ],
+   "disliked": [
+    "CPU",
+    "Bateria",
+    "papelUsado",
+    "Parafuso"
+   ],
+   "mail": []
+  },
+  "portrait": "IMG_0789__IMG_0789_0.png",
+  "expressions": [
+   "IMG_0790__IMG_0790_0.png",
+   "IMG_0788__IMG_0788_0.png"
+  ],
+  "sprites": {
+   "idle": {
+    "down": {
+     "frames": [
+      "Wade_Woodson__Villager_01_0.png",
+      "Wade_Woodson__Villager_01_1.png",
+      "Wade_Woodson__Villager_01_2.png",
+      "Wade_Woodson__Villager_01_3.png",
+      "Wade_Woodson__Villager_01_0.png"
+     ],
+     "durations": [
+      0.367,
+      0.383,
+      0.367,
+      0.383,
+      0.1
+     ]
+    },
+    "left": {
+     "frames": [
+      "Wade_Woodson__Villager_01_8.png",
+      "Wade_Woodson__Villager_01_9.png",
+      "Wade_Woodson__Villager_01_10.png",
+      "Wade_Woodson__Villager_01_11.png"
+     ],
+     "durations": [
+      0.283,
+      0.267,
+      0.283,
+      0.1
+     ]
+    },
+    "up": {
+     "frames": [
+      "Wade_Woodson__Villager_01_24.png",
+      "Wade_Woodson__Villager_01_25.png",
+      "Wade_Woodson__Villager_01_26.png",
+      "Wade_Woodson__Villager_01_27.png"
+     ],
+     "durations": [
+      0.283,
+      0.267,
+      0.283,
+      0.1
+     ]
+    },
+    "right": {
+     "frames": [
+      "Wade_Woodson__Villager_01_16.png",
+      "Wade_Woodson__Villager_01_17.png",
+      "Wade_Woodson__Villager_01_18.png",
+      "Wade_Woodson__Villager_01_19.png"
+     ],
+     "durations": [
+      0.283,
+      0.267,
+      0.283,
+      0.1
+     ]
+    }
+   },
+   "walk": {
+    "down": {
+     "frames": [
+      "Wade_Woodson__Villager_01_32.png",
+      "Wade_Woodson__Villager_01_33.png",
+      "Wade_Woodson__Villager_01_34.png",
+      "Wade_Woodson__Villager_01_35.png"
+     ],
+     "durations": [
+      0.2,
+      0.217,
+      0.2,
+      0.3
+     ]
+    },
+    "left": {
+     "frames": [
+      "Wade_Woodson__Villager_01_40.png",
+      "Wade_Woodson__Villager_01_41.png",
+      "Wade_Woodson__Villager_01_42.png",
+      "Wade_Woodson__Villager_01_43.png"
+     ],
+     "durations": [
+      0.217,
+      0.2,
+      0.217,
+      0.3
+     ]
+    },
+    "right": {
+     "frames": [
+      "Wade_Woodson__Villager_01_48.png",
+      "Wade_Woodson__Villager_01_49.png",
+      "Wade_Woodson__Villager_01_50.png",
+      "Wade_Woodson__Villager_01_51.png"
+     ],
+     "durations": [
+      0.217,
+      0.2,
+      0.217,
+      0.3
+     ]
+    },
+    "up": {
+     "frames": [
+      "Wade_Woodson__Villager_01_56.png",
+      "Wade_Woodson__Villager_01_57.png",
+      "Wade_Woodson__Villager_01_58.png",
+      "Wade_Woodson__Villager_01_59.png"
+     ],
+     "durations": [
+      0.217,
+      0.2,
+      0.217,
+      0.3
+     ]
+    }
+   }
+  }
+ },
+ {
+  "id": "Darius",
+  "prefab": "Darius Forge",
+  "nameKey": "NPC_NAME_Darius",
+  "schedule": [
+   {
+    "hour": 7.0,
+    "scene": "Ferreiro",
+    "points": [
+     "saidaFerreiro"
+    ],
+    "activity": "Wander",
+    "goto": "World"
+   },
+   {
+    "hour": 7.1,
+    "scene": "World",
+    "points": [
+     "shop"
+    ],
+    "activity": "Wander",
+    "goto": null
+   },
+   {
+    "hour": 10.0,
+    "scene": "World",
+    "points": [
+     "portaFerreiro"
+    ],
+    "activity": "Wander",
+    "goto": "Ferreiro"
+   },
+   {
+    "hour": 10.2,
+    "scene": "Ferreiro",
+    "points": [
+     "balcaoFerreiro"
+    ],
+    "activity": "Stay",
+    "goto": null
+   },
+   {
+    "hour": 22.0,
+    "scene": "Ferreiro",
+    "points": [
+     "materiaisFerreiro",
+     "exposicaoFerreiro"
+    ],
+    "activity": "Wander",
+    "goto": null
+   },
+   {
+    "hour": 24.0,
+    "scene": "Ferreiro",
+    "points": [
+     "materiaisFerreiro",
+     "exposicaoFerreiro"
+    ],
+    "activity": "Wander",
+    "goto": null
+   }
+  ],
+  "icon": "Characters_map__Characters_map_1.png",
+  "friendship": {
+   "startingHearts": 3,
+   "discountPerHeart": 3,
+   "maxDiscount": 30,
+   "bonusLevel": 10,
+   "bonusHealth": 0,
+   "bonusStamina": 0,
+   "loved": [
+    "Ouro",
+    "Ferro",
+    "Ametista",
+    "Esmeralma"
+   ],
+   "liked": [
+    "IronOre",
+    "goldOre",
+    "Carvao"
+   ],
+   "disliked": [
+    "CPU",
+    "Bateria",
+    "papelUsado",
+    "Parafuso"
+   ],
+   "mail": [
+    {
+     "level": 10,
+     "item": "Chromita",
+     "qty": 1,
+     "everyDays": 10
+    },
+    {
+     "level": 4,
+     "item": "Ferro",
+     "qty": 1,
+     "everyDays": 4
+    }
+   ]
+  },
+  "portrait": "IMG_0869__IMG_0869.png",
+  "expressions": [
+   "Darius_happy__Darius_happy_0.png",
+   "Darius_Assustado__Darius_Assustado_0.png",
+   "Darius_Angry__Darius_Angry_0.png"
+  ],
+  "sprites": {
+   "idle": {
+    "down": {
+     "frames": [
+      "Darius_Forge__Blacksmith_02_0.png",
+      "Darius_Forge__Blacksmith_02_1.png",
+      "Darius_Forge__Blacksmith_02_2.png",
+      "Darius_Forge__Blacksmith_02_3.png"
+     ],
+     "durations": [
+      0.333,
+      0.333,
+      0.333,
+      0.1
+     ]
+    },
+    "right": {
+     "frames": [
+      "Darius_Forge__Blacksmith_02_16.png",
+      "Darius_Forge__Blacksmith_02_17.png",
+      "Darius_Forge__Blacksmith_02_18.png",
+      "Darius_Forge__Blacksmith_02_19.png"
+     ],
+     "durations": [
+      0.283,
+      0.267,
+      0.283,
+      0.1
+     ]
+    },
+    "up": {
+     "frames": [
+      "Darius_Forge__Blacksmith_02_24.png",
+      "Darius_Forge__Blacksmith_02_25.png",
+      "Darius_Forge__Blacksmith_02_26.png",
+      "Darius_Forge__Blacksmith_02_27.png"
+     ],
+     "durations": [
+      0.283,
+      0.267,
+      0.283,
+      0.1
+     ]
+    },
+    "left": {
+     "frames": [
+      "Darius_Forge__Blacksmith_02_8.png",
+      "Darius_Forge__Blacksmith_02_9.png",
+      "Darius_Forge__Blacksmith_02_10.png",
+      "Darius_Forge__Blacksmith_02_11.png"
+     ],
+     "durations": [
+      0.283,
+      0.267,
+      0.283,
+      0.1
+     ]
+    }
+   },
+   "walk": {
+    "down": {
+     "frames": [
+      "Darius_Forge__Blacksmith_02_32.png",
+      "Darius_Forge__Blacksmith_02_33.png",
+      "Darius_Forge__Blacksmith_02_34.png",
+      "Darius_Forge__Blacksmith_02_35.png"
+     ],
+     "durations": [
+      0.2,
+      0.217,
+      0.2,
+      0.317
+     ]
+    },
+    "right": {
+     "frames": [
+      "Darius_Forge__Blacksmith_02_48.png",
+      "Darius_Forge__Blacksmith_02_49.png",
+      "Darius_Forge__Blacksmith_02_50.png",
+      "Darius_Forge__Blacksmith_02_51.png"
+     ],
+     "durations": [
+      0.217,
+      0.2,
+      0.217,
+      0.3
+     ]
+    },
+    "up": {
+     "frames": [
+      "Darius_Forge__Blacksmith_02_56.png",
+      "Darius_Forge__Blacksmith_02_57.png",
+      "Darius_Forge__Blacksmith_02_58.png",
+      "Darius_Forge__Blacksmith_02_59.png"
+     ],
+     "durations": [
+      0.217,
+      0.2,
+      0.217,
+      0.3
+     ]
+    },
+    "left": {
+     "frames": [
+      "Darius_Forge__Blacksmith_02_40.png",
+      "Darius_Forge__Blacksmith_02_41.png",
+      "Darius_Forge__Blacksmith_02_42.png",
+      "Darius_Forge__Blacksmith_02_43.png"
+     ],
+     "durations": [
+      0.2,
+      0.217,
+      0.2,
+      0.317
+     ]
+    }
+   }
+  }
+ },
+ {
+  "id": "Milo",
+  "prefab": "Milo Plume",
+  "nameKey": "NPC_NAME_Milo",
+  "schedule": [
+   {
+    "hour": 7.95,
+    "scene": "MiloHouse",
+    "points": [
+     "saidaMilo"
+    ],
+    "activity": "Wander",
+    "goto": "World"
+   },
+   {
+    "hour": 8.0,
+    "scene": "World",
+    "points": [
+     "campo_de_flor",
+     "campo_de_flor2",
+     "campo_de_flor3",
+     "campo_de_flor4"
+    ],
+    "activity": "Wander",
+    "goto": null
+   },
+   {
+    "hour": 14.0,
+    "scene": "World",
+    "points": [
+     "Banco_baixo_centro",
+     "Banco_Esquerda_centro",
+     "Banco_Cima_centro"
+    ],
+    "activity": "Wander",
+    "goto": null
+   },
+   {
+    "hour": 18.0,
+    "scene": "World",
+    "points": [
+     "entradaMilo"
+    ],
+    "activity": "Wander",
+    "goto": "MiloHouse"
+   },
+   {
+    "hour": 18.05,
+    "scene": "MiloHouse",
+    "points": [
+     "cozinhaMilo",
+     "quartoMilo"
+    ],
+    "activity": "Wander",
+    "goto": null
+   }
+  ],
+  "icon": "Characters_map__Characters_map_8.png",
+  "friendship": {
+   "startingHearts": 2,
+   "discountPerHeart": 0,
+   "maxDiscount": 30,
+   "bonusLevel": 10,
+   "bonusHealth": 0,
+   "bonusStamina": 1,
+   "loved": [
+    "Seed_abobora",
+    "Seed_batata",
+    "Seed_cebola",
+    "Seed_cenoura",
+    "Seed_Girasol",
+    "Seed_milho",
+    "Seed_morango",
+    "Seed_Nabo",
+    "Seed_tomato",
+    "Seed_trigo",
+    "Seed_uva"
+   ],
+   "liked": [
+    "Wheat",
+    "sunflower"
+   ],
+   "disliked": [
+    "CPU",
+    "Bateria",
+    "papelUsado",
+    "Parafuso"
+   ],
+   "mail": [
+    {
+     "level": 8,
+     "item": "EnsopadoPeixe",
+     "qty": 1,
+     "everyDays": 7
+    },
+    {
+     "level": 8,
+     "item": "PeixeFrito",
+     "qty": 1,
+     "everyDays": 7
+    }
+   ]
+  },
+  "portrait": "IMG_0855__IMG_0855_0.png",
+  "expressions": [
+   "IMG_0858__IMG_0858_0.png",
+   "IMG_0856__IMG_0856_0.png"
+  ],
+  "sprites": {
+   "idle": {
+    "down": {
+     "frames": [
+      "MiloPlume__Toucan_01_0.png",
+      "MiloPlume__Toucan_01_1.png",
+      "MiloPlume__Toucan_01_2.png",
+      "MiloPlume__Toucan_01_3.png"
+     ],
+     "durations": [
+      0.333,
+      0.333,
+      0.333,
+      0.1
+     ]
+    },
+    "right": {
+     "frames": [
+      "MiloPlume__Toucan_01_16.png",
+      "MiloPlume__Toucan_01_17.png",
+      "MiloPlume__Toucan_01_18.png",
+      "MiloPlume__Toucan_01_19.png"
+     ],
+     "durations": [
+      0.283,
+      0.267,
+      0.283,
+      0.1
+     ]
+    },
+    "up": {
+     "frames": [
+      "MiloPlume__Toucan_01_24.png",
+      "MiloPlume__Toucan_01_25.png",
+      "MiloPlume__Toucan_01_26.png",
+      "MiloPlume__Toucan_01_27.png"
+     ],
+     "durations": [
+      0.283,
+      0.267,
+      0.283,
+      0.1
+     ]
+    },
+    "left": {
+     "frames": [
+      "MiloPlume__Toucan_01_8.png",
+      "MiloPlume__Toucan_01_9.png",
+      "MiloPlume__Toucan_01_10.png",
+      "MiloPlume__Toucan_01_11.png"
+     ],
+     "durations": [
+      0.283,
+      0.267,
+      0.283,
+      0.1
+     ]
+    }
+   },
+   "walk": {
+    "down": {
+     "frames": [
+      "MiloPlume__Toucan_01_32.png",
+      "MiloPlume__Toucan_01_33.png",
+      "MiloPlume__Toucan_01_34.png",
+      "MiloPlume__Toucan_01_33.png"
+     ],
+     "durations": [
+      0.25,
+      0.25,
+      0.25,
+      0.35
+     ]
+    },
+    "right": {
+     "frames": [
+      "MiloPlume__Toucan_01_48.png",
+      "MiloPlume__Toucan_01_49.png",
+      "MiloPlume__Toucan_01_50.png",
+      "MiloPlume__Toucan_01_51.png"
+     ],
+     "durations": [
+      0.25,
+      0.25,
+      0.25,
+      0.35
+     ]
+    },
+    "up": {
+     "frames": [
+      "MiloPlume__Toucan_01_56.png",
+      "MiloPlume__Toucan_01_57.png",
+      "MiloPlume__Toucan_01_58.png",
+      "MiloPlume__Toucan_01_59.png"
+     ],
+     "durations": [
+      0.267,
+      0.233,
+      0.267,
+      0.333
+     ]
+    },
+    "left": {
+     "frames": [
+      "MiloPlume__Toucan_01_40.png",
+      "MiloPlume__Toucan_01_41.png",
+      "MiloPlume__Toucan_01_42.png",
+      "MiloPlume__Toucan_01_43.png"
+     ],
+     "durations": [
+      0.25,
+      0.25,
+      0.25,
+      0.35
+     ]
+    }
+   }
+  }
+ },
+ {
+  "id": "Lupi",
+  "prefab": "Lupi Nuki",
+  "nameKey": "NPC_NAME_Lupi",
+  "schedule": [
+   {
+    "hour": 7.95,
+    "scene": "LupiHouse",
+    "points": [
+     "saidaLupi"
+    ],
+    "activity": "Wander",
+    "goto": "World"
+   },
+   {
+    "hour": 8.0,
+    "scene": "World",
+    "points": [
+     "campo_de_flor",
+     "campo_de_flor2",
+     "campo_de_flor3",
+     "campo_de_flor4"
+    ],
+    "activity": "Wander",
+    "goto": null
+   },
+   {
+    "hour": 14.0,
+    "scene": "World",
+    "points": [
+     "Banco_baixo_centro",
+     "Banco_Esquerda_centro",
+     "Banco_Cima_centro"
+    ],
+    "activity": "Wander",
+    "goto": null
+   },
+   {
+    "hour": 18.0,
+    "scene": "World",
+    "points": [
+     "entradaLupi"
+    ],
+    "activity": "Wander",
+    "goto": "LupiHouse"
+   },
+   {
+    "hour": 18.05,
+    "scene": "LupiHouse",
+    "points": [
+     "quartoLupi",
+     "exposicaoLupi"
+    ],
+    "activity": "Wander",
+    "goto": null
+   }
+  ],
+  "icon": "Characters_map__Characters_map_4.png",
+  "friendship": {
+   "startingHearts": 5,
+   "discountPerHeart": 0,
+   "maxDiscount": 30,
+   "bonusLevel": 10,
+   "bonusHealth": 0,
+   "bonusStamina": 0,
+   "loved": [
+    "bigflowerblue",
+    "bigflowerorange",
+    "bigflowerPurple",
+    "sunflower"
+   ],
+   "liked": [
+    "smallblueflower",
+    "smallorangeflower",
+    "smallpinkflower",
+    "smallpurpleflower"
+   ],
+   "disliked": [
+    "CPU",
+    "Bateria",
+    "papelUsado",
+    "Parafuso"
+   ],
+   "mail": [
+    {
+     "level": 2,
+     "item": "bigflowerblue",
+     "qty": 1,
+     "everyDays": 5
+    },
+    {
+     "level": 5,
+     "item": "Sorvete",
+     "qty": 1,
+     "everyDays": 4
+    }
+   ]
+  },
+  "portrait": "IMG_0848__IMG_0848_0.png",
+  "expressions": [
+   "IMG_0846__IMG_0846_0.png",
+   "IMG_0847__IMG_0847_0.png",
+   "IMG_0845__IMG_0845_0.png"
+  ],
+  "sprites": {
+   "idle": {
+    "down": {
+     "frames": [
+      "LupiNuki__TanukiGreyWithLeaf_0.png",
+      "LupiNuki__TanukiGreyWithLeaf_1.png",
+      "LupiNuki__TanukiGreyWithLeaf_2.png",
+      "LupiNuki__TanukiGreyWithLeaf_3.png"
+     ],
+     "durations": [
+      0.283,
+      0.267,
+      0.283,
+      0.1
+     ]
+    },
+    "right": {
+     "frames": [
+      "LupiNuki__TanukiGreyWithLeaf_16.png",
+      "LupiNuki__TanukiGreyWithLeaf_17.png",
+      "LupiNuki__TanukiGreyWithLeaf_18.png",
+      "LupiNuki__TanukiGreyWithLeaf_19.png"
+     ],
+     "durations": [
+      0.283,
+      0.267,
+      0.283,
+      0.1
+     ]
+    },
+    "up": {
+     "frames": [
+      "LupiNuki__TanukiGreyWithLeaf_24.png",
+      "LupiNuki__TanukiGreyWithLeaf_25.png",
+      "LupiNuki__TanukiGreyWithLeaf_26.png",
+      "LupiNuki__TanukiGreyWithLeaf_27.png"
+     ],
+     "durations": [
+      0.283,
+      0.267,
+      0.283,
+      0.1
+     ]
+    },
+    "left": {
+     "frames": [
+      "LupiNuki__TanukiGreyWithLeaf_8.png",
+      "LupiNuki__TanukiGreyWithLeaf_9.png",
+      "LupiNuki__TanukiGreyWithLeaf_10.png",
+      "LupiNuki__TanukiGreyWithLeaf_11.png"
+     ],
+     "durations": [
+      0.283,
+      0.267,
+      0.283,
+      0.1
+     ]
+    }
+   },
+   "walk": {
+    "down": {
+     "frames": [
+      "LupiNuki__TanukiGreyWithLeaf_32.png",
+      "LupiNuki__TanukiGreyWithLeaf_33.png",
+      "LupiNuki__TanukiGreyWithLeaf_34.png",
+      "LupiNuki__TanukiGreyWithLeaf_35.png"
+     ],
+     "durations": [
+      0.2,
+      0.217,
+      0.2,
+      0.317
+     ]
+    },
+    "right": {
+     "frames": [
+      "LupiNuki__TanukiGreyWithLeaf_48.png",
+      "LupiNuki__TanukiGreyWithLeaf_49.png",
+      "LupiNuki__TanukiGreyWithLeaf_50.png",
+      "LupiNuki__TanukiGreyWithLeaf_51.png"
+     ],
+     "durations": [
+      0.217,
+      0.2,
+      0.217,
+      0.3
+     ]
+    },
+    "up": {
+     "frames": [
+      "LupiNuki__TanukiGreyWithLeaf_56.png",
+      "LupiNuki__TanukiGreyWithLeaf_57.png",
+      "LupiNuki__TanukiGreyWithLeaf_58.png",
+      "LupiNuki__TanukiGreyWithLeaf_59.png"
+     ],
+     "durations": [
+      0.2,
+      0.217,
+      0.2,
+      0.317
+     ]
+    },
+    "left": {
+     "frames": [
+      "LupiNuki__TanukiGreyWithLeaf_40.png",
+      "LupiNuki__TanukiGreyWithLeaf_41.png",
+      "LupiNuki__TanukiGreyWithLeaf_42.png",
+      "LupiNuki__TanukiGreyWithLeaf_43.png"
+     ],
+     "durations": [
+      0.217,
+      0.2,
+      0.217,
+      0.3
+     ]
+    }
+   }
+  }
+ },
+ {
+  "id": "Victor",
+  "prefab": "Victor Bloom",
+  "nameKey": "NPC_NAME_Victor",
+  "schedule": [
+   {
+    "hour": 7.8,
+    "scene": "VictorHouse",
+    "points": [
+     "saidaVictor"
+    ],
+    "activity": "Wander",
+    "goto": "World"
+   },
+   {
+    "hour": 8.0,
+    "scene": "World",
+    "points": [
+     "entradaBiblioteca"
+    ],
+    "activity": "Wander",
+    "goto": "Biblioteca"
+   },
+   {
+    "hour": 8.1,
+    "scene": "Biblioteca",
+    "points": [
+     "livros1",
+     "exposicaoBilioteca",
+     "exposicaoBilioteca2",
+     "livros2",
+     "livros3"
+    ],
+    "activity": "Wander",
+    "goto": null
+   },
+   {
+    "hour": 15.4,
+    "scene": "Biblioteca",
+    "points": [
+     "saidaBiblioteca"
+    ],
+    "activity": "Wander",
+    "goto": "World"
+   },
+   {
+    "hour": 15.7,
+    "scene": "World",
+    "points": [
+     "barPraia",
+     "Pier"
+    ],
+    "activity": "Wander",
+    "goto": null
+   },
+   {
+    "hour": 19.0,
+    "scene": "World",
+    "points": [
+     "entradaVictor"
+    ],
+    "activity": "Wander",
+    "goto": "VictorHouse"
+   },
+   {
+    "hour": 20.2,
+    "scene": "VictorHouse",
+    "points": [
+     "maquinasVictor",
+     "quartoVictor"
+    ],
+    "activity": "Wander",
+    "goto": null
+   }
+  ],
+  "icon": "Characters_map__Characters_map_10.png",
+  "friendship": {
+   "startingHearts": 1,
+   "discountPerHeart": 0,
+   "maxDiscount": 30,
+   "bonusLevel": 10,
+   "bonusHealth": 0,
+   "bonusStamina": 2,
+   "loved": [
+    "CPU",
+    "Bateria",
+    "zombieBrain",
+    "Sorvete"
+   ],
+   "liked": [],
+   "disliked": [
+    "papelUsado",
+    "Parafuso"
+   ],
+   "mail": [
+    {
+     "level": 7,
+     "item": "zombieBrain",
+     "qty": 1,
+     "everyDays": 5
+    }
+   ]
+  },
+  "portrait": "IMG_0780__IMG_0780_0.png",
+  "expressions": [
+   "IMG_0782__IMG_0782_0.png",
+   "IMG_0783__IMG_0783_0.png",
+   "IMG_0781__IMG_0781_0.png"
+  ],
+  "sprites": {
+   "idle": {
+    "down": {
+     "frames": [
+      "Victor_Bloom__Villager_prefeito_0.png",
+      "Victor_Bloom__Villager_prefeito_1.png",
+      "Victor_Bloom__Villager_prefeito_2.png",
+      "Victor_Bloom__Villager_prefeito_3.png"
+     ],
+     "durations": [
+      0.333,
+      0.333,
+      0.333,
+      0.1
+     ]
+    },
+    "right": {
+     "frames": [
+      "Victor_Bloom__Villager_prefeito_16.png",
+      "Victor_Bloom__Villager_prefeito_17.png",
+      "Victor_Bloom__Villager_prefeito_18.png",
+      "Victor_Bloom__Villager_prefeito_19.png"
+     ],
+     "durations": [
+      0.283,
+      0.267,
+      0.283,
+      0.1
+     ]
+    },
+    "up": {
+     "frames": [
+      "Victor_Bloom__Villager_prefeito_24.png",
+      "Victor_Bloom__Villager_prefeito_25.png",
+      "Victor_Bloom__Villager_prefeito_26.png",
+      "Victor_Bloom__Villager_prefeito_27.png"
+     ],
+     "durations": [
+      0.283,
+      0.267,
+      0.283,
+      0.1
+     ]
+    },
+    "left": {
+     "frames": [
+      "Victor_Bloom__Villager_prefeito_8.png",
+      "Victor_Bloom__Villager_prefeito_9.png",
+      "Victor_Bloom__Villager_prefeito_10.png",
+      "Victor_Bloom__Villager_prefeito_11.png"
+     ],
+     "durations": [
+      0.283,
+      0.267,
+      0.283,
+      0.1
+     ]
+    }
+   },
+   "walk": {
+    "down": {
+     "frames": [
+      "Victor_Bloom__Villager_prefeito_32.png",
+      "Victor_Bloom__Villager_prefeito_33.png",
+      "Victor_Bloom__Villager_prefeito_34.png",
+      "Victor_Bloom__Villager_prefeito_35.png"
+     ],
+     "durations": [
+      0.217,
+      0.2,
+      0.217,
+      0.3
+     ]
+    },
+    "right": {
+     "frames": [
+      "Victor_Bloom__Villager_prefeito_48.png",
+      "Victor_Bloom__Villager_prefeito_49.png",
+      "Victor_Bloom__Villager_prefeito_50.png",
+      "Victor_Bloom__Villager_prefeito_51.png"
+     ],
+     "durations": [
+      0.217,
+      0.2,
+      0.217,
+      0.3
+     ]
+    },
+    "up": {
+     "frames": [
+      "Victor_Bloom__Villager_prefeito_56.png",
+      "Victor_Bloom__Villager_prefeito_57.png",
+      "Victor_Bloom__Villager_prefeito_58.png",
+      "Victor_Bloom__Villager_prefeito_59.png"
+     ],
+     "durations": [
+      0.2,
+      0.217,
+      0.2,
+      0.317
+     ]
+    },
+    "left": {
+     "frames": [
+      "Victor_Bloom__Villager_prefeito_40.png",
+      "Victor_Bloom__Villager_prefeito_41.png",
+      "Victor_Bloom__Villager_prefeito_42.png",
+      "Victor_Bloom__Villager_prefeito_43.png"
+     ],
+     "durations": [
+      0.2,
+      0.217,
+      0.2,
+      0.317
+     ]
+    }
+   }
+  }
+ },
+ {
+  "id": "Jaden",
+  "prefab": "Jaden Carter",
+  "nameKey": "NPC_NAME_Jaden",
+  "schedule": [
+   {
+    "hour": 1.0,
+    "scene": "Bar",
+    "points": [
+     "saidaBar"
+    ],
+    "activity": "Wander",
+    "goto": "World"
+   },
+   {
+    "hour": 1.1,
+    "scene": "World",
+    "points": [
+     "entradaJaden"
+    ],
+    "activity": "Wander",
+    "goto": "JadenHouse"
+   },
+   {
+    "hour": 1.2,
+    "scene": "JadenHouse",
+    "points": [
+     "cozinhaJaden",
+     "quartoJaden"
+    ],
+    "activity": "Wander",
+    "goto": null
+   },
+   {
+    "hour": 7.9,
+    "scene": "JadenHouse",
+    "points": [
+     "saidaJaden"
+    ],
+    "activity": "Wander",
+    "goto": "World"
+   },
+   {
+    "hour": 8.0,
+    "scene": "World",
+    "points": [
+     "floresta1",
+     "floresta2",
+     "floresta3"
+    ],
+    "activity": "Wander",
+    "goto": null
+   },
+   {
+    "hour": 16.0,
+    "scene": "World",
+    "points": [
+     "entradaBar"
+    ],
+    "activity": "Wander",
+    "goto": "Bar"
+   },
+   {
+    "hour": 16.05,
+    "scene": "Bar",
+    "points": [
+     "barDireita",
+     "barBanco",
+     "barEsquerda"
+    ],
+    "activity": "Wander",
+    "goto": null
+   },
+   {
+    "hour": 18.0,
+    "scene": "Bar",
+    "points": [
+     "barDireita",
+     "barEsquerda",
+     "barBanco"
+    ],
+    "activity": "Wander",
+    "goto": null
+   }
+  ],
+  "icon": "Characters_map__Characters_map_2.png",
+  "friendship": {
+   "startingHearts": 3,
+   "discountPerHeart": 0,
+   "maxDiscount": 30,
+   "bonusLevel": 10,
+   "bonusHealth": 0,
+   "bonusStamina": 2,
+   "loved": [
+    "coffee",
+    "sanduiche"
+   ],
+   "liked": [
+    "coco",
+    "sucouva",
+    "pipoca"
+   ],
+   "disliked": [
+    "CPU",
+    "Bateria",
+    "papelUsado",
+    "Parafuso"
+   ],
+   "mail": [
+    {
+     "level": 5,
+     "item": "coffee",
+     "qty": 2,
+     "everyDays": 4
+    }
+   ]
+  },
+  "portrait": "IMG_0805__IMG_0805_0.png",
+  "expressions": [
+   "IMG_0803__IMG_0803_0.png"
+  ],
+  "sprites": {
+   "idle": {
+    "down": {
+     "frames": [
+      "Jaden_Carter__Villager_04_0.png",
+      "Jaden_Carter__Villager_04_1.png",
+      "Jaden_Carter__Villager_04_2.png",
+      "Jaden_Carter__Villager_04_3.png"
+     ],
+     "durations": [
+      0.333,
+      0.333,
+      0.333,
+      0.1
+     ]
+    },
+    "up": {
+     "frames": [
+      "Jaden_Carter__Villager_04_24.png",
+      "Jaden_Carter__Villager_04_25.png",
+      "Jaden_Carter__Villager_04_26.png",
+      "Jaden_Carter__Villager_04_27.png"
+     ],
+     "durations": [
+      0.283,
+      0.267,
+      0.283,
+      0.1
+     ]
+    },
+    "left": {
+     "frames": [
+      "Jaden_Carter__Villager_04_8.png",
+      "Jaden_Carter__Villager_04_9.png",
+      "Jaden_Carter__Villager_04_10.png",
+      "Jaden_Carter__Villager_04_11.png"
+     ],
+     "durations": [
+      0.283,
+      0.267,
+      0.283,
+      0.1
+     ]
+    },
+    "right": {
+     "frames": [
+      "Jaden_Carter__Villager_04_16.png",
+      "Jaden_Carter__Villager_04_17.png",
+      "Jaden_Carter__Villager_04_18.png",
+      "Jaden_Carter__Villager_04_19.png"
+     ],
+     "durations": [
+      0.283,
+      0.267,
+      0.283,
+      0.1
+     ]
+    }
+   },
+   "walk": {
+    "down": {
+     "frames": [
+      "Jaden_Carter__Villager_04_32.png",
+      "Jaden_Carter__Villager_04_33.png",
+      "Jaden_Carter__Villager_04_34.png",
+      "Jaden_Carter__Villager_04_35.png"
+     ],
+     "durations": [
+      0.217,
+      0.2,
+      0.217,
+      0.3
+     ]
+    },
+    "up": {
+     "frames": [
+      "Jaden_Carter__Villager_04_56.png",
+      "Jaden_Carter__Villager_04_57.png",
+      "Jaden_Carter__Villager_04_58.png",
+      "Jaden_Carter__Villager_04_59.png"
+     ],
+     "durations": [
+      0.217,
+      0.2,
+      0.217,
+      0.3
+     ]
+    },
+    "left": {
+     "frames": [
+      "Jaden_Carter__Villager_04_40.png",
+      "Jaden_Carter__Villager_04_41.png",
+      "Jaden_Carter__Villager_04_42.png",
+      "Jaden_Carter__Villager_04_43.png"
+     ],
+     "durations": [
+      0.2,
+      0.217,
+      0.2,
+      0.317
+     ]
+    },
+    "right": {
+     "frames": [
+      "Jaden_Carter__Villager_04_48.png",
+      "Jaden_Carter__Villager_04_49.png",
+      "Jaden_Carter__Villager_04_50.png",
+      "Jaden_Carter__Villager_04_51.png"
+     ],
+     "durations": [
+      0.217,
+      0.2,
+      0.217,
+      0.3
+     ]
+    }
+   }
+  }
+ },
+ {
+  "id": "Lyla",
+  "prefab": "Lyla Quinn",
+  "nameKey": "NPC_NAME_Lyla",
+  "schedule": [
+   {
+    "hour": 0.0,
+    "scene": "World",
+    "points": [
+     "entradaLyla"
+    ],
+    "activity": "Wander",
+    "goto": "LylaHouse"
+   },
+   {
+    "hour": 0.1,
+    "scene": "LylaHouse",
+    "points": [
+     "quartoLyla",
+     "exposicaoLyla"
+    ],
+    "activity": "Wander",
+    "goto": null
+   },
+   {
+    "hour": 7.9,
+    "scene": "LylaHouse",
+    "points": [
+     "saidaLyla"
+    ],
+    "activity": "Wander",
+    "goto": "World"
+   },
+   {
+    "hour": 8.2,
+    "scene": "World",
+    "points": [
+     "cachoeira"
+    ],
+    "activity": "Wander",
+    "goto": null
+   },
+   {
+    "hour": 13.0,
+    "scene": "World",
+    "points": [
+     "campo_de_flor",
+     "flores_rayy"
+    ],
+    "activity": "Wander",
+    "goto": null
+   },
+   {
+    "hour": 16.0,
+    "scene": "World",
+    "points": [
+     "celeiro",
+     "Banco_baixo_centro",
+     "Banco_Esquerda_centro"
+    ],
+    "activity": "Wander",
+    "goto": null
+   },
+   {
+    "hour": 18.0,
+    "scene": "World",
+    "points": [
+     "entradaBar"
+    ],
+    "activity": "Wander",
+    "goto": "Bar"
+   },
+   {
+    "hour": 18.1,
+    "scene": "Bar",
+    "points": [
+     "barBanco",
+     "barEsquerda"
+    ],
+    "activity": "Wander",
+    "goto": null
+   },
+   {
+    "hour": 23.9,
+    "scene": "Bar",
+    "points": [
+     "saidaBar"
+    ],
+    "activity": "Wander",
+    "goto": "World"
+   }
+  ],
+  "icon": "Characters_map__Characters_map_5.png",
+  "friendship": {
+   "startingHearts": 5,
+   "discountPerHeart": 0,
+   "maxDiscount": 30,
+   "bonusLevel": 10,
+   "bonusHealth": 1,
+   "bonusStamina": 0,
+   "loved": [
+    "smallblueflower",
+    "smallorangeflower",
+    "smallpinkflower",
+    "smallpurpleflower"
+   ],
+   "liked": [],
+   "disliked": [
+    "CPU",
+    "Bateria",
+    "papelUsado",
+    "Parafuso"
+   ],
+   "mail": [
+    {
+     "level": 8,
+     "item": "conchaRosa",
+     "qty": 1,
+     "everyDays": 6
+    }
+   ]
+  },
+  "portrait": "IMG_0823__IMG_0823_0.png",
+  "expressions": [
+   "IMG_0820__IMG_0820_0.png",
+   "IMG_0819__IMG_0819_0.png",
+   "IMG_0821__IMG_0821_0.png"
+  ],
+  "sprites": {
+   "idle": {
+    "down": {
+     "frames": [
+      "Lyla_Quinn__Villager_05_0.png",
+      "Lyla_Quinn__Villager_05_1.png",
+      "Lyla_Quinn__Villager_05_2.png",
+      "Lyla_Quinn__Villager_05_3.png"
+     ],
+     "durations": [
+      0.333,
+      0.333,
+      0.333,
+      0.1
+     ]
+    },
+    "up": {
+     "frames": [
+      "Lyla_Quinn__Villager_05_24.png",
+      "Lyla_Quinn__Villager_05_25.png",
+      "Lyla_Quinn__Villager_05_26.png",
+      "Lyla_Quinn__Villager_05_27.png"
+     ],
+     "durations": [
+      0.283,
+      0.267,
+      0.283,
+      0.1
+     ]
+    },
+    "left": {
+     "frames": [
+      "Lyla_Quinn__Villager_05_8.png",
+      "Lyla_Quinn__Villager_05_9.png",
+      "Lyla_Quinn__Villager_05_10.png",
+      "Lyla_Quinn__Villager_05_11.png"
+     ],
+     "durations": [
+      0.283,
+      0.267,
+      0.283,
+      0.1
+     ]
+    },
+    "right": {
+     "frames": [
+      "Lyla_Quinn__Villager_05_16.png",
+      "Lyla_Quinn__Villager_05_17.png",
+      "Lyla_Quinn__Villager_05_18.png",
+      "Lyla_Quinn__Villager_05_19.png"
+     ],
+     "durations": [
+      0.283,
+      0.267,
+      0.283,
+      0.1
+     ]
+    }
+   },
+   "walk": {
+    "down": {
+     "frames": [
+      "Lyla_Quinn__Villager_05_32.png",
+      "Lyla_Quinn__Villager_05_33.png",
+      "Lyla_Quinn__Villager_05_34.png",
+      "Lyla_Quinn__Villager_05_35.png"
+     ],
+     "durations": [
+      0.2,
+      0.217,
+      0.2,
+      0.317
+     ]
+    },
+    "up": {
+     "frames": [
+      "Lyla_Quinn__Villager_05_56.png",
+      "Lyla_Quinn__Villager_05_57.png",
+      "Lyla_Quinn__Villager_05_58.png",
+      "Lyla_Quinn__Villager_05_59.png"
+     ],
+     "durations": [
+      0.217,
+      0.2,
+      0.217,
+      0.3
+     ]
+    },
+    "left": {
+     "frames": [
+      "Lyla_Quinn__Villager_05_40.png",
+      "Lyla_Quinn__Villager_05_41.png",
+      "Lyla_Quinn__Villager_05_42.png",
+      "Lyla_Quinn__Villager_05_43.png"
+     ],
+     "durations": [
+      0.217,
+      0.2,
+      0.217,
+      0.3
+     ]
+    },
+    "right": {
+     "frames": [
+      "Lyla_Quinn__Villager_05_48.png",
+      "Lyla_Quinn__Villager_05_49.png",
+      "Lyla_Quinn__Villager_05_50.png",
+      "Lyla_Quinn__Villager_05_51.png"
+     ],
+     "durations": [
+      0.2,
+      0.217,
+      0.2,
+      0.317
+     ]
+    }
+   }
+  }
+ },
+ {
+  "id": "MabelMoonbrook",
+  "prefab": "Mabel Moonbrook",
+  "nameKey": "NPC_NAME_MabelMoonbrook",
+  "schedule": [
+   {
+    "hour": 2.0,
+    "scene": "MabelHouse",
+    "points": [
+     "mabelQuarto"
+    ],
+    "activity": "Wander",
+    "goto": null
+   },
+   {
+    "hour": 5.0,
+    "scene": "MabelHouse",
+    "points": [
+     "mabelSala"
+    ],
+    "activity": "Wander",
+    "goto": null
+   },
+   {
+    "hour": 7.9,
+    "scene": "MabelHouse",
+    "points": [
+     "saidaMabel"
+    ],
+    "activity": "Wander",
+    "goto": "Arcania"
+   },
+   {
+    "hour": 8.2,
+    "scene": "Arcania",
+    "points": [
+     "PortalTree"
+    ],
+    "activity": "Wander",
+    "goto": null
+   },
+   {
+    "hour": 14.0,
+    "scene": "Arcania",
+    "points": [
+     "AcaniaLake"
+    ],
+    "activity": "Wander",
+    "goto": null
+   },
+   {
+    "hour": 18.0,
+    "scene": "Arcania",
+    "points": [
+     "AcaniaTower"
+    ],
+    "activity": "Wander",
+    "goto": null
+   },
+   {
+    "hour": 22.0,
+    "scene": "Arcania",
+    "points": [
+     "EntradaMabel"
+    ],
+    "activity": "Wander",
+    "goto": "MabelHouse"
+   },
+   {
+    "hour": 22.5,
+    "scene": "MabelHouse",
+    "points": [
+     "mabelCaldeirao",
+     "mabelGlobo"
+    ],
+    "activity": "Wander",
+    "goto": null
+   }
+  ],
+  "icon": "Characters_map__Characters_map_12.png",
+  "friendship": {
+   "startingHearts": 2,
+   "discountPerHeart": 0,
+   "maxDiscount": 30,
+   "bonusLevel": 10,
+   "bonusHealth": 0,
+   "bonusStamina": 2,
+   "loved": [
+    "potion_damage",
+    "potion_defense",
+    "potion_experience",
+    "potion_health_basic",
+    "potion_legendary",
+    "potion_speed",
+    "potion_stamina"
+   ],
+   "liked": [
+    "venenodecobra",
+    "MYSTIC_MUSHROOM",
+    "GoblinFangs"
+   ],
+   "disliked": [
+    "CPU",
+    "Bateria",
+    "papelUsado",
+    "Parafuso"
+   ],
+   "mail": [
+    {
+     "level": 5,
+     "item": "venenodecobra",
+     "qty": 2,
+     "everyDays": 6
+    }
+   ]
+  },
+  "portrait": "mabel__mabel.png",
+  "expressions": [],
+  "sprites": {
+   "idle": {
+    "down": {
+     "frames": [
+      "Mabel_Moonbrook__VillagerMagic_0.png",
+      "Mabel_Moonbrook__VillagerMagic_1.png",
+      "Mabel_Moonbrook__VillagerMagic_2.png",
+      "Mabel_Moonbrook__VillagerMagic_3.png"
+     ],
+     "durations": [
+      0.267,
+      0.283,
+      0.267,
+      0.283
+     ]
+    },
+    "up": {
+     "frames": [
+      "Mabel_Moonbrook__VillagerMagic_28.png",
+      "Mabel_Moonbrook__VillagerMagic_29.png",
+      "Mabel_Moonbrook__VillagerMagic_30.png",
+      "Mabel_Moonbrook__VillagerMagic_31.png"
+     ],
+     "durations": [
+      0.25,
+      0.25,
+      0.25,
+      0.35
+     ]
+    },
+    "left": {
+     "frames": [
+      "Mabel_Moonbrook__VillagerMagic_12.png",
+      "Mabel_Moonbrook__VillagerMagic_13.png",
+      "Mabel_Moonbrook__VillagerMagic_14.png",
+      "Mabel_Moonbrook__VillagerMagic_15.png"
+     ],
+     "durations": [
+      0.25,
+      0.25,
+      0.25,
+      0.35
+     ]
+    },
+    "right": {
+     "frames": [
+      "Mabel_Moonbrook__VillagerMagic_16.png",
+      "Mabel_Moonbrook__VillagerMagic_17.png",
+      "Mabel_Moonbrook__VillagerMagic_18.png",
+      "Mabel_Moonbrook__VillagerMagic_19.png"
+     ],
+     "durations": [
+      0.25,
+      0.25,
+      0.25,
+      0.35
+     ]
+    }
+   },
+   "walk": {
+    "down": {
+     "frames": [
+      "Mabel_Moonbrook__VillagerMagic_24.png",
+      "Mabel_Moonbrook__VillagerMagic_25.png",
+      "Mabel_Moonbrook__VillagerMagic_26.png",
+      "Mabel_Moonbrook__VillagerMagic_27.png"
+     ],
+     "durations": [
+      0.217,
+      0.2,
+      0.217,
+      0.3
+     ]
+    },
+    "up": {
+     "frames": [
+      "Mabel_Moonbrook__VillagerMagic_44.png",
+      "Mabel_Moonbrook__VillagerMagic_45.png",
+      "Mabel_Moonbrook__VillagerMagic_46.png",
+      "Mabel_Moonbrook__VillagerMagic_45.png",
+      "Mabel_Moonbrook__VillagerMagic_44.png"
+     ],
+     "durations": [
+      0.167,
+      0.167,
+      0.167,
+      0.167,
+      0.1
+     ]
+    },
+    "left": {
+     "frames": [
+      "Mabel_Moonbrook__VillagerMagic_36.png",
+      "Mabel_Moonbrook__VillagerMagic_37.png",
+      "Mabel_Moonbrook__VillagerMagic_38.png",
+      "Mabel_Moonbrook__VillagerMagic_39.png"
+     ],
+     "durations": [
+      0.217,
+      0.2,
+      0.217,
+      0.3
+     ]
+    },
+    "right": {
+     "frames": [
+      "Mabel_Moonbrook__VillagerMagic_40.png",
+      "Mabel_Moonbrook__VillagerMagic_41.png",
+      "Mabel_Moonbrook__VillagerMagic_42.png",
+      "Mabel_Moonbrook__VillagerMagic_43.png"
+     ],
+     "durations": [
+      0.217,
+      0.2,
+      0.217,
+      0.3
+     ]
+    }
+   }
+  }
+ },
+ {
+  "id": "Marcus",
+  "prefab": "Marcus Hawke",
+  "nameKey": "NPC_NAME_Marcus",
+  "schedule": [
+   {
+    "hour": 2.0,
+    "scene": "Bar",
+    "points": [
+     "saidaBar"
+    ],
+    "activity": "Wander",
+    "goto": "World"
+   },
+   {
+    "hour": 2.1,
+    "scene": "World",
+    "points": [
+     "entradaSelene"
+    ],
+    "activity": "Wander",
+    "goto": "SeleneHouse"
+   },
+   {
+    "hour": 2.2,
+    "scene": "SeleneHouse",
+    "points": [
+     "cozinhaSelene",
+     "quartoSelene"
+    ],
+    "activity": "Wander",
+    "goto": null
+   },
+   {
+    "hour": 8.9,
+    "scene": "SeleneHouse",
+    "points": [
+     "saidaSelene"
+    ],
+    "activity": "Wander",
+    "goto": "World"
+   },
+   {
+    "hour": 9.0,
+    "scene": "World",
+    "points": [
+     "shop"
+    ],
+    "activity": "Wander",
+    "goto": null
+   },
+   {
+    "hour": 12.0,
+    "scene": "World",
+    "points": [
+     "entradaBar"
+    ],
+    "activity": "Wander",
+    "goto": "Bar"
+   },
+   {
+    "hour": 12.1,
+    "scene": "Bar",
+    "points": [
+     "barSell"
+    ],
+    "activity": "Stay",
+    "goto": null
+   }
+  ],
+  "icon": "Characters_map__Characters_map_6.png",
+  "friendship": {
+   "startingHearts": 3,
+   "discountPerHeart": 0,
+   "maxDiscount": 30,
+   "bonusLevel": 10,
+   "bonusHealth": 0,
+   "bonusStamina": 0,
+   "loved": [
+    "vinho",
+    "Soda",
+    "sucouva",
+    "Cerveja"
+   ],
+   "liked": [],
+   "disliked": [
+    "CPU",
+    "Bateria",
+    "papelUsado",
+    "Parafuso"
+   ],
+   "mail": [
+    {
+     "level": 5,
+     "item": "vinho",
+     "qty": 1,
+     "everyDays": 4
+    },
+    {
+     "level": 5,
+     "item": "sucouva",
+     "qty": 1,
+     "everyDays": 5
+    }
+   ]
+  },
+  "portrait": "IMG_0859__IMG_0859_0.png",
+  "expressions": [
+   "IMG_0860__IMG_0860_0.png",
+   "IMG_0861__IMG_0861_0.png"
+  ],
+  "sprites": {
+   "idle": {
+    "down": {
+     "frames": [
+      "Marcus_Hawke__Villager_03a_0.png",
+      "Marcus_Hawke__Villager_03a_1.png",
+      "Marcus_Hawke__Villager_03a_2.png",
+      "Marcus_Hawke__Villager_03a_3.png"
+     ],
+     "durations": [
+      0.333,
+      0.317,
+      0.333,
+      0.1
+     ]
+    },
+    "up": {
+     "frames": [
+      "Marcus_Hawke__Villager_03a_24.png",
+      "Marcus_Hawke__Villager_03a_25.png",
+      "Marcus_Hawke__Villager_03a_26.png",
+      "Marcus_Hawke__Villager_03a_27.png"
+     ],
+     "durations": [
+      0.283,
+      0.267,
+      0.283,
+      0.1
+     ]
+    },
+    "left": {
+     "frames": [
+      "Marcus_Hawke__Villager_03a_8.png",
+      "Marcus_Hawke__Villager_03a_9.png",
+      "Marcus_Hawke__Villager_03a_10.png",
+      "Marcus_Hawke__Villager_03a_11.png"
+     ],
+     "durations": [
+      0.283,
+      0.267,
+      0.283,
+      0.1
+     ]
+    },
+    "right": {
+     "frames": [
+      "Marcus_Hawke__Villager_03a_16.png",
+      "Marcus_Hawke__Villager_03a_17.png",
+      "Marcus_Hawke__Villager_03a_18.png",
+      "Marcus_Hawke__Villager_03a_19.png"
+     ],
+     "durations": [
+      0.283,
+      0.267,
+      0.283,
+      0.1
+     ]
+    }
+   },
+   "walk": {
+    "down": {
+     "frames": [
+      "Marcus_Hawke__Villager_03a_32.png",
+      "Marcus_Hawke__Villager_03a_33.png",
+      "Marcus_Hawke__Villager_03a_34.png",
+      "Marcus_Hawke__Villager_03a_35.png"
+     ],
+     "durations": [
+      0.217,
+      0.2,
+      0.217,
+      0.3
+     ]
+    },
+    "up": {
+     "frames": [
+      "Marcus_Hawke__Villager_03a_56.png",
+      "Marcus_Hawke__Villager_03a_57.png",
+      "Marcus_Hawke__Villager_03a_58.png",
+      "Marcus_Hawke__Villager_03a_59.png"
+     ],
+     "durations": [
+      0.217,
+      0.2,
+      0.217,
+      0.3
+     ]
+    },
+    "left": {
+     "frames": [
+      "Marcus_Hawke__Villager_03a_40.png",
+      "Marcus_Hawke__Villager_03a_41.png",
+      "Marcus_Hawke__Villager_03a_42.png",
+      "Marcus_Hawke__Villager_03a_43.png"
+     ],
+     "durations": [
+      0.2,
+      0.217,
+      0.2,
+      0.317
+     ]
+    },
+    "right": {
+     "frames": [
+      "Marcus_Hawke__Villager_03a_48.png",
+      "Marcus_Hawke__Villager_03a_49.png",
+      "Marcus_Hawke__Villager_03a_50.png",
+      "Marcus_Hawke__Villager_03a_51.png"
+     ],
+     "durations": [
+      0.217,
+      0.2,
+      0.217,
+      0.3
+     ]
+    }
+   }
+  }
+ },
+ {
+  "id": "Selene",
+  "prefab": "Selene Hawke",
+  "nameKey": "NPC_NAME_Selene",
+  "schedule": [
+   {
+    "hour": 7.8,
+    "scene": "SeleneHouse",
+    "points": [
+     "saidaSelene"
+    ],
+    "activity": "Wander",
+    "goto": "World"
+   },
+   {
+    "hour": 8.0,
+    "scene": "World",
+    "points": [
+     "entradaBiblioteca"
+    ],
+    "activity": "Wander",
+    "goto": "Biblioteca"
+   },
+   {
+    "hour": 8.2,
+    "scene": "Biblioteca",
+    "points": [
+     "exposicaoBilioteca",
+     "livros3",
+     "livros1",
+     "livros2",
+     "exposicaoBilioteca2"
+    ],
+    "activity": "Wander",
+    "goto": null
+   },
+   {
+    "hour": 10.0,
+    "scene": "Biblioteca",
+    "points": [
+     "livros1",
+     "exposicaoBilioteca",
+     "exposicaoBilioteca2",
+     "livros2",
+     "livros3"
+    ],
+    "activity": "Wander",
+    "goto": null
+   },
+   {
+    "hour": 12.0,
+    "scene": "Biblioteca",
+    "points": [
+     "saidaBiblioteca"
+    ],
+    "activity": "Wander",
+    "goto": "World"
+   },
+   {
+    "hour": 12.1,
+    "scene": "World",
+    "points": [
+     "entradaBar"
+    ],
+    "activity": "Wander",
+    "goto": "Bar"
+   },
+   {
+    "hour": 12.3,
+    "scene": "Bar",
+    "points": [
+     "barDireita",
+     "barEsquerda",
+     "barBanco"
+    ],
+    "activity": "Wander",
+    "goto": null
+   },
+   {
+    "hour": 15.8,
+    "scene": "Bar",
+    "points": [
+     "saidaBar"
+    ],
+    "activity": "Wander",
+    "goto": "World"
+   },
+   {
+    "hour": 16.0,
+    "scene": "World",
+    "points": [
+     "campo_de_flor",
+     "campo_de_flor2",
+     "campo_de_flor3",
+     "campo_de_flor4"
+    ],
+    "activity": "Wander",
+    "goto": null
+   },
+   {
+    "hour": 19.0,
+    "scene": "World",
+    "points": [
+     "entradaSelene"
+    ],
+    "activity": "Wander",
+    "goto": "SeleneHouse"
+   },
+   {
+    "hour": 19.2,
+    "scene": "SeleneHouse",
+    "points": [
+     "cozinhaSelene",
+     "quartoSelene"
+    ],
+    "activity": "Wander",
+    "goto": null
+   }
+  ],
+  "icon": "Characters_map__Characters_map_9.png",
+  "friendship": {
+   "startingHearts": 4,
+   "discountPerHeart": 0,
+   "maxDiscount": 30,
+   "bonusLevel": 10,
+   "bonusHealth": 1,
+   "bonusStamina": 0,
+   "loved": [
+    "smallblueflower",
+    "smallorangeflower",
+    "smallpinkflower",
+    "smallpurpleflower"
+   ],
+   "liked": [
+    "coffee"
+   ],
+   "disliked": [
+    "CPU",
+    "Bateria",
+    "papelUsado",
+    "Parafuso"
+   ],
+   "mail": [
+    {
+     "level": 7,
+     "item": "conchaRoxa",
+     "qty": 1,
+     "everyDays": 5
+    },
+    {
+     "level": 8,
+     "item": "potion_speed",
+     "qty": 1,
+     "everyDays": 5
+    }
+   ]
+  },
+  "portrait": "IMG_0798__IMG_0798_0.png",
+  "expressions": [
+   "IMG_0799__IMG_0799_0.png"
+  ],
+  "sprites": {
+   "idle": {
+    "down": {
+     "frames": [
+      "Selene_Hawke__Villager_10_0.png",
+      "Selene_Hawke__Villager_10_1.png",
+      "Selene_Hawke__Villager_10_2.png",
+      "Selene_Hawke__Villager_10_3.png"
+     ],
+     "durations": [
+      0.283,
+      0.267,
+      0.283,
+      0.1
+     ]
+    },
+    "up": {
+     "frames": [
+      "Selene_Hawke__Villager_10_24.png",
+      "Selene_Hawke__Villager_10_25.png",
+      "Selene_Hawke__Villager_10_26.png",
+      "Selene_Hawke__Villager_10_27.png"
+     ],
+     "durations": [
+      0.283,
+      0.267,
+      0.283,
+      0.1
+     ]
+    },
+    "left": {
+     "frames": [
+      "Selene_Hawke__Villager_10_8.png",
+      "Selene_Hawke__Villager_10_9.png",
+      "Selene_Hawke__Villager_10_10.png",
+      "Selene_Hawke__Villager_10_11.png"
+     ],
+     "durations": [
+      0.283,
+      0.283,
+      0.283,
+      0.1
+     ]
+    },
+    "right": {
+     "frames": [
+      "Selene_Hawke__Villager_10_16.png",
+      "Selene_Hawke__Villager_10_17.png",
+      "Selene_Hawke__Villager_10_18.png",
+      "Selene_Hawke__Villager_10_19.png"
+     ],
+     "durations": [
+      0.283,
+      0.267,
+      0.283,
+      0.1
+     ]
+    }
+   },
+   "walk": {
+    "down": {
+     "frames": [
+      "Selene_Hawke__Villager_10_32.png",
+      "Selene_Hawke__Villager_10_33.png",
+      "Selene_Hawke__Villager_10_34.png",
+      "Selene_Hawke__Villager_10_35.png"
+     ],
+     "durations": [
+      0.217,
+      0.2,
+      0.217,
+      0.3
+     ]
+    },
+    "up": {
+     "frames": [
+      "Selene_Hawke__Villager_10_56.png",
+      "Selene_Hawke__Villager_10_57.png",
+      "Selene_Hawke__Villager_10_58.png",
+      "Selene_Hawke__Villager_10_59.png"
+     ],
+     "durations": [
+      0.2,
+      0.217,
+      0.2,
+      0.317
+     ]
+    },
+    "left": {
+     "frames": [
+      "Selene_Hawke__Villager_10_40.png",
+      "Selene_Hawke__Villager_10_41.png",
+      "Selene_Hawke__Villager_10_42.png",
+      "Selene_Hawke__Villager_10_43.png"
+     ],
+     "durations": [
+      0.217,
+      0.2,
+      0.217,
+      0.3
+     ]
+    },
+    "right": {
+     "frames": [
+      "Selene_Hawke__Villager_10_48.png",
+      "Selene_Hawke__Villager_10_49.png",
+      "Selene_Hawke__Villager_10_50.png",
+      "Selene_Hawke__Villager_10_51.png"
+     ],
+     "durations": [
+      0.217,
+      0.2,
+      0.217,
+      0.3
+     ]
+    }
+   }
+  }
+ },
+ {
+  "id": "Max",
+  "prefab": "Max Rook",
+  "nameKey": "NPC_NAME_Max",
+  "schedule": [
+   {
+    "hour": 8.0,
+    "scene": "World",
+    "points": [
+     "duengeon_forest1",
+     "duengeon_forest2",
+     "duengeon_forest3",
+     "duengeon"
+    ],
+    "activity": "Wander",
+    "goto": null
+   },
+   {
+    "hour": 15.0,
+    "scene": "World",
+    "points": [
+     "duengeon_forest1",
+     "duengeon_forest2",
+     "duengeon_forest3",
+     "duengeon"
+    ],
+    "activity": "Wander",
+    "goto": null
+   },
+   {
+    "hour": 21.0,
+    "scene": "World",
+    "points": [
+     "casa_max"
+    ],
+    "activity": "Stay",
+    "goto": null
+   }
+  ],
+  "icon": "Characters_map__Characters_map_7.png",
+  "friendship": {
+   "startingHearts": 3,
+   "discountPerHeart": 0,
+   "maxDiscount": 30,
+   "bonusLevel": 10,
+   "bonusHealth": 1,
+   "bonusStamina": 0,
+   "loved": [
+    "AmetistSword",
+    "GoldSword",
+    "SoulmeraldSword",
+    "IronSword"
+   ],
+   "liked": [
+    "Chromite Axe",
+    "Iron Axe",
+    "Wood Axe"
+   ],
+   "disliked": [
+    "CPU",
+    "Bateria",
+    "papelUsado",
+    "Parafuso"
+   ],
+   "mail": [
+    {
+     "level": 7,
+     "item": "egg",
+     "qty": 7,
+     "everyDays": 5
+    }
+   ]
+  },
+  "portrait": "IMG_0746__IMG_0746_0.png",
+  "expressions": [
+   "IMG_0747__IMG_0747_0.png"
+  ],
+  "sprites": {
+   "idle": {
+    "down": {
+     "frames": [
+      "Max_Rook__Knight_01_0.png",
+      "Max_Rook__Knight_01_1.png",
+      "Max_Rook__Knight_01_2.png",
+      "Max_Rook__Knight_01_3.png"
+     ],
+     "durations": [
+      0.333,
+      0.333,
+      0.333,
+      0.1
+     ]
+    },
+    "up": {
+     "frames": [
+      "Max_Rook__Knight_01_24.png",
+      "Max_Rook__Knight_01_25.png",
+      "Max_Rook__Knight_01_26.png",
+      "Max_Rook__Knight_01_27.png"
+     ],
+     "durations": [
+      0.283,
+      0.267,
+      0.283,
+      0.1
+     ]
+    },
+    "left": {
+     "frames": [
+      "Max_Rook__Knight_01_8.png",
+      "Max_Rook__Knight_01_9.png",
+      "Max_Rook__Knight_01_10.png",
+      "Max_Rook__Knight_01_11.png"
+     ],
+     "durations": [
+      0.283,
+      0.267,
+      0.283,
+      0.1
+     ]
+    },
+    "right": {
+     "frames": [
+      "Max_Rook__Knight_01_16.png",
+      "Max_Rook__Knight_01_17.png",
+      "Max_Rook__Knight_01_18.png",
+      "Max_Rook__Knight_01_19.png"
+     ],
+     "durations": [
+      0.283,
+      0.267,
+      0.283,
+      0.1
+     ]
+    }
+   },
+   "walk": {
+    "down": {
+     "frames": [
+      "Max_Rook__Knight_01_32.png",
+      "Max_Rook__Knight_01_33.png",
+      "Max_Rook__Knight_01_34.png",
+      "Max_Rook__Knight_01_35.png"
+     ],
+     "durations": [
+      0.217,
+      0.2,
+      0.217,
+      0.3
+     ]
+    },
+    "up": {
+     "frames": [
+      "Max_Rook__Knight_01_56.png",
+      "Max_Rook__Knight_01_57.png",
+      "Max_Rook__Knight_01_58.png",
+      "Max_Rook__Knight_01_59.png"
+     ],
+     "durations": [
+      0.217,
+      0.2,
+      0.217,
+      0.3
+     ]
+    },
+    "left": {
+     "frames": [
+      "Max_Rook__Knight_01_40.png",
+      "Max_Rook__Knight_01_41.png",
+      "Max_Rook__Knight_01_42.png",
+      "Max_Rook__Knight_01_43.png"
+     ],
+     "durations": [
+      0.217,
+      0.2,
+      0.217,
+      0.3
+     ]
+    },
+    "right": {
+     "frames": [
+      "Max_Rook__Knight_01_48.png",
+      "Max_Rook__Knight_01_49.png",
+      "Max_Rook__Knight_01_50.png",
+      "Max_Rook__Knight_01_51.png"
+     ],
+     "durations": [
+      0.217,
+      0.2,
+      0.217,
+      0.3
+     ]
+    }
+   }
+  }
+ },
+ {
+  "id": "vaca1",
+  "prefab": "Vaca1 Variant",
+  "nameKey": "NPC_NAME_vaca1",
+  "schedule": [],
+  "icon": null,
+  "portrait": "White_Cow_portrait__White_Cow_portrait_0.png",
+  "expressions": [],
+  "sprites": null
+ },
+ {
+  "id": "vaca2",
+  "prefab": "Vaca2 Variant",
+  "nameKey": "NPC_NAME_vaca2",
+  "schedule": [],
+  "icon": null,
+  "portrait": "White_Cow_portrait__White_Cow_portrait_0.png",
+  "expressions": [],
+  "sprites": null
+ },
+ {
+  "id": "vaca3",
+  "prefab": "Vaca3 Variant",
+  "nameKey": "NPC_NAME_vaca3",
+  "schedule": [],
+  "icon": null,
+  "portrait": "White_Cow_portrait__White_Cow_portrait_0.png",
+  "expressions": [],
+  "sprites": null
+ },
+ {
+  "id": "vaca4",
+  "prefab": "Vaca4 Variant",
+  "nameKey": "NPC_NAME_vaca4",
+  "schedule": [],
+  "icon": null,
+  "portrait": "White_Cow_portrait__White_Cow_portrait_0.png",
+  "expressions": [],
+  "sprites": null
+ }
+]

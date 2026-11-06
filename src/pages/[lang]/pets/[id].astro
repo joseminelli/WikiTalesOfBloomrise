@@ -1,0 +1,127 @@
+---
+import Base from '../../../layouts/Base.astro';
+import PageHead from '../../../components/PageHead.astro';
+import ItemChip from '../../../components/ItemChip.astro';
+import SpriteViewer from '../../../components/SpriteViewer.astro';
+import { LANGS, ui } from '../../../lib/i18n';
+import { pets, petUrl, g, isSpoiler, itemById, itemName, lootTables } from '../../../lib/data';
+export function getStaticPaths() {
+  return LANGS.flatMap((l) => pets.map((p) => ({ params: { lang: l.slug, id: p.id }, props: { lang: l, pet: p } })));
+}
+const { lang, pet } = Astro.props;
+const t = (k: string, v?: any) => ui(lang, k, v);
+const name = t(`pet_${pet.id}`);
+const spoiler = isSpoiler('pet', pet.id);
+const s = pet.stats ?? {};
+const loot = pet.id === 'dog' ? lootTables.find((x: any) => x.id === s.digLoot) : null;
+const idx = pets.findIndex((x) => x.id === pet.id);
+const prev = idx > 0 ? pets[idx - 1] : null;
+const next = idx < pets.length - 1 ? pets[idx + 1] : null;
+const behaviors = pet.id === 'dog' ? ['dogB_follow', 'dogB_wander', 'dogB_dig', 'dogB_fetch', 'dogB_sleep', 'dogB_bone', 'dogB_home']
+  : pet.id === 'cat' ? ['catB_roam', 'catB_react', 'catB_anims'] : ['fairyB_follow', 'fairyB_light'];
+const steps = pet.id === 'dog' ? ['petHow_dog1', 'petHow_dog2', 'petHow_dog3'] : pet.id === 'fairy' ? ['petHow_fairy1', 'petHow_fairy2', 'petHow_fairy3'] : [`petHow_${pet.id}`];
+const fmt = (n: number) => (Number.isInteger(n) ? String(n) : n.toFixed(1));
+const quotes = pet.id === 'cat' ? pet.storyKeys : pet.id === 'dog' ? [...pet.foundKeys, ...pet.adoptKeys] : pet.lines ?? [];
+---
+<Base lang={lang} title={name} description={t(`pet_${pet.id}_desc`)} path={`pets/${pet.id}/`}>
+  <PageHead lang={lang} cat="pets" title="" crumbs={[{ label: name }]} />
+  <div class="layout-2">
+    <div>
+      {spoiler && <p class="spoiler-note">{t('spoilersHint')}</p>}
+      <div class="panel"><p style="margin:0; font-size:1.05rem">{t(`pet_${pet.id}_desc`)}</p></div>
+
+      <section class="panel">
+        <h2>{t('petHow')}</h2>
+        <ol class="steps">{steps.map((k) => <li>{t(k)}</li>)}</ol>
+        {pet.id === 'fairy' && (
+          <p class="spoiler-block" style="margin-top:1rem"><small>{t('petHow_fairyCode')}</small>{pet.code && <> <b>{t('petCode')}:</b> <code>{pet.code}</code></>}</p>
+        )}
+      </section>
+
+      {pet.id === 'fairy' && pet.restore && (
+        <section class="panel">
+          <h2>{t('petTower')}</h2>
+          <p>{g(lang, pet.restore.descKey)}</p>
+          <dl class="kv">
+            <dt>{t('petHouseItems')}</dt>
+            <dd><span class="chips">{pet.restore.items.map((h: any) => <ItemChip lang={lang} id={h.item} qty={h.qty} />)}</span></dd>
+            <dt>{t('petHouseGold')}</dt><dd>{pet.restore.gold} 🪙</dd>
+            {pet.restore.reward && <><dt>{t('petTowerReward')}</dt><dd><ItemChip lang={lang} id={pet.restore.reward} /></dd></>}
+          </dl>
+        </section>
+      )}
+
+      <section class="panel">
+        <h2>{t('inGame')}</h2>
+        {pet.id === 'fairy' && <p><small>{t('petOrb')}</small></p>}
+        <SpriteViewer lang={lang} name={name} glow={pet.glow} variants={[{ id: pet.id, anims: pet.anims }]} />
+        {pet.id === 'fairy' && (
+          <div class="orb-row"><span class="orb" style={`--glow:${pet.glow}`}></span></div>
+        )}
+      </section>
+
+      <section class="panel">
+        <h2>{t('petBehavior')}</h2>
+        <ul class="plain">{behaviors.map((k) => <li>{t(k)}</li>)}</ul>
+      </section>
+
+      {pet.id === 'dog' && pet.house && (
+        <section class="panel">
+          <h2>{t('petHouse')}</h2>
+          <dl class="kv">
+            <dt>{t('petHouseItems')}</dt>
+            <dd><span class="chips">{pet.house.items.map((h: any) => <ItemChip lang={lang} id={h.item} qty={h.qty} />)}</span></dd>
+            <dt>{t('petHouseGold')}</dt><dd>{pet.house.gold} 🪙</dd>
+            <dt>{t('petHouseColors')}</dt>
+            <dd class="colors">{pet.house.colors.map((c: any) => <span class="chip" style="padding-left:.3rem">{c.icon && <span class="slot"><img class="px" src={`/sprites/${c.icon}`} alt="" /></span>}{g(lang, c.key, c.key)}</span>)}</dd>
+          </dl>
+        </section>
+      )}
+
+      {loot && (
+        <section class="panel">
+          <h2>{t('petDig')}</h2>
+          {(['common', 'rare', 'legendary'] as const).map((r) => loot[r].length > 0 && (
+            <p><span class={`badge ${r}`}>{t(`r_${r}`)}{r === 'rare' ? ` ${loot.rareChance}%` : r === 'legendary' ? ` ${loot.legendaryChance}%` : ''}</span>{' '}
+              <span class="chips" style="display:inline-flex">{loot[r].map((id: string) => <ItemChip lang={lang} id={id} />)}</span>
+            </p>
+          ))}
+        </section>
+      )}
+
+      {quotes.length > 0 && (
+        <section class={`panel ${pet.id === 'fairy' ? 'spoiler-block' : ''}`}>
+          <h2>{t('petStory')}</h2>
+          <div class="quotes">{quotes.map((k: string) => g(lang, k, '') && <blockquote>{g(lang, k)}</blockquote>)}</div>
+        </section>
+      )}
+
+      <div class="pager">
+        {prev ? <a class="card" href={petUrl(lang, prev.id)}>← <span class="t">{t(`pet_${prev.id}`)}</span></a> : <span></span>}
+        {next ? <a class="card next" href={petUrl(lang, next.id)}><span class="t">{t(`pet_${next.id}`)}</span> →</a> : <span></span>}
+      </div>
+    </div>
+
+    <aside class={`infobox ${spoiler ? 'spoiler-block' : ''}`}>
+      <div class={`pet-hero ${pet.id === 'fairy' ? 'fairy' : ''}`} style={pet.glow ? `--glow:${pet.glow}` : undefined}>
+        {pet.icon && <img class="px" src={`/sprites/${pet.icon}`} alt={name} />}
+      </div>
+      <h1>{name}</h1>
+      <span class="badge">{t(`petTag_${pet.id}`)}</span>
+      {(pet.id === 'dog' || pet.id === 'fairy') && (
+        <dl class="kv tight">
+          {pet.id === 'dog' && <>
+            <dt>{t('stat_walkSpeed')}</dt><dd>{s.walkSpeed}</dd>
+            <dt>{t('stat_runSpeed')}</dt><dd>{s.runSpeed}</dd>
+            <dt>{t('stat_digCooldown')}</dt><dd>{s.digCooldown?.[0]}–{s.digCooldown?.[1]} {t('seconds')}</dd>
+            <dt>{t('stat_digChance')}</dt><dd>{Math.round(Number(s.digChanceOnIdle) * 100)}%</dd>
+            <dt>{t('stat_digSuccess')}</dt><dd>{Math.round(Number(s.digSuccessChance) * 100)}%</dd>
+            <dt>{t('stat_happy')}</dt><dd>{Math.round(Number(s.happyDuration) / 60)} {t('minutes')}</dd>
+          </>}
+          {pet.id === 'fairy' && <><dt>{t('stat_followSpeed')}</dt><dd>{fmt(s.followSpeed)}</dd></>}
+        </dl>
+      )}
+      {pet.id === 'dog' && s.boneItemId && itemById.get(s.boneItemId) && <p style="margin:.8rem 0 0"><ItemChip lang={lang} id={s.boneItemId} /></p>}
+    </aside>
+  </div>
+</Base>

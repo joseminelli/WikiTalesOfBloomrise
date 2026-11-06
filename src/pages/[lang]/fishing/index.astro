@@ -1,0 +1,33 @@
+---
+import Base from '../../../layouts/Base.astro';
+import PageHead from '../../../components/PageHead.astro';
+import ItemChip from '../../../components/ItemChip.astro';
+import { LANGS, ui } from '../../../lib/i18n';
+import { items, g, isSpoiler } from '../../../lib/data';
+export function getStaticPaths() { return LANGS.map((l) => ({ params: { lang: l.slug }, props: { lang: l } })); }
+const { lang } = Astro.props;
+const t = (k: string) => ui(lang, k);
+const fish = items.filter((i) => i.type === 'Fish' && i.fish && i.id !== 'isca');
+const bait = items.find((i) => i.id === 'isca');
+const rar = [t('r_common'), t('r_rare'), t('r_legendary')];
+---
+<Base lang={lang} title={t('fishing')} path="fishing/">
+  <PageHead lang={lang} cat="fishing" title={t('fishing')} />
+  {bait && <p><ItemChip lang={lang} id={bait.id} /></p>}
+  <div class="panel table-wrap">
+    <table>
+      <thead><tr><th>{t('items')}</th><th>{t('location')}</th><th>{t('rarity')}</th><th class="hide-m">{t('sell')}</th><th class="hide-m">XP</th></tr></thead>
+      <tbody>
+        {fish.map((f) => (
+          <tr class={isSpoiler('item', f.id) ? 'spoiler' : ''}>
+            <td><ItemChip lang={lang} id={f.id} /></td>
+            <td>{g(lang, f.fish.locationKey)}{f.fish.nightOnly ? ` · ${t('nightOnly')}` : ''}</td>
+            <td><span class={`badge ${['common', 'rare', 'legendary'][f.fish.rarity]}`}>{rar[f.fish.rarity]}</span></td>
+            <td class="hide-m">{f.sell} 🪙</td>
+            <td class="hide-m">{f.fish.xp}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+</Base>

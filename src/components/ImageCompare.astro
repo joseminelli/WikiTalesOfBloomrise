@@ -1,0 +1,37 @@
+---
+// Slider de comparação antes/depois (JS puro). `before` fica à esquerda, `after` à direita.
+interface Props { before: string; after: string; beforeLabel: string; afterLabel: string; hint?: string; alt?: string; }
+const { before, after, beforeLabel, afterLabel, hint, alt = '' } = Astro.props;
+---
+<div class="compare" data-compare>
+  <img class="px base" src={after} alt={alt} />
+  <img class="px top" src={before} alt={alt} />
+  <span class="tag l">{beforeLabel}</span>
+  <span class="tag r">{afterLabel}</span>
+  <div class="handle"><span>⇆</span></div>
+  <input type="range" min="0" max="100" value="50" aria-label={hint ?? 'compare'} />
+</div>
+{hint && <small class="hint">{hint}</small>}
+
+<style>
+  .compare { position: relative; overflow: hidden; border-radius: 4px; user-select: none; line-height: 0; background: #000; touch-action: pan-y; }
+  .compare img { display: block; width: 100%; height: auto; }
+  .compare .top { position: absolute; inset: 0; clip-path: inset(0 50% 0 0); }
+  .compare input { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; cursor: ew-resize; margin: 0; }
+  .compare .handle { position: absolute; top: 0; bottom: 0; left: 50%; width: 4px; margin-left: -2px; background: #fff; box-shadow: 0 0 0 2px #0006; pointer-events: none; }
+  .compare .handle span { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 40px; height: 40px; border-radius: 50%; background: #f4c95d; color: #4a3a52; display: grid; place-items: center; font: 20px/1 system-ui; box-shadow: 0 3px 0 #0006; }
+  .tag { position: absolute; top: .6rem; padding: .2rem .6rem; font: 15px/1.3 var(--font-pixel); background: #14201bcc; color: #f3eef5; border-radius: 3px; pointer-events: none; }
+  .tag.l { left: .6rem; } .tag.r { right: .6rem; }
+  .hint { color: var(--ink); opacity: .8; display: block; margin-top: .4rem; }
+</style>
+
+<script>
+  document.querySelectorAll<HTMLElement>('[data-compare]').forEach((el) => {
+    const top = el.querySelector<HTMLElement>('.top')!;
+    const handle = el.querySelector<HTMLElement>('.handle')!;
+    const input = el.querySelector<HTMLInputElement>('input')!;
+    const set = (v: number) => { top.style.clipPath = `inset(0 ${100 - v}% 0 0)`; handle.style.left = v + '%'; };
+    input.addEventListener('input', () => set(Number(input.value)));
+    set(50);
+  });
+</script>

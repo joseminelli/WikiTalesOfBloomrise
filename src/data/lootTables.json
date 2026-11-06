@@ -1,0 +1,494 @@
+[
+ {
+  "id": "DogLoottable",
+  "dir": "npc/dog",
+  "common": [
+   "Soda",
+   "IronOre",
+   "Parafuso"
+  ],
+  "rare": [
+   "goldOre",
+   "Bateria"
+  ],
+  "legendary": [
+   "AmuletoCaverna",
+   "AmuletoDungeon",
+   "AmuletoCasa",
+   "AmuletoPraia",
+   "Turbix"
+  ],
+  "rareChance": 45,
+  "legendaryChance": 30
+ },
+ {
+  "id": "BarrilLootTable",
+  "dir": "Prefabs/destrutíveis",
+  "common": [
+   "pedra",
+   "Carvao"
+  ],
+  "rare": [
+   "cookie",
+   "Oniguiri",
+   "Milkshake",
+   "Ametista",
+   "coffee",
+   "Soda",
+   "sushi"
+  ],
+  "legendary": [
+   "AmuletoCasa",
+   "AmuletoDungeon",
+   "AmuletoPraia"
+  ],
+  "rareChance": 45,
+  "legendaryChance": 5
+ },
+ {
+  "id": "Carvão",
+  "dir": "Prefabs/destrutíveis",
+  "common": [
+   "Carvao"
+  ],
+  "rare": [],
+  "legendary": [],
+  "rareChance": 0,
+  "legendaryChance": 0
+ },
+ {
+  "id": "Minério de Ametista",
+  "dir": "Prefabs/destrutíveis",
+  "common": [
+   "Ametista"
+  ],
+  "rare": [],
+  "legendary": [],
+  "rareChance": 0,
+  "legendaryChance": 0
+ },
+ {
+  "id": "Minério de Chromita",
+  "dir": "Prefabs/destrutíveis",
+  "common": [
+   "Chromita"
+  ],
+  "rare": [],
+  "legendary": [],
+  "rareChance": 0,
+  "legendaryChance": 0
+ },
+ {
+  "id": "Minério de Diamante",
+  "dir": "Prefabs/destrutíveis",
+  "common": [
+   "DiamanteRosa"
+  ],
+  "rare": [],
+  "legendary": [],
+  "rareChance": 0,
+  "legendaryChance": 0
+ },
+ {
+  "id": "Minério de Esmeralma",
+  "dir": "Prefabs/destrutíveis",
+  "common": [
+   "Esmeralma"
+  ],
+  "rare": [],
+  "legendary": [],
+  "rareChance": 0,
+  "legendaryChance": 0
+ },
+ {
+  "id": "Minério de ferro",
+  "dir": "Prefabs/destrutíveis",
+  "common": [
+   "IronOre"
+  ],
+  "rare": [],
+  "legendary": [],
+  "rareChance": 0,
+  "legendaryChance": 0
+ },
+ {
+  "id": "Minério de ouro",
+  "dir": "Prefabs/destrutíveis",
+  "common": [
+   "goldOre"
+  ],
+  "rare": [],
+  "legendary": [],
+  "rareChance": 0,
+  "legendaryChance": 0
+ },
+ {
+  "id": "PedraLootTable",
+  "dir": "Prefabs/destrutíveis",
+  "common": [
+   "pedra"
+  ],
+  "rare": [],
+  "legendary": [],
+  "rareChance": 0,
+  "legendaryChance": 0
+ },
+ {
+  "id": "TrashLootTable",
+  "dir": "Prefabs/destrutíveis",
+  "common": [
+   "WoodLog",
+   "Cerveja",
+   "Soda",
+   "papelUsado",
+   "Parafuso"
+  ],
+  "rare": [
+   "cookie",
+   "Oniguiri",
+   "Milkshake",
+   "Ametista",
+   "coffee",
+   "CPU",
+   "Bateria"
+  ],
+  "legendary": [
+   "AmuletoCasa"
+  ],
+  "rareChance": 20,
+  "legendaryChance": 5
+ },
+ {
+  "id": "Bat1LootTable",
+  "dir": "Prefabs/Enemys/Bat",
+  "common": [],
+  "rare": [
+   "cookie",
+   "AsaDeMorcego",
+   "Soda",
+   "Cerveja"
+  ],
+  "legendary": [
+   "AmuletoCasa"
+  ],
+  "rareChance": 30,
+  "legendaryChance": 0
+ },
+ {
+  "id": "FungiLootTable",
+  "dir": "Prefabs/Enemys/Fungi",
+  "common": [],
+  "rare": [
+   "FungDrop"
+  ],
+  "legendary": [],
+  "rareChance": 30,
+  "legendaryChance": 0
+ },
+ {
+  "id": "Ghost1LootTable",
+  "dir": "Prefabs/Enemys/Ghost",
+  "common": [],
+  "rare": [
+   "cookie",
+   "PanoDeFantasma",
+   "Soda",
+   "Cerveja"
+  ],
+  "legendary": [],
+  "rareChance": 30,
+  "legendaryChance": 0
+ },
+ {
+  "id": "GoblinLootTable",
+  "dir": "Prefabs/Enemys/Goblin",
+  "common": [],
+  "rare": [
+   "cookie",
+   "GoblinFangs",
+   "Soda",
+   "Cerveja"
+  ],
+  "legendary": [
+   "AmuletoCasa"
+  ],
+  "rareChance": 30,
+  "legendaryChance": 0
+ },
+ {
+  "id": "OrbinautLootTable",
+  "dir": "Prefabs/Enemys/Orbinaut",
+  "common": [],
+  "rare": [],
+  "legendary": [],
+  "rareChance": 0,
+  "legendaryChance": 0
+ },
+ {
+  "id": "RatLootTable",
+  "dir": "Prefabs/Enemys/Rat",
+  "common": [],
+  "rare": [
+   "Rat Tail"
+  ],
+  "legendary": [],
+  "rareChance": 30,
+  "legendaryChance": 0
+ },
+ {
+  "id": "SkeletonLootTable",
+  "dir": "Prefabs/Enemys/Skeleton",
+  "common": [],
+  "rare": [
+   "cookie",
+   "Bone",
+   "Soda"
+  ],
+  "legendary": [],
+  "rareChance": 30,
+  "legendaryChance": 0
+ },
+ {
+  "id": "SlimeLootTable",
+  "dir": "Prefabs/Enemys/Slime",
+  "common": [],
+  "rare": [
+   "cookie",
+   "SlimeBall",
+   "Soda"
+  ],
+  "legendary": [],
+  "rareChance": 30,
+  "legendaryChance": 0
+ },
+ {
+  "id": "SnakeLootTable",
+  "dir": "Prefabs/Enemys/Snake",
+  "common": [],
+  "rare": [
+   "cookie",
+   "venenodecobra",
+   "Soda"
+  ],
+  "legendary": [
+   "GoldenKey"
+  ],
+  "rareChance": 30,
+  "legendaryChance": 2
+ },
+ {
+  "id": "zombieLootTable",
+  "dir": "Prefabs/Enemys/Zombie",
+  "common": [],
+  "rare": [
+   "cookie",
+   "zombieBrain",
+   "Soda"
+  ],
+  "legendary": [
+   "GoldenKey",
+   "AmuletoCasa"
+  ],
+  "rareChance": 30,
+  "legendaryChance": 2
+ },
+ {
+  "id": "BlueBigFlowerLootTable 1",
+  "dir": "Prefabs/Nature/Flower",
+  "common": [
+   "bigflowerblue"
+  ],
+  "rare": [],
+  "legendary": [],
+  "rareChance": 0,
+  "legendaryChance": 0
+ },
+ {
+  "id": "GrassLootTable 1",
+  "dir": "Prefabs/Nature/Flower",
+  "common": [
+   "Leaf"
+  ],
+  "rare": [],
+  "legendary": [],
+  "rareChance": 0,
+  "legendaryChance": 0
+ },
+ {
+  "id": "PurpleBigFlowerLootTable",
+  "dir": "Prefabs/Nature/Flower",
+  "common": [
+   "bigflowerPurple"
+  ],
+  "rare": [],
+  "legendary": [],
+  "rareChance": 0,
+  "legendaryChance": 0
+ },
+ {
+  "id": "PurpleGrassLootTable",
+  "dir": "Prefabs/Nature/Flower",
+  "common": [
+   "PurpleLeaf"
+  ],
+  "rare": [],
+  "legendary": [],
+  "rareChance": 0,
+  "legendaryChance": 0
+ },
+ {
+  "id": "YellowBigFlowerLootTable 2",
+  "dir": "Prefabs/Nature/Flower",
+  "common": [
+   "bigflowerorange"
+  ],
+  "rare": [],
+  "legendary": [],
+  "rareChance": 0,
+  "legendaryChance": 0
+ },
+ {
+  "id": "BeahItem",
+  "dir": "Scripts/detectorMetal",
+  "common": [
+   "Soda",
+   "IronOre",
+   "Parafuso",
+   "conchaAzul",
+   "conchaRosa",
+   "conchaRoxa",
+   "conchaVerde"
+  ],
+  "rare": [
+   "goldOre",
+   "Bateria"
+  ],
+  "legendary": [
+   "AmuletoCaverna",
+   "AmuletoDungeon",
+   "AmuletoCasa",
+   "AmuletoPraia",
+   "Turbix"
+  ],
+  "rareChance": 30,
+  "legendaryChance": 10
+ },
+ {
+  "id": "BeahItemRare",
+  "dir": "Scripts/detectorMetal",
+  "common": [
+   "Ferro"
+  ],
+  "rare": [
+   "AmuletoCaverna",
+   "AmuletoDungeon",
+   "AmuletoCasa",
+   "AmuletoPraia",
+   "Turbix"
+  ],
+  "legendary": [
+   "Iron Pickaxe"
+  ],
+  "rareChance": 30,
+  "legendaryChance": 5
+ },
+ {
+  "id": "DungeonComumLootTable",
+  "dir": "Scripts/Dungeon",
+  "common": [
+   "Carvao",
+   "taco",
+   "Turbix",
+   "WoodLog",
+   "Cerveja",
+   "Soda"
+  ],
+  "rare": [
+   "cookie",
+   "Oniguiri",
+   "Milkshake",
+   "Ametista",
+   "coffee"
+  ],
+  "legendary": [
+   "Chromita",
+   "DiamanteRosa",
+   "GoldenKey",
+   "Esmeralma",
+   "AmuletoCasa",
+   "AmuletoCasa"
+  ],
+  "rareChance": 40,
+  "legendaryChance": 5
+ },
+ {
+  "id": "DungeonDifícilLootTable 1",
+  "dir": "Scripts/Dungeon",
+  "common": [
+   "Carvao",
+   "taco",
+   "Turbix",
+   "WoodLog",
+   "cookie",
+   "Cerveja",
+   "Soda"
+  ],
+  "rare": [
+   "cookie",
+   "Oniguiri",
+   "Milkshake",
+   "Ametista",
+   "coffee",
+   "AmuletoCasa"
+  ],
+  "legendary": [
+   "Chromita",
+   "DiamanteRosa",
+   "GoldenKey",
+   "Esmeralma",
+   "AmuletoCasa"
+  ],
+  "rareChance": 60,
+  "legendaryChance": 25
+ },
+ {
+  "id": "FishAguaDoce",
+  "dir": "Scripts/Fishing",
+  "common": [
+   "Parafuso",
+   "corda",
+   "chub",
+   "Tilapia",
+   "Tilapia",
+   "chub"
+  ],
+  "rare": [
+   "RainbowTrout"
+  ],
+  "legendary": [
+   "AmuletoCasa",
+   "AmuletoCaverna"
+  ],
+  "rareChance": 10,
+  "legendaryChance": 2
+ },
+ {
+  "id": "FishAguaSalgada",
+  "dir": "Scripts/Fishing",
+  "common": [
+   "Parafuso",
+   "corda",
+   "Herring",
+   "Sardinha",
+   "Sardinha",
+   "Herring"
+  ],
+  "rare": [],
+  "legendary": [
+   "AmuletoCasa",
+   "AmuletoCaverna"
+  ],
+  "rareChance": 10,
+  "legendaryChance": 2
+ }
+]

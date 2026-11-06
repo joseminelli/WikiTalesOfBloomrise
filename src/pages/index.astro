@@ -1,0 +1,29 @@
+---
+import { LANGS } from '../lib/i18n';
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tales Of Bloomrise Wiki</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <style>
+      body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #1b2a24; color: #f3eef5; font-family: system-ui, sans-serif; text-align: center; }
+      a { color: #4abdff; display: inline-block; margin: .35rem .6rem; }
+    </style>
+    <script is:inline define:vars={{ langs: LANGS.map((l) => ({ slug: l.slug, html: l.html })) }}>
+      const prefs = (navigator.languages || [navigator.language || 'en']).map((x) => x.toLowerCase());
+      for (const p of prefs) {
+        const hit = langs.find((l) => l.html.toLowerCase() === p) || langs.find((l) => l.html.toLowerCase().split('-')[0] === p.split('-')[0]);
+        if (hit) { location.replace('/' + hit.slug + '/'); break; }
+      }
+    </script>
+  </head>
+  <body>
+    <div>
+      <h1>Tales Of Bloomrise Wiki</h1>
+      <p>{LANGS.map((l) => <a href={`/${l.slug}/`}>{l.label}</a>)}</p>
+    </div>
+  </body>
+</html>

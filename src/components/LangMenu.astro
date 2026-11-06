@@ -1,0 +1,28 @@
+---
+// Seletor de idioma com bandeiras (SVG: no Windows, emoji de bandeira vira so letras). Links normais: funciona sem JS.
+import { LANGS, type Lang } from '../lib/i18n';
+interface Props { lang: Lang; path: string; variant?: 'menu' | 'grid'; }
+const { lang, path, variant = 'menu' } = Astro.props;
+---
+{variant === 'menu' ? (
+  <div class="lang-menu">
+    <button type="button" class="btn lang-btn" aria-haspopup="listbox" aria-expanded="false" aria-label={lang.label}>
+      <img class="flag" src={`/flags/${lang.flag}.svg`} alt="" width="22" height="16" /><span class="lbl">{lang.label}</span>
+    </button>
+    <ul class="lang-list" role="listbox">
+      {LANGS.map((l) => (
+        <li><a href={`/${l.slug}/${path}`} hreflang={l.html} role="option" aria-selected={l.slug === lang.slug} class={l.slug === lang.slug ? 'current' : ''}>
+          <img class="flag" src={`/flags/${l.flag}.svg`} alt="" width="22" height="16" loading="lazy" />{l.label}
+        </a></li>
+      ))}
+    </ul>
+  </div>
+) : (
+  <div class="lang-grid">
+    {LANGS.map((l) => (
+      <a href={`/${l.slug}/${path}`} hreflang={l.html} class={l.slug === lang.slug ? 'current' : ''}>
+        <img class="flag" src={`/flags/${l.flag}.svg`} alt="" width="22" height="16" />{l.label}
+      </a>
+    ))}
+  </div>
+)}

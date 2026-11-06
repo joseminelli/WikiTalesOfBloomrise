@@ -1,0 +1,14 @@
+---
+import { itemById, itemName, itemUrl, isSpoiler } from '../lib/data';
+import type { Lang } from '../lib/i18n';
+interface Props { lang: Lang; id: string; qty?: number; }
+const { lang, id, qty } = Astro.props;
+const it = itemById.get(id);
+---
+{it ? (
+  <a class={`chip ${isSpoiler('item', id) ? 'spoiler' : ''}`} href={itemUrl(lang, id)}>
+    <span class="slot">{it.icon && <img src={`/sprites/${it.icon}`} alt="" loading="lazy" />}</span>
+    {qty !== undefined && <span class="qty">{qty}×</span>}
+    <span>{itemName(lang, it)}</span>
+  </a>
+) : <span class="chip">{id}</span>}

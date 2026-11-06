@@ -1,0 +1,32 @@
+---
+import Base from '../../../layouts/Base.astro';
+import PageHead from '../../../components/PageHead.astro';
+import ItemChip from '../../../components/ItemChip.astro';
+import { LANGS, ui } from '../../../lib/i18n';
+import { plants, itemById, itemName } from '../../../lib/data';
+export function getStaticPaths() { return LANGS.map((l) => ({ params: { lang: l.slug }, props: { lang: l } })); }
+const { lang } = Astro.props;
+const t = (k: string) => ui(lang, k);
+const rows = plants.map((p) => ({ p, name: itemName(lang, itemById.get(p.harvest)) })).sort((a, b) => a.name.localeCompare(b.name, lang.html));
+---
+<Base lang={lang} title={t('plants')} path="plants/">
+  <PageHead lang={lang} cat="plants" title={t('plants')} />
+  <div class="grid wide">
+    {rows.map(({ p, name }) => (
+      <section class="panel" id={p.id}>
+        <h3>{name}</h3>
+        <div style="display:flex; gap:.3rem; margin:.4rem 0">
+          {p.stages.map((s: string) => <span class="slot"><img src={`/sprites/${s}`} alt="" loading="lazy" /></span>)}
+        </div>
+        <dl class="kv">
+          <dt>{t('seed')}</dt><dd>{p.seed && <ItemChip lang={lang} id={p.seed} />}</dd>
+          <dt>{t('growth')}</dt><dd>{p.growth}{t('seconds')} ({Math.round(p.growth / 6) / 10} min)</dd>
+          <dt>{t('regrowth')}</dt><dd>{p.regrowth}{t('seconds')}</dd>
+          <dt>{t('harvests')}</dt><dd>{p.maxHarvests}</dd>
+          <dt>{t('withers')}</dt><dd>{p.withers ? t('yes') : t('no')}</dd>
+          <dt>{t('items')}</dt><dd>{p.harvest && <ItemChip lang={lang} id={p.harvest} />}</dd>
+        </dl>
+      </section>
+    ))}
+  </div>
+</Base>

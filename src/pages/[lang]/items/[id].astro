@@ -1,0 +1,124 @@
+---
+import Base from '../../../layouts/Base.astro';
+import PageHead from '../../../components/PageHead.astro';
+import ItemChip from '../../../components/ItemChip.astro';
+import RecipeCard from '../../../components/RecipeCard.astro';
+import { LANGS, ui } from '../../../lib/i18n';
+import { items, itemName, itemDesc, itemUrl, recipeById, npcById, npcName, npcUrl, monsterById, monsterName, monsterUrl, questById, g, isSpoiler, slug, plantById } from '../../../lib/data';
+export function getStaticPaths() {
+  return LANGS.flatMap((l) => items.map((i) => ({ params: { lang: l.slug, id: slug(i.id) }, props: { lang: l, item: i } })));
+}
+const { lang, item } = Astro.props;
+const t = (k: string, v?: any) => ui(lang, k, v);
+const name = itemName(lang, item);
+const desc = itemDesc(lang, item);
+const spoiler = isSpoiler('item', item.id);
+const monsterSources = item.sources.filter((s: any) => s.kind === 'monster');
+const otherKinds = [...new Set(item.sources.filter((s: any) => s.kind !== 'monster').map((s: any) => s.kind))] as string[];
+const hasWhere = item.madeBy.length || item.sources.length || item.questRewards.length || item.soldBy.length;
+const gifts = item.gifts;
+const hasGifts = gifts.loved.length + gifts.liked.length + gifts.disliked.length > 0;
+const seedPlant = item.plant ? plantById.get(item.plant) : null;
+
+// anterior / proximo / parecidos (mesma categoria, ordem alfabetica no idioma)
+const sameType = items.filter((i) => i.type === item.type).map((i) => ({ i, n: itemName(lang, i) })).sort((a, b) => a.n.localeCompare(b.n, lang.html));
+const idx = sameType.findIndex((x) => x.i.id === item.id);
+const prev = idx > 0 ? sameType[idx - 1] : null;
+const next = idx < sameType.length - 1 ? sameType[idx + 1] : null;
+const similar = sameType.filter((x) => x.i.id !== item.id).slice(Math.max(0, idx - 4), Math.max(0, idx - 4) + 8);
+---
+<Base lang={lang} title={name} description={desc} path={`items/${slug(item.id)}/`}>
+  <PageHead lang={lang} cat="items" title="" crumbs={[{ label: t(`t_${item.type}`), href: `/${lang.slug}/items/?type=${item.type}` }, { label: name }]} />
+
+  <div class="layout-2">
+    <div>
+      {desc && <div class="panel"><p style="margin:0; font-size:1.05rem">{desc}</p></div>}
+      {spoiler && <p class="spoiler-note">{t('spoilersHint')}</p>}
+
+      {item.effects && item.effects.length > 0 && (
+        <section class="panel">
+          <h2>{t('effects')}</h2>
+          <ul>{item.effects.map((e: any) => <li>{g(lang, `BUFF_${e.type.toUpperCase()}`, e.type)} — {e.value} · {e.duration}{t('seconds')}</li>)}</ul>
+        </section>
+      )}
+
+      {seedPlant && (
+        <section class="panel"><h2>{t('plants')}</h2>
+          <a href={`/${lang.slug}/plants/#${seedPlant.id}`}>{t('growth')}: {seedPlant.growth}{t('seconds')} · {t('harvests')}: {seedPlant.maxHarvests}</a>
+          {seedPlant.harvest && <> → <ItemChip lang={lang} id={seedPlant.harvest} /></>}
+        </section>
+      )}
+
+      {hasWhere > 0 && (
+        <section class="panel">
+          <h2>{t('howToGet')}</h2>
+          {item.madeBy.map((rid: string) => (<><p><b>{t('src_craft')}</b></p><RecipeCard lang={lang} recipe={recipeById.get(rid)} /></>))}
+          {monsterSources.length > 0 && (
+            <div>
+              <p><b>{t('src_monster')}</b></p>
+              <div class="chips">
+                {[...new Map(monsterSources.map((s: any) => [s.monster, s])).values()].map((s: any) => {
+                  const m = monsterById.get(s.monster);
+                  return m && <a class={`chip ${isSpoiler('monster', m.id) ? 'spoiler' : ''}`} href={monsterUrl(lang, m.id)}>{monsterName(lang, m)} <span class={`badge ${s.rarity}`}>{t(`r_${s.rarity}`)}</span></a>;
+                })}
+              </div>
+            </div>
+          )}
+          {otherKinds.length > 0 && <p style="margin-top:.8rem"><b>{t('howToGet')}:</b> {otherKinds.map((k) => t(`src_${k}`)).join(' · ')}</p>}
+          {item.soldBy.length > 0 && <p><b>{t('soldAt')}:</b> {item.soldBy.map((k: string) => g(lang, k, k)).join(' · ')}{item.buy > 0 ? ` (${item.buy} 🪙)` : ''}</p>}
+          {item.questRewards.length > 0 && <p><b>{t('src_quest')}:</b> {item.questRewards.map((qid: string) => g(lang, questById.get(qid)?.nameKey, qid)).join(' · ')}</p>}
+        </section>
+      )}
+
+      {item.usedIn.length > 0 && (
+        <section class="panel">
+          <h2>{t('usedIn')}</h2>
+          <div class="grid wide">{item.usedIn.map((rid: string) => <RecipeCard lang={lang} recipe={recipeById.get(rid)} />)}</div>
+        </section>
+      )}
+
+      {hasGifts && (
+        <section class="panel">
+          <h2>{t('gifts')}</h2>
+          {(['loved', 'liked', 'disliked'] as const).map((k) => gifts[k].length > 0 && (
+            <p><span class={`badge ${k}`}>{t(`${k}By`)}</span>{' '}
+              {gifts[k].map((nid: string) => { const n = npcById.get(nid); return n && <a class={`chip ${isSpoiler('npc', nid) ? 'spoiler' : ''}`} href={npcUrl(lang, nid)}>{npcName(lang, n)}</a>; })}
+            </p>
+          ))}
+        </section>
+      )}
+
+      <section>
+        <h2>{t('related')}</h2>
+        <div class="grid tight">
+          {similar.map(({ i, n }) => (
+            <a class={`card ${isSpoiler('item', i.id) ? 'spoiler' : ''}`} href={itemUrl(lang, i.id)}>
+              <span class="slot sm">{i.icon && <img src={`/sprites/${i.icon}`} alt="" loading="lazy" />}</span>
+              <span class="t" style="font-size:1rem">{n}</span>
+            </a>
+          ))}
+        </div>
+        <div class="pager">
+          {prev ? <a class="card" href={itemUrl(lang, prev.i.id)}>← <span class="t">{prev.n}</span></a> : <span></span>}
+          {next ? <a class="card next" href={itemUrl(lang, next.i.id)}><span class="t">{next.n}</span> →</a> : <span></span>}
+        </div>
+      </section>
+    </div>
+
+    <aside class={`infobox ${spoiler ? 'spoiler-block' : ''}`}>
+      <span class="slot lg">{item.icon && <img src={`/sprites/${item.icon}`} alt={name} />}</span>
+      <h1>{name}</h1>
+      <span class="badge">{t(`t_${item.type}`)}</span>
+      <dl class="kv">
+        {item.buy > 0 && <><dt>{t('buy')}</dt><dd>{item.buy} 🪙</dd></>}
+        {item.sell > 0 && <><dt>{t('sell')}</dt><dd>{item.sell} 🪙</dd></>}
+        <dt>{t('stack')}</dt><dd>{item.stack}</dd>
+        {item.heal !== undefined && <><dt>{t('heals')}</dt><dd>+{item.heal} ❤</dd></>}
+        {item.stamina !== undefined && <><dt>{t('restoresStamina')}</dt><dd>+{item.stamina} ⚡</dd></>}
+        {item.weapon && <><dt>{t('damage')}</dt><dd>{item.weapon.damage}</dd></>}
+        {item.fish && <><dt>{t('rarity')}</dt><dd>{[t('r_common'), t('r_rare'), t('r_legendary')][item.fish.rarity] ?? item.fish.rarity}{item.fish.nightOnly ? ` · ${t('nightOnly')}` : ''}</dd></>}
+        {item.fish && <><dt>{t('location')}</dt><dd>{g(lang, item.fish.locationKey)}</dd></>}
+      </dl>
+    </aside>
+  </div>
+</Base>

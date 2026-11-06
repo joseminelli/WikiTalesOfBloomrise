@@ -1,0 +1,27 @@
+---
+import Base from '../../../layouts/Base.astro';
+import PageHead from '../../../components/PageHead.astro';
+import ImageCompare from '../../../components/ImageCompare.astro';
+import { LANGS, ui } from '../../../lib/i18n';
+export function getStaticPaths() { return LANGS.map((l) => ({ params: { lang: l.slug }, props: { lang: l } })); }
+const { lang } = Astro.props;
+const t = (k: string) => ui(lang, k);
+---
+<Base lang={lang} title={t('map')} path="map/">
+  <PageHead lang={lang} cat="map" title={t('map')} />
+
+  <section class="panel">
+    <h2>Bloomrise</h2>
+    <a href="/img/bloomrise.webp" target="_blank" rel="noopener" title={t('clickZoom')}>
+      <img class="px" src="/img/bloomrise.webp" alt="Bloomrise" style="width:100%; height:auto; border-radius:4px; display:block" />
+    </a>
+    <small>{t('clickZoom')}</small>
+  </section>
+
+  <section class="panel">
+    <h2>Arcania</h2>
+    <ImageCompare
+      before="/img/arcania-locked.webp" after="/img/arcania-unlocked.webp"
+      beforeLabel={t('towerLocked')} afterLabel={t('towerUnlocked')} hint={t('dragCompare')} alt="Arcania" />
+  </section>
+</Base>

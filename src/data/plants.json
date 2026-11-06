@@ -1,0 +1,178 @@
+[
+ {
+  "id": "DadosAbobora",
+  "harvest": "abobora",
+  "growth": 600,
+  "regrowth": 300,
+  "maxHarvests": 5,
+  "withers": true,
+  "stages": [
+   "Solaria_Crops_DEMO__Solaria_Crops_DEMO_22.png",
+   "Solaria_Crops_DEMO__Solaria_Crops_DEMO_23.png",
+   "Solaria_Crops_DEMO__Solaria_Crops_DEMO_24.png",
+   "Solaria_Crops_DEMO__Solaria_Crops_DEMO_25.png",
+   "Solaria_Crops_DEMO__Solaria_Crops_DEMO_26.png"
+  ],
+  "seed": "Seed_abobora"
+ },
+ {
+  "id": "DadosBatata",
+  "harvest": "batata",
+  "growth": 300,
+  "regrowth": 150,
+  "maxHarvests": 1,
+  "withers": false,
+  "stages": [
+   "Solaria_Crops_DEMO__Solaria_Crops_DEMO_36.png",
+   "Solaria_Crops_DEMO__Solaria_Crops_DEMO_37.png",
+   "Solaria_Crops_DEMO__Solaria_Crops_DEMO_38.png",
+   "Solaria_Crops_DEMO__Solaria_Crops_DEMO_39.png",
+   "Solaria_Crops_DEMO__Solaria_Crops_DEMO_40.png"
+  ],
+  "seed": "Seed_batata"
+ },
+ {
+  "id": "Dadoscebola",
+  "harvest": "cebola",
+  "growth": 300,
+  "regrowth": 150,
+  "maxHarvests": 1,
+  "withers": false,
+  "stages": [
+   "Crops_Objects__Onion_0.png",
+   "Crops_Objects__Onion_1.png",
+   "Crops_Objects__Onion_2.png",
+   "Crops_Objects__Onion_3.png",
+   "Crops_Objects__Onion_4.png"
+  ],
+  "seed": "Seed_cebola"
+ },
+ {
+  "id": "DadosCenoura",
+  "harvest": "cenoura",
+  "growth": 300,
+  "regrowth": 150,
+  "maxHarvests": 1,
+  "withers": false,
+  "stages": [
+   "Solaria_Crops_DEMO__Solaria_Crops_DEMO_4.png",
+   "Solaria_Crops_DEMO__Solaria_Crops_DEMO_5.png",
+   "Solaria_Crops_DEMO__Solaria_Crops_DEMO_6.png",
+   "Solaria_Crops_DEMO__Solaria_Crops_DEMO_7.png",
+   "Solaria_Crops_DEMO__Solaria_Crops_DEMO_8.png"
+  ],
+  "seed": "Seed_cenoura"
+ },
+ {
+  "id": "DadosDauva",
+  "harvest": "grape",
+  "growth": 300,
+  "regrowth": 150,
+  "maxHarvests": 3,
+  "withers": true,
+  "stages": [
+   "Crops_Objects__Grapes_0.png",
+   "Crops_Objects__Grapes_1.png",
+   "Crops_Objects__Grapes_2.png",
+   "Crops_Objects__Grapes_3.png",
+   "Crops_Objects__Grapes_4.png"
+  ],
+  "seed": "Seed_uva"
+ },
+ {
+  "id": "DadosDoMilho",
+  "harvest": "corn",
+  "growth": 300,
+  "regrowth": 150,
+  "maxHarvests": 3,
+  "withers": true,
+  "stages": [
+   "Crops_Objects__Corn_0.png",
+   "Crops_Objects__Corn_1.png",
+   "Crops_Objects__Corn_2.png",
+   "Crops_Objects__Corn_3.png",
+   "Crops_Objects__Corn_4.png"
+  ],
+  "seed": "Seed_milho"
+ },
+ {
+  "id": "DadosDoMorango",
+  "harvest": "Strawberry",
+  "growth": 300,
+  "regrowth": 150,
+  "maxHarvests": 3,
+  "withers": true,
+  "stages": [
+   "Crops_Objects__Strawberry_0.png",
+   "Crops_Objects__Strawberry_1.png",
+   "Crops_Objects__Strawberry_2.png",
+   "Crops_Objects__Strawberry_3.png",
+   "Crops_Objects__Strawberry_4.png"
+  ],
+  "seed": "Seed_morango"
+ },
+ {
+  "id": "DadosDoTomate",
+  "harvest": "tomato",
+  "growth": 600,
+  "regrowth": 300,
+  "maxHarvests": 3,
+  "withers": true,
+  "stages": [
+   "Solaria_Crops_DEMO__Solaria_Crops_DEMO_51.png",
+   "Solaria_Crops_DEMO__Solaria_Crops_DEMO_52.png",
+   "Solaria_Crops_DEMO__Solaria_Crops_DEMO_53.png",
+   "Solaria_Crops_DEMO__Solaria_Crops_DEMO_54.png",
+   "Solaria_Crops_DEMO__Solaria_Crops_DEMO_55.png"
+  ],
+  "seed": "Seed_tomato"
+ },
+ {
+  "id": "DadosGirasol",
+  "harvest": "sunflower",
+  "growth": 300,
+  "regrowth": 150,
+  "maxHarvests": 1,
+  "withers": false,
+  "stages": [
+   "Crops_Objects__sunfolwer_0.png",
+   "Crops_Objects__sunfolwer_1.png",
+   "Crops_Objects__sunfolwer_2.png",
+   "Crops_Objects__sunfolwer_3.png",
+   "Crops_Objects__sunfolwer_4.png"
+  ],
+  "seed": "Seed_Girasol"
+ },
+ {
+  "id": "DadosNabo",
+  "harvest": "Turnip",
+  "growth": 300,
+  "regrowth": 150,
+  "maxHarvests": 1,
+  "withers": false,
+  "stages": [
+   "Crops_Objects__Turnip_0.png",
+   "Crops_Objects__Turnip_1.png",
+   "Crops_Objects__Turnip_2.png",
+   "Crops_Objects__Turnip_3.png",
+   "Crops_Objects__Turnip_4.png"
+  ],
+  "seed": "Seed_Nabo"
+ },
+ {
+  "id": "DadosTrigo",
+  "harvest": "Wheat",
+  "growth": 300,
+  "regrowth": 150,
+  "maxHarvests": 1,
+  "withers": false,
+  "stages": [
+   "Crops_Objects__wheat_0.png",
+   "Crops_Objects__wheat_1.png",
+   "Crops_Objects__wheat_2.png",
+   "Crops_Objects__wheat_3.png",
+   "Crops_Objects__wheat_4.png"
+  ],
+  "seed": "Seed_trigo"
+ }
+]

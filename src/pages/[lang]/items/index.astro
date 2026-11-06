@@ -1,0 +1,47 @@
+---
+import Base from '../../../layouts/Base.astro';
+import PageHead from '../../../components/PageHead.astro';
+import { LANGS, ui } from '../../../lib/i18n';
+import { items, itemName, itemUrl, isSpoiler, ITEM_TYPES } from '../../../lib/data';
+export function getStaticPaths() { return LANGS.map((l) => ({ params: { lang: l.slug }, props: { lang: l } })); }
+const { lang } = Astro.props;
+const t = (k: string) => ui(lang, k);
+const rows = items.map((i) => ({ i, name: itemName(lang, i) })).sort((a, b) => a.name.localeCompare(b.name, lang.html));
+const countBy = (ty: string) => items.filter((i) => i.type === ty).length;
+---
+<Base lang={lang} title={t('items')} path="items/">
+  <PageHead lang={lang} cat="items" title={t('items')} count={items.length} />
+  <div class="with-side">
+    <aside class="side" id="types">
+      <h4>{t('categories')}</h4>
+      <button class="on" data-type=""><span>{t('all')}</span><span class="n">{items.length}</span></button>
+      {ITEM_TYPES.map((ty) => <button data-type={ty}><span>{t(`t_${ty}`)}</span><span class="n">{countBy(ty)}</span></button>)}
+    </aside>
+    <div>
+      <input class="filter" id="q" type="search" placeholder={t('search')} autocomplete="off" />
+      <div class="grid tight" id="list">
+        {rows.map(({ i, name }) => (
+          <a class={`card ${isSpoiler('item', i.id) ? 'spoiler' : ''}`} href={itemUrl(lang, i.id)} data-type={i.type} data-name={name.toLowerCase()}>
+            <span class="slot">{i.icon && <img src={`/sprites/${i.icon}`} alt="" loading="lazy" />}</span>
+            <span><span class="t">{name}</span><small>{t(`t_${i.type}`)}</small></span>
+          </a>
+        ))}
+      </div>
+      <p id="empty" style="display:none">{t('noResults')}</p>
+    </div>
+  </div>
+  <script is:inline>
+    const cards = [...document.querySelectorAll('#list .card')];
+    let type = '', q = '';
+    const params = new URLSearchParams(location.search);
+    const apply = () => {
+      let n = 0;
+      cards.forEach((c) => { const ok = (!type || c.dataset.type === type) && (!q || c.dataset.name.includes(q)); c.style.display = ok ? '' : 'none'; if (ok) n++; });
+      document.getElementById('empty').style.display = n ? 'none' : '';
+    };
+    const setType = (ty) => { type = ty; document.querySelectorAll('#types button').forEach((x) => x.classList.toggle('on', x.dataset.type === ty)); apply(); };
+    document.getElementById('q').addEventListener('input', (e) => { q = e.target.value.toLowerCase().trim(); apply(); });
+    document.querySelectorAll('#types button').forEach((b) => b.addEventListener('click', () => { setType(b.dataset.type); history.replaceState(null, '', b.dataset.type ? '?type=' + b.dataset.type : location.pathname); }));
+    if (params.get('type')) setType(params.get('type'));
+  </script>
+</Base>

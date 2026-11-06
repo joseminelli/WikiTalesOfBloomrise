@@ -1,0 +1,36 @@
+---
+import Base from '../../../layouts/Base.astro';
+import PageHead from '../../../components/PageHead.astro';
+import ItemChip from '../../../components/ItemChip.astro';
+import { LANGS, ui } from '../../../lib/i18n';
+import { quests, g, itemById, monsterById, monsterName, isSpoiler } from '../../../lib/data';
+export function getStaticPaths() { return LANGS.map((l) => ({ params: { lang: l.slug }, props: { lang: l } })); }
+const { lang } = Astro.props;
+const t = (k: string) => ui(lang, k);
+---
+<Base lang={lang} title={t('quests')} path="quests/">
+  <PageHead lang={lang} cat="quests" title={t('quests')} />
+  <div class="grid wide">
+    {quests.map((q) => (
+      <section class={`panel ${isSpoiler('quest', q.id) ? 'spoiler-block' : ''}`}>
+        <h3>{g(lang, q.nameKey, q.id)}</h3>
+        {g(lang, q.descKey) && <p>{g(lang, q.descKey)}</p>}
+        {q.objectives.length > 0 && (
+          <div>
+            <b>{t('objectives')}</b>
+            <ul>
+              {q.objectives.map((o: any) => (
+                <li>{o.type === 'Kill' ? t('kill') : t('collect')} {o.amount}× {o.type === 'Kill' && monsterById.get(o.target) ? monsterName(lang, monsterById.get(o.target)) : itemById.get(o.target) ? <ItemChip lang={lang} id={o.target} /> : o.target}</li>
+              ))}
+            </ul>
+          </div>
+        )}
+        <b>{t('rewards')}</b>
+        <p>{q.gold > 0 && <>{q.gold} 🪙 </>}{q.xp > 0 && <>{q.xp} XP </>}
+          {q.rewardItems.map((r: any) => <ItemChip lang={lang} id={r.item} qty={r.qty} />)}
+        </p>
+        {q.repeatable && <span class="badge">{t('repeatable')}</span>}
+      </section>
+    ))}
+  </div>
+</Base>

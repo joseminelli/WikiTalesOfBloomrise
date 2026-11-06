@@ -1,0 +1,156 @@
+---
+import '../styles/global.css';
+import { LANGS, ui, type Lang } from '../lib/i18n';
+import { NAV_GROUPS, catIcon, LINKS } from '../lib/data';
+import LangMenu from '../components/LangMenu.astro';
+interface Props { lang: Lang; title: string; description?: string; path?: string; }
+const { lang, title, description, path = '' } = Astro.props;
+const t = (k: string) => ui(lang, k);
+const fullTitle = title ? `${title} · ${t('siteTitle')}` : t('siteTitle');
+const here = Astro.url.pathname;
+const isActive = (cat: string) => here.startsWith(`/${lang.slug}/${cat}/`);
+const mechIcon = catIcon('mechanics');
+---
+<!doctype html>
+<html lang={lang.html} data-spoilers="off">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description ?? t('tagline')} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description ?? t('tagline')} />
+    <meta property="og:image" content="/brand/banner.webp" />
+    <meta name="theme-color" content="#0b1417" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;600;700&display=swap" />
+    {LANGS.map((l) => <link rel="alternate" hreflang={l.html} href={`/${l.slug}/${path}`} />)}
+    <script is:inline>
+      try { document.documentElement.dataset.spoilers = localStorage.getItem('bloomrise-spoilers') === 'on' ? 'on' : 'off'; } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="bar">
+        <a class="brand" href={`/${lang.slug}/`} aria-label="Tales Of Bloomrise Wiki"><img src="/brand/logo.png" alt="Tales Of Bloomrise" /><span class="wiki">Wiki</span></a>
+
+        <nav class="nav" id="nav" aria-label="main">
+          {NAV_GROUPS.map((grp) => (
+            <div class={`nav-group ${grp.cats.some(isActive) ? 'active' : ''}`}>
+              <button type="button" aria-haspopup="true">{t(grp.key)}</button>
+              <div class="menu">
+                {grp.cats.map((c) => (
+                  <a href={`/${lang.slug}/${c}/`} aria-current={isActive(c) ? 'page' : undefined}>
+                    {catIcon(c) && <img src={`/sprites/${catIcon(c)}`} alt="" />}{t(c)}
+                  </a>
+                ))}
+              </div>
+            </div>
+          ))}
+          <a href={`/${lang.slug}/mechanics/`} aria-current={isActive('mechanics') ? 'page' : undefined}>{t('mechanics')}</a>
+          <div class="nav-tools">
+            <button class="btn js-spoiler" type="button" aria-pressed="false">👁 {t('spoilers')}</button>
+          </div>
+          <div class="nav-langs"><LangMenu lang={lang} path={path} variant="grid" /></div>
+        </nav>
+
+        <span class="spacer"></span>
+        <button class="search-btn" id="open-search" type="button" aria-label={t('search')}>
+          <span aria-hidden="true">🔍</span><span class="label">{t('search')}</span><kbd>/</kbd>
+        </button>
+        <button class="btn js-spoiler desk" type="button" aria-pressed="false" title={t('spoilersHint')}>👁 <span class="lbl">{t('spoilers')}</span></button>
+        <span class="desk"><LangMenu lang={lang} path={path} /></span>
+        <button class="btn burger" id="burger" type="button" aria-label={t('menu')} aria-expanded="false">☰</button>
+      </div>
+    </header>
+
+    <main id="main" data-pagefind-body>
+      <slot />
+    </main>
+
+    <footer>
+      <div class="cols">
+        <div>
+          <img src="/brand/logo.png" alt="Tales Of Bloomrise" style="height:36px; margin-bottom:.6rem" />
+          <p>{t('footer')}</p>
+          <p class="flinks">
+            <a href={LINKS.site}>{t('official')}</a>
+            <a href={LINKS.steam} rel="noopener">Steam</a>
+            <a href={LINKS.play} rel="noopener">Google Play</a>
+            <a href={LINKS.discord} rel="noopener">Discord</a>
+          </p>
+        </div>
+        {NAV_GROUPS.map((grp) => (
+          <div>
+            <h4>{t(grp.key)}</h4>
+            <ul>{grp.cats.map((c) => <li><a href={`/${lang.slug}/${c}/`}>{t(c)}</a></li>)}</ul>
+          </div>
+        ))}
+      </div>
+      <div class="legal"><span>© Whiskline Studio</span><a href={`/${lang.slug}/mechanics/`}>{t('mechanics')}</a></div>
+    </footer>
+    <button class="to-top" id="to-top" type="button" aria-label={t('top')}>↑</button>
+
+    <dialog id="search-dialog"><div class="box"><div id="search-root"></div></div></dialog>
+
+    <script is:inline define:vars={{ placeholder: t('search') }}>
+      const html = document.documentElement;
+      const sps = [...document.querySelectorAll('.js-spoiler')];
+      const sync = () => sps.forEach((b) => b.setAttribute('aria-pressed', html.dataset.spoilers === 'on' ? 'true' : 'false'));
+      sync();
+      sps.forEach((sp) => sp.addEventListener('click', () => {
+        const on = html.dataset.spoilers !== 'on';
+        html.dataset.spoilers = on ? 'on' : 'off';
+        try { localStorage.setItem('bloomrise-spoilers', on ? 'on' : 'off'); } catch (e) {}
+        sync();
+      }));
+      // menu de idiomas (desktop)
+      const lm = document.querySelector('.lang-menu');
+      if (lm) {
+        const lb = lm.querySelector('.lang-btn');
+        lb.addEventListener('click', (e) => { e.stopPropagation(); const o = lm.classList.toggle('open'); lb.setAttribute('aria-expanded', o ? 'true' : 'false'); });
+        document.addEventListener('click', () => { lm.classList.remove('open'); lb.setAttribute('aria-expanded', 'false'); });
+        addEventListener('keydown', (e) => { if (e.key === 'Escape') lm.classList.remove('open'); });
+      }
+
+      // menus (clique funciona em toque; hover em desktop via CSS)
+      const groups = [...document.querySelectorAll('.nav-group')];
+      groups.forEach((g) => g.querySelector('button').addEventListener('click', (e) => {
+        e.stopPropagation(); const was = g.classList.contains('open'); groups.forEach((x) => x.classList.remove('open')); if (!was) g.classList.add('open');
+      }));
+      document.addEventListener('click', () => groups.forEach((x) => x.classList.remove('open')));
+      const burger = document.getElementById('burger'), nav = document.getElementById('nav');
+      const setNav = (o) => { nav.classList.toggle('open', o); document.body.classList.toggle('nav-open', o); burger.setAttribute('aria-expanded', o ? 'true' : 'false'); burger.textContent = o ? '✕' : '☰'; };
+      burger.addEventListener('click', (e) => { e.stopPropagation(); setNav(!nav.classList.contains('open')); });
+      nav.addEventListener('click', (e) => e.stopPropagation());
+      document.addEventListener('click', () => setNav(false));
+      addEventListener('keydown', (e) => { if (e.key === 'Escape') { setNav(false); groups.forEach((x) => x.classList.remove('open')); } });
+      addEventListener('resize', () => { if (innerWidth > 960) setNav(false); });
+
+      const toTop = document.getElementById('to-top');
+      addEventListener('scroll', () => toTop.classList.toggle('show', scrollY > 600), { passive: true });
+      toTop.addEventListener('click', () => scrollTo({ top: 0, behavior: 'smooth' }));
+
+      const dlg = document.getElementById('search-dialog');
+      let loaded = false;
+      async function openSearch() {
+        dlg.showModal();
+        if (!loaded) {
+          loaded = true;
+          try {
+            const css = document.createElement('link'); css.rel = 'stylesheet'; css.href = '/pagefind/pagefind-ui.css'; document.head.appendChild(css);
+            await new Promise((res, rej) => { const s = document.createElement('script'); s.src = '/pagefind/pagefind-ui.js'; s.onload = res; s.onerror = rej; document.head.appendChild(s); });
+            new PagefindUI({ element: '#search-root', showSubResults: true, showImages: false, translations: { placeholder } });
+          } catch (e) { document.getElementById('search-root').textContent = 'Search is available after a production build (npm run build).'; }
+        }
+        setTimeout(() => document.querySelector('#search-root input')?.focus(), 50);
+      }
+      document.querySelectorAll('#open-search, [data-open-search]').forEach((b) => b.addEventListener('click', openSearch));
+      dlg.addEventListener('click', (e) => { if (e.target === dlg) dlg.close(); });
+      addEventListener('keydown', (e) => { if (e.key === '/' && !/INPUT|TEXTAREA|SELECT/.test(document.activeElement.tagName)) { e.preventDefault(); openSearch(); } });
+    </script>
+  </body>
+</html>

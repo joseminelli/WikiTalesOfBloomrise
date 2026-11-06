@@ -1,0 +1,39 @@
+---
+import Base from '../../../layouts/Base.astro';
+import PageHead from '../../../components/PageHead.astro';
+import { LANGS, ui } from '../../../lib/i18n';
+import { mechanicsFor } from '../../../lib/mechanics';
+import { catIcon } from '../../../lib/data';
+export function getStaticPaths() { return LANGS.map((l) => ({ params: { lang: l.slug }, props: { lang: l } })); }
+const { lang } = Astro.props;
+const t = (k: string, v?: any) => ui(lang, k, v);
+const list = mechanicsFor(lang);
+---
+<Base lang={lang} title={t('mechanics')} description={t('mechIntro')} path="mechanics/">
+  <PageHead lang={lang} cat="mechanics" title={t('mechanics')} count={list.length} sub={t('mechIntro')} />
+  <input class="filter" id="mech-q" type="search" placeholder={t('mechFilter')} autocomplete="off" />
+  <div class="grid wide" id="mech-list">
+    {list.map((m) => (
+      <a class="card mech-card" href={`/${lang.slug}/mechanics/${m.slug}/`} data-text={`${m.title} ${m.summary}`.toLowerCase()}>
+        <span class="mech-ico" aria-hidden="true">{m.icon}</span>
+        <span class="mech-body">
+          <span class="t">{m.title}</span>
+          <small class="sum">{m.summary}</small>
+          <span class="meta">
+            {m.minutes > 1 && <span>{t('readTime', { n: m.minutes })}</span>}
+            {m.related.map((c) => <span class="rel">{catIcon(c) && <img class="px" src={`/sprites/${catIcon(c)}`} alt="" />}{t(c)}</span>)}
+          </span>
+        </span>
+      </a>
+    ))}
+  </div>
+  <p id="mech-empty" style="display:none">{t('noResults')}</p>
+  <script is:inline>
+    const cards = [...document.querySelectorAll('#mech-list .mech-card')];
+    document.getElementById('mech-q').addEventListener('input', (e) => {
+      const q = e.target.value.toLowerCase().trim(); let n = 0;
+      cards.forEach((c) => { const ok = !q || c.dataset.text.includes(q); c.style.display = ok ? '' : 'none'; if (ok) n++; });
+      document.getElementById('mech-empty').style.display = n ? 'none' : '';
+    });
+  </script>
+</Base>

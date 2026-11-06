@@ -1,0 +1,195 @@
+[
+ {
+  "id": "crit1",
+  "nameKey": "SKILL_CRIT1_TITLE",
+  "descKey": "SKILL_CRIT1_DESC",
+  "level": 0,
+  "cost": 1,
+  "requires": [
+   "damage1"
+  ],
+  "effects": {
+   "CChanceUpgrade": 5.0,
+   "CDamageUpgrade": 6.0
+  },
+  "icon": "Health_Magic_Armour_Money_Icons__Health_Magic_Armour_Money_Icons_100.png"
+ },
+ {
+  "id": "damage1",
+  "nameKey": "SKILL_DAMAGE1_TITLE",
+  "descKey": "SKILL_DAMAGE1_DESC",
+  "level": 0,
+  "cost": 1,
+  "requires": [
+   "mana1"
+  ],
+  "effects": {
+   "DamageUpgrade": 0.5,
+   "ManaUpgrade": 5.0
+  },
+  "icon": "Weapons_Icons__Rayy_Sword.png"
+ },
+ {
+  "id": "dodge1",
+  "nameKey": "SKILL_DODGE_TITLE",
+  "descKey": "SKILL_DODGE_DESC",
+  "level": 0,
+  "cost": 1,
+  "requires": [
+   "mana2"
+  ],
+  "effects": {
+   "HealthUpgrade": 3.0,
+   "ManaUpgrade": 1.0,
+   "DodgeUpgrade": 5.0
+  },
+  "icon": "Health_Magic_Armour_Money_Icons__Health_Magic_Armour_Money_Icons_70.png"
+ },
+ {
+  "id": "health1",
+  "nameKey": "SKILL_HEALTH1_TITLE",
+  "descKey": "SKILL_HEALTH1_DESC",
+  "level": 0,
+  "cost": 1,
+  "requires": [
+   "mana1"
+  ],
+  "effects": {
+   "HealthUpgrade": 3.0,
+   "ManaUpgrade": 3.0
+  },
+  "icon": "Health_Magic_Armour_Money_Icons__Health_Magic_Armour_Money_Icons_0.png"
+ },
+ {
+  "id": "health2",
+  "nameKey": "SKILL_HEALTH2_TITLE",
+  "descKey": "SKILL_HEALTH2_DESC",
+  "level": 0,
+  "cost": 1,
+  "requires": [
+   "health1"
+  ],
+  "effects": {
+   "HealthUpgrade": 4.0,
+   "ManaUpgrade": 1.0,
+   "DodgeUpgrade": 2.0
+  },
+  "icon": "Health_Magic_Armour_Money_Icons__Health_Magic_Armour_Money_Icons_0.png"
+ },
+ {
+  "id": "mana1",
+  "nameKey": "SKILL_MANA1_TITLE",
+  "descKey": "SKILL_MANA1_DESC",
+  "level": 0,
+  "cost": 1,
+  "requires": [],
+  "effects": {
+   "ManaUpgrade": 6.0
+  },
+  "icon": "Health_Magic_Armour_Money_Icons__Health_Magic_Armour_Money_Icons_125.png"
+ },
+ {
+  "id": "mana2",
+  "nameKey": "SKILL_MANA2_TITLE",
+  "descKey": "SKILL_MANA2_DESC",
+  "level": 0,
+  "cost": 1,
+  "requires": [
+   "health1"
+  ],
+  "effects": {
+   "ManaUpgrade": 9.0
+  },
+  "icon": "Health_Magic_Armour_Money_Icons__Health_Magic_Armour_Money_Icons_125.png"
+ },
+ {
+  "id": "crit2",
+  "nameKey": "SKILL_CRIT2_TITLE",
+  "descKey": "SKILL_CRIT2_DESC",
+  "level": 4,
+  "cost": 1,
+  "requires": [
+   "crit1"
+  ],
+  "effects": {
+   "CChanceUpgrade": 5.0,
+   "CDamageUpgrade": 10.0
+  },
+  "icon": "Health_Magic_Armour_Money_Icons__Health_Magic_Armour_Money_Icons_100.png"
+ },
+ {
+  "id": "damage2",
+  "nameKey": "SKILL_DAMAGE2_TITLE",
+  "descKey": "SKILL_DAMAGE2_DESC",
+  "level": 5,
+  "cost": 1,
+  "requires": [
+   "damage1"
+  ],
+  "effects": {
+   "DamageUpgrade": 0.5
+  },
+  "icon": "Weapons_Icons__Rayy_Sword.png"
+ },
+ {
+  "id": "damage3",
+  "nameKey": "SKILL_DAMAGE2_TITLE",
+  "descKey": "SKILL_DAMAGE2_DESC",
+  "level": 5,
+  "cost": 1,
+  "requires": [
+   "crit1"
+  ],
+  "effects": {
+   "DamageUpgrade": 1.0
+  },
+  "icon": "Weapons_Icons__Rayy_Sword.png"
+ },
+ {
+  "id": "dropchance1",
+  "nameKey": "SKILL_MAO_LEVE_TITLE",
+  "descKey": "SKILL_MAO_LEVE_DESC",
+  "level": 5,
+  "cost": 1,
+  "requires": [
+   "mana1"
+  ],
+  "effects": {
+   "DropChanceMultiplier": 0.2
+  },
+  "icon": "Crafting_Material_Icons__Crafting_Material_Icons_460.png"
+ },
+ {
+  "id": "regen",
+  "nameKey": "SKILL_REGEN_TITLE",
+  "descKey": "SKILL_REGEN_DESC",
+  "level": 10,
+  "cost": 1,
+  "requires": [
+   "health2"
+  ],
+  "effects": {
+   "HealthUpgrade": 3.0,
+   "DodgeUpgrade": 3.0,
+   "RegenValue": 1.0,
+   "EnableRegen": true
+  },
+  "icon": "Health_Magic_Armour_Money_Icons__Health_Magic_Armour_Money_Icons_105.png"
+ },
+ {
+  "id": "LastResort",
+  "nameKey": "SKILL_LASTBREATH_TITLE",
+  "descKey": "SKILL_LASTBREATH_DESC",
+  "level": 12,
+  "cost": 1,
+  "requires": [
+   "health2",
+   "crit1"
+  ],
+  "effects": {
+   "HealthUpgrade": 3.0,
+   "EnableLastResort": true
+  },
+  "icon": "Health_Magic_Armour_Money_Icons__Health_Magic_Armour_Money_Icons_219.png"
+ }
+]

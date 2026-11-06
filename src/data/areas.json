@@ -1,0 +1,110 @@
+[
+ {
+  "id": "BaitShop_AreaData",
+  "nameKey": "BAIT_SHOP"
+ },
+ {
+  "id": "CaveArea_AreaData",
+  "nameKey": "CAVE_TITLE"
+ },
+ {
+  "id": "WindMill_AreaData",
+  "nameKey": "WINDMILL_TITLE"
+ },
+ {
+  "id": "Arcania_AreaData",
+  "nameKey": "ARCANIA_UNLICK_TITLE"
+ },
+ {
+  "id": "Mabel_AreaData",
+  "nameKey": "MABELNHOUSE_TITLE"
+ },
+ {
+  "id": "Tower_Arcania_AreaData",
+  "nameKey": "ARCANETOWER_UNLICK_TITLE"
+ },
+ {
+  "id": "Bloomrise_AreaData 1",
+  "nameKey": "BLOOMRISE_TITLE"
+ },
+ {
+  "id": "BigDungeon",
+  "nameKey": "BIGDUNGEON_TITLE"
+ },
+ {
+  "id": "Dungeon1_AreaData",
+  "nameKey": "DUNGEON1_TITLE"
+ },
+ {
+  "id": "Dungeon2_AreaData",
+  "nameKey": "DUNGEON2_TITLE"
+ },
+ {
+  "id": "Dungeon3_AreaData",
+  "nameKey": "DUNGEON3_TITLE"
+ },
+ {
+  "id": "Dungeon4_AreaData",
+  "nameKey": "DUNGEON4_TITLE"
+ },
+ {
+  "id": "Dungeon5_AreaData",
+  "nameKey": "DUNGEON5_TITLE"
+ },
+ {
+  "id": "WaveDungeon1_AreaData",
+  "nameKey": "WAVEDUNGEON1_TITLE"
+ },
+ {
+  "id": "Forest_AreaData",
+  "nameKey": "FOREST_TITLE"
+ },
+ {
+  "id": "Bar_AreaData",
+  "nameKey": "BAR_TITLE"
+ },
+ {
+  "id": "Biblioteca_AreaData 3",
+  "nameKey": "LIBRARY_TITLE"
+ },
+ {
+  "id": "Ferreiro_AreaData 2",
+  "nameKey": "BLACKSMITH_TITLE"
+ },
+ {
+  "id": "Jaden_AreaData",
+  "nameKey": "JADENHOUSE_TITLE"
+ },
+ {
+  "id": "LupiHouse_AreaData 1",
+  "nameKey": "LUPINHOUSE_TITLE"
+ },
+ {
+  "id": "Lyla_AreaData",
+  "nameKey": "LYLANHOUSE_TITLE"
+ },
+ {
+  "id": "Milo_AreaData",
+  "nameKey": "MILONHOUSE_TITLE"
+ },
+ {
+  "id": "RayyHouse_AreaData",
+  "nameKey": "RAYYNHOUSE_TITLE"
+ },
+ {
+  "id": "Selene_AreaData",
+  "nameKey": "SELENENHOUSE_TITLE"
+ },
+ {
+  "id": "Victor_AreaData 1",
+  "nameKey": "VICTORNHOUSE_TITLE"
+ },
+ {
+  "id": "Wade_AreaData 1",
+  "nameKey": "WADENHOUSE_TITLE"
+ },
+ {
+  "id": "Praia_AreaData 1",
+  "nameKey": "PIER_BEACH_LOCATION"
+ }
+]

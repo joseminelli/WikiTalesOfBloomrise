@@ -1,0 +1,1047 @@
+[
+ {
+  "id": "AmuletoCasaCraft",
+  "station": "Workbench",
+  "output": "AmuletoCasa",
+  "qty": 1,
+  "ingredients": [
+   {
+    "item": "corda",
+    "qty": 2,
+    "alts": []
+   },
+   {
+    "item": "Ferro",
+    "qty": 1,
+    "alts": []
+   }
+  ],
+  "ticks": 40
+ },
+ {
+  "id": "AmuletoCaveCraft",
+  "station": "Workbench",
+  "output": "AmuletoCaverna",
+  "qty": 1,
+  "ingredients": [
+   {
+    "item": "corda",
+    "qty": 2,
+    "alts": []
+   },
+   {
+    "item": "Ferro",
+    "qty": 1,
+    "alts": []
+   }
+  ],
+  "ticks": 40
+ },
+ {
+  "id": "bombCraft",
+  "station": "Workbench",
+  "output": "bomb",
+  "qty": 1,
+  "ingredients": [
+   {
+    "item": "IronOre",
+    "qty": 1,
+    "alts": []
+   },
+   {
+    "item": "Carvao",
+    "qty": 1,
+    "alts": []
+   }
+  ],
+  "ticks": 40
+ },
+ {
+  "id": "Common Arrow",
+  "station": "Workbench",
+  "output": "CommonArrow",
+  "qty": 5,
+  "ingredients": [
+   {
+    "item": "madeirarefinada",
+    "qty": 1,
+    "alts": []
+   },
+   {
+    "item": "pedra",
+    "qty": 5,
+    "alts": []
+   }
+  ],
+  "ticks": 40
+ },
+ {
+  "id": "CPU",
+  "station": "Workbench",
+  "output": "CPU",
+  "qty": 1,
+  "ingredients": [
+   {
+    "item": "Ferro",
+    "qty": 1,
+    "alts": []
+   },
+   {
+    "item": "Ouro",
+    "qty": 1,
+    "alts": []
+   }
+  ],
+  "ticks": 40
+ },
+ {
+  "id": "detectorMetal",
+  "station": "Workbench",
+  "output": "DetectorMetal",
+  "qty": 1,
+  "ingredients": [
+   {
+    "item": "CPU",
+    "qty": 2,
+    "alts": []
+   },
+   {
+    "item": "Ferro",
+    "qty": 2,
+    "alts": []
+   },
+   {
+    "item": "Bateria",
+    "qty": 2,
+    "alts": []
+   }
+  ],
+  "ticks": 40
+ },
+ {
+  "id": "Rope",
+  "station": "Workbench",
+  "output": "corda",
+  "qty": 1,
+  "ingredients": [
+   {
+    "item": "Leaf",
+    "qty": 5,
+    "alts": [
+     "PurpleLeaf"
+    ]
+   }
+  ],
+  "ticks": 40
+ },
+ {
+  "id": "woodAxe",
+  "station": "Workbench",
+  "output": "Wood Axe",
+  "qty": 1,
+  "ingredients": [
+   {
+    "item": "madeirarefinada",
+    "qty": 4,
+    "alts": []
+   },
+   {
+    "item": "WoodLog",
+    "qty": 2,
+    "alts": []
+   },
+   {
+    "item": "corda",
+    "qty": 1,
+    "alts": []
+   }
+  ],
+  "ticks": 40
+ },
+ {
+  "id": "Woodlog",
+  "station": "Workbench",
+  "output": "madeirarefinada",
+  "qty": 1,
+  "ingredients": [
+   {
+    "item": "WoodLog",
+    "qty": 2,
+    "alts": []
+   }
+  ],
+  "ticks": 40
+ },
+ {
+  "id": "woodPickaxe",
+  "station": "Workbench",
+  "output": "Wood Pickaxe",
+  "qty": 1,
+  "ingredients": [
+   {
+    "item": "madeirarefinada",
+    "qty": 5,
+    "alts": []
+   },
+   {
+    "item": "WoodLog",
+    "qty": 2,
+    "alts": []
+   },
+   {
+    "item": "corda",
+    "qty": 1,
+    "alts": []
+   }
+  ],
+  "ticks": 40
+ },
+ {
+  "id": "batataAssadaCraft",
+  "station": "Stove",
+  "output": "batata Assada",
+  "qty": 1,
+  "ingredients": [
+   {
+    "item": "batata",
+    "qty": 2,
+    "alts": []
+   }
+  ],
+  "ticks": 40
+ },
+ {
+  "id": "batatafritaCraft",
+  "station": "Stove",
+  "output": "batatafrita",
+  "qty": 1,
+  "ingredients": [
+   {
+    "item": "batata",
+    "qty": 3,
+    "alts": []
+   },
+   {
+    "item": "Oleo vegetal",
+    "qty": 1,
+    "alts": [
+     "OleoCoco"
+    ]
+   }
+  ],
+  "ticks": 40
+ },
+ {
+  "id": "bolocenoura",
+  "station": "Stove",
+  "output": "CARROTCAKE",
+  "qty": 1,
+  "ingredients": [
+   {
+    "item": "Wheat",
+    "qty": 2,
+    "alts": []
+   },
+   {
+    "item": "cenoura",
+    "qty": 2,
+    "alts": []
+   }
+  ],
+  "ticks": 40
+ },
+ {
+  "id": "donutsMistico",
+  "station": "Stove",
+  "output": "donutsmistico",
+  "qty": 1,
+  "ingredients": [
+   {
+    "item": "Wheat",
+    "qty": 3,
+    "alts": []
+   },
+   {
+    "item": "MYSTIC_MUSHROOM",
+    "qty": 3,
+    "alts": []
+   },
+   {
+    "item": "FungDrop",
+    "qty": 2,
+    "alts": []
+   }
+  ],
+  "ticks": 40
+ },
+ {
+  "id": "ensopado",
+  "station": "Stove",
+  "output": "ensopadoRaizes",
+  "qty": 1,
+  "ingredients": [
+   {
+    "item": "cenoura",
+    "qty": 1,
+    "alts": []
+   },
+   {
+    "item": "Turnip",
+    "qty": 1,
+    "alts": []
+   },
+   {
+    "item": "batata",
+    "qty": 1,
+    "alts": []
+   }
+  ],
+  "ticks": 40
+ },
+ {
+  "id": "EnsopadoPeixe",
+  "station": "Stove",
+  "output": "EnsopadoPeixe",
+  "qty": 1,
+  "ingredients": [
+   {
+    "item": "cenoura",
+    "qty": 1,
+    "alts": []
+   },
+   {
+    "item": "chub",
+    "qty": 1,
+    "alts": []
+   },
+   {
+    "item": "batata",
+    "qty": 1,
+    "alts": []
+   }
+  ],
+  "ticks": 40
+ },
+ {
+  "id": "filetrutaarcoiris",
+  "station": "Stove",
+  "output": "FileTrutaArcoIris",
+  "qty": 1,
+  "ingredients": [
+   {
+    "item": "RainbowTrout",
+    "qty": 1,
+    "alts": []
+   },
+   {
+    "item": "Turnip",
+    "qty": 1,
+    "alts": []
+   },
+   {
+    "item": "cenoura",
+    "qty": 1,
+    "alts": []
+   }
+  ],
+  "ticks": 40
+ },
+ {
+  "id": "Hamburger",
+  "station": "Stove",
+  "output": "sanduiche",
+  "qty": 1,
+  "ingredients": [
+   {
+    "item": "pao",
+    "qty": 1,
+    "alts": []
+   },
+   {
+    "item": "Turnip",
+    "qty": 1,
+    "alts": []
+   },
+   {
+    "item": "tomato",
+    "qty": 2,
+    "alts": []
+   },
+   {
+    "item": "cebola",
+    "qty": 1,
+    "alts": []
+   }
+  ],
+  "ticks": 40
+ },
+ {
+  "id": "ovoFrito",
+  "station": "Stove",
+  "output": "ovoFrito",
+  "qty": 1,
+  "ingredients": [
+   {
+    "item": "egg",
+    "qty": 2,
+    "alts": []
+   },
+   {
+    "item": "Oleo vegetal",
+    "qty": 1,
+    "alts": [
+     "OleoCoco"
+    ]
+   }
+  ],
+  "ticks": 40
+ },
+ {
+  "id": "pao",
+  "station": "Stove",
+  "output": "pao",
+  "qty": 1,
+  "ingredients": [
+   {
+    "item": "Wheat",
+    "qty": 2,
+    "alts": []
+   }
+  ],
+  "ticks": 40
+ },
+ {
+  "id": "paobatat",
+  "station": "Stove",
+  "output": "paodebatata",
+  "qty": 1,
+  "ingredients": [
+   {
+    "item": "Wheat",
+    "qty": 2,
+    "alts": []
+   },
+   {
+    "item": "batata",
+    "qty": 1,
+    "alts": []
+   }
+  ],
+  "ticks": 40
+ },
+ {
+  "id": "peixefrito",
+  "station": "Stove",
+  "output": "PeixeFrito",
+  "qty": 1,
+  "ingredients": [
+   {
+    "item": "Tilapia",
+    "qty": 1,
+    "alts": []
+   },
+   {
+    "item": "Oleo vegetal",
+    "qty": 1,
+    "alts": [
+     "OleoCoco"
+    ]
+   }
+  ],
+  "ticks": 40
+ },
+ {
+  "id": "pipocaCraft",
+  "station": "Stove",
+  "output": "pipoca",
+  "qty": 1,
+  "ingredients": [
+   {
+    "item": "corn",
+    "qty": 2,
+    "alts": []
+   },
+   {
+    "item": "Oleo vegetal",
+    "qty": 1,
+    "alts": [
+     "OleoCoco"
+    ]
+   }
+  ],
+  "ticks": 40
+ },
+ {
+  "id": "sardinhaAssada",
+  "station": "Stove",
+  "output": "SardinhaGrelhada",
+  "qty": 1,
+  "ingredients": [
+   {
+    "item": "Sardinha",
+    "qty": 1,
+    "alts": []
+   }
+  ],
+  "ticks": 40
+ },
+ {
+  "id": "sopaAbobora",
+  "station": "Stove",
+  "output": "sopaAbobora",
+  "qty": 1,
+  "ingredients": [
+   {
+    "item": "cebola",
+    "qty": 1,
+    "alts": []
+   },
+   {
+    "item": "abobora",
+    "qty": 2,
+    "alts": []
+   }
+  ],
+  "ticks": 40
+ },
+ {
+  "id": "TilapiaAssadaCraft",
+  "station": "Stove",
+  "output": "TilapiaGrelhada",
+  "qty": 1,
+  "ingredients": [
+   {
+    "item": "Tilapia",
+    "qty": 1,
+    "alts": []
+   }
+  ],
+  "ticks": 40
+ },
+ {
+  "id": "waffle",
+  "station": "Stove",
+  "output": "waffle",
+  "qty": 1,
+  "ingredients": [
+   {
+    "item": "ovoFrito",
+    "qty": 2,
+    "alts": []
+   },
+   {
+    "item": "Wheat",
+    "qty": 1,
+    "alts": []
+   }
+  ],
+  "ticks": 40
+ },
+ {
+  "id": "CarvaoCraft",
+  "station": "Forge",
+  "output": "Carvao",
+  "qty": 1,
+  "ingredients": [
+   {
+    "item": "WoodLog",
+    "qty": 3,
+    "alts": []
+   }
+  ],
+  "ticks": 40
+ },
+ {
+  "id": "GoldIngot",
+  "station": "Forge",
+  "output": "Ouro",
+  "qty": 1,
+  "ingredients": [
+   {
+    "item": "goldOre",
+    "qty": 2,
+    "alts": []
+   },
+   {
+    "item": "Carvao",
+    "qty": 1,
+    "alts": []
+   }
+  ],
+  "ticks": 40
+ },
+ {
+  "id": "IronIngot",
+  "station": "Forge",
+  "output": "Ferro",
+  "qty": 1,
+  "ingredients": [
+   {
+    "item": "IronOre",
+    "qty": 2,
+    "alts": []
+   },
+   {
+    "item": "Carvao",
+    "qty": 1,
+    "alts": []
+   }
+  ],
+  "ticks": 40
+ },
+ {
+  "id": "AmetistSword",
+  "station": "Anvil",
+  "output": "AmetistSword",
+  "qty": 1,
+  "ingredients": [
+   {
+    "item": "GoldSword",
+    "qty": 1,
+    "alts": []
+   },
+   {
+    "item": "Ametista",
+    "qty": 4,
+    "alts": []
+   }
+  ],
+  "ticks": 40
+ },
+ {
+  "id": "ChromiteAxe",
+  "station": "Anvil",
+  "output": "Chromite Axe",
+  "qty": 1,
+  "ingredients": [
+   {
+    "item": "Chromita",
+    "qty": 5,
+    "alts": []
+   },
+   {
+    "item": "Ferro",
+    "qty": 2,
+    "alts": []
+   },
+   {
+    "item": "Iron Axe",
+    "qty": 1,
+    "alts": []
+   }
+  ],
+  "ticks": 40
+ },
+ {
+  "id": "ChromitePickAxe",
+  "station": "Anvil",
+  "output": "Chromite Pickaxe",
+  "qty": 1,
+  "ingredients": [
+   {
+    "item": "Chromita",
+    "qty": 5,
+    "alts": []
+   },
+   {
+    "item": "Ferro",
+    "qty": 2,
+    "alts": []
+   },
+   {
+    "item": "Iron Pickaxe",
+    "qty": 1,
+    "alts": []
+   }
+  ],
+  "ticks": 40
+ },
+ {
+  "id": "GoldSword",
+  "station": "Anvil",
+  "output": "GoldSword",
+  "qty": 1,
+  "ingredients": [
+   {
+    "item": "IronSword",
+    "qty": 1,
+    "alts": []
+   },
+   {
+    "item": "Ouro",
+    "qty": 4,
+    "alts": []
+   }
+  ],
+  "ticks": 40
+ },
+ {
+  "id": "IronAxe",
+  "station": "Anvil",
+  "output": "Iron Axe",
+  "qty": 1,
+  "ingredients": [
+   {
+    "item": "madeirarefinada",
+    "qty": 2,
+    "alts": []
+   },
+   {
+    "item": "Ferro",
+    "qty": 4,
+    "alts": []
+   }
+  ],
+  "ticks": 40
+ },
+ {
+  "id": "IronPickAxe",
+  "station": "Anvil",
+  "output": "Iron Pickaxe",
+  "qty": 1,
+  "ingredients": [
+   {
+    "item": "madeirarefinada",
+    "qty": 2,
+    "alts": []
+   },
+   {
+    "item": "Ferro",
+    "qty": 4,
+    "alts": []
+   }
+  ],
+  "ticks": 40
+ },
+ {
+  "id": "SoulmetistSword",
+  "station": "Anvil",
+  "output": "SoulmeraldSword",
+  "qty": 1,
+  "ingredients": [
+   {
+    "item": "AmetistSword",
+    "qty": 1,
+    "alts": []
+   },
+   {
+    "item": "Esmeralma",
+    "qty": 4,
+    "alts": []
+   }
+  ],
+  "ticks": 40
+ },
+ {
+  "id": "Potion_damage_reduce_craft",
+  "station": "AlchemyTable",
+  "output": "potion_defense",
+  "qty": 1,
+  "ingredients": [
+   {
+    "item": "venenodecobra",
+    "qty": 2,
+    "alts": []
+   },
+   {
+    "item": "zombieBrain",
+    "qty": 2,
+    "alts": []
+   },
+   {
+    "item": "Bone",
+    "qty": 1,
+    "alts": []
+   }
+  ],
+  "ticks": 40
+ },
+ {
+  "id": "Potion_damager_craft",
+  "station": "AlchemyTable",
+  "output": "potion_damage",
+  "qty": 1,
+  "ingredients": [
+   {
+    "item": "SlimeBall",
+    "qty": 3,
+    "alts": []
+   },
+   {
+    "item": "GoblinFangs",
+    "qty": 1,
+    "alts": []
+   },
+   {
+    "item": "AsaDeMorcego",
+    "qty": 3,
+    "alts": []
+   }
+  ],
+  "ticks": 40
+ },
+ {
+  "id": "Potion_heal_small_craft",
+  "station": "AlchemyTable",
+  "output": "potion_health_basic",
+  "qty": 1,
+  "ingredients": [
+   {
+    "item": "Leaf",
+    "qty": 5,
+    "alts": [
+     "PurpleLeaf"
+    ]
+   },
+   {
+    "item": "Bone",
+    "qty": 2,
+    "alts": []
+   },
+   {
+    "item": "conchaRosa",
+    "qty": 1,
+    "alts": []
+   }
+  ],
+  "ticks": 40
+ },
+ {
+  "id": "Potion_speed_craft",
+  "station": "AlchemyTable",
+  "output": "potion_health_basic",
+  "qty": 1,
+  "ingredients": [
+   {
+    "item": "Rat Tail",
+    "qty": 2,
+    "alts": []
+   },
+   {
+    "item": "conchaAzul",
+    "qty": 2,
+    "alts": []
+   },
+   {
+    "item": "Fizzcola",
+    "qty": 1,
+    "alts": []
+   }
+  ],
+  "ticks": 40
+ },
+ {
+  "id": "Potion_stamina_craft",
+  "station": "AlchemyTable",
+  "output": "potion_stamina",
+  "qty": 1,
+  "ingredients": [
+   {
+    "item": "Rat Tail",
+    "qty": 2,
+    "alts": []
+   },
+   {
+    "item": "conchaAzul",
+    "qty": 2,
+    "alts": []
+   },
+   {
+    "item": "Fizzcola",
+    "qty": 1,
+    "alts": []
+   }
+  ],
+  "ticks": 40
+ },
+ {
+  "id": "sucodeuva",
+  "station": "WineBarrel",
+  "output": "sucouva",
+  "qty": 1,
+  "ingredients": [
+   {
+    "item": "grape",
+    "qty": 2,
+    "alts": []
+   }
+  ],
+  "ticks": 40
+ },
+ {
+  "id": "vinho",
+  "station": "WineBarrel",
+  "output": "vinho",
+  "qty": 1,
+  "ingredients": [
+   {
+    "item": "grape",
+    "qty": 4,
+    "alts": []
+   }
+  ],
+  "ticks": 40
+ },
+ {
+  "id": "farmPllot",
+  "station": "Composter",
+  "output": "farmPlot",
+  "qty": 1,
+  "ingredients": [
+   {
+    "item": "Leaf",
+    "qty": 3,
+    "alts": [
+     "PurpleLeaf"
+    ]
+   }
+  ],
+  "ticks": 40
+ },
+ {
+  "id": "OleoCocoCraft",
+  "station": "OilMaker",
+  "output": "OleoCoco",
+  "qty": 1,
+  "ingredients": [
+   {
+    "item": "coco",
+    "qty": 3,
+    "alts": []
+   }
+  ],
+  "ticks": 40
+ },
+ {
+  "id": "OleoCraft",
+  "station": "OilMaker",
+  "output": "Oleo vegetal",
+  "qty": 1,
+  "ingredients": [
+   {
+    "item": "sunflower",
+    "qty": 2,
+    "alts": []
+   }
+  ],
+  "ticks": 40
+ },
+ {
+  "id": "pizza",
+  "station": "Furnance",
+  "output": "Pizza",
+  "qty": 1,
+  "ingredients": [
+   {
+    "item": "tomato",
+    "qty": 2,
+    "alts": []
+   },
+   {
+    "item": "Wheat",
+    "qty": 2,
+    "alts": []
+   },
+   {
+    "item": "egg",
+    "qty": 2,
+    "alts": []
+   }
+  ],
+  "ticks": 40
+ },
+ {
+  "id": "tortaabobora",
+  "station": "Furnance",
+  "output": "tortaabobora",
+  "qty": 1,
+  "ingredients": [
+   {
+    "item": "Wheat",
+    "qty": 2,
+    "alts": []
+   },
+   {
+    "item": "abobora",
+    "qty": 2,
+    "alts": []
+   }
+  ],
+  "ticks": 40
+ },
+ {
+  "id": "tortaBerryCraft",
+  "station": "Furnance",
+  "output": "tortaBerry",
+  "qty": 1,
+  "ingredients": [
+   {
+    "item": "Wheat",
+    "qty": 2,
+    "alts": []
+   },
+   {
+    "item": "barry",
+    "qty": 5,
+    "alts": []
+   }
+  ],
+  "ticks": 40
+ },
+ {
+  "id": "geleiaberryCraft",
+  "station": "JamMaker",
+  "output": "geleiaBerry",
+  "qty": 1,
+  "ingredients": [
+   {
+    "item": "barry",
+    "qty": 4,
+    "alts": []
+   }
+  ],
+  "ticks": 40
+ },
+ {
+  "id": "geleiaberrySafiraCraft",
+  "station": "JamMaker",
+  "output": "Geleia Safira",
+  "qty": 1,
+  "ingredients": [
+   {
+    "item": "berry_safira",
+    "qty": 4,
+    "alts": []
+   }
+  ],
+  "ticks": 40
+ },
+ {
+  "id": "geleiamorango",
+  "station": "JamMaker",
+  "output": "geleiamorango",
+  "qty": 1,
+  "ingredients": [
+   {
+    "item": "Strawberry",
+    "qty": 2,
+    "alts": []
+   }
+  ],
+  "ticks": 40
+ },
+ {
+  "id": "geleiaUva",
+  "station": "JamMaker",
+  "output": "geleiaUva",
+  "qty": 1,
+  "ingredients": [
+   {
+    "item": "grape",
+    "qty": 2,
+    "alts": []
+   }
+  ],
+  "ticks": 40
+ }
+]

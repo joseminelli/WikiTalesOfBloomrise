@@ -1,0 +1,545 @@
+[
+ {
+  "id": "cat",
+  "name": "Marin",
+  "anims": {
+   "curled": {
+    "down": {
+     "frames": [
+      "smokeCat__smokeCat_86.png",
+      "smokeCat__smokeCat_87.png",
+      "smokeCat__smokeCat_86.png"
+     ],
+     "durations": [
+      1.0,
+      1.0,
+      0.1
+     ]
+    }
+   },
+   "sprawled": {
+    "down": {
+     "frames": [
+      "smokeCat__smokeCat_90.png",
+      "smokeCat__smokeCat_91.png",
+      "smokeCat__smokeCat_90.png"
+     ],
+     "durations": [
+      1.233,
+      1.283,
+      0.1
+     ]
+    }
+   },
+   "groom": {
+    "down": {
+     "frames": [
+      "smokeCat__smokeCat_205.png",
+      "smokeCat__smokeCat_206.png",
+      "smokeCat__smokeCat_207.png",
+      "smokeCat__smokeCat_208.png",
+      "smokeCat__smokeCat_207.png"
+     ],
+     "durations": [
+      0.25,
+      0.25,
+      0.25,
+      0.417,
+      0.1
+     ]
+    }
+   },
+   "meow": {
+    "down": {
+     "frames": [
+      "smokeCat__smokeCat_158.png",
+      "smokeCat__smokeCat_160.png",
+      "smokeCat__smokeCat_158.png"
+     ],
+     "durations": [
+      0.217,
+      0.434,
+      0.1
+     ]
+    }
+   },
+   "walk": {
+    "down": {
+     "frames": [
+      "smokeCat__smokeCat_30.png",
+      "smokeCat__smokeCat_31.png",
+      "smokeCat__smokeCat_32.png",
+      "smokeCat__smokeCat_33.png",
+      "smokeCat__smokeCat_30.png"
+     ],
+     "durations": [
+      0.183,
+      0.15,
+      0.15,
+      0.183,
+      0.1
+     ]
+    },
+    "up": {
+     "frames": [
+      "smokeCat__smokeCat_34.png",
+      "smokeCat__smokeCat_35.png",
+      "smokeCat__smokeCat_36.png",
+      "smokeCat__smokeCat_37.png",
+      "smokeCat__smokeCat_34.png"
+     ],
+     "durations": [
+      0.167,
+      0.167,
+      0.167,
+      0.167,
+      0.1
+     ]
+    },
+    "left": {
+     "frames": [
+      "smokeCat__smokeCat_46.png",
+      "smokeCat__smokeCat_47.png",
+      "smokeCat__smokeCat_48.png",
+      "smokeCat__smokeCat_49.png",
+      "smokeCat__smokeCat_50.png",
+      "smokeCat__smokeCat_51.png",
+      "smokeCat__smokeCat_52.png",
+      "smokeCat__smokeCat_53.png",
+      "smokeCat__smokeCat_46.png"
+     ],
+     "durations": [
+      0.1,
+      0.117,
+      0.117,
+      0.1,
+      0.1,
+      0.117,
+      0.1,
+      0.117,
+      0.1
+     ]
+    },
+    "right": {
+     "frames": [
+      "smokeCat__smokeCat_38.png",
+      "smokeCat__smokeCat_39.png",
+      "smokeCat__smokeCat_40.png",
+      "smokeCat__smokeCat_41.png",
+      "smokeCat__smokeCat_42.png",
+      "smokeCat__smokeCat_43.png",
+      "smokeCat__smokeCat_44.png",
+      "smokeCat__smokeCat_45.png",
+      "smokeCat__smokeCat_38.png"
+     ],
+     "durations": [
+      0.117,
+      0.1,
+      0.117,
+      0.117,
+      0.1,
+      0.1,
+      0.117,
+      0.1,
+      0.1
+     ]
+    }
+   },
+   "scratch": {
+    "down": {
+     "frames": [
+      "smokeCat__smokeCat_227.png",
+      "smokeCat__smokeCat_228.png",
+      "smokeCat__smokeCat_229.png",
+      "smokeCat__smokeCat_230.png",
+      "smokeCat__smokeCat_231.png",
+      "smokeCat__smokeCat_232.png",
+      "smokeCat__smokeCat_233.png",
+      "smokeCat__smokeCat_234.png",
+      "smokeCat__smokeCat_235.png",
+      "smokeCat__smokeCat_236.png",
+      "smokeCat__smokeCat_237.png"
+     ],
+     "durations": [
+      0.133,
+      0.133,
+      0.15,
+      0.133,
+      0.133,
+      0.133,
+      0.133,
+      0.15,
+      0.133,
+      0.133,
+      0.1
+     ]
+    }
+   },
+   "idle": {
+    "down": {
+     "frames": [
+      "smokeCat__smokeCat_78.png",
+      "smokeCat__smokeCat_79.png",
+      "smokeCat__smokeCat_78.png"
+     ],
+     "durations": [
+      0.5,
+      0.5,
+      0.1
+     ]
+    }
+   }
+  },
+  "icon": "smokeCat__smokeCat_78.png",
+  "storyKeys": [
+   "DIALOGUE_CAT_0",
+   "DIALOGUE_CAT_1",
+   "DIALOGUE_CAT_2",
+   "DIALOGUE_CAT_3",
+   "DIALOGUE_CAT_4",
+   "DIALOGUE_CAT_5",
+   "DIALOGUE_CAT_6"
+  ],
+  "wanderChance": 0.75,
+  "states": [
+   "Idle",
+   "Wandering",
+   "Resting",
+   "Reacting"
+  ]
+ },
+ {
+  "id": "dog",
+  "name": null,
+  "anims": {
+   "dig": {
+    "left": {
+     "frames": [
+      "dog_03_dig__dog_03_dig_0.png",
+      "dog_03_dig__dog_03_dig_1.png",
+      "dog_03_dig__dog_03_dig_2.png",
+      "dog_03_dig__dog_03_dig_3.png",
+      "dog_03_dig__dog_03_dig_4.png",
+      "dog_03_dig__dog_03_dig_5.png"
+     ],
+     "durations": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.1
+     ]
+    },
+    "right": {
+     "frames": [
+      "dog_03_dig__dog_03_dig_6.png",
+      "dog_03_dig__dog_03_dig_7.png",
+      "dog_03_dig__dog_03_dig_8.png",
+      "dog_03_dig__dog_03_dig_9.png",
+      "dog_03_dig__dog_03_dig_10.png",
+      "dog_03_dig__dog_03_dig_11.png"
+     ],
+     "durations": [
+      0.167,
+      0.167,
+      0.167,
+      0.167,
+      0.167,
+      0.1
+     ]
+    }
+   },
+   "idle": {
+    "down": {
+     "frames": [
+      "dog_03_idle__dog_03_idle_0.png",
+      "dog_03_idle__dog_03_idle_1.png",
+      "dog_03_idle__dog_03_idle_2.png",
+      "dog_03_idle__dog_03_idle_3.png"
+     ],
+     "durations": [
+      0.333,
+      0.333,
+      0.333,
+      0.1
+     ]
+    },
+    "up": {
+     "frames": [
+      "dog_03_idle__dog_03_idle_12.png",
+      "dog_03_idle__dog_03_idle_13.png",
+      "dog_03_idle__dog_03_idle_14.png",
+      "dog_03_idle__dog_03_idle_15.png"
+     ],
+     "durations": [
+      0.333,
+      0.333,
+      0.333,
+      0.1
+     ]
+    },
+    "left": {
+     "frames": [
+      "dog_03_idle__dog_03_idle_4.png",
+      "dog_03_idle__dog_03_idle_5.png",
+      "dog_03_idle__dog_03_idle_6.png",
+      "dog_03_idle__dog_03_idle_7.png"
+     ],
+     "durations": [
+      0.333,
+      0.333,
+      0.333,
+      0.1
+     ]
+    },
+    "right": {
+     "frames": [
+      "dog_03_idle__dog_03_idle_8.png",
+      "dog_03_idle__dog_03_idle_9.png",
+      "dog_03_idle__dog_03_idle_10.png",
+      "dog_03_idle__dog_03_idle_11.png"
+     ],
+     "durations": [
+      0.333,
+      0.333,
+      0.333,
+      0.1
+     ]
+    }
+   },
+   "walk": {
+    "down": {
+     "frames": [
+      "dog_03_walk__dog_03_walk_0.png",
+      "dog_03_walk__dog_03_walk_1.png",
+      "dog_03_walk__dog_03_walk_2.png",
+      "dog_03_walk__dog_03_walk_3.png"
+     ],
+     "durations": [
+      0.183,
+      0.183,
+      0.2,
+      0.283
+     ]
+    },
+    "up": {
+     "frames": [
+      "dog_03_walk__dog_03_walk_12.png",
+      "dog_03_walk__dog_03_walk_13.png",
+      "dog_03_walk__dog_03_walk_14.png",
+      "dog_03_walk__dog_03_walk_15.png"
+     ],
+     "durations": [
+      0.183,
+      0.183,
+      0.2,
+      0.283
+     ]
+    },
+    "right": {
+     "frames": [
+      "dog_03_walk__dog_03_walk_4.png",
+      "dog_03_walk__dog_03_walk_5.png",
+      "dog_03_walk__dog_03_walk_6.png",
+      "dog_03_walk__dog_03_walk_7.png"
+     ],
+     "durations": [
+      0.183,
+      0.183,
+      0.2,
+      0.283
+     ]
+    },
+    "left": {
+     "frames": [
+      "dog_03_walk__dog_03_walk_8.png",
+      "dog_03_walk__dog_03_walk_9.png",
+      "dog_03_walk__dog_03_walk_10.png",
+      "dog_03_walk__dog_03_walk_11.png"
+     ],
+     "durations": [
+      0.183,
+      0.183,
+      0.2,
+      0.283
+     ]
+    }
+   },
+   "laydown": {
+    "left": {
+     "frames": [
+      "dog_03_deitar_transicao__dog_03_deitar_transicao_0.png",
+      "dog_03_deitar_transicao__dog_03_deitar_transicao_1.png",
+      "dog_03_deitar_transicao__dog_03_deitar_transicao_2.png",
+      "dog_03_deitar_transicao__dog_03_deitar_transicao_3.png"
+     ],
+     "durations": [
+      0.25,
+      0.25,
+      0.25,
+      0.35
+     ]
+    },
+    "right": {
+     "frames": [
+      "dog_03_deitar_transicao__dog_03_deitar_transicao_4.png",
+      "dog_03_deitar_transicao__dog_03_deitar_transicao_5.png",
+      "dog_03_deitar_transicao__dog_03_deitar_transicao_6.png",
+      "dog_03_deitar_transicao__dog_03_deitar_transicao_7.png"
+     ],
+     "durations": [
+      0.25,
+      0.25,
+      0.25,
+      0.35
+     ]
+    }
+   },
+   "sleep": {
+    "left": {
+     "frames": [
+      "dog_03_deitado_loop__dog_03_deitado_loop_0.png",
+      "dog_03_deitado_loop__dog_03_deitado_loop_1.png",
+      "dog_03_deitado_loop__dog_03_deitado_loop_2.png",
+      "dog_03_deitado_loop__dog_03_deitado_loop_3.png"
+     ],
+     "durations": [
+      0.367,
+      0.383,
+      0.367,
+      0.483
+     ]
+    },
+    "right": {
+     "frames": [
+      "dog_03_deitado_loop__dog_03_deitado_loop_4.png",
+      "dog_03_deitado_loop__dog_03_deitado_loop_5.png",
+      "dog_03_deitado_loop__dog_03_deitado_loop_6.png",
+      "dog_03_deitado_loop__dog_03_deitado_loop_7.png"
+     ],
+     "durations": [
+      0.367,
+      0.383,
+      0.383,
+      0.467
+     ]
+    }
+   }
+  },
+  "icon": "dog_03_idle__dog_03_idle_0.png",
+  "stats": {
+   "walkSpeed": "2.2",
+   "runSpeed": "3",
+   "digChanceOnIdle": "0.4",
+   "digDuration": "2.5",
+   "digSuccessChance": "0.7",
+   "happyDuration": "1200",
+   "boneItemId": "Bone",
+   "digCooldown": [
+    45.0,
+    120.0
+   ],
+   "digLoot": "DogLoottable"
+  },
+  "house": {
+   "items": [
+    {
+     "item": "pedra",
+     "qty": 20
+    },
+    {
+     "item": "madeirarefinada",
+     "qty": 10
+    }
+   ],
+   "gold": 200,
+   "colors": [
+    {
+     "key": "DOG_HOUSE_GREEN",
+     "icon": "casinha_verde__casinha_verde_0.png"
+    },
+    {
+     "key": "DOG_HOUSE_ORANGE",
+     "icon": "casinha_laranja__casinha_laranja_0.png"
+    },
+    {
+     "key": "DOG_HOUSE_CYAN",
+     "icon": "casinha_azul-turquesa__casinha_azul-turquesa_0.png"
+    }
+   ]
+  },
+  "foundKeys": [
+   "DOG_FOUND_LINE_1",
+   "DOG_FOUND_LINE_2",
+   "DOG_FOUND_LINE_3",
+   "DOG_FOUND_LINE_4"
+  ],
+  "adoptKeys": [
+   "DOG_ADOPT_LINE_1",
+   "DOG_ADOPT_LINE_2",
+   "DOG_ADOPT_LINE_3",
+   "DOG_ADOPT_LINE_4",
+   "DOG_ADOPT_LINE_5",
+   "DOG_ADOPT_LINE_6",
+   "DOG_ADOPT_LINE_7",
+   "DOG_ADOPT_LINE_8",
+   "DOG_ADOPT_LINE_9",
+   "DOG_ADOPT_LINE_10"
+  ]
+ },
+ {
+  "id": "fairy",
+  "name": null,
+  "icon": "fairy__fairy.png",
+  "art": "fairy__fairy.png",
+  "glow": "#ff8ae3",
+  "stats": {
+   "followSpeed": 2.0,
+   "wanderRadius": 0.5,
+   "wanderSpeed": 0.5
+  },
+  "code": "WERESMYFAIRY",
+  "lines": [
+   "TOWER_ENTER_3",
+   "TOWER_ENTER_8",
+   "TOWER_ENTER_10"
+  ],
+  "restore": {
+   "items": [
+    {
+     "item": "madeirarefinada",
+     "qty": 5
+    },
+    {
+     "item": "Ferro",
+     "qty": 4
+    },
+    {
+     "item": "Esmeralma",
+     "qty": 2
+    },
+    {
+     "item": "Ametista",
+     "qty": 2
+    }
+   ],
+   "gold": 300,
+   "reward": "ColarDaTorre",
+   "titleKey": "ARCANETOWER_UNLICK_TITLE",
+   "descKey": "ARCANETOWER_UNLICK_DESC"
+  },
+  "anims": {
+   "float": {
+    "down": {
+     "frames": [
+      "fairy__fairy.png"
+     ],
+     "durations": [
+      1
+     ]
+    }
+   }
+  }
+ }
+]

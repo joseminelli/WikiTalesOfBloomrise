@@ -1,0 +1,347 @@
+[
+ {
+  "id": "falarcomnpc",
+  "titleKey": "QUEST_TALKAROUND_TITLE",
+  "descKey": "QUEST_TALKAROUND_DESC",
+  "order": 1,
+  "note": false,
+  "objectives": [
+   {
+    "type": "TalkToNPCs",
+    "target": "",
+    "amount": 11
+   }
+  ],
+  "gold": 0,
+  "xp": 50.0,
+  "icon": "Emoji__Emoji_2.png"
+ },
+ {
+  "id": "concluirmissoes",
+  "titleKey": "QUEST_VILLAGETASKS_TITLE",
+  "descKey": "QUEST_VILLAGETASKS_DESC",
+  "order": 2,
+  "note": false,
+  "objectives": [
+   {
+    "type": "CompleteQuests",
+    "target": "",
+    "amount": 6
+   }
+  ],
+  "gold": 100,
+  "xp": 0.0,
+  "icon": "Emoji__Emoji_3.png"
+ },
+ {
+  "id": "cacadaNoturna",
+  "titleKey": "QUEST_BATS_TITLE",
+  "descKey": "QUEST_BATS_DESC",
+  "order": 3,
+  "note": false,
+  "objectives": [
+   {
+    "type": "Kill",
+    "target": "bat",
+    "amount": 80
+   }
+  ],
+  "gold": 100,
+  "xp": 200.0,
+  "icon": "20_Mounted_Head__20_Mounted_Head_7.png"
+ },
+ {
+  "id": "cacadorDeSlimes",
+  "titleKey": "QUEST_SLIMES_TITLE",
+  "descKey": "QUEST_SLIMES_DESC",
+  "order": 4,
+  "note": false,
+  "objectives": [
+   {
+    "type": "Kill",
+    "target": "slime",
+    "amount": 80
+   }
+  ],
+  "gold": 100,
+  "xp": 200.0,
+  "icon": "20_Mounted_Head__20_Mounted_Head_8.png"
+ },
+ {
+  "id": "venenoNasSombras",
+  "titleKey": "QUEST_SNAKES_TITLE",
+  "descKey": "QUEST_SNAKES_DESC",
+  "order": 5,
+  "note": false,
+  "objectives": [
+   {
+    "type": "Kill",
+    "target": "snake",
+    "amount": 70
+   }
+  ],
+  "gold": 100,
+  "xp": 200.0,
+  "icon": "20_Mounted_Head__20_Mounted_Head_1.png"
+ },
+ {
+  "id": "cacadorDeFantasmas",
+  "titleKey": "QUEST_GHOSTS_TITLE",
+  "descKey": "QUEST_GHOSTS_DESC",
+  "order": 6,
+  "note": false,
+  "objectives": [
+   {
+    "type": "Kill",
+    "target": "Ghost1",
+    "amount": 60
+   }
+  ],
+  "gold": 100,
+  "xp": 200.0,
+  "icon": "20_Mounted_Head__20_Mounted_Head_17.png"
+ },
+ {
+  "id": "cacadorDeGoblins",
+  "titleKey": "QUEST_GOBLINS_TITLE",
+  "descKey": "QUEST_GOBLINS_DESC",
+  "order": 7,
+  "note": false,
+  "objectives": [
+   {
+    "type": "Kill",
+    "target": "goblinPequeno",
+    "amount": 60
+   }
+  ],
+  "gold": 100,
+  "xp": 200.0,
+  "icon": "20_Mounted_Head__20_Mounted_Head_15.png"
+ },
+ {
+  "id": "cacadorDeZumbis",
+  "titleKey": "QUEST_ZOMBIECLEANUP_TITLE",
+  "descKey": "QUEST_ZOMBIECLEANUP_DESC",
+  "order": 8,
+  "note": false,
+  "objectives": [
+   {
+    "type": "Kill",
+    "target": "zombie",
+    "amount": 80
+   }
+  ],
+  "gold": 20,
+  "xp": 200.0,
+  "icon": "20_Mounted_Head__20_Mounted_Head_12.png"
+ },
+ {
+  "id": "coletadesushi",
+  "titleKey": "QUEST_SUSHICRISIS_TITLE",
+  "descKey": "QUEST_SUSHICRISIS_DESC",
+  "order": 9,
+  "note": false,
+  "objectives": [
+   {
+    "type": "Collect",
+    "target": "sushi",
+    "amount": 35
+   }
+  ],
+  "gold": 0,
+  "xp": 200.0,
+  "icon": "comidasPurrCafe__comidasPurrCafe_6.png"
+ },
+ {
+  "id": "coletadecookie",
+  "titleKey": "QUEST_COOKIES_TITLE",
+  "descKey": "QUEST_COOKIES_DESC",
+  "order": 10,
+  "note": false,
+  "objectives": [
+   {
+    "type": "Collect",
+    "target": "cookie",
+    "amount": 35
+   }
+  ],
+  "gold": 0,
+  "xp": 200.0,
+  "icon": "comidasPurrCafe__comidasPurrCafe_116.png"
+ },
+ {
+  "id": "coletadeturbix",
+  "titleKey": "QUEST_TURBIX_TITLE",
+  "descKey": "QUEST_TURBIX_DESC",
+  "order": 11,
+  "note": false,
+  "objectives": [
+   {
+    "type": "Collect",
+    "target": "Turbix",
+    "amount": 35
+   }
+  ],
+  "gold": 0,
+  "xp": 200.0,
+  "icon": "comidasPurrCafe__comidasPurrCafe_71.png"
+ },
+ {
+  "id": "coletadesoda",
+  "titleKey": "QUEST_SODAS_TITLE",
+  "descKey": "QUEST_SODAS_DESC",
+  "order": 12,
+  "note": false,
+  "objectives": [
+   {
+    "type": "Collect",
+    "target": "Soda",
+    "amount": 20
+   }
+  ],
+  "gold": 0,
+  "xp": 200.0,
+  "icon": "comidasPurrCafe__comidasPurrCafe_48.png"
+ },
+ {
+  "id": "coletadechromita",
+  "titleKey": "QUEST_CHROMITE_TITLE",
+  "descKey": "QUEST_CHROMITE_DESC",
+  "order": 13,
+  "note": false,
+  "objectives": [
+   {
+    "type": "Collect",
+    "target": "Chromita",
+    "amount": 20
+   }
+  ],
+  "gold": 500,
+  "xp": 0.0,
+  "icon": "Crafting_Materials_Objects_Updated_0c__Crafting_Materials_Objects_Updated_0c_978.png"
+ },
+ {
+  "id": "quebrarbarril",
+  "titleKey": "QUEST_BARRELDESTRUCTION_TITLE",
+  "descKey": "QUEST_BARRELDESTRUCTION_DESC",
+  "order": 14,
+  "note": false,
+  "objectives": [
+   {
+    "type": "Destroy",
+    "target": "DestructibleObject",
+    "amount": 60
+   }
+  ],
+  "gold": 50,
+  "xp": 0.0,
+  "icon": "Rural_Village_Icons__Rural_Village_Icons_378.png"
+ },
+ {
+  "id": "quebrarpedra",
+  "titleKey": "QUEST_ROCKS_TITLE",
+  "descKey": "QUEST_ROCKS_DESC",
+  "order": 15,
+  "note": false,
+  "objectives": [
+   {
+    "type": "Destroy",
+    "target": "Pedra",
+    "amount": 60
+   }
+  ],
+  "gold": 0,
+  "xp": 100.0,
+  "icon": "rocks__rocks_0.png"
+ },
+ {
+  "id": "quebrararvores",
+  "titleKey": "QUEST_LOGS_TITLE",
+  "descKey": "QUEST_LOGS_DESC",
+  "order": 16,
+  "note": false,
+  "objectives": [
+   {
+    "type": "Destroy",
+    "target": "PineTree",
+    "amount": 60
+   }
+  ],
+  "gold": 50,
+  "xp": 0.0,
+  "icon": "Rural_Village_Icons__Rural_Village_Icons_338.png"
+ },
+ {
+  "id": "UmSaborDeRio",
+  "titleKey": "QUEST_CATCHTILAPIA_TITLE",
+  "descKey": "QUEST_CATCHTILAPIA_DESC",
+  "order": 17,
+  "note": false,
+  "objectives": [
+   {
+    "type": "Fishing",
+    "target": "Tilapia",
+    "amount": 3
+   }
+  ],
+  "gold": 100,
+  "xp": 200.0,
+  "icon": "Fishing_Icons__Fishing_Icons_15.png"
+ },
+ {
+  "id": "PrataDoOceano",
+  "titleKey": "QUEST_CATCHHERRING_TITLE",
+  "descKey": "QUEST_CATCHHERRING_DESC",
+  "order": 18,
+  "note": false,
+  "objectives": [
+   {
+    "type": "Fishing",
+    "target": "Herring",
+    "amount": 5
+   }
+  ],
+  "gold": 100,
+  "xp": 200.0,
+  "icon": "Fishing_Icons__Fishing_Icons_24.png"
+ },
+ {
+  "id": "AColheitaDaVila",
+  "titleKey": "QUEST_HARVESTCROPS_TITLE",
+  "descKey": "QUEST_HARVESTCROPS_DESC",
+  "order": 19,
+  "note": false,
+  "objectives": [
+   {
+    "type": "Harvest",
+    "target": "Herring",
+    "amount": 5
+   }
+  ],
+  "gold": 100,
+  "xp": 200.0,
+  "icon": "Crops_Icons__Crops_Icons_5.png"
+ },
+ {
+  "id": "NOTES_PAGE_1",
+  "titleKey": "NOTES_ADVENTURER_TITLE",
+  "descKey": "NOTES_ADVENTURER_DESC",
+  "order": 20,
+  "note": true,
+  "objectives": [],
+  "gold": 0,
+  "xp": 0.0,
+  "icon": null
+ },
+ {
+  "id": "NOTES_PAGE_2",
+  "titleKey": "NOTES_TIPS_TITLE",
+  "descKey": "NOTES_TIPS_DESC",
+  "order": 21,
+  "note": true,
+  "objectives": [],
+  "gold": 0,
+  "xp": 0.0,
+  "icon": null
+ }
+]

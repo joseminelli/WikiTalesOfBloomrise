@@ -1,0 +1,24 @@
+---
+import Base from '../../../layouts/Base.astro';
+import PageHead from '../../../components/PageHead.astro';
+import { LANGS, ui } from '../../../lib/i18n';
+import { monsters, monsterName, monsterUrl, g, isSpoiler } from '../../../lib/data';
+export function getStaticPaths() { return LANGS.map((l) => ({ params: { lang: l.slug }, props: { lang: l } })); }
+const { lang } = Astro.props;
+const t = (k: string) => ui(lang, k);
+---
+<Base lang={lang} title={t('monsters')} path="monsters/">
+  <PageHead lang={lang} cat="monsters" title={t('monsters')} count={monsters.length} />
+  <div class="grid">
+    {monsters.map((m) => (
+      <a class={`card ${isSpoiler('monster', m.id) ? 'spoiler' : ''}`} href={monsterUrl(lang, m.id)}>
+        <span class="slot lg">{m.icon && <img src={`/sprites/${m.icon}`} alt="" loading="lazy" />}</span>
+        <span>
+          <span class="t" style="font-size:1.2rem">{monsterName(lang, m)}</span>
+          <small>{g(lang, m.locationKey)}</small>
+          <small>{t('hp')}: {m.hp} · {t('damage')}: {m.damage}</small>
+        </span>
+      </a>
+    ))}
+  </div>
+</Base>

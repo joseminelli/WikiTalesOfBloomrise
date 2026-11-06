@@ -1,0 +1,85 @@
+---
+import Base from '../../../layouts/Base.astro';
+import PageHead from '../../../components/PageHead.astro';
+import { LANGS, ui } from '../../../lib/i18n';
+import { mechanicSlugs, resolveMechanic, mechanicsFor } from '../../../lib/mechanics';
+import { catIcon } from '../../../lib/data';
+export function getStaticPaths() {
+  return LANGS.flatMap((l) => mechanicSlugs().map((s) => ({ params: { lang: l.slug, slug: s }, props: { lang: l, slug: s } })));
+}
+const { lang, slug } = Astro.props;
+const t = (k: string, v?: any) => ui(lang, k, v);
+const { entry, fallback } = resolveMechanic(lang, slug);
+const Content = entry.Content;
+const fm = entry.frontmatter;
+const all = mechanicsFor(lang);
+const idx = all.findIndex((m) => m.slug === slug);
+const prev = idx > 0 ? all[idx - 1] : null;
+const next = idx < all.length - 1 ? all[idx + 1] : null;
+const related: string[] = fm.related ?? [];
+const toc = entry.headings;
+---
+<Base lang={lang} title={fm.title} description={fm.summary} path={`mechanics/${slug}/`}>
+  <PageHead lang={lang} cat="mechanics" title="" crumbs={[{ label: fm.title }]} />
+  <div class="mech-layout">
+    <aside class="side">
+      <h4>{t('mechanics')}</h4>
+      {all.map((m) => <a href={`/${lang.slug}/mechanics/${m.slug}/`} class={m.slug === slug ? 'on' : ''}><span>{m.icon} {m.title}</span></a>)}
+    </aside>
+
+    <div class="mech-main">
+      <header class="mech-head">
+        <span class="mech-ico lg" aria-hidden="true">{fm.icon}</span>
+        <div>
+          <h1>{fm.title}</h1>
+          {fm.summary && <p>{fm.summary}</p>}
+          {entry.minutes > 1 && <small>{t('readTime', { n: entry.minutes })}</small>}
+        </div>
+      </header>
+
+      {fallback && <p class="spoiler-note" style="display:block">{t('notTranslated')}</p>}
+
+      {toc.length > 1 && (
+        <details class="toc-mobile">
+          <summary>{t('onThisPage')}</summary>
+          <ul>{toc.map((h) => <li><a href={`#${h.slug}`}>{h.text}</a></li>)}</ul>
+        </details>
+      )}
+
+      <article class="panel prose" id="mech-article"><Content /></article>
+
+      {related.length > 0 && (
+        <section>
+          <h2>{t('seeAlso')}</h2>
+          <div class="chips">
+            {related.map((c) => (
+              <a class="chip rel-chip" href={`/${lang.slug}/${c}/`}>
+                {catIcon(c) && <span class="slot"><img class="px" src={`/sprites/${catIcon(c)}`} alt="" /></span>}{t(c)}
+              </a>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <div class="pager">
+        {prev ? <a class="card" href={`/${lang.slug}/mechanics/${prev.slug}/`}>← <span class="t">{prev.title}</span></a> : <span></span>}
+        {next ? <a class="card next" href={`/${lang.slug}/mechanics/${next.slug}/`}><span class="t">{next.title}</span> →</a> : <span></span>}
+      </div>
+    </div>
+
+    {toc.length > 1 && (
+      <aside class="toc">
+        <h4>{t('onThisPage')}</h4>
+        <ul id="toc-list">{toc.map((h) => <li><a href={`#${h.slug}`} data-id={h.slug}>{h.text}</a></li>)}</ul>
+      </aside>
+    )}
+  </div>
+  <script is:inline>
+    (function () {
+      const links = [...document.querySelectorAll('#toc-list a')]; if (!links.length) return;
+      const heads = links.map((a) => document.getElementById(a.dataset.id)).filter(Boolean);
+      const io = new IntersectionObserver((es) => es.forEach((e) => { if (e.isIntersecting) links.forEach((l) => l.classList.toggle('on', l.dataset.id === e.target.id)); }), { rootMargin: '-90px 0px -70% 0px' });
+      heads.forEach((h) => io.observe(h));
+    })();
+  </script>
+</Base>

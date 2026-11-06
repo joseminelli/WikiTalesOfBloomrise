@@ -1,0 +1,73 @@
+---
+// Visualizador do sprite animado do jogo (NPCs, monstros, pets).
+// variants: [{ id, anims: { <estado>: { down|up|left|right: { frames, durations } } } }]
+import { ui, type Lang } from '../lib/i18n';
+interface Props { lang: Lang; variants: { id: string; anims: Record<string, any> }[]; name: string; glow?: string; }
+const { lang, variants, name, glow } = Astro.props;
+const t = (k: string) => ui(lang, k);
+const order = ['idle', 'walk', 'float', 'damage', 'dead', 'dig', 'laydown', 'sleep', 'groom', 'scratch', 'curled', 'sprawled', 'yawn', 'meow'];
+const modes = order.filter((m) => variants.some((v) => v.anims[m]));
+const hasDirs = variants.some((v) => Object.values(v.anims).some((a: any) => Object.keys(a).length > 1));
+const labelKey = (m: string) => (m === 'damage' ? 'animDamage' : m === 'dead' ? 'animDead' : m === 'idle' || m === 'walk' ? m : `anim_${m}`);
+---
+<div class="sprite-viewer" data-variants={JSON.stringify(variants)} style={glow ? `--glow:${glow}` : undefined}>
+  <div class={`stage ${glow ? 'glow' : ''}`}><img class="sv-img px" alt={name} /></div>
+  <div class="ctrls">
+    {hasDirs && (
+      <div class="pad">
+        <button type="button" data-d="up" aria-label="up">↑</button>
+        <button type="button" data-d="left" aria-label="left">←</button>
+        <button type="button" data-d="down" aria-label="down" class="on">↓</button>
+        <button type="button" data-d="right" aria-label="right">→</button>
+      </div>
+    )}
+    {modes.length > 1 && (
+      <div class="filters sv-modes">
+        {modes.map((m, i) => <button type="button" data-m={m} class={i === 0 ? 'on' : ''}>{t(labelKey(m))}</button>)}
+      </div>
+    )}
+    {variants.length > 1 && (
+      <div class="filters sv-variants">
+        {variants.map((v, i) => <button type="button" data-v={i} class={i === 0 ? 'on' : ''}>{t('variant')} {i + 1}</button>)}
+      </div>
+    )}
+  </div>
+</div>
+
+<script>
+  document.querySelectorAll<HTMLElement>('.sprite-viewer').forEach((root) => {
+    const variants = JSON.parse(root.dataset.variants || '[]');
+    const img = root.querySelector<HTMLImageElement>('.sv-img')!;
+    const padBtns = [...root.querySelectorAll<HTMLButtonElement>('.pad button')];
+    let v = 0, dir = 'down', mode = root.querySelector<HTMLElement>('.sv-modes .on')?.dataset.m || Object.keys(variants[0].anims)[0], i = 0, timer: number;
+    const clips = () => {
+      const a = variants[v].anims;
+      return a[mode] || a[Object.keys(a)[0]];
+    };
+    const syncPad = () => {
+      const c = clips();
+      const avail = Object.keys(c);
+      if (!avail.includes(dir)) dir = avail.includes('down') ? 'down' : avail[0];
+      padBtns.forEach((b) => { b.disabled = !avail.includes(b.dataset.d!); b.classList.toggle('on', b.dataset.d === dir); });
+    };
+    const play = () => {
+      clearTimeout(timer);
+      const clip = clips()[dir]; if (!clip) return;
+      i = i % clip.frames.length;
+      img.src = '/sprites/' + clip.frames[i];
+      timer = window.setTimeout(() => { i++; play(); }, Math.max(60, clip.durations[i] * 1000));
+    };
+    padBtns.forEach((b) => b.addEventListener('click', () => { dir = b.dataset.d!; i = 0; syncPad(); play(); }));
+    root.querySelectorAll<HTMLElement>('.sv-modes button').forEach((b) => b.addEventListener('click', () => {
+      mode = b.dataset.m!; i = 0;
+      root.querySelectorAll('.sv-modes button').forEach((x) => x.classList.toggle('on', x === b));
+      syncPad(); play();
+    }));
+    root.querySelectorAll<HTMLElement>('.sv-variants button').forEach((b) => b.addEventListener('click', () => {
+      v = Number(b.dataset.v); i = 0;
+      root.querySelectorAll('.sv-variants button').forEach((x) => x.classList.toggle('on', x === b));
+      syncPad(); play();
+    }));
+    syncPad(); play();
+  });
+</script>

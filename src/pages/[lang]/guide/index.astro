@@ -1,0 +1,27 @@
+---
+import Base from '../../../layouts/Base.astro';
+import PageHead from '../../../components/PageHead.astro';
+import { LANGS, ui } from '../../../lib/i18n';
+import { guide, g, itemById, monsterById, monsterName, itemName } from '../../../lib/data';
+export function getStaticPaths() { return LANGS.map((l) => ({ params: { lang: l.slug }, props: { lang: l } })); }
+const { lang } = Astro.props;
+const t = (k: string) => ui(lang, k);
+const label = (o: any) => {
+  const tgt = itemById.get(o.target) ? itemName(lang, itemById.get(o.target)) : monsterById.get(o.target) ? monsterName(lang, monsterById.get(o.target)) : o.target;
+  const verb = o.type === 'Kill' ? t('kill') : o.type === 'Collect' ? t('collect') : o.type;
+  return `${verb} ${o.amount}× ${tgt}`;
+};
+---
+<Base lang={lang} title={t('guide')} path="guide/">
+  <PageHead lang={lang} cat="guide" title={t('guide')} />
+  <div class="grid wide">
+    {guide.filter((e) => !e.note).map((e) => (
+      <section class="panel">
+        <h3>{g(lang, e.titleKey, e.id)}</h3>
+        {g(lang, e.descKey) && <p>{g(lang, e.descKey)}</p>}
+        <ul>{e.objectives.map((o: any) => <li>{label(o)}</li>)}</ul>
+        <p>{e.gold > 0 && <>{e.gold} 🪙 </>}{e.xp > 0 && <>{e.xp} XP</>}</p>
+      </section>
+    ))}
+  </div>
+</Base>

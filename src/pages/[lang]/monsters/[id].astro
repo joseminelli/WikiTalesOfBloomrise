@@ -1,0 +1,57 @@
+---
+import Base from '../../../layouts/Base.astro';
+import PageHead from '../../../components/PageHead.astro';
+import ItemChip from '../../../components/ItemChip.astro';
+import SpriteViewer from '../../../components/SpriteViewer.astro';
+import { LANGS, ui } from '../../../lib/i18n';
+import { monsters, monsterName, monsterUrl, g, slug, isSpoiler } from '../../../lib/data';
+export function getStaticPaths() {
+  return LANGS.flatMap((l) => monsters.map((m) => ({ params: { lang: l.slug, id: slug(m.id) }, props: { lang: l, m } })));
+}
+const { lang, m } = Astro.props;
+const t = (k: string) => ui(lang, k);
+const name = monsterName(lang, m);
+const spoiler = isSpoiler('monster', m.id);
+const d = m.drops;
+const idx = monsters.findIndex((x) => x.id === m.id);
+const prev = idx > 0 ? monsters[idx - 1] : null;
+const next = idx < monsters.length - 1 ? monsters[idx + 1] : null;
+---
+<Base lang={lang} title={name} path={`monsters/${slug(m.id)}/`}>
+  <PageHead lang={lang} cat="monsters" title="" crumbs={[{ label: name }]} />
+  <div class="layout-2">
+    <div>
+      {spoiler && <p class="spoiler-note">{t('spoilersHint')}</p>}
+      <div class="panel"><p style="margin:0; font-size:1.05rem">{g(lang, m.loreKey)}</p></div>
+      {m.variants && m.variants.length > 0 && (
+        <section class="panel">
+          <h2>{t('inGame')}</h2>
+          <SpriteViewer lang={lang} name={name} variants={m.variants} />
+        </section>
+      )}
+      {d && (d.common.length + d.rare.length + d.legendary.length) > 0 && (
+        <section class="panel">
+          <h2>{t('drops')}</h2>
+          {(['common', 'rare', 'legendary'] as const).map((r) => d[r].length > 0 && (
+            <p><span class={`badge ${r}`}>{t(`r_${r}`)}{r === 'rare' ? ` ${d.rareChance}%` : r === 'legendary' ? ` ${d.legendaryChance}%` : ''}</span>{' '}
+              <span class="chips" style="display:inline-flex">{d[r].map((id: string) => <ItemChip lang={lang} id={id} />)}</span>
+            </p>
+          ))}
+        </section>
+      )}
+      <div class="pager">
+        {prev ? <a class="card" href={monsterUrl(lang, prev.id)}>← <span class="t">{monsterName(lang, prev)}</span></a> : <span></span>}
+        {next ? <a class="card next" href={monsterUrl(lang, next.id)}><span class="t">{monsterName(lang, next)}</span> →</a> : <span></span>}
+      </div>
+    </div>
+    <aside class={`infobox ${spoiler ? 'spoiler-block' : ''}`}>
+      <span class="slot lg">{m.icon && <img src={`/sprites/${m.icon}`} alt={name} />}</span>
+      <h1>{name}</h1>
+      <dl class="kv">
+        <dt>{t('hp')}</dt><dd>{m.hp}</dd>
+        <dt>{t('damage')}</dt><dd>{m.damage}</dd>
+        <dt>{t('location')}</dt><dd>{g(lang, m.locationKey)}</dd>
+      </dl>
+    </aside>
+  </div>
+</Base>

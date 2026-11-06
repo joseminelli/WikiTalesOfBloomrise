@@ -1,0 +1,104 @@
+---
+import Base from '../../../layouts/Base.astro';
+import PageHead from '../../../components/PageHead.astro';
+import ItemChip from '../../../components/ItemChip.astro';
+import SpriteViewer from '../../../components/SpriteViewer.astro';
+import { LANGS, ui } from '../../../lib/i18n';
+import { npcs, npcName, npcUrl, isSpoiler, slug, sceneLabel, shops, g } from '../../../lib/data';
+export function getStaticPaths() {
+  return LANGS.flatMap((l) => npcs.filter((n) => n.friendship).map((n) => ({ params: { lang: l.slug, id: slug(n.id) }, props: { lang: l, npc: n } })));
+}
+const { lang, npc } = Astro.props;
+const t = (k: string, v?: any) => ui(lang, k, v);
+const f = npc.friendship;
+const name = npcName(lang, npc);
+const fmtHour = (h: number) => { const hh = Math.floor(h) % 24; const mm = Math.round((h - Math.floor(h)) * 60); return `${String(hh).padStart(2, '0')}:${String(mm).padStart(2, '0')}`; };
+const sched = [...npc.schedule].sort((a: any, b: any) => a.hour - b.hour).filter((s: any, i: number, arr: any[]) => i === 0 || s.scene !== arr[i - 1].scene);
+const spoiler = isSpoiler('npc', npc.id);
+const shop = shops.find((s) => s.npc === npc.id);
+const all = npcs.filter((n) => n.friendship);
+const idx = all.findIndex((n) => n.id === npc.id);
+const prev = idx > 0 ? all[idx - 1] : null;
+const next = idx < all.length - 1 ? all[idx + 1] : null;
+---
+<Base lang={lang} title={name} path={`characters/${slug(npc.id)}/`}>
+  <PageHead lang={lang} cat="characters" title="" crumbs={[{ label: name }]} />
+  <div class="layout-2">
+    <div>
+      {spoiler && <p class="spoiler-note">{t('spoilersHint')}</p>}
+      <section class="panel">
+        <h2>{t('gifts')}</h2>
+        {(['loved', 'liked', 'disliked'] as const).map((k) => f[k].length > 0 && (
+          <p><span class={`badge ${k}`}>{t(k)}</span>{' '}
+            <span class="chips" style="display:inline-flex">{f[k].map((id: string) => <ItemChip lang={lang} id={id} />)}</span>
+          </p>
+        ))}
+      </section>
+
+      {npc.sprites && (
+        <section class="panel">
+          <h2>{t('inGame')}</h2>
+          <SpriteViewer lang={lang} name={name} variants={[{ id: 'main', anims: npc.sprites }]} />
+        </section>
+      )}
+
+      {npc.expressions && npc.expressions.length > 0 && (
+        <section class="panel">
+          <h2>{t('expressions')}</h2>
+          <div class="expr" id="expr">
+            {[npc.portrait, ...npc.expressions].map((sp: string, i: number) => (
+              <button type="button" class={i === 0 ? 'on' : ''} data-src={`/sprites/${sp}`} aria-label={`${name} ${i + 1}`}><img class="px" src={`/sprites/${sp}`} alt="" loading="lazy" /></button>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {sched.length > 0 && (
+        <section class="panel">
+          <h2>{t('schedule')}</h2>
+          <table><tbody>
+            {sched.map((s: any) => <tr><td class="pixel" style="width:90px; color:var(--amber)">{fmtHour(s.hour)}</td><td>{sceneLabel(lang, s.scene)}</td></tr>)}
+          </tbody></table>
+        </section>
+      )}
+
+      {f.mail.length > 0 && (
+        <section class="panel">
+          <h2>{t('mail')}</h2>
+          <table><tbody>
+            {f.mail.map((m: any) => <tr><td>♥ {m.level}+</td><td><ItemChip lang={lang} id={m.item} qty={m.qty} /></td><td>{t('everyDays', { n: m.everyDays })}</td></tr>)}
+          </tbody></table>
+        </section>
+      )}
+
+      <div class="pager">
+        {prev ? <a class="card" href={npcUrl(lang, prev.id)}>← <span class="t">{npcName(lang, prev)}</span></a> : <span></span>}
+        {next ? <a class="card next" href={npcUrl(lang, next.id)}><span class="t">{npcName(lang, next)}</span> →</a> : <span></span>}
+      </div>
+    </div>
+
+    <aside class={`infobox ${spoiler ? 'spoiler-block' : ''}`}>
+      {npc.portrait && <div class="portrait"><img id="portrait-main" class="px" src={`/sprites/${npc.portrait}`} alt={name} /></div>}
+      <div class="who">
+        <span class="slot sm">{npc.icon && <img src={`/sprites/${npc.icon}`} alt="" />}</span>
+        <h1>{name}</h1>
+      </div>
+      <dl class="kv">
+        <dt>{t('startHearts')}</dt><dd>{f.startingHearts} ♥</dd>
+        {f.discountPerHeart > 0 && <><dt>{t('discountHeart')}</dt><dd>{f.discountPerHeart}% ({f.maxDiscount}% max)</dd></>}
+        {(f.bonusHealth > 0 || f.bonusStamina > 0) && <>
+          <dt>{t('permanentBonus')}</dt>
+          <dd>{f.bonusHealth > 0 && `+${f.bonusHealth} ❤ `}{f.bonusStamina > 0 && `+${f.bonusStamina} ⚡ `}({t('atLevel')} {f.bonusLevel})</dd>
+        </>}
+        {shop && <><dt>{t('shops')}</dt><dd><a href={`/${lang.slug}/shops/#${shop.id}`}>{g(lang, shop.id, shop.id)}</a></dd></>}
+      </dl>
+    </aside>
+  </div>
+  <script is:inline>
+    const main = document.getElementById('portrait-main');
+    document.querySelectorAll('#expr button').forEach((b) => b.addEventListener('click', () => {
+      main.src = b.dataset.src;
+      document.querySelectorAll('#expr button').forEach((x) => x.classList.toggle('on', x === b));
+    }));
+  </script>
+</Base>
