@@ -8,6 +8,18 @@ const { lang, title, description, path = '', spoiler = false } = Astro.props;
 const t = (k: string) => ui(lang, k);
 const fullTitle = title ? `${title} · ${t('siteTitle')}` : t('siteTitle');
 const here = Astro.url.pathname;
+const SITE = (Astro.site?.origin ?? 'https://wiki.talesofbloomrise.com');
+const abs = (u: string) => `${SITE}${u}`;
+const canonical = abs(`/${lang.slug}/${path}`);
+const desc = (description ?? t('tagline')).replace(/\s+/g, ' ').trim().slice(0, 300);
+const ogLocale = lang.html.replace('-', '_').replace(/^([a-z]{2})$/, (m) => ({ en: 'en_US', es: 'es_ES', fr: 'fr_FR', de: 'de_DE', it: 'it_IT', ru: 'ru_RU', zh: 'zh_CN', id: 'id_ID' } as Record<string, string>)[m] ?? m);
+const ogImage = abs('/brand/logo.png');
+const isHome = path === '';
+const jsonLd = [
+  isHome && { '@context': 'https://schema.org', '@type': 'WebSite', name: t('siteTitle'), url: canonical, inLanguage: lang.html, publisher: { '@type': 'Organization', name: 'Whiskline Studio', url: LINKS.site } },
+  { '@context': 'https://schema.org', '@type': 'VideoGame', name: 'Tales Of Bloomrise', url: LINKS.site, sameAs: [LINKS.steam, LINKS.play, LINKS.discord], publisher: { '@type': 'Organization', name: 'Whiskline Studio' } },
+  !isHome && { '@context': 'https://schema.org', '@type': 'WebPage', name: fullTitle, description: desc, url: canonical, inLanguage: lang.html, isPartOf: { '@type': 'WebSite', name: t('siteTitle'), url: abs(`/${lang.slug}/`) } },
+].filter(Boolean);
 const isActive = (cat: string) => here.startsWith(`/${lang.slug}/${cat}/`);
 const searchCats = Object.fromEntries(ALL_CATS.map((c) => [c, { label: t(c), icon: catIcon(c) }]));
 const searchTexts = { placeholder: t('search'), nav: t('kbdNav'), open: t('kbdOpen'), close: t('kbdClose'), empty: t('noResults'), loading: t('searching'), browse: t('searchTry'), count: t('resultsCount') };
@@ -18,16 +30,32 @@ const searchTexts = { placeholder: t('search'), nav: t('kbdNav'), open: t('kbdOp
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{fullTitle}</title>
-    <meta name="description" content={description ?? t('tagline')} />
+    <meta name="description" content={desc} />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+    <meta name="application-name" content="Tales Of Bloomrise Wiki" />
+    <meta name="author" content="Whiskline Studio" />
+    <link rel="canonical" href={canonical} />
+    <meta property="og:type" content={isHome ? 'website' : 'article'} />
+    <meta property="og:site_name" content={t('siteTitle')} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:locale" content={ogLocale} />
+    {LANGS.filter((l) => l.slug !== lang.slug).map((l) => <meta property="og:locale:alternate" content={l.html.replace('-', '_')} />)}
     <meta property="og:title" content={fullTitle} />
-    <meta property="og:description" content={description ?? t('tagline')} />
-    <meta property="og:image" content="/brand/banner.webp" />
+    <meta property="og:description" content={desc} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:alt" content="Tales Of Bloomrise" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={desc} />
+    <meta name="twitter:image" content={ogImage} />
     <meta name="theme-color" content="#0b1417" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;600;700&display=swap" />
-    {LANGS.map((l) => <link rel="alternate" hreflang={l.html} href={`/${l.slug}/${path}`} />)}
+    {LANGS.map((l) => <link rel="alternate" hreflang={l.html} href={abs(`/${l.slug}/${path}`)} />)}
+    <link rel="alternate" hreflang="x-default" href={abs(`/en/${path}`)} />
+    {jsonLd.map((o) => <script type="application/ld+json" set:html={JSON.stringify(o)} />)}
     <script is:inline>
       try { document.documentElement.dataset.spoilers = localStorage.getItem('bloomrise-spoilers') === 'on' ? 'on' : 'off'; } catch (e) {}
     </script>
@@ -91,7 +119,7 @@ const searchTexts = { placeholder: t('search'), nav: t('kbdNav'), open: t('kbdOp
           </div>
         ))}
       </div>
-      <div class="legal"><span>© Whiskline Studio</span><a href={`/${lang.slug}/mechanics/`}>{t('mechanics')}</a></div>
+      <div class="legal"><a class="studio" href={LINKS.site} rel="noopener" aria-label="Whiskline Studio"><img src="/brand/whiskline.png" alt="Whiskline Studio" height="34" loading="lazy" /><span>© Whiskline Studio</span></a><a href={`/${lang.slug}/mechanics/`}>{t('mechanics')}</a></div>
     </footer>
     <button class="to-top" id="to-top" type="button" aria-label={t('top')}>↑</button>
 

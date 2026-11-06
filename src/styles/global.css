@@ -210,6 +210,8 @@ footer .cols { width: min(1180px, 100% - 2rem); margin: 0 auto; padding: 2rem 0 
 footer h4 { font-family: var(--font-pixel); font-weight: normal; color: var(--brand); margin: 0 0 .5rem; font-size: 1.05rem; }
 footer ul { list-style: none; margin: 0; padding: 0; } footer li { margin: .25rem 0; }
 footer a { color: var(--text-muted); } footer a:hover { color: var(--brand); }
+footer .legal .studio { display: inline-flex; align-items: center; gap: .7rem; color: inherit; text-decoration: none; }
+footer .legal .studio img { height: 34px; width: auto; }
 footer .legal { width: min(1180px, 100% - 2rem); margin: 0 auto; padding: 1rem 0 1.6rem; border-top: 1px solid var(--line); display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
 .to-top { position: fixed; right: 1rem; bottom: 1rem; z-index: 40; width: 44px; height: 44px; border-radius: 50%; border: 1px solid var(--line-strong); background: var(--surface-strong); color: var(--brand); font-size: 1.2rem; cursor: pointer; opacity: 0; pointer-events: none; transition: opacity .2s; }
 .to-top.show { opacity: 1; pointer-events: auto; }
